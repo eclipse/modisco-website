@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+ <rss version="2.0">
+  <channel>
+    <title>MoDisco News</title>
+    <link>http://eclipse.org/gmt/modisco/</link>
+    <description>MoDisco News</description>
+
+	<item>
+		<title>Creation of the MoDisco component</title>
+		<link>http://eclipse.org/gmt/modisco/</link>
+		<description>
+			<p>Creation of <a href="http://eclipse.org/gmt/modisco/">MoDisco</a> component under GMT.</p>
+			<p>
+			MoDisco (for Model Discovery) is an Eclipse GMT component for model-driven reverse engineering. 
+			The objective is to allow practical extractions of models from legacy systems. Because of the widely different 
+			nature and technological heterogeneity of legacy systems, there are several different ways to extract models from 
+			such systems. MoDisco proposes a generic and extensible metamodel-driven approach to model discovery. A basic 
+			framework and a set of guidelines are provided to the Eclipse contributors to bring their own solutions to 
+			discover models in various kinds of legacy.	
+			</p>
+			<p>
+				More details are available here: <a href="http://www.eclipse.org/gmt/modisco/about.php">http://www.eclipse.org/gmt/modisco/about.php</a>.
+			</p>
+		</description>
+		<pubDate>Fri, 3 Nov 2006 15:00:00 CET</pubDate>
+	</item>
+
+  </channel>
+</rss>
