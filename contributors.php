@@ -34,9 +34,53 @@
     		The MoDisco component is initiated by the <a href="http://www.inria.fr/recherche/equipes/atlas.fr.html">ATLAS team</a>, <a href="http://www.inria.fr">INRIA</a>.
 		</p>
     	<p align="justify">
-	    	The list of committers, contributors and interested parties will be completed and provided later.
+	    	The list of committers, contributors and interested parties will be completed and later.
     	</p>
 		<hr class="clearer" />
+
+	    	<div class="homeitem">
+				<h3>List of contributors</h3>
+	    	<ul class="midlist">
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+					    		<a href="http://www.inria.fr/recherche/equipes/atlas.en.html">INRIA ATLAS</a>
+		  					</td>
+							<td align="right">
+								<a href="http://www.inria.fr/recherche/equipes/atlas.en.html"><img align="right" src="http://www.sciences.univ-nantes.fr/lina/atl/inria.png" /></a>
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+				    			<a href="http://www.sciences.univ-nantes.fr/lina/atl/">University of Nantes</a>
+		  					</td>
+							<td align="right">
+								<a href="http://www.sciences.univ-nantes.fr/lina/atl/"><img align="right" src="http://www.sciences.univ-nantes.fr/lina/atl/univ-nantes.jpg" height="55" /></a>
+							</td>
+						</tr>
+					</table>
+    			</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+	    			    		<a href="http://www.mia-software.com">MIA Software</a>
+		  					</td>
+							<td align="right">
+								<a href="http://www.mia-software.com"><img align="right" src="http://www.mia-software.com/img/logo.png" height="55" /></a>
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    	</ul>
+		</div>
+		<hr class="clearer" />
+	</div>
 
 	</div>
 

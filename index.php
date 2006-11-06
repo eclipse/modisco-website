@@ -81,6 +81,18 @@
 					<table width="100%">
 						<tr>
 							<td width="80%" valign="bottom">
+								<b><a href="relatedProjects.php">Related projects</a></b>
+		  					</td>
+							<td align="right">
+								<a href="relatedProjects.php"><img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" height="42" width="42" /></a>
+							</td>
+						</tr>
+					</table>
+				</li>
+				<li>
+					<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
 								<b><a href="doc/">Documentation</a></b>
 		  					</td>
 							<td align="right">
