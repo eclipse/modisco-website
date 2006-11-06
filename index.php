@@ -105,13 +105,13 @@
 					<table width="100%">
 						<tr>
 							<td width="80%" valign="bottom">
-								<b><a href="news://news.eclipse.org/eclipse.modeling.gmt">Newsgroup</a></b>,
+								<b><a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">Newsgroup</a></b>,
 					            <a href="http://www.eclipse.org/search/search.cgi">Search</a>,
-					            <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.modeling.gmt">Web Interface</a>,
-					            <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmt/threads.html">Archive</a>
+					            <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.modeling.gmt.modisco">Web Interface</a>,
+					            <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmt.modisco/threads.html">Archive</a>
 		  					</td>
 							<td align="right">
-								<a href="news://news.eclipse.org/eclipse.modeling.gmt"><img align="right" src="../resources/images/news.gif" valign="top"/></a>
+								<a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco"><img align="right" src="../resources/images/news.gif" valign="top"/></a>
 							</td>
 						</tr>
 					</table>
