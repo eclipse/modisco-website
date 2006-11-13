@@ -46,6 +46,18 @@
 	    			<table width="100%">
 						<tr>
 							<td width="30%" valign="bottom">
+					    		<a href="http://adm.omg.org/">ADM Task Force (OMG)</a>
+		  					</td>
+							<td align="justify">
+								The mission of this OMG (Object Management Group) task force is to create specifications and promote industry consensus on modernization of existing applications. This task force works on several packages: the KDM (Knowledge Discovery Metamodel) and the GASTM (Generic Abstract Syntax Tree Metamodel) ones are focused on defining standard metamodels for performing reverse-engineering processes.
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
 					    		<a href="http://www.altova.com/features_reverse_engineer.html">Altova UModel® 2006</a>
 		  					</td>
 							<td align="justify">

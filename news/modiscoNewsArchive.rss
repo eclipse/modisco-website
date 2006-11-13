@@ -25,5 +25,22 @@
 		<pubDate>Fri, 3 Nov 2006 15:00:00 CET</pubDate>
 	</item>
 
+	<item>
+		<title>Update of the list of MoDisco related projects</title>
+		<link>http://www.eclipse.org/gmt/modisco/relatedProjects.php</link>
+		<description>
+			<p>
+			We just update the list of the related projects by providing its initial version. Of course, this list will be updated regularly.
+			</p>
+			<p>
+			Do not hesitate to post messages on the MoDisco newsgroup (eclipse.modeling.gmt.modisco) if you want your project to be indexed on this list or if you want to add a link to the Eclipse/GMT MoDisco component on your own site!
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/relatedProjects.php">http://www.eclipse.org/gmt/modisco/relatedProjects.php</a> for consulting the related projects list.
+			</p>
+		</description>
+		<pubDate>Mon, 13 Nov 2006 16:30:00 CET</pubDate>
+	</item>
+	
   </channel>
 </rss>
