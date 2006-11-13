@@ -32,10 +32,151 @@
 		<img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" style="padding-left: 10px;" alt="MoDisco Logo" />
 
     	<p align="justify">
-	    	The list of related projects will be completed and provided later.
+	    	Here is a list of other projects related to the reverse engineering field.
+    	</p>
+    	<p align="justify">
+    		Do not hesitate to post messages on the MoDisco newsgroup (eclipse.modeling.gmt.modisco) if you want your project to be indexed on this page or if you want to add a link to the Eclipse/GMT MoDisco component on your own site! 
     	</p>
 		<hr class="clearer" />
 
+	    <div class="homeitem">
+			<h3>List of related projects</h3>
+	    	<ul class="midlist">
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://www.altova.com/features_reverse_engineer.html">Altova UModel® 2006</a>
+		  					</td>
+							<td align="justify">
+								A reverse engineering tool that imports Java or C# source code and generates UML diagrams to facilitate analysis, enhancement, or reuse.
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://www.cc.gatech.edu/reverse/">Georgia Tech's Reverse Engineering Group</a>
+		  					</td>
+							<td align="justify">
+								A group of academics and industrials (leaded by the Georgia Tech University, USA) focused on reverse engineering problems.
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://www.uni-koblenz.de/sre/">Interest Group Software Reengineering (SRE)</a>
+		  					</td>
+							<td align="justify">
+								The interest group Software Reengineering (SRE) focuses on all aspects of software re-engineering and maintenance. Topics include static and dynamic software analysis, re-architecting, software visualization and program restructuring. Current activities also deal with software migration and process-models for software migration. 
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://www.jmove.org/">jmove</a>
+		  					</td>
+							<td align="justify">
+								This open-source project offers a framework and an extendable set of tools to ease the understanding and valuation of the design and architecture of complex software written in java. It provides dependency analysis, metrics, design rule checking and impact analysis.
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://www.openrce.org/about/">OpenRCE (The Open Reverse Code Engineering community)</a>
+		  					</td>
+							<td align="justify">
+								OpenRCE fosters a shared learning environment among researchers interested in the field of reverse engineering. It aims to serve as a centralized resource for reverse engineers by hosting files, blogs, forums articles and more. 
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://reengineer.org/">Reengineering Forum</a>
+		  					</td>
+							<td align="justify">
+								The Reengineering Forum is an industry association to encourage combined industry/research review of the state of the art and the state of the practice in reengineering of software, systems, and business processes. It is a meeting place for key people in the reengineering and reverse engineering fields: developers, researchers, and leading-edge users.	
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://www.reteam.org/">Reverse Engineering Team</a>
+		  					</td>
+							<td align="justify">
+								A team of independent developers whose aim is to produce and provide useful tools and information about reverse engineering.	
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://www.program-transformation.org/Transform/ReverseEngineering">Reverse Engineering Wiki</a>
+		  					</td>
+							<td align="justify">
+								A specific wiki (part of The Program Transformation Wiki) dedicated to reverse engineering.
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://planetmde.org/rimel/">RIMEL (Reverse Engineering, Maintenance and Software Evolution)</a>
+		  					</td>
+							<td align="justify">
+								RIMEL is a french-speaking group. It gathers teams interested in Reverse Engineering, Maintenance and Software Evolution. It is an open group which is currently hosting teams from France but also Switzerland, Belgium and Canada.
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://w3.umh.ac.be/evol/index.html">The ERCIM Working Group on Software Evolution</a>
+		  					</td>
+							<td align="justify">
+								The goal of this group is to identify a set of formally-founded techniques and associated tools (including re-engineering and reverse engineering ones) to support software developers with the common problems they encounter when evolving large and complex software systems.
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://www.reverse-engineering.net/index.php">The Reverse Engineering Community</a>
+		  					</td>
+							<td align="justify">
+								A forum dedicated to software protection, reverse engineering and reverse code engineering.
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    	</ul>
+	    </div>
+		<hr class="clearer" />
 	</div>
 
 	<div id="rightcolumn">
