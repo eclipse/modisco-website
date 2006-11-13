@@ -39,7 +39,7 @@
     	</p>
 		<hr class="clearer" />
 
-	    <div class="homeitem">
+	    <div class="homeitem3col">
 			<h3>List of related projects</h3>
 	    	<ul class="midlist">
 	    		<li>
