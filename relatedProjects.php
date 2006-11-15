@@ -106,6 +106,18 @@
 	    			<table width="100%">
 						<tr>
 							<td width="30%" valign="bottom">
+					    		<a href="http://swerl.tudelft.nl/bin/view/MoDSE/WebHome">Model-Driven Software Evolution (MoDSE) project (JACQUARD software engineering program)</a>
+		  					</td>
+							<td align="justify">
+								 The goal of this project (which is part of the informatics research programme JACQUARD) is to develop a systematic approach to model-driven software evolution. This approach includes methods, techniques, and underlying tool support (i.e. a prototype programming environment that assists software engineers with the introduction, development, and maintenance of models and domain-specific languages).
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
 					    		<a href="http://www.openrce.org/about/">OpenRCE (The Open Reverse Code Engineering community)</a>
 		  					</td>
 							<td align="justify">
