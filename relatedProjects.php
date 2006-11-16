@@ -70,6 +70,18 @@
 	    			<table width="100%">
 						<tr>
 							<td width="30%" valign="bottom">
+					    		<a href="http://www.iste.uni-stuttgart.de/ps/bauhaus/index-english.html">Bauhaus Project (Software Architecture, Software Reengineering, and Program Understanding)</a>
+		  					</td>
+							<td align="justify">
+								The goal of the project "Bauhaus", a research project at the universities of Stuttgart and Bremen, is the development of: means to describe a software architecture, methods and tools to analyze and recover the software architecture (derivation of different views on the architecture of legacy systems, identification of re-usable components and estimation of change impact).			
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
 					    		<a href="http://www.cc.gatech.edu/reverse/">Georgia Tech's Reverse Engineering Group</a>
 		  					</td>
 							<td align="justify">
@@ -130,6 +142,30 @@
 	    			<table width="100%">
 						<tr>
 							<td width="30%" valign="bottom">
+					    		<a href="http://www.ai.univ-paris8.fr/UPU/UPU.html">Program Understanding Research Group</a>
+		  					</td>
+							<td align="justify">
+								It is well known that Program Understanding is a key activity of Reverse Engineering. In fact, anyone involved in RE is able to understand a program, at one level or another, in one form or another. The goal of this group is to promote research that could help enhance our understanding of program understanding, thus allowing the implementation of more powerful program underatanding tools. 
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://www.iste.uni-stuttgart.de/ps/reengineering/index.html">Reengineering Bibliography</a>
+		  					</td>
+							<td align="justify">
+								This annotated bibliography provides information on software reengineering. It is an initiative of several people from the universities of Stuttgart (Germany) and Georgia Tech (USA).
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
 					    		<a href="http://reengineer.org/">Reengineering Forum</a>
 		  					</td>
 							<td align="justify">
@@ -166,10 +202,46 @@
 	    			<table width="100%">
 						<tr>
 							<td width="30%" valign="bottom">
+					    		<a href="http://www.rigi.csc.uvic.ca/index.html">RIGI</a>
+		  					</td>
+							<td align="justify">
+								Rigi is an interactive, visual tool designed to help you better understand and re-document your software. It has been in development over the past decade by researchers in the Department of Computer Science at the University of Victoria. Its two main goals are: to provide an infrastructure for research and practice in program understanding, to discover abstractions in large software systems and pass this information on to software engineers for maintenance and reengineering purposes. 
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
 					    		<a href="http://planetmde.org/rimel/">RIMEL (Reverse Engineering, Maintenance and Software Evolution)</a>
 		  					</td>
 							<td align="justify">
 								RIMEL is a french-speaking group. It gathers teams interested in Reverse Engineering, Maintenance and Software Evolution. It is an open group which is currently hosting teams from France but also Switzerland, Belgium and Canada.
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://www.semdesigns.com/">Semantic Designs (Automated Large-Scale Software System Analysis, Modification, Translation and Generation)</a>
+		  					</td>
+							<td align="justify">
+								Semantic Designs provides extremely generalized compiler technology and services that can be used, for arbitrary mixes of computer languages, to implement software enhancement and reengineering tools, software quality assessment and improvement tools, etc.
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://www.iam.unibe.ch/%7Escg/index.html">Software Composition Group (SCG)</a>
+		  					</td>
+							<td align="justify">
+								The Software Composition Group carries out research in programming language design and software reengineering with the goal of facilitating the development of flexible, open software systems. The SCG is led by Prof. Oscar Nierstrasz and is part of the Institute of Computer Science and Applied Mathematics (IAM) at the University of Berne.
 							</td>
 						</tr>
 					</table>
