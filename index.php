@@ -51,7 +51,10 @@
 						<br /><br />
 						As a GMT component, MoDisco will make good use of other GMT components or solutions available in the Eclipse Modeling Project (EMF, M2M, GMF, TMF, etc), and more generally of 
 						any plugin available in the Eclipse environment.
-				      	<br /><br /><a href="about.php">more about MoDisco &raquo;</a> 
+				      	<br /><br />
+				      	The creation and the launch of the MoDisco component has been realized in the context of the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081).
+				      	<br /><br />
+				      	<a href="about.php">more about MoDisco &raquo;</a> 
 				      </p>
 		  		</td>
 				<td align="right">
