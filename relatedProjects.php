@@ -16,7 +16,7 @@
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Related Projects";
 	$pageKeywords	= "";
-	$pageAuthor		= "Freddy Allilaire";
+	$pageAuthor		= "Hugo Bruneliere";
 	
 	# End: page-specific settings
 	#
