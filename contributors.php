@@ -77,6 +77,18 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+	    			    		<a href="http://www.sodius.com/">Sodius</a>
+		  					</td>
+							<td align="right">
+								<a href="http://www.sodius.com/"><img align="right" src="./resources/logoSodius.png" height="55" /></a>
+							</td>
+						</tr>
+					</table>
+	    		</li>
 	    	</ul>
 		</div>
 		<hr class="clearer" />
