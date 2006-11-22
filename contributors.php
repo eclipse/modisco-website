@@ -89,6 +89,18 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+	    			    		<a href="http://www.obeo.fr/?&lang=en">Obeo</a>
+		  					</td>
+							<td align="right">
+								<a href="http://www.obeo.fr/?&lang=en"><img align="right" src="./resources/logoObeo.png" height="55" /></a>
+							</td>
+						</tr>
+					</table>
+	    		</li>
 	    	</ul>
 		</div>
 		<hr class="clearer" />
