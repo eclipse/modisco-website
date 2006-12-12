@@ -151,7 +151,7 @@
 
 		<td align="center">
 		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#RelationalDBSchema">
-			<img src="../resources/buttons/metamodel_button.jpg"/>
+			<img src="../resources/buttons/Metamodel_button.jpg"/>
 		</a>
 		</td>
 		<td>
