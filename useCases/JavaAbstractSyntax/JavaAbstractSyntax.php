@@ -132,12 +132,12 @@
 		<td ALIGN=center><h4>Choose a download</h4></td>
 
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/???JavaAbstractSyntax???">
+		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#JavaAbstractSyntax">
 			<img src="../resources/buttons/Metamodel_button.jpg"/>
 		</a>
 		</td>
 		<td>
-			<b>JavaAbstractSyntax metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/???JavaAbstractSyntax???">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
+			<b>JavaAbstractSyntax metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#JavaAbstractSyntax">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
 		</td>		
 		</tr>
 		

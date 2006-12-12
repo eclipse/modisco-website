@@ -150,12 +150,12 @@
 		<td ALIGN=center><h4>Choose a download</h4></td>
 
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/???RelationalDBContent???">
+		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#RelationalDBContent">
 			<img src="../resources/buttons/metamodel_button.jpg"/>
 		</a>
 		</td>
 		<td>
-			<b>DBContentDiscoverer metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/???RelationalDBContent???">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
+			<b>DBContentDiscoverer metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#RelationalDBContent">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
 		</td>		
 		</tr>
 		
