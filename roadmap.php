@@ -35,23 +35,23 @@
 	    	MoDisco is a collaborative project that will be successful if it receives various contributions from a large number of different partners. In order to clarify the interactions with the contributing partners, the following roadmap may be useful:
     	</p>
     	<p align="justify">
-    		<ol>
+    		<ul class="midlist">
     			<li> 
-    				Creation and initialization of the project (general description, web site, newsgroup, etc).
+    				<b>1.</b> Creation and initialization of the project (general description, web site, newsgroup, etc).
     			</li>
     			<br>
     			<li> 
-    				Elaboration of several use cases provided by different partners. A use case is usually composed of a specification and an implementation.
+    				<b>2.</b> Elaboration of several use cases provided by different partners. A use case is usually composed of a specification and an implementation.
     			</li>
     			<br>
     			<li> 
-    				Consolidification of the common toolbox and of the initial framework for building model discoverers. Improvement of the guidelines, methodological support and basic documentation.
+    				<b>3.</b> Consolidification of the common toolbox and of the initial framework for building model discoverers. Improvement of the guidelines, methodological support and basic documentation.
     			</li>
     			<br>
     			<li> 
-    				Improvement of the framework as additional use cases are built and contributed.
+    				<b>4.</b> Improvement of the framework as additional use cases are built and contributed.
     			</li>
-    		</ol>
+    		</ul>
     	</p>
 		<p align="justify">
 	    	The MoDisco web site will be regularly updated to correspond to the various steps in the roadmap. In particular, new use cases will be displayed.
