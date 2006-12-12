@@ -25,7 +25,7 @@
 		<table width="100%">
 			<tr>
 				<td width="50%">
-					<h1>$pageTitle</h1>
+					<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Documentation</h1>
 				</td>
 				<td align="right">
 					<img alt="MoDisco Logo" src="../resources/logoMoDiscoSmall.jpg" valign="top" />

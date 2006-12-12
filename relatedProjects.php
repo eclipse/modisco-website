@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Related Projects";
+	$pageTitle 		= "MoDisco Related Projects";
 	$pageKeywords	= "";
 	$pageAuthor		= "Hugo Bruneliere";
 	
@@ -26,7 +26,7 @@
 
 	<!-- Main part -->
 	<div id="midcolumn">
-		<h1>$pageTitle</h1>
+		<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Related Projects</h1>
 
 		<a name="goals"></a>
 		<img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" style="padding-left: 10px;" alt="MoDisco Logo" />

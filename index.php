@@ -16,7 +16,7 @@
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco Home page";
 	$pageKeywords	= "";
-	$pageAuthor		= "Freddy Allilaire";
+	$pageAuthor		= "Freddy Allilaire, Hugo Bruneliere";
 	
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
@@ -38,12 +38,12 @@
 		<table width="100%">
 			<tr>
 				<td width="80%">
-					<h1>$pageTitle</h1>
+					<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Home page</h1>
 					<h3>Welcome</h3>
 				      <p align="JUSTIFY">
 						MoDisco (for Model Discovery) is an Eclipse GMT component for model-driven reverse engineering. The objective is to allow practical extractions of models from legacy systems. 
 						Because of the widely different nature and technological heterogeneity of legacy systems, there are several different ways to extract models from such systems. MoDisco 
-						proposes a generic and extensible metamodel-driven approach to model discovery. A basic framework and a set of guidelines are provided to the Eclipse contributors to bring 
+						proposes a generic and extensible metamodel-driven approach to <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">model discovery</a></b>. A basic framework and a set of guidelines are provided to the Eclipse contributors to bring 
 						their own solutions to discover models in various kinds of legacy.
 						<br /><br />
 						Due to the highly diversified nature of the considered legacy, MoDisco is a collaborative component involving many organizations. Each of them will bring its own expertise in 
@@ -54,7 +54,7 @@
 				      	<br /><br />
 				      	The creation and the launch of the MoDisco component has been realized in the context of the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081).
 				      	<br /><br />
-				      	<a href="about.php">more about MoDisco &raquo;</a> 
+				      	<a href="about.php">more about MoDisco &raquo;</a> | <b><a href="useCases.php">MoDisco Use Cases &raquo;</a> </b>
 				      </p>
 		  		</td>
 				<td align="right">
@@ -76,6 +76,18 @@
 		  					</td>
 							<td align="right">
 								<a href="doc/"><img align="right" src="../resources/images/reference.gif" valign="top"/></a>
+							</td>
+						</tr>
+					</table>
+				</li>
+				<li>
+					<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+								<b><a href="useCases.php">Use Cases</a></b>
+		  					</td>
+							<td align="right">
+								<a href="useCases.php"><img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" height="42" width="42" /></a>
 							</td>
 						</tr>
 					</table>
@@ -108,7 +120,7 @@
 					<table width="100%">
 						<tr>
 							<td width="80%" valign="bottom">
-								<b><a href="doc/">Documentation</a></b>
+								<b><a href="doc/">Documentation</a></b>, <b><a href="http://wiki.eclipse.org/index.php/MoDisco">Wiki</a></b>
 		  					</td>
 							<td align="right">
 								<a href="doc/"><img align="right" src="../resources/images/reference.gif" valign="top"/></a>
@@ -147,6 +159,11 @@
 			<ul>
 				<li><a href="about.php">Project description</a></li>
 				<li><a href="doc/">Documentation</a></li>
+				<li>-------------------------------------</li>
+				<li><b><a href="useCases.php">MoDisco Use Cases</a></b></li>
+				<li>-------------------------------------</li>
+				<li><b><a href="http://wiki.eclipse.org/index.php/MoDisco">MoDisco Wiki Page</a></b></li>
+				<li>-------------------------------------</li>
 			</ul>
 		</div>
 

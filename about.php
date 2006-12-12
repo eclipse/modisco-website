@@ -34,7 +34,7 @@
 		<a name="introduction"></a>
 		<h3>Introduction</h3
         <p align="justify">
-			MoDisco (for Model Discovery) is an Eclipse GMT component for model-driven reverse engineering. The objective is to allow practical extractions of models from legacy systems. Because of the widely different nature and technological heterogeneity of legacy systems, there are several different ways to extract models from such systems. MoDisco proposes a generic and extensible metamodel-driven approach to model discovery. A basic framework and a set of guidelines are provided to the Eclipse contributors to bring their own solutions to discover models in various kinds of legacy.
+			MoDisco (for Model Discovery) is an Eclipse GMT component for model-driven reverse engineering. The objective is to allow practical extractions of models from legacy systems. Because of the widely different nature and technological heterogeneity of legacy systems, there are several different ways to extract models from such systems. MoDisco proposes a generic and extensible metamodel-driven approach to <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">model discovery</a></b>. A basic framework and a set of guidelines are provided to the Eclipse contributors to bring their own solutions to discover models in various kinds of legacy.
 		</p>
 		<p align="justify">
 			Due to the highly diversified nature of the considered legacy, MoDisco is a collaborative component involving many organizations. Each of them will bring its own expertise in a given area. A common infrastructure, inspired by the OMG KDM recommendation, will allow integrating all these contributions.
@@ -62,7 +62,7 @@
       	</p>
 	  	<p align="center">
 	  		<img src="resources/MoDisco_Principles.png" /><br /><br />
-			Figure 1 Metamodel driven model discovery
+			<b>Figure 1 Metamodel driven model discovery</b>
 		</p>
 		<p align="justify">
 			Then, the second step is about creating one or many discovering tools that will be called “discoverers” in this document. These tools extract necessary information from the system in order to build a model conforming to the previously defined metamodel. The way to create these discoverers is often manual but can also be semi-automatic. The output of a discoverer is a model, in XMI format for instance.
@@ -82,7 +82,7 @@
       	
       	<p align="center">
       		<img src="resources/MoDisco_UnixSystemsExample_1.png" /><br /><br />
-			Figure 2 Unix file system discovery
+			<b>Figure 2 Unix file system discovery</b>
 		</p>
       	
       	<p align="justify">
@@ -100,7 +100,7 @@
 		
       	<p align="center">
       		<img src="resources/MoDisco_UnixSystemsExample_2.png" /><br /><br />
-			Figure 3 Unix users' login and logout trace discovery
+			<b>Figure 3 Unix users' login and logout trace discovery</b>
 		</p>
 		
       	<p align="justify">
@@ -126,7 +126,7 @@
 
 		<p align="center">
 			<img src="resources/MoDisco_SystemsClassification.png" /><br /><br />
-			Figure 4 A very first systems classification example
+			<b>Figure 4 A very first systems classification example</b>
 		</p>
 		
       	<p align="justify">
@@ -149,7 +149,7 @@
 		
 		<p align="center">
 			<img src="resources/MoDisco_Overview.png" /><br /><br />
-			Figure 5 Overview of the MoDisco component
+			<b>Figure 5 Overview of the MoDisco component</b>
 		</p>
 		
       	<p align="justify">

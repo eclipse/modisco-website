@@ -6,6 +6,24 @@
     <description>MoDisco News</description>
 
 	<item>
+		<title>Creation and initialization of the MoDisco "Use Cases" section</title>
+		<link>http://www.eclipse.org/gmt/modisco/useCases.php</link>
+		<description>
+			<p>
+			We just create and initialize the list of the MoDisco "model discovery" use cases. In the initial version, we only provide general descriptions of three different use cases: <b><a href="../useCases/JavaAbstractSyntax/JavaAbstractSyntax.php">Java Abstract Syntax</a></b>, <b><a href="../useCases/RelationalDBSchema/RelationalDBSchema.php">Relational DB Schema</a></b> and <b><a href="../useCases/RelationalDBContent/RelationalDBContent.php">Relational DB Content</a></b>.  
+			Of course, the use cases will be updated regularly: documentation and implementations will be added to already existing use cases, new ones will be described, etc.
+			</p>
+			<p>
+			Do not hesitate to post messages on the MoDisco newsgroup (eclipse.modeling.gmt.modisco) if you have any particular interests and/or questions about any of the presented use cases. We are also always interested by new ideas and propositions of possible other model discovery use cases. 
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/useCases.php">http://www.eclipse.org/gmt/modisco/useCases.php</a> for consulting the use cases list.
+			</p>
+		</description>
+		<pubDate>Tue, 12 Dec 2006 11:15:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>Update of the list of MoDisco related projects</title>
 		<link>http://www.eclipse.org/gmt/modisco/relatedProjects.php</link>
 		<description>

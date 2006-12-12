@@ -34,5 +34,13 @@ EOBRANDING;
 	$Nav->addCustomNav("Documentation", "/gmt/doc/", "_self", 1);
 	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/GMT", "_self", 1);
 	$Nav->addCustomNav("MoDisco", "/gmt/modisco/", "_self", 1);
+	$Nav->addCustomNav("Roadmap", "/gmt/modisco/roadmap.php", "_self", 2);
+	$Nav->addCustomNav("Use Cases", "/gmt/modisco/useCases.php", "_self", 2);
+	$Nav->addCustomNav("Java Abstract Syntax", "/gmt/modisco/useCases/JavaAbstractSyntax/JavaAbstractSyntax.php", "_self", 3);
+	$Nav->addCustomNav("Relational Database Schema", "/gmt/modisco/useCases/RelationalDBSchema/RelationalDBSchema.php", "_self", 3);
+	$Nav->addCustomNav("Relational Database Content", "/gmt/modisco/useCases/RelationalDBContent/RelationalDBContent.php", "_self", 3);
+	$Nav->addCustomNav("Contributors", "/gmt/modisco/contributors.php", "_self", 2);
+	$Nav->addCustomNav("Related Projects", "/gmt/modisco/relatedProjects.php", "_self", 2);
 	$Nav->addCustomNav("Documentation", "/gmt/modisco/doc/", "_self", 2);
+	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/MoDisco", "_self", 2);
 ?>
