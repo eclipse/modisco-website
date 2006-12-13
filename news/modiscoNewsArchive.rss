@@ -6,6 +6,20 @@
     <description>MoDisco News</description>
 
 	<item>
+		<title>The "MoDisco Overview" slides are now available</title>
+		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco_Overview_1.0.pdf</link>
+		<description>
+			<p>
+			The presentation providing the overview of the MoDisco component has just been published in the "Documentation" section.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/doc/MoDisco_Overview_1.0.pdf">http://www.eclipse.org/gmt/modisco/doc/MoDisco_Overview_1.0.pdf</a> for getting the slides.
+			</p>
+		</description>
+		<pubDate>Wed, 13 Dec 2006 10:15:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>Creation and initialization of the MoDisco "Use Cases" section</title>
 		<link>http://www.eclipse.org/gmt/modisco/useCases.php</link>
 		<description>

@@ -34,7 +34,7 @@
     		The MoDisco component is initiated by the <a href="http://www.inria.fr/recherche/equipes/atlas.fr.html">ATLAS team</a>, <a href="http://www.inria.fr">INRIA</a>.
 		</p>
     	<p align="justify">
-	    	Here is the current list of committers, contributors and interested parties. This list will be regularly updated.
+	    	Here is the current list of committers, contributors and/or interested parties. This list will be regularly updated.
     	</p>
 		<hr class="clearer" />
 

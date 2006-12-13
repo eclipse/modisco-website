@@ -37,8 +37,11 @@
 		<p>
           <ul class="midlist">
             <li>
-		      <a href="MoDisco_Proposal_1.0.pdf">
-		      MoDisco Proposal</a>: Proposal for the MoDisco component.
+		      <b><a href="MoDisco_Proposal_1.0.pdf">MoDisco Proposal</a></b>: Official (and accepted) proposal for the MoDisco component.
+			</li>
+			<br>
+			<li>
+		      <b><a href="MoDisco_Overview_1.0.pdf">MoDisco Overview (slides)</a></b>: Overall presentation of the MoDisco component.
 			</li>
 		  </ul>
 		</p>

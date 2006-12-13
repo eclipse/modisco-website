@@ -157,8 +157,10 @@
 		<div class="sideitem">
 			<h6>Getting Started</h6>
 			<ul>
-				<li><a href="about.php">Project description</a></li>
-				<li><a href="doc/">Documentation</a></li>
+				<li><a href="about.php">Component description</a></li>
+				<li><a href="doc/MoDisco_Overview_1.0.pdf">Component overview (slides)</a></li>
+				<li>-------------------------------------</li>
+				<li><a href="doc/">MoDisco Documentation</a></li>
 				<li>-------------------------------------</li>
 				<li><b><a href="useCases.php">MoDisco Use Cases</a></b></li>
 				<li>-------------------------------------</li>
