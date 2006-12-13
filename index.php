@@ -154,6 +154,7 @@
 
 	<!-- Right Part -->
 	<div id="rightcolumn">
+	
 		<div class="sideitem">
 			<h6>Getting Started</h6>
 			<ul>
@@ -168,7 +169,10 @@
 				<li>-------------------------------------</li>
 			</ul>
 		</div>
-
+		
+		<br>	
+		<!--<SCRIPT TYPE="text/javascript" SRC="http://www.brainyquote.com/link/quotebr.js"></SCRIPT>-->
+		
 	</div>
 
 EOHTML;
