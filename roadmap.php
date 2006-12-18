@@ -37,19 +37,19 @@
     	<p align="justify">
     		<ul class="midlist">
     			<li> 
-    				<b>1.</b> Creation and initialization of the project (general description, web site, newsgroup, etc).
+    				<b>1. Creation and initialization of the project</b> (general description, web site, newsgroup, etc).
     			</li>
     			<br>
     			<li> 
-    				<b>2.</b> Elaboration of several use cases provided by different partners. A use case is usually composed of a specification and an implementation.
+    				<b>2. Elaboration of several use cases</b> provided by different partners. A use case is usually composed of a specification and an implementation.
     			</li>
     			<br>
     			<li> 
-    				<b>3.</b> Consolidification of the common toolbox and of the initial framework for building model discoverers. Improvement of the guidelines, methodological support and basic documentation.
+    				<b>3. Consolidification of the common toolbox and of the initial framework</b> for building model discoverers. Improvement of the guidelines, methodological support and basic documentation.
     			</li>
     			<br>
     			<li> 
-    				<b>4.</b> Improvement of the framework as additional use cases are built and contributed.
+    				<b>4. Improvement of the framework</b>  as additional use cases are built and contributed.
     			</li>
     		</ul>
     	</p>

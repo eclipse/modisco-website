@@ -54,7 +54,7 @@
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="overview">Overview</a></h4>
 		
 		<p align="justify">
-	    	This use case is about discovering information on database schemas from real databases stored into a DBMS. The objective is to express the database's schemas as models that conform to a database's schema metamodel. The overall approach is shown in the following figure:
+	    	This use case is about discovering information on database schemas from real databases stored into a DBMS. The objective is to express the database's schemas as models that conform to a database's schema metamodel. This use case is provided by <b><a href="http://www.inria.fr/recherche/equipes/atlas.en.html">INRIA ATLAS</a></b>. The overall approach is shown in the following figure:
     	</p>
 	  	<p align="center">
 	  		<img src="../resources/schemas/MoDisco_RelationalDBSchema_UseCaseOverview.png"/>
@@ -88,7 +88,7 @@
 		
 		<td align="center">
 		<a href="../RelationalDBContent/RelationalDBContent.php">
-			<img src="../resources/buttons/RelationalDBContent_button.jpg"/>
+			<img src="../resources/buttons/RelationalDBContent_button_y.jpg"/>
 		</a>
 		</td>
 		
