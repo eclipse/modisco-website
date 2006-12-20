@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco Home page";
-	$pageKeywords	= "";
+	$pageKeywords	= "MDE, Reverse-Engineering, Model Discovery, Discoverer, Metamodel";
 	$pageAuthor		= "Freddy Allilaire, Hugo Bruneliere";
 	
 	# Add page-specific Nav bars here
@@ -159,6 +159,7 @@
 			<h6>Getting Started</h6>
 			<ul>
 				<li><a href="about.php">Component description</a></li>
+				<!--<li><a href="doc/MoDisco_Flyer-Poster_1.0.pdf">Component flyer-poster</a></li>-->
 				<li><a href="doc/MoDisco_Overview_1.0.pdf">Component overview (slides)</a></li>
 				<li>-------------------------------------</li>
 				<li><a href="doc/">MoDisco Documentation</a></li>

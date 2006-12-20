@@ -87,7 +87,7 @@
 		<td ALIGN=center><h4>Choose a use case</h4></td>
 		
 		<td align="center">
-		<a href="../RelationalDBContent/RelationalDBContent.php">
+		<a href="../RelationalDBContent/">
 			<img src="../resources/buttons/RelationalDBContent_button_y.jpg"/>
 		</a>
 		</td>

@@ -5,6 +5,36 @@
     <link>http://eclipse.org/gmt/modisco/</link>
     <description>MoDisco News</description>
 
+	<!--
+	<item>
+		<title>The MoDisco flyer-poster is now available</title>
+		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf</link>
+		<description>
+			<p>
+			The flyer-poster describing the MoDisco component has just been published in the "Documentation" section.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf">http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf</a> for getting the flyer-poster.
+			</p>
+		</description>
+		<pubDate>Wednesday, 3 Jan 2007 17:00:00 CET</pubDate>
+	</item>
+	-->
+	
+	<item>
+		<title>The "Unix File System" new MoDisco use case is now available</title>
+		<link>http://www.eclipse.org/gmt/modisco/useCases/UnixFileSystem/</link>
+		<description>
+			<p>
+			The "Unix File System" use case has just been published into the MoDisco "Use Cases" section. This use case contains a general description but also a first available implementation of the discoverer.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/useCases/UnixFileSystem/">http://www.eclipse.org/gmt/modisco/useCases/UnixFileSystem/</a> for consulting the use case.
+			</p>
+		</description>
+		<pubDate>Wednesday, 20 Dec 2006 18:30:00 CET</pubDate>
+	</item>
+	
 	<item>
 		<title>The "MoDisco Overview" slides are now available</title>
 		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco_Overview_1.0.pdf</link>
@@ -24,7 +54,7 @@
 		<link>http://www.eclipse.org/gmt/modisco/useCases.php</link>
 		<description>
 			<p>
-			We just create and initialize the list of the MoDisco "model discovery" use cases. In the initial version, we only provide general descriptions of three different use cases: <b><a href="../useCases/JavaAbstractSyntax/JavaAbstractSyntax.php">Java Abstract Syntax</a></b>, <b><a href="../useCases/RelationalDBSchema/RelationalDBSchema.php">Relational DB Schema</a></b> and <b><a href="../useCases/RelationalDBContent/RelationalDBContent.php">Relational DB Content</a></b>.  
+			We just create and initialize the list of the MoDisco "model discovery" use cases. In the initial version, we only provide general descriptions of three different use cases: <b><a href="../useCases/JavaAbstractSyntax/">Java Abstract Syntax</a></b>, <b><a href="../useCases/RelationalDBSchema/">Relational DB Schema</a></b> and <b><a href="../useCases/RelationalDBContent/">Relational DB Content</a></b>.  
 			Of course, the use cases will be updated regularly: documentation and implementations will be added to already existing use cases, new ones will be described, etc.
 			</p>
 			<p>

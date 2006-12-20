@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco Use Cases";
-	$pageKeywords	= "";
+	$pageKeywords	= "MDE, Reverse-Engineering, Model Discovery, Use Case, Discoverer, Metamodel";
 	$pageAuthor		= "Hugo Bruneliere";
 	
 	# End: page-specific settings
@@ -55,7 +55,7 @@
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="center">
-					    		<a href="useCases/JavaAbstractSyntax/JavaAbstractSyntax.php"><img src="useCases/resources/buttons/JavaAbstractSyntax_button_y.jpg"/></a>
+					    		<a href="useCases/JavaAbstractSyntax/"><img src="useCases/resources/buttons/JavaAbstractSyntax_button_y.jpg"/></a>
 		  					</td>
 							<td width="80%" align="justify">
 								This use case is about discovering a full abstract syntax tree (AST) of the code (statements, expressions, annotations and Javadoc) taken from a Java compilation unit (typically a Class), and building a model representing it.
@@ -67,7 +67,7 @@
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="bottom">
-					    		<a href="useCases/RelationalDBSchema/RelationalDBSchema.php"><img src="useCases/resources/buttons/RelationalDBSchema_button_y.jpg"/></a>
+					    		<a href="useCases/RelationalDBSchema/"><img src="useCases/resources/buttons/RelationalDBSchema_button_y.jpg"/></a>
 		  					</td>
 							<td width="80%" align="justify">
 								This use case is about discovering information on database schemas from real databases stored into a DBMS. The objective is to express the database's schemas as models that conform to a database's schema metamodel.
@@ -79,10 +79,22 @@
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="bottom">
-					    		<a href="useCases/RelationalDBContent/RelationalDBContent.php"><img src="useCases/resources/buttons/RelationalDBContent_button_y.jpg"/></a>
+					    		<a href="useCases/RelationalDBContent/"><img src="useCases/resources/buttons/RelationalDBContent_button_y.jpg"/></a>
 		  					</td>
 							<td width="80%" align="justify">
 								This use case is about discovering information on database contents (i.e. tuples) from real databases stored into a DBMS. The objective is to express the database's contents as models that conform to a database's content metamodel.
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="bottom">
+					    		<a href="useCases/UnixFileSystem/"><img src="useCases/resources/buttons/UnixFileSystem_button_o.jpg"/></a>
+		  					</td>
+							<td width="80%" align="justify">
+								This use case is about discovering the file tree of a Unix system and building a model representing it. The model produced conforms to a very simple Unix file system metamodel.
 							</td>
 						</tr>
 					</table>
