@@ -270,6 +270,18 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://www.softwarerevolution.com">The Software Revolution, Inc.</a>
+		  					</td>
+							<td align="justify">
+								TSRI provides automated legacy computer system modernization services to both government and industry. The provided services are derived from an advanced artificial intelligence-based software re-engineering toolset called JANUS.
+							</td>
+						</tr>
+					</table>
+	    		</li>
 	    	</ul>
 	    </div>
 		<hr class="clearer" />
