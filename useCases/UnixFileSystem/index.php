@@ -123,7 +123,7 @@
 		</a>
 		</td>
 		<td>
-			<b>UnixFS metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#UnixFS">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
+			<b>UnixFS metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#UnixFS">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual formatSchema, or in the <a href="downloads/UnixFS.png">PNG</a> and <a href="downloads/UnixFS.vsd">Visio</a> formats.
 		</td>		
 		</tr>
 		

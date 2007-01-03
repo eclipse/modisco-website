@@ -155,7 +155,7 @@
 		</a>
 		</td>
 		<td>
-			<b>RelationalDBSchema metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#RelationalDBSchema">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
+			<b>RelationalDBSchema metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#RelationalDBSchema">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format, or in the <a href="downloads/RelationalDBSchema.png">PNG</a> and <a href="downloads/RelationalDBSchema.vsd">Visio</a> formats.
 		</td>		
 		</tr>
 		

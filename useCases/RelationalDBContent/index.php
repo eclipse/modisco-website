@@ -155,7 +155,7 @@
 		</a>
 		</td>
 		<td>
-			<b>DBContentDiscoverer metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#RelationalDBContent">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
+			<b>DBContentDiscoverer metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#RelationalDBContent">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format, or in the <a href="downloads/RelationalDBContent.png">PNG</a> and <a href="downloads/RelationalDBContent.vsd">Visio</a> formats.
 		</td>		
 		</tr>
 		
