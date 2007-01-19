@@ -36,7 +36,7 @@ EOBRANDING;
 	$Nav->addCustomNav("MoDisco", "/gmt/modisco/", "_self", 1);
 	$Nav->addCustomNav("Roadmap", "/gmt/modisco/roadmap.php", "_self", 2);
 	$Nav->addCustomNav("Use Cases", "/gmt/modisco/useCases.php", "_self", 2);
-	$Nav->addCustomNav("Contributors", "/gmt/modisco/contributors.php", "_self", 2);
+	$Nav->addCustomNav("Interested Parties", "/gmt/modisco/interestedParties.php", "_self", 2);
 	$Nav->addCustomNav("Related Projects", "/gmt/modisco/relatedProjects.php", "_self", 2);
 	$Nav->addCustomNav("Documentation", "/gmt/modisco/doc/", "_self", 2);
 	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/MoDisco", "_self", 2);

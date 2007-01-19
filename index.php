@@ -96,10 +96,10 @@
 					<table width="100%">
 						<tr>
 							<td width="80%" valign="bottom">
-								<b><a href="contributors.php">Contributors</a></b>
+								<b><a href="interestedParties.php">Interested Parties</a></b>
 		  					</td>
 							<td align="right">
-								<a href="contributors.php"><img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" height="42" width="42" /></a>
+								<a href="interestedParties.php"><img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" height="42" width="42" /></a>
 							</td>
 						</tr>
 					</table>
