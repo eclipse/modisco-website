@@ -113,6 +113,18 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+	    			    		<a href="http://www.haifa.il.ibm.com/dept/services/mdet.html">IBM Haifa Research Lab</a>
+		  					</td>
+							<td align="right">
+								<a href="http://www.haifa.il.ibm.com/dept/services/mdet.html"><img align="right" src="./resources/logoIBMHaifa.png" height="55" /></a>
+							</td>
+						</tr>
+					</table>
+	    		</li>
 	    	</ul>
 		</div>
 		<hr class="clearer" />
