@@ -99,6 +99,18 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="bottom">
+					    		<a href="useCases/BugzillaMetrics/"><img src="useCases/resources/buttons/BugzillaMetrics_button_r.jpg"/></a>
+		  					</td>
+							<td width="80%" align="justify">
+								This complete use case covers both the "Model Discovery" and "Model Understanding" phases. It is about discovering bugs information expressed in HTML format, building a Bugzilla model from these data, computing it in order to produce a Metrics model and finally building some visualizations of the generated metrics. 
+							</td>
+						</tr>
+					</table>
+	    		</li>
 	    	</ul>
 	    </div>
 		<hr class="clearer" />

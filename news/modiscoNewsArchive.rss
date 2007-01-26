@@ -22,6 +22,20 @@
 	-->
 	
 	<item>
+		<title>The complex and complete "Bugzilla Metrics" new MoDisco use case is now available</title>
+		<link>http://www.eclipse.org/gmt/modisco/useCases/BugzillaMetrics/</link>
+		<description>
+			<p>
+			The "Bugzilla Metrics" use case has just been published into the MoDisco "Use Cases" section. This complex use case contains a general description but also a complete implementation.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/useCases/BugzillaMetrics/">http://www.eclipse.org/gmt/modisco/useCases/BugzillaMetrics/</a> for consulting the use case.
+			</p>
+		</description>
+		<pubDate>Friday, 26 Jan 2007 17:30:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>The "Unix File System" new MoDisco use case is now available</title>
 		<link>http://www.eclipse.org/gmt/modisco/useCases/UnixFileSystem/</link>
 		<description>
