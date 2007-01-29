@@ -125,6 +125,18 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+	    			    		<a href="http://www.argia.fr/site-argia/html/accueil.html">Argia-Engineering</a>
+		  					</td>
+							<td align="right">
+								<a href="http://www.argia.fr/site-argia/html/accueil.html"><img align="right" src="./resources/logoArgia.png" height="65" /></a>
+							</td>
+						</tr>
+					</table>
+	    		</li>
 	    	</ul>
 		</div>
 		<hr class="clearer" />
