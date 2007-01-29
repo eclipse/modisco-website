@@ -167,6 +167,9 @@
 		</div>
 	    
 		<hr class="clearer" />
+		<br />
+		<a href="index.php">Back to the "Bugzilla Metrics" use case main page &raquo;</a>
+		<br /><br /><br />
 	</div>
 	
 	
