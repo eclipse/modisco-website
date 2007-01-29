@@ -58,10 +58,10 @@
 			</COLGROUP>
 		<tr>
 		<td align="center">
-		<b><i>Ecore</i> format</b>
+		<b><font size="3"><i>Ecore</i> format</font></b>
 		</td>
 		<td align="center">
-		<b><i>KM3</i> format</b>
+		<b><font size="3"><i>KM3</i> format</font></b>
 		</td>
 		</tr>
 		
