@@ -54,8 +54,10 @@
 		
 		<p align="justify">
 	    	This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering bugs information expressed in HTML format and building a Bugzilla model from these data (<b>Model Discovery</b>). Then, this generated model is computed in order to produce a Metrics model and to finally build different visualizations from these calculated metrics (<b>Model Understanding</b>).
-	    	<br />
-	    	This use case is provided by <b><a href="http://www.inria.fr/recherche/equipes/atlas.en.html">INRIA ATLAS</a></b>. The overall approach is summarized in the following figure:
+	    	<br /><br />
+	    	This use case is provided by <b><a href="http://www.inria.fr/recherche/equipes/atlas.en.html">INRIA ATLAS</a></b> and its development has been supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
+	    	<br /><br />
+	    	The overall approach is summarized in the following figure:
     	</p>
 	  	<p align="center">
 	  		<img src="../resources/schemas/MoDisco_BugzillaMetrics_UseCaseOverview.png"/>
@@ -111,13 +113,12 @@
 		<td></td>
 
 		<td align="center">
-		<!--<a href="http://www.eclipse.org/downloads/download.php?file=/gmt/modisco/useCases/BugzillaMetrics/downloads/BugzillaMetrics_InstallationUserGuide.pdf">-->
+		<a href="downloads/BugzillaMetrics_InstallationUserGuide.pdf">
 			<img src="../resources/buttons/InstallationExecutionGuide_button.jpg"/>
-		<!--</a>-->
+		</a>
 		</td>
 		<td>
-			<b>"Bugzilla Metrics" Use Case - Installation & Execution Guide</b>: How to install and execute this use case for building metrics visualizations from Bugzilla data on bugs.
-			<br>Available soon... 
+			<b>"Bugzilla Metrics" Use Case - Installation & Execution Guide</b>: How to install and execute this use case for building metrics visualizations from Bugzilla data on bugs. 
 		</td>		
 		</tr>
 		
@@ -153,7 +154,7 @@
 		</a>
 		</td>
 		<td>
-			First complete version of the <b>Bugzilla Metrics</b> use case (including the README.TXT file explaining how to install and execute it).
+			First complete version of the <b>Bugzilla Metrics</b> use case (with all the required resources including the used metamodels).
 		</td>		
 		</tr>
 		

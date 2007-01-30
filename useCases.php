@@ -32,7 +32,7 @@
 		<img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" style="padding-left: 10px;" alt="MoDisco Logo" />
 
     	<p align="justify">
-	    	MoDisco provides a set of <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">model discovery</a> use cases</b> covering different technical spaces and different domains of application. These use cases are concrete examples of how <b>metamodel-driven reverse-engineering (MDRE)</b> and corresponding <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">discoverers</a></b> can be applied to build models from already existing real-life systems. Some of this use cases are simple ones, some others are more elaborated and reuse basic use cases or parts of other ones.
+	    	MoDisco provides a set of <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">model discovery</a> use cases</b> covering different technical spaces and different domains of application. These use cases are concrete examples of how <b>metamodel-driven reverse-engineering (MDRE)</b> and corresponding <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">discoverers</a></b> can be applied to build models from already existing real-life systems (and then to use these generated models). Some of this use cases are simple ones, some others are more elaborated and reuse basic use cases or parts of other ones.
     	</p>
     	<p align="justify">
 	    	A general description is given for each of these use cases, as well as some more precise documentations. For many of them, prototypes have already been implemented and are directly downloadable from this website. 
