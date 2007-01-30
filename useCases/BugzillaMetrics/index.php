@@ -32,6 +32,7 @@
 		<img align="right" src="../../resources/logoMoDiscoSmall.jpg" valign="top" style="padding-left: 10px;" alt="MoDisco Logo" />
 		<blockquote>
 			<ul>
+				<li><a href="#keywords"><b>Keywords</b></a></li>
 				<li><a href="#overview"><b>Overview</b></a></li>
 				<li><a href="#relatedUseCases"><b>Related Use Cases</b></a></li>
 				<li><a href="#documentation"><b>Documentation</b></a></li>
@@ -49,6 +50,14 @@
 		<tr>
 			<td></td>
 			<td>
+		
+		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="keywords">Keywords</a></h4>
+		
+		<p align="justify">
+	    	Bug-Tracking, Defect-Tracking, Bugzilla, Metrics, XML, HTML, Microsoft Excel, SVG 
+    	</p>
+		
+		<br>
 
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="overview">Overview</a></h4>
 		
@@ -100,13 +109,13 @@
 		<td ALIGN=center><h4>Choose a document</h4></td>
 
 		<td align="center">
-		<!--<a href="http://www.eclipse.org/downloads/download.php?file=/gmt/modisco/useCases/BugzillaMetrics/downloads/BugzillaMetrics_UseCaseDescription.pdf">-->
+		<!--<a href="downloads/BugzillaMetrics_UseCaseDescription.pdf">-->
 			<img src="../resources/buttons/Description_button.jpg"/>
 		<!--</a>-->
 		</td>
 		<td>
 			<b>"Bugzilla Metrics" Use Case - Description</b>: General description of the use case, its objectives, its architecture and overall process, the different metamodels and transformations used, etc.
-			<br>Available soon...
+			<br /> Available soon...
 		</td>		
 		</tr>
 		<tr>
