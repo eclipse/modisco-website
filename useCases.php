@@ -54,6 +54,30 @@
 				<li>
 	    			<table width="100%">
 						<tr>
+							<td width="20%" valign="bottom">
+					    		<a href="useCases/BugzillaMetrics/"><img src="useCases/resources/buttons/BugzillaMetrics_button_r.jpg"/></a>
+		  					</td>
+							<td width="80%" align="justify">
+								This complete use case covers both the "Model Discovery" and "Model Understanding" phases. It is about discovering bugs information expressed in HTML format, building a Bugzilla model from these data, computing it in order to produce a Metrics model and finally building some visualizations of the generated metrics. 
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="bottom">
+					    		<a href="useCases/UnixFileSystem/"><img src="useCases/resources/buttons/UnixFileSystem_button_o.jpg"/></a>
+		  					</td>
+							<td width="80%" align="justify">
+								This use case is about discovering the file tree of a Unix system and building a model representing it. The model produced conforms to a very simple Unix file system metamodel.
+							</td>
+						</tr>
+					</table>
+	    		</li>
+				<li>
+	    			<table width="100%">
+						<tr>
 							<td width="20%" valign="center">
 					    		<a href="useCases/JavaAbstractSyntax/"><img src="useCases/resources/buttons/JavaAbstractSyntax_button_y.jpg"/></a>
 		  					</td>
@@ -83,30 +107,6 @@
 		  					</td>
 							<td width="80%" align="justify">
 								This use case is about discovering information on database contents (i.e. tuples) from real databases stored into a DBMS. The objective is to express the database's contents as models that conform to a database's content metamodel.
-							</td>
-						</tr>
-					</table>
-	    		</li>
-	    		<li>
-	    			<table width="100%">
-						<tr>
-							<td width="20%" valign="bottom">
-					    		<a href="useCases/UnixFileSystem/"><img src="useCases/resources/buttons/UnixFileSystem_button_o.jpg"/></a>
-		  					</td>
-							<td width="80%" align="justify">
-								This use case is about discovering the file tree of a Unix system and building a model representing it. The model produced conforms to a very simple Unix file system metamodel.
-							</td>
-						</tr>
-					</table>
-	    		</li>
-	    		<li>
-	    			<table width="100%">
-						<tr>
-							<td width="20%" valign="bottom">
-					    		<a href="useCases/BugzillaMetrics/"><img src="useCases/resources/buttons/BugzillaMetrics_button_r.jpg"/></a>
-		  					</td>
-							<td width="80%" align="justify">
-								This complete use case covers both the "Model Discovery" and "Model Understanding" phases. It is about discovering bugs information expressed in HTML format, building a Bugzilla model from these data, computing it in order to produce a Metrics model and finally building some visualizations of the generated metrics. 
 							</td>
 						</tr>
 					</table>
