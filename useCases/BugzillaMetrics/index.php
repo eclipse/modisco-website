@@ -78,7 +78,7 @@
 	  		<br/><br/>
 	  		The <b>Model Understanding</b> phase is also implemented by using <a href="http://www.eclipse.org/m2m/atl/">ATL model-to-model transformations</a>. A <i>Metrics</i> model, containing the data concerning the computed metrics, is first generated from the <i>Bugzilla</i> model. This <i>Metrics</i> model is then transformed into a <i>Table</i> model that provides a simple tabular representation of the data. After that, different visualization's formats specific models (i.e. <i>HTML</i>, <i>Excel</i> and <i>SVG</i> models) are built from the <i>Table</i> model. These generated models are finally extracted into software readable files.
 	  		<br/><br/>
-			All the metamodels mentionned in the previous schema (and so used within this use case) are available at the <a href="#download">Download section</a>.
+			All the metamodels mentioned in the previous schema (and so used within this use case) are available at the <a href="#download">Download section</a>.
 	  	<br/><br/>
 			We provide below a set of screenshots showing the different input/output files provided/created with this use case:	
 	  	</p>
@@ -109,9 +109,9 @@
 		<td ALIGN=center><h4>Choose a document</h4></td>
 
 		<td align="center">
-		<!--<a href="downloads/BugzillaMetrics_UseCaseDescription.pdf">-->
+		<a href="downloads/BugzillaMetrics_UseCaseDescription.pdf">
 			<img src="../resources/buttons/Description_button.jpg"/>
-		<!--</a>-->
+		</a>
 		</td>
 		<td>
 			<b>"Bugzilla Metrics" Use Case - Description</b>: General description of the use case, its objectives, its architecture and overall process, the different metamodels and transformations used, etc.
@@ -185,9 +185,9 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="http://www.bugzilla.org/">Bugzilla Defect-Tracking System</a></li>
-				<li>-------------------------------------</li>
+				<li>----------</li>
 				<li><a href="http://www.w3.org/Graphics/SVG/">W3C SVG (Scalable Vector Graphics) Specification</a></li>
-				<li>-------------------------------------</li>
+				<li>----------</li>
 				<li><a href="http://www.microsoft.com/office/xml/default.mspx">Microsoft Office 2003 XML Reference Schemas (including Excel SpreadsheetML)</a></li>
 			</ul>
 		</div>
