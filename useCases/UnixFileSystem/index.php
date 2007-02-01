@@ -42,7 +42,7 @@
     		    	
 		<hr class="clearer" />
 
-		<div id="container>
+		<div id="container">
 		<table>
 			<COLGROUP>
 				<COL width="2%">
