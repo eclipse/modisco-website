@@ -54,7 +54,7 @@
 				      	<br /><br />
 				      	The creation and the launch of the MoDisco component has been realized in the context of the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081).
 				      	<br /><br />
-				      	<a href="about.php">more about MoDisco &raquo;</a> | <b><a href="useCases.php">MoDisco Use Cases &raquo;</a> </b>
+				      	<a href="about.php">more about MoDisco &raquo;</a> | <b><a href="useCases">MoDisco Use Cases &raquo;</a> </b>
 				      </p>
 		  		</td>
 				<td align="right">
@@ -84,10 +84,10 @@
 					<table width="100%">
 						<tr>
 							<td width="80%" valign="bottom">
-								<b><a href="useCases.php">Use Cases</a></b>
+								<b><a href="useCases">Use Cases</a></b>
 		  					</td>
 							<td align="right">
-								<a href="useCases.php"><img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" height="42" width="42" /></a>
+								<a href="useCases"><img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" height="42" width="42" /></a>
 							</td>
 						</tr>
 					</table>
@@ -164,7 +164,7 @@
 				<li>----------</li>
 				<li><a href="doc/">MoDisco Documentation</a></li>
 				<li>----------</li>
-				<li><b><a href="useCases.php">MoDisco Use Cases</a></b></li>
+				<li><b><a href="useCases">MoDisco Use Cases</a></b></li>
 				<li>----------</li>
 				<li><b><a href="http://wiki.eclipse.org/index.php/MoDisco">MoDisco Wiki Page</a></b></li>
 				<li>----------</li>

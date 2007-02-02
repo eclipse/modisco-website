@@ -65,7 +65,7 @@
 	
 	<item>
 		<title>Creation and initialization of the MoDisco "Use Cases" section</title>
-		<link>http://www.eclipse.org/gmt/modisco/useCases.php</link>
+		<link>http://www.eclipse.org/gmt/modisco/useCases</link>
 		<description>
 			<p>
 			We just create and initialize the list of the MoDisco "model discovery" use cases. In the initial version, we only provide general descriptions of three different use cases: <b><a href="../useCases/JavaAbstractSyntax/">Java Abstract Syntax</a></b>, <b><a href="../useCases/RelationalDBSchema/">Relational DB Schema</a></b> and <b><a href="../useCases/RelationalDBContent/">Relational DB Content</a></b>.  
@@ -75,7 +75,7 @@
 			Do not hesitate to post messages on the MoDisco newsgroup (eclipse.modeling.gmt.modisco) if you have any particular interests and/or questions about any of the presented use cases. We are also always interested by new ideas and propositions of possible other model discovery use cases. 
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/useCases.php">http://www.eclipse.org/gmt/modisco/useCases.php</a> for consulting the use cases list.
+			See <a href="http://www.eclipse.org/gmt/modisco/useCases">http://www.eclipse.org/gmt/modisco/useCases</a> for consulting the use cases list.
 			</p>
 		</description>
 		<pubDate>Tue, 12 Dec 2006 11:15:00 CET</pubDate>

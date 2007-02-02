@@ -29,7 +29,7 @@
 		<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Use Cases</h1>
 
 		<a name="goals"></a>
-		<img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" style="padding-left: 10px;" alt="MoDisco Logo" />
+		<img align="right" src="../resources/logoMoDiscoSmall.jpg" valign="top" style="padding-left: 10px;" alt="MoDisco Logo" />
 
     	<p align="justify">
 	    	MoDisco provides a set of <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">model discovery</a> use cases</b> covering different technical spaces and different domains of application. These use cases are concrete examples of how <b>metamodel-driven reverse-engineering (MDRE)</b> and corresponding <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">discoverers</a></b> can be applied to build models from already existing real-life systems, and also of how these generated models can then be used. Some of these use cases are simple ones, some others are more elaborated and reuse basic use cases or parts of other ones.
@@ -38,13 +38,15 @@
 	    	A general description is given for each of these use cases, as well as some more precise documentations for many of them. For some of them, prototypes have already been implemented and are directly downloadable from this website. 
     	</p>
     	<p align="justify">
-    		The general status of each of the provided use cases is indicated by the color of the corresponding button:
-	    	<ul class="midlist">
-	    		<li><img src="useCases/resources/buttons/Standard_button_yellow.jpg" width="6%"/> only specification</li>
-	    		<li><img src="useCases/resources/buttons/Standard_button_orange.jpg" width="6%"/> partly implemented</li>
-	    		<li><img src="useCases/resources/buttons/Standard_button_red.jpg" width="6%"/> reaching completion</li>
-	    	</ul>
-	    </p>
+			The progress status of each use case is indicated by the icons below:
+			<table width="100%">
+				<tr>
+					<td align="center"><img src="../../resources/images/specification.png" /> <b>Specification</b></td>
+		    		<td align="center"><img src="../../resources/images/implementation.png" /> <b>Partially Implemented</b></td>
+		    		<td align="center"><img src="../../resources/images/completion.png" /> <b>Reaching Completion</b></td>
+				</tr>
+			</table>
+		</p>
 	    	
 		<hr class="clearer" />
 
@@ -54,11 +56,14 @@
 				<li>
 	    			<table width="100%">
 						<tr>
-							<td width="20%" valign="bottom">
-					    		<a href="useCases/BugzillaMetrics/"><img src="useCases/resources/buttons/BugzillaMetrics_button_r.jpg"/></a>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="BugzillaMetrics">Bugzilla Metrics</a> </h2>
 		  					</td>
-							<td width="80%" align="justify">
+							<td width="70%" align="justify">
 								This complete use case covers both the "Model Discovery" and "Model Understanding" phases. It is about discovering bugs information expressed in HTML format, building a Bugzilla model from these data, computing it in order to produce a Metrics model and finally building some visualizations of the generated metrics. 
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/completion.png"  />
 							</td>
 						</tr>
 					</table>
@@ -66,11 +71,14 @@
 	    		<li>
 	    			<table width="100%">
 						<tr>
-							<td width="20%" valign="bottom">
-					    		<a href="useCases/UnixFileSystem/"><img src="useCases/resources/buttons/UnixFileSystem_button_o.jpg"/></a>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="UnixFileSystem">Unix File System</a> </h2>
 		  					</td>
-							<td width="80%" align="justify">
+							<td width="70%" align="justify">
 								This use case is about discovering the file tree of a Unix system and building a model representing it. The model produced conforms to a very simple Unix file system metamodel.
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/implementation.png"  />
 							</td>
 						</tr>
 					</table>
@@ -78,23 +86,14 @@
 				<li>
 	    			<table width="100%">
 						<tr>
-							<td width="20%" valign="center">
-					    		<a href="useCases/JavaAbstractSyntax/"><img src="useCases/resources/buttons/JavaAbstractSyntax_button_y.jpg"/></a>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="JavaAbstractSyntax">Java Abstract Syntax</a> </h2>
 		  					</td>
-							<td width="80%" align="justify">
+							<td width="70%" align="justify">
 								This use case is about discovering a full abstract syntax tree (AST) of the code (statements, expressions, annotations and Javadoc) taken from a Java compilation unit (typically a Class), and building a model representing it.
 							</td>
-						</tr>
-					</table>
-	    		</li>
-	    		<li>
-	    			<table width="100%">
-						<tr>
-							<td width="20%" valign="bottom">
-					    		<a href="useCases/RelationalDBSchema/"><img src="useCases/resources/buttons/RelationalDBSchema_button_y.jpg"/></a>
-		  					</td>
-							<td width="80%" align="justify">
-								This use case is about discovering information on database schemas from real databases stored into a DBMS. The objective is to express the database's schemas as models that conform to a database's schema metamodel.
+							<td width="10%" align="center">		
+								<img src="../../resources/images/specification.png"  />
 							</td>
 						</tr>
 					</table>
@@ -102,11 +101,29 @@
 	    		<li>
 	    			<table width="100%">
 						<tr>
-							<td width="20%" valign="bottom">
-					    		<a href="useCases/RelationalDBContent/"><img src="useCases/resources/buttons/RelationalDBContent_button_y.jpg"/></a>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="RelationalDBSchema">Relational Database Schema</a> </h2>
 		  					</td>
-							<td width="80%" align="justify">
+							<td width="70%" align="justify">
+								This use case is about discovering information on database schemas from real databases stored into a DBMS. The objective is to express the database's schemas as models that conform to a database's schema metamodel.
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/specification.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="RelationalDBContent">Relational Database Content</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
 								This use case is about discovering information on database contents (i.e. tuples) from real databases stored into a DBMS. The objective is to express the database's contents as models that conform to a database's content metamodel.
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/specification.png"  />
 							</td>
 						</tr>
 					</table>
