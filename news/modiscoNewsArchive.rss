@@ -17,9 +17,26 @@
 			See <a href="http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf">http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf</a> for getting the flyer-poster.
 			</p>
 		</description>
-		<pubDate>Wednesday, 3 Jan 2007 17:00:00 CET</pubDate>
+		<pubDate>Wednesday, 5 Jan 2007 17:00:00 CET</pubDate>
 	</item>
 	-->
+	
+	<item>
+		<title>Use cases sources are now also available from the MoDisco CVS</title>
+		<link>http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco</link>
+		<description>
+			<p>
+			The "Bugzilla Metrics" and "Unix File System" use cases sources have just been committed into the MoDisco CVS.
+			</p>
+			<p>
+			See <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco">http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco</a> for navigating through the MoDisco CVS.
+			</p>
+			<p>
+			See <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/use-cases">http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/use-cases</a> for getting the use cases sources.
+			</p>
+		</description>
+		<pubDate>Monday, 5 Feb 2007 17:00:00 CET</pubDate>
+	</item>
 	
 	<item>
 		<title>The complex and complete "Bugzilla Metrics" new MoDisco use case is now available</title>
