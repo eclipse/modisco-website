@@ -164,6 +164,7 @@
 		</td>
 		<td>
 			First complete version of the <b>Bugzilla Metrics</b> use case (with all the required resources including the used metamodels).
+			<br />All the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/use-cases/BugzillaMetrics_MoDisco-UseCase/">MoDisco CVS</a>
 		</td>		
 		</tr>
 		

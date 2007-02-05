@@ -148,7 +148,8 @@
 		</a>
 		</td>
 		<td>
-			Although being already usable, the provided prototype will be improved soon.
+			A first version of the prototype.
+			<br />All the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/use-cases/UnixFileSystem/">MoDisco CVS</a>
 		</td>		
 		</tr>
 		
