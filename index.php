@@ -28,7 +28,7 @@
 	#
 	
 	include('../news/scripts/news.php');
-	$modisconews = get_modisconews(5);
+	$modisconews = get_modisconews(10);
 		
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
