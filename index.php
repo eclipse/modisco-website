@@ -143,6 +143,18 @@
 						</tr>
 					</table>
 				</li>
+				<li>
+					<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+				                <b><a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco">CVS</a></b>
+		  					</td>
+							<td align="right">
+								<a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco"><img align="right" src="../resources/images/cvs.gif" valign="top"/></a>
+							</td>
+						</tr>
+					</table>
+				</li>
 			</ul>
 		</div>
 
