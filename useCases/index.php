@@ -53,7 +53,7 @@
 	    <div class="homeitem3col">
 			<h3>List of use cases</h3>
 	    	<ul class="midlist">
-				<li>
+				<li style="list-style:none">
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="middle">
@@ -68,7 +68,7 @@
 						</tr>
 					</table>
 	    		</li>
-	    		<li>
+	    		<li style="list-style:none">
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="middle">
@@ -83,7 +83,7 @@
 						</tr>
 					</table>
 	    		</li>
-				<li>
+				<li style="list-style:none">
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="middle">
@@ -98,7 +98,7 @@
 						</tr>
 					</table>
 	    		</li>
-	    		<li>
+	    		<li style="list-style:none">
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="middle">
@@ -113,7 +113,7 @@
 						</tr>
 					</table>
 	    		</li>
-	    		<li>
+	    		<li style="list-style:none">
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="middle">
