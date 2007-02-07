@@ -99,9 +99,7 @@
 		<td ALIGN=center><h4>Choose a use case</h4></td>
 		
 		<td align="center">
-		<a href="../RelationalDBSchema/">
-			<img src="../resources/buttons/RelationalDBSchema_button_y.jpg"/>
-		</a>
+			<h2> <a href="../RelationalDBSchema/">Relational Database Schema</a> </h2>
 		</td>
 		
 		<td>
