@@ -78,7 +78,7 @@
 	  		<br/><br/>
 			We defined this metamodel, which has been designed for describing the database contents, by studying the SQL language and several database samples. This metamodel is available at the <a href="#download">Download section</a>.
 			<br/><br/>
-			We provide below a short excerpt, representing a tuple of the simple <i>Employees</i> table described <b><a href="../RelationalDBSchema/RelationalDBSchema.php#RelationalDBSchema_ModelExcerpt">here<a></b>, of a model (in Ecore format) created by using this discoverer:	
+			We provide below a short excerpt, representing a tuple of the simple <i>Employees</i> table described <b><a href="../RelationalDBSchema/RelationalDBSchema.php#RelationalDBSchema_ModelExcerpt">here</a></b>, of a model (in Ecore format) created by using this discoverer:	
 	  	</p>
 	  	<p align="center">
 	  		<img src="../resources/excerpts/RelationalDBContent_ModelExcerpt.png"/>
