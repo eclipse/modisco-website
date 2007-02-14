@@ -93,7 +93,27 @@
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="relatedUseCases">Related Use Cases</a></h4>
 		
 		<p align="justify">
-	    	None at the current time.
+	    	<table>
+			<COLGROUP>
+				<COL width="15%">
+				<COL width="20%">
+				<COL width="65%">
+				<tr>
+					<td ALIGN=center><h4>Choose a use case</h4></td>
+		
+					<td align="center">
+						<h2> <a href="http://www.eclipse.org/m2m/atl/usecases/SoftwareQualityControlToolsInteroperability/">Software Quality Control Tools Interoperability (Bugzilla, Mantis, Excel)</a> </h2>
+					</td>
+		
+					<td>
+	    				This <a href="http://www.eclipse.org/m2m/atl/">Eclipse/M2M ATL</a> use case presents an implementation of bridges between different bug tracking tools like Bugzilla and Mantis. We also consider that bug tracking information may be handled in a generic tool such as Microsoft Excel.
+	    				<br />
+	    				<b>Note that the Bugzilla models created/used within this ATL use case may also be used in this MoDisco use case (and vice-versa).</b>
+    				</td>
+    	
+    			</tr>
+    			<tr></tr>
+    		</table>
     	</p>
 		
 		<br>
