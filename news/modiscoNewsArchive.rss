@@ -22,6 +22,26 @@
 	-->
 	
 	<item>
+		<title>MoDisco model handlers' source code is now available from the MoDisco CVS</title>
+		<link>http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/plugins/</link>
+		<description>
+			<p>
+				Interfaces and implementation for EMF have been committed. A model handler's implementation is a driver for handling models, either by wrapping an existing modeling framework (EMF, MDR/JMI, etc) or by implementing a brand new one.
+			</p>
+			<p>
+				New model handler implementations will be committed soon.
+			</p>
+			<p>
+				This first abstraction layer will let MoDisco use some models from different sources (XMI 1.x/XMI 2.x for instance) and from different modeling spaces (MOF, Ecore, KM3...). 
+			</p>
+			<p>
+				The source code of MoDisco's model handlers is available on CVS: <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/plugins/">http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/plugins/</a>
+			</p>
+		</description>
+		<pubDate>Wednesday, 14 Feb 2007 17:30:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>Use cases sources are now also available from the MoDisco CVS</title>
 		<link>http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco</link>
 		<description>
