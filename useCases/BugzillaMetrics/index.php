@@ -206,9 +206,9 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="http://www.bugzilla.org/">Bugzilla Defect-Tracking System</a></li>
-				<li>----------</li>
+				<li style="list-style:none">----------</li>
 				<li><a href="http://www.w3.org/Graphics/SVG/">W3C SVG (Scalable Vector Graphics) Specification</a></li>
-				<li>----------</li>
+				<li style="list-style:none">----------</li>
 				<li><a href="http://www.microsoft.com/office/xml/default.mspx">Microsoft Office 2003 XML Reference Schemas (including Excel SpreadsheetML)</a></li>
 			</ul>
 		</div>

@@ -173,13 +173,12 @@
 				<li><a href="about.php">Component description</a></li>
 				<!--<li><a href="doc/MoDisco_Flyer-Poster_1.0.pdf">Component flyer-poster</a></li>-->
 				<li><a href="doc/MoDisco_Overview_1.0.pdf">Component overview (slides)</a></li>
-				<li>----------</li>
+				<li style="list-style:none">----------</li>
 				<li><a href="doc/">MoDisco Documentation</a></li>
-				<li>----------</li>
+				<li style="list-style:none">----------</li>
 				<li><b><a href="useCases">MoDisco Use Cases</a></b></li>
-				<li>----------</li>
+				<li style="list-style:none">----------</li>
 				<li><b><a href="http://wiki.eclipse.org/index.php/MoDisco">MoDisco Wiki Page</a></b></li>
-				<li>----------</li>
 			</ul>
 		</div>
 		

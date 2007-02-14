@@ -185,7 +185,7 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="http://java.sun.com/">The Java Language</a></li>
-				<li>----------</li>
+				<li style="list-style:none">----------</li>
 				<li><a href="http://help.eclipse.org/help32/index.jsp?topic=/org.eclipse.jdt.doc.isv/reference/apt/overview-summary.html">The Eclipse JDT Java API</a></li>
 			</ul>
 		</div>

@@ -201,9 +201,9 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="http://www.mysql.com">MySQL Database Management System</a></li>
-				<li>----------</li>
+				<li style="list-style:none">----------</li>
 				<li><a href="http://www.postgresql.org/">PostgreSQL Database Management System</a></li>
-				<li>----------</li>
+				<li style="list-style:none">----------</li>
 				<li><a href="http://www.oracle.com">Oracle Database Management System</a></li>
 			</ul>
 		</div>
