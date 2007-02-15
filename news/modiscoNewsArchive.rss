@@ -22,6 +22,20 @@
 	-->
 	
 	<item>
+		<title>The "Relational Database Information" discovery tool is now available from the MoDisco tool box</title>
+		<link>http://www.eclipse.org/gmt/modisco/toolBox/RelationalDBInformation/</link>
+		<description>
+			<p>
+			The "Relational Database Information" discovery tool has just been published into the MoDisco "Tool box" section. This simple tool (which is an Eclipse plug-in based upon MoDisco) is fully implemented and provides facilities for buidling database schema or content models from already existing databases.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/RelationalDBInformation/">http://www.eclipse.org/gmt/modisco/toolBox/RelationalDBInformation/</a> for accessing the tool.
+			</p>
+		</description>
+		<pubDate>Thursday, 15 Feb 2007 17:00:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>Creation and initialization of the MoDisco "Tool Box" section</title>
 		<link>http://www.eclipse.org/gmt/modisco/toolBox</link>
 		<description>

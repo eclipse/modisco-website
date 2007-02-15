@@ -75,7 +75,7 @@
 	  		<b>"Relational Database Information" Tool Overview</b>
 		</p>
 		<p align="justify">
-			The tool is composed of two <a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">discoverers</a>. They retrieve, by using the JDBC Java API, the information concerning the database schema and content from a specified database (stored into a DBMS such as MySQL for example) and inject these data into models. These created models respectively conform to the <b>RelationalDBSchema</b> and <b>RelationalDBContent</b> metamodels.
+			The tool is composed of two <a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">discoverers</a> which are implemented using the generic interfaces provided by the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/plugins/">"org.eclipse.gmt.modisco.core" MoDisco base plug-in</a>. They retrieve, by calling the JDBC Java API, the information concerning the database schema and content from a specified database (stored into a DBMS such as MySQL for example) and inject these data into models. These created models respectively conform to the <b>RelationalDBSchema</b> and <b>RelationalDBContent</b> metamodels.
 	  		<br/><br/>
 			We defined these metamodel, which has been specificaly designed for describing the database information, by studying the SQL language and more particularly the <i>CREATE</i> statement. The two metamodels are available at the <a href="#download">Download section</a>.
 			<br/><br/>
