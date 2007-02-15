@@ -108,7 +108,7 @@
 
 		<td align="center">
 		<!--<a href="http://www.eclipse.org/downloads/download.php?file=/gmt/modisco/useCases/JavaAbstractSyntax/downloads/???_Description.pdf">-->
-			<img src="../resources/buttons/Description_button.jpg"/>
+			<img src="../../resources/buttons/Description_button.jpg"/>
 		<!--</a>-->
 		</td>
 		<td>
@@ -121,7 +121,7 @@
 
 		<td align="center">
 		<!--<a href="http://www.eclipse.org/downloads/download.php?file=/gmt/modisco/useCases/JavaAbstractSyntax/downloads/???_InstallationUserGuide.pdf">-->
-			<img src="../resources/buttons/InstallationUserGuide_button.jpg"/>
+			<img src="../../resources/buttons/InstallationUserGuide_button.jpg"/>
 		<!--</a>-->
 		</td>
 		<td>
@@ -145,7 +145,7 @@
 
 		<td align="center">
 		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#JavaAbstractSyntax">
-			<img src="../resources/buttons/Metamodel_button.jpg"/>
+			<img src="../../resources/buttons/Metamodel_button.jpg"/>
 		</a>
 		</td>
 		<td>
@@ -158,7 +158,7 @@
 
 		<td align="center">
 		<!--<a href="http://www.eclipse.org/downloads/download.php?file=/gmt/modisco/useCases/JavaAbstractSyntax/downloads/JavaAbstractSyntaxDiscoverer_v1-0.zip">-->
-			<img src="../resources/buttons/Discoverer_button.jpg"/>
+			<img src="../../resources/buttons/Discoverer_button.jpg"/>
 		<!--</a>-->
 		</td>
 		<td>

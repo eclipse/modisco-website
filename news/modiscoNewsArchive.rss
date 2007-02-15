@@ -22,6 +22,24 @@
 	-->
 	
 	<item>
+		<title>Creation and initialization of the MoDisco "Tool Box" section</title>
+		<link>http://www.eclipse.org/gmt/modisco/toolBox</link>
+		<description>
+			<p>
+			We just create and initialize the MoDisco tool box. In the initial version, we provide the "Relational Database Information" discovery tool as well as pointers to the already existing ATL and AMW Eclipse components.   
+			Of course, the tool box will be updated regularly: documentation and implementations will be added to already existing tools, new ones will be described, etc.
+			</p>
+			<p>
+			Do not hesitate to post messages on the MoDisco newsgroup (eclipse.modeling.gmt.modisco) if you have any particular interests and/or questions about any of the presented tools. We are also always interested by new ideas and propositions of possible other model discovery tools based upon the MoDisco approach. 
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/toolBox">http://www.eclipse.org/gmt/modisco/toolBox</a> for accessing the tool box.
+			</p>
+		</description>
+		<pubDate>Thursday, 15 Feb 2007 16:30:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>MoDisco model handlers' source code is now available from the MoDisco CVS</title>
 		<link>http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/plugins/</link>
 		<description>

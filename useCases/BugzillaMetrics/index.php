@@ -130,7 +130,7 @@
 
 		<td align="center">
 		<a href="downloads/BugzillaMetrics_UseCaseDescription.pdf">
-			<img src="../resources/buttons/Description_button.jpg"/>
+			<img src="../../resources/buttons/Description_button.jpg"/>
 		</a>
 		</td>
 		<td>
@@ -143,7 +143,7 @@
 
 		<td align="center">
 		<a href="downloads/BugzillaMetrics_InstallationUserGuide.pdf">
-			<img src="../resources/buttons/InstallationExecutionGuide_button.jpg"/>
+			<img src="../../resources/buttons/InstallationExecutionGuide_button.jpg"/>
 		</a>
 		</td>
 		<td>
@@ -166,7 +166,7 @@
 
 		<td align="center">
 		<a href="metamodels.php">
-			<img src="../resources/buttons/Metamodels_button.jpg"/>
+			<img src="../../resources/buttons/Metamodels_button.jpg"/>
 		</a>
 		</td>
 		<td>
@@ -179,7 +179,7 @@
 
 		<td align="center">
 		<a href="downloads/BugzillaMetrics_MoDisco-UseCase_v1-0.zip">
-			<img src="../resources/buttons/Prototype_button.jpg"/>
+			<img src="../../resources/buttons/Prototype_button.jpg"/>
 		</a>
 		</td>
 		<td>

@@ -35,6 +35,10 @@
 	    	MoDisco provides a set of <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">model discovery</a> use cases</b> covering different technical spaces and different domains of application. These use cases are concrete examples of how <b>metamodel-driven reverse-engineering (MDRE)</b> and corresponding <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">discoverers</a></b> can be applied to build models from already existing real-life systems, and also of how these generated models can then be used. Some of these use cases are simple ones, some others are more elaborated and reuse basic use cases or parts of other ones.
     	</p>
     	<p align="justify">
+			Other Eclipse components have such a use case section like the <a href="http://www.eclipse.org/gmt/amw/usecases/">GMT AMW</a> one or 
+			the <a href="http://www.eclipse.org/m2m/atl/usecases/">M2M ATL</a> one.
+		</p>
+    	<p align="justify">
 	    	A general description is given for each of these use cases, as well as some more precise documentations for many of them. For some of them, prototypes have already been implemented and are directly downloadable from this website. 
     	</p>
     	<p align="justify">
@@ -98,43 +102,21 @@
 						</tr>
 					</table>
 	    		</li>
-	    		<li style="list-style:none">
-	    			<table width="100%">
-						<tr>
-							<td width="20%" valign="middle">
-					    		<h2> <a href="RelationalDBSchema">Relational Database Schema</a> </h2>
-		  					</td>
-							<td width="70%" align="justify">
-								This use case is about discovering information on database schemas from real databases stored into a DBMS. The objective is to express the database's schemas as models that conform to a database's schema metamodel.
-							</td>
-							<td width="10%" align="center">		
-								<img src="../../resources/images/specification.png"  />
-							</td>
-						</tr>
-					</table>
-	    		</li>
-	    		<li style="list-style:none">
-	    			<table width="100%">
-						<tr>
-							<td width="20%" valign="middle">
-					    		<h2> <a href="RelationalDBContent">Relational Database Content</a> </h2>
-		  					</td>
-							<td width="70%" align="justify">
-								This use case is about discovering information on database contents (i.e. tuples) from real databases stored into a DBMS. The objective is to express the database's contents as models that conform to a database's content metamodel.
-							</td>
-							<td width="10%" align="center">		
-								<img src="../../resources/images/specification.png"  />
-							</td>
-						</tr>
-					</table>
-	    		</li>
 	    	</ul>
 	    </div>
 		<hr class="clearer" />
 	</div>
 
+	<!-- Right Part -->
 	<div id="rightcolumn">
-
+		<div class="sideitem">
+			<h6>Related Links</h6>
+			<ul>
+				<li><a href="http://www.eclipse.org/m2m/atl/usecases/">Eclipse/M2M ATL Use Cases</a></li>
+				<li style="list-style:none">----------</li>
+				<li><a href="http://www.eclipse.org/gmt/amw/usecases/">Eclipse/GMT AMW Use Cases</a></li>
+			</ul>
+		</div>
 	</div>
 
 EOHTML;

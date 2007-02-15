@@ -108,7 +108,7 @@
 
 		<td align="center">
 		<a href="downloads/UnixFSDiscoverer_InstallUse.pdf">
-			<img src="../resources/buttons/InstallationUserGuide_button.jpg"/>
+			<img src="../../resources/buttons/InstallationUserGuide_button.jpg"/>
 		</a>
 		</td>
 		<td>
@@ -131,7 +131,7 @@
 
 		<td align="center">
 		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#UnixFS">
-			<img src="../resources/buttons/Metamodel_button.jpg"/>
+			<img src="../../resources/buttons/Metamodel_button.jpg"/>
 		</a>
 		</td>
 		<td>
@@ -144,7 +144,7 @@
 
 		<td align="center">
 		<a href="downloads/UnixFSDiscoverer.zip">
-			<img src="../resources/buttons/Discoverer_button.jpg"/>
+			<img src="../../resources/buttons/Discoverer_button.jpg"/>
 		</a>
 		</td>
 		<td>
