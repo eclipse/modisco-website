@@ -182,6 +182,16 @@
 	<!-- Right Part -->
 	<div id="rightcolumn">
 		<div class="sideitem">
+			<h6>General Information</h6>
+			<ul>
+				<li>November 2006</li>
+				<li style="list-style:none"><br/></li>
+				<li>By <a href="http://www.sciences.univ-nantes.fr/lina/atl/contrib/mikael_barbero">Mikael Barbero (INRIA)</a></li>
+				<li style="list-style:none"><br/></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+			</ul>
+		</div>
+		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="http://java.sun.com/">The Java Language</a></li>
