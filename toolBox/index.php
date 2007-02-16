@@ -32,7 +32,7 @@
 		<img align="right" src="../resources/logoMoDiscoSmall.jpg" valign="top" style="padding-left: 10px;" alt="MoDisco Logo" />
 
     	<p align="justify">
-	    	MoDisco provides a set of tools which may be part of a <b>metamodel-driven reverse-engineering (MDRE)</b> framework or may be used in such a MDRE process. Some of these tools are simple <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">discoverers</a></b>, concerning different technical spaces and different domains of application, that allow injecting raw data into models. Some others are more elaborated tools that allow performing different kinds of complex operation on models.
+	    	MoDisco provides a set of tools which may be part of a <b>metamodel-driven reverse-engineering (MDRE)</b> framework or may be used in such a MDRE process (for instance in <a href="../useCases">MoDisco use cases</a>). Some of these tools are simple <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">discoverers</a></b>, concerning different technical spaces and different domains of application, that allow injecting raw data into models. Some others are more elaborated tools that allow performing different kinds of complex operation on models.
     	</p>
     	<p align="justify">
 	    	A least a general description and first implementation are given for each of the provided tools, as well as some more precise documentations for many of them. For the more advanced tools which are independent projects or other Eclipse components, the link to the official website is provided.
@@ -61,7 +61,7 @@
 					    		<h2> <a href="RelationalDBInformation">Relational Database Information Discovery Tool</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
-								This tool is about <b>discovering information from concrete relational databases</b> stored into a DBMS. It is composed of two distinct but complementary discoverers: the retrieved information concerns both <b>the schema</b> (i.e. the structure) and <b>the tuples</b> (i.e. the content) of a database. The objective of this tool is to build, from this information, models that conform to a database's schema metamodel or to a database's content metamodel.
+								This generic tool is about <b>discovering information from any concrete relational database</b> stored into a DBMS. It is composed of two distinct but complementary discoverers: the retrieved information concerns both <b>the schema</b> (i.e. the structure) and <b>the tuples</b> (i.e. the content) of a database. The objective of this tool is to <b>build models</b>, from this information, that conform to a database's schema metamodel or to a database's content metamodel.
 							</td>
 							<td width="10%" align="center">		
 								<img src="../../resources/images/completion.png"  />

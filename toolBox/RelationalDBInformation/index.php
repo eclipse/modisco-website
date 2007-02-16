@@ -63,7 +63,7 @@
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="overview">Overview</a></h4>
 		
 		<p align="justify">
-	    	This tool is about discovering information from concrete relational databases stored into a DBMS. It is composed of two distinct but complementary discoverers: the retrieved information concerns both the schema (i.e. the structure) and the tuples (i.e. the content) of a database. The objective is to express this information as models that conform to a database's schema metamodel or to a database's content metamodel.
+	    	This generic tool is about discovering information from any concrete relational database stored into a DBMS. It is composed of two distinct but complementary discoverers: the retrieved information concerns both the schema (i.e. the structure) and the tuples (i.e. the content) of a database. The objective is to express this information as models that conform to a database's schema metamodel or to a database's content metamodel.
 	    	<br /><br />
 	    	This tool is provided by <b><a href="http://www.inria.fr/recherche/equipes/atlas.en.html">INRIA ATLAS</a></b> and its development has been supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
 	    	<br /><br />
