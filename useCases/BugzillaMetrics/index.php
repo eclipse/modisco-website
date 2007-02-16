@@ -135,7 +135,6 @@
 		</td>
 		<td>
 			<b>"Bugzilla Metrics" Use Case - Description</b>: General description of the use case, its objectives, its architecture and overall process, the different metamodels and transformations used, etc.
-			<br /> Available soon...
 		</td>		
 		</tr>
 		<tr>

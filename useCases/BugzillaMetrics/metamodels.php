@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "MoDisco Use Case - Bugzilla Metrics: Used Metamodels";
+	$pageTitle 		= "MoDisco Use Case - Bugzilla Metrics: Metamodels";
 	$pageKeywords	= "";
 	$pageAuthor		= "Hugo Bruneliere";
 	
@@ -26,7 +26,7 @@
 
 	<!-- Main part -->
 	<div id="midcolumn">
-		<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Use Case - Bugzilla Metrics: Used Metamodels</h1>
+		<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Use Case - Bugzilla Metrics: Metamodels</h1>
 
 		<img align="right" src="../../resources/logoMoDiscoSmall.jpg" valign="top" style="padding-left: 10px;" alt="MoDisco Logo" />
     	<p>
