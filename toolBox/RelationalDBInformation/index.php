@@ -113,7 +113,25 @@
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="relatedUseCases">Related Use Cases</a></h4>
 		
 		<p align="justify">
-	    	None at the current time.
+	    	<table>
+			<COLGROUP>
+				<COL width="15%">
+				<COL width="20%">
+				<COL width="65%">
+				<tr>
+					<td ALIGN=center><h4>Choose a use case</h4></td>
+		
+					<td align="center">
+						<h2> <a href="../../useCases/BIRTSampleDB">Eclipse/BIRT Project <br/>Sample Database</a> </h2>
+					</td>
+		
+					<td>
+	    				This complete use case covers a complex "Model Discovery" phase. It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of this model discovery tool, and then generating a specific ClassicModels model. 
+    				</td>
+    	
+    			</tr>
+    			<tr></tr>
+    		</table>
     	</p>
 		
 		<br>
@@ -206,6 +224,16 @@
 	
 	<!-- Right Part -->
 	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>General Information</h6>
+			<ul>
+				<li>February 2007</li>
+				<li style="list-style:none"><br/></li>
+				<li>By <a href="http://www.sciences.univ-nantes.fr/lina/atl/contrib/bruneliere">Hugo Bruneliere (INRIA)</a></li>
+				<li style="list-style:none"><br/></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+			</ul>
+		</div>
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>

@@ -32,7 +32,7 @@
 		<img align="right" src="../resources/logoMoDiscoSmall.jpg" valign="top" style="padding-left: 10px;" alt="MoDisco Logo" />
 
     	<p align="justify">
-	    	MoDisco provides a set of <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">model discovery</a> use cases</b> covering different technical spaces and different domains of application. These use cases are concrete examples of how <b>metamodel-driven reverse-engineering (MDRE)</b> and corresponding <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">discoverers</a></b> can be applied to build models from already existing real-life systems, and also of how these generated models can then be used. Some of these use cases are simple ones, some others are more elaborated and reuse basic use cases or parts of other ones.
+	    	MoDisco provides a set of <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">model discovery</a> use cases</b> covering different technical spaces and different domains of application. These use cases are concrete examples of how <b>metamodel-driven reverse-engineering (MDRE)</b> and corresponding <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">discoverers</a></b> can be applied to build models from already existing real-life systems, and also of how these generated models can then be used. Some of these use cases are simple ones, some others are more elaborated and reuse basic use cases or components of the <a href="../toolBox">MoDisco tool box</a>.
     	</p>
     	<p align="justify">
 			Other Eclipse components have such a use case section like the <a href="http://www.eclipse.org/gmt/amw/usecases/">GMT AMW</a> one or 
@@ -65,6 +65,21 @@
 		  					</td>
 							<td width="70%" align="justify">
 								This complete use case covers both the "Model Discovery" and "Model Understanding" phases. It is about discovering bugs information expressed in HTML format, building a Bugzilla model from these data, computing it in order to produce a Metrics model and finally building some visualizations of the generated metrics. 
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/completion.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="BIRTSampleDB">Eclipse/BIRT Project <br/>Sample Database</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This complete use case covers a complex "Model Discovery" phase. It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of the <a href="../toolBox/RelationalDBInformation/">generic "Relational Database Information" discovery tool</a> (MoDisco tool box), and then generating a specific ClassicModels model. 
 							</td>
 							<td width="10%" align="center">		
 								<img src="../../resources/images/completion.png"  />

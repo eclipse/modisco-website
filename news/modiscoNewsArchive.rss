@@ -22,6 +22,23 @@
 	-->
 	
 	<item>
+		<title>The complete "Eclipse/BIRT Project Sample Database" new MoDisco use case is now available</title>
+		<link>http://www.eclipse.org/gmt/modisco/useCases/BIRTSampleDB/</link>
+		<description>
+			<p>
+			The "Eclipse/BIRT Project Sample Database" use case has just been published into the MoDisco "Use Cases" section. This complex use case contains a general description but also a complete implementation.
+			</p>
+			<p>
+			It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of the <a href="http://www.eclipse.org/gmt/modisco/toolBox/RelationalDBInformation/">generic "Relational Database Information" discovery tool</a> (from the <a href="http://www.eclipse.org/gmt/modisco/toolBox">MoDisco tool box</a>), and then generating a specific ClassicModels model. 
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/useCases/BIRTSampleDB/">http://www.eclipse.org/gmt/modisco/useCases/BIRTSampleDB/</a> for consulting the use case.
+			</p>
+		</description>
+		<pubDate>Friday, 17 Feb 2007 17:30:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>The "Relational Database Information" discovery tool is now available from the MoDisco tool box</title>
 		<link>http://www.eclipse.org/gmt/modisco/toolBox/RelationalDBInformation/</link>
 		<description>
