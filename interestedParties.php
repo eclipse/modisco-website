@@ -141,10 +141,10 @@
 	    			<table width="100%">
 						<tr>
 							<td width="80%" valign="bottom">
-	    			    		<a href="http://www.univaq.it/inglese/eg-index.html">University of L'Aquila</a>
+	    			    		<a href="http://www.di.univaq.it">University of L'Aquila</a>
 		  					</td>
 							<td align="right">
-								<a href="http://www.univaq.it/inglese/eg-index.html"><img align="right" src="./resources/logoAquila.jpg" height="65" /></a>
+								<a href="http://www.di.univaq.it"><img align="right" src="./resources/logoAquila.jpg" height="65" /></a>
 							</td>
 						</tr>
 					</table>
