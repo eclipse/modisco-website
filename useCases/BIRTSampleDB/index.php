@@ -116,7 +116,7 @@
 		<td ALIGN=center><h4>Choose a document</h4></td>
 
 		<td align="center">
-		<!--<a href="downloads/BugzillaMetrics_UseCaseDescription.pdf">-->
+		<!--<a href="downloads/BIRTSampleDB_UseCaseDescription.pdf">-->
 			<img src="../../resources/buttons/Description_button.jpg"/>
 		<!--</a>-->
 		</td>
@@ -129,13 +129,12 @@
 		<td></td>
 
 		<td align="center">
-		<!--<a href="downloads/BugzillaMetrics_InstallationUserGuide.pdf">-->
+		<a href="downloads/BIRTSampleDB_InstallationUserGuide.pdf">
 			<img src="../../resources/buttons/InstallationExecutionGuide_button.jpg"/>
-		<!--</a>-->
+		</a>
 		</td>
 		<td>
-			<b>"Eclipse/BIRT Project Sample Database" Use Case - Installation & Execution Guide</b>: How to install and execute this use case for building a ClassicModels model from the tuples stored into the "Classic Models" database. 
-			<br>Not yet available 
+			<b>"Eclipse/BIRT Project Sample Database" Use Case - Installation & Execution Guide</b>: How to install and execute this use case for building a ClassicModels model from the tuples stored into the "Classic Models" database.
 		</td>		
 		</tr>
 		
