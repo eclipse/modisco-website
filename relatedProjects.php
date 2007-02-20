@@ -58,7 +58,7 @@
 	    			<table width="100%">
 						<tr>
 							<td width="30%" valign="bottom">
-					    		<a href="http://www.altova.com/features_reverse_engineer.html">Altova UModel® 2006</a>
+					    		<a href="http://www.altova.com/features_reverse_engineer.html">Altova UModel 2006</a>
 		  					</td>
 							<td align="justify">
 								A reverse engineering tool that imports Java or C# source code and generates UML diagrams to facilitate analysis, enhancement, or reuse.
@@ -110,6 +110,18 @@
 		  					</td>
 							<td align="justify">
 								This open-source project offers a framework and an extendable set of tools to ease the understanding and valuation of the design and architecture of complex software written in java. It provides dependency analysis, metrics, design rule checking and impact analysis.
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="30%" valign="bottom">
+					    		<a href="http://www.modelcvs.org">ModelCVS: A Semantic Infrastructure for Model-based Tool Integration</a>
+		  					</td>
+							<td align="justify">
+								This project offers a system aiming at model-based tool integration. It enables transparent transformation of models between different tools languages and exchange formats, as well as versioning exploiting the rich syntax and semantics of models, thus going beyond existing low-level model transformation approaches. For this, ModelCVS utilizes semantic technologies in terms of ontologies and supports different integration patterns at the metamodel level.
 							</td>
 						</tr>
 					</table>
