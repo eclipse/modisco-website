@@ -107,26 +107,13 @@
 		<td ALIGN=center><h4>Choose a document</h4></td>
 
 		<td align="center">
-		<!--<a href="http://www.eclipse.org/downloads/download.php?file=/gmt/modisco/useCases/JavaAbstractSyntax/downloads/???_Description.pdf">-->
-			<img src="../../resources/buttons/Description_button.jpg"/>
-		<!--</a>-->
-		</td>
-		<td>
-			<b>JavaAbstractSyntaxDiscoverer Description</b>: General description of the discoverer, its architecture, its possible uses, the JavaAbstractSyntax metamodel, etc.
-			<br>Available soon... 
-		</td>		
-		</tr>
-		<tr>
-		<td></td>
-
-		<td align="center">
 		<!--<a href="http://www.eclipse.org/downloads/download.php?file=/gmt/modisco/useCases/JavaAbstractSyntax/downloads/???_InstallationUserGuide.pdf">-->
 			<img src="../../resources/buttons/InstallationUserGuide_button.jpg"/>
 		<!--</a>-->
 		</td>
 		<td>
 			<b>JavaAbstractSyntaxDiscoverer Installation & User Guide</b>: How to install and use the discoverer for building Java AST models from Java compilation units.
-			<br>Available soon... 
+			<br>Not yet available.
 		</td>		
 		</tr>
 		

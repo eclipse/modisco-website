@@ -161,13 +161,12 @@
 		<td></td>
 
 		<td align="center">
-		<!--<a href="downloads/DBInformationDiscoveryTool_InstallationUserGuide.pdf">-->
+		<a href="downloads/RelationalDBInformation_InstallationUserGuide.pdf">
 			<img src="../../resources/buttons/InstallationUserGuide_button.jpg"/>
-		<!--</a>-->
+		</a>
 		</td>
 		<td>
 			<b>Tool Installation & User Guide</b>: How to install and use the discoverer for building database schema or content models from already existing databases.
-			<br>Not yet available 
 		</td>		
 		</tr>
 		

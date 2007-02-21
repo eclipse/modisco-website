@@ -116,19 +116,6 @@
 		<td ALIGN=center><h4>Choose a document</h4></td>
 
 		<td align="center">
-		<!--<a href="downloads/BIRTSampleDB_UseCaseDescription.pdf">-->
-			<img src="../../resources/buttons/Description_button.jpg"/>
-		<!--</a>-->
-		</td>
-		<td>
-			<b>"Eclipse/BIRT Project Sample Database" Use Case - Description</b>: General description of the use case, its objectives, its architecture and overall process, the different metamodels and transformation used, etc.
-			<br>Not yet available 
-		</td>		
-		</tr>
-		<tr>
-		<td></td>
-
-		<td align="center">
 		<a href="downloads/BIRTSampleDB_InstallationUserGuide.pdf">
 			<img src="../../resources/buttons/InstallationExecutionGuide_button.jpg"/>
 		</a>
