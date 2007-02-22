@@ -144,7 +144,19 @@
 	    			    		<a href="http://www.di.univaq.it">University of L'Aquila</a>
 		  					</td>
 							<td align="right">
-								<a href="http://www.di.univaq.it"><img align="right" src="./resources/logoAquila.jpg" height="65" /></a>
+								<a href="http://www.di.univaq.it"><img align="right" src="./resources/logoAquila.png" height="65" /></a>
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+	    			    		<a href="http://www.tuwien.ac.at/tu_vienna/">Vienna University of Technology</a>
+		  					</td>
+							<td align="right">
+								<a href="http://www.tuwien.ac.at/tu_vienna/"><img align="right" src="./resources/logoVienna.png" height="65" /></a>
 							</td>
 						</tr>
 					</table>
