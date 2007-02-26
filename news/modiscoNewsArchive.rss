@@ -22,6 +22,20 @@
 	-->
 	
 	<item>
+		<title>The "Java Abstract Syntax" discovery tool is now available from the MoDisco tool box</title>
+		<link>http://www.eclipse.org/gmt/modisco/toolBox/JavaAbstractSyntax/</link>
+		<description>
+			<p>
+			The "Java Abstract Syntax" discovery tool has just been published into the MoDisco "Tool box" section. This simple tool (which is an Eclipse plug-in based upon MoDisco) is fully implemented and provides facilities for buidling Java AST models from Java compilation units.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/JavaAbstractSyntax/">http://www.eclipse.org/gmt/modisco/toolBox/JavaAbstractSyntax/</a> for accessing the tool.
+			</p>
+		</description>
+		<pubDate>Monday, 26 Feb 2007 17:45:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>The complete "Eclipse/BIRT Project Sample Database" new MoDisco use case is now available</title>
 		<link>http://www.eclipse.org/gmt/modisco/useCases/BIRTSampleDB/</link>
 		<description>

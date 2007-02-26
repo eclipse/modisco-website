@@ -14,8 +14,8 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "MoDisco Use Case - Java Abstract Syntax";
-	$pageKeywords	= "";
+	$pageTitle 		= "MoDisco Tool - Java Abstract Syntax Discovery Tool";
+	$pageKeywords	= "Java, Abstract Syntax Tree (AST), Compilation unit, Eclipse JDT";
 	$pageAuthor		= "Hugo Bruneliere";
 	
 	# End: page-specific settings
@@ -26,7 +26,7 @@
 
 	<!-- Main part -->
 	<div id="midcolumn">
-		<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Use Case - Java Abstract Syntax</h1>
+		<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Tool - Java Abstract Syntax Discovery Tool</h1>
 
 		<a name="goals"></a>
 		<img align="right" src="../../resources/logoMoDiscoSmall.jpg" valign="top" style="padding-left: 10px;" alt="MoDisco Logo" />
@@ -54,7 +54,7 @@
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="keywords">Keywords</a></h4>
 		
 		<p align="justify">
-	    	Java, AST (Abstract Syntax Tree), Eclipse JDT 
+	    	Java, Abstract Syntax Tree (AST), Compilation unit, Eclipse JDT 
     	</p>
 		
 		<br>
@@ -62,9 +62,9 @@
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="overview">Overview</a></h4>
 		
 		<p align="justify">
-	    	This use case is about discovering a full abstract syntax tree (AST) of the code (statements, expressions, annotations and Javadoc) taken from a Java compilation unit (typically a Class), and building a model representing it.
+	    	This generic tool is about <b>discovering a full abstract syntax tree (AST)</b> of the code (statements, expressions, annotations and Javadoc) taken from a <b>Java compilation unit</b> (typically a Class). It builds models, representing Java compilation units, which conform to a metamodel designed from the <a href="http://help.eclipse.org/help32/index.jsp?topic=/org.eclipse.jdt.doc.isv/reference/apt/overview-summary.html">Eclipse JDT Java API</a>.
 	    	<br /><br />
-	    	This use case is provided by <b><a href="http://www.inria.fr/recherche/equipes/atlas.en.html">INRIA ATLAS</a></b> and its development is being supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
+	    	This tool is provided by <b><a href="http://www.inria.fr/recherche/equipes/atlas.en.html">INRIA ATLAS</a></b> and its development is being supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
 	    	<br /><br />
 	    	The overall approach is summarized in the following figure:
     	</p>    	
@@ -107,12 +107,12 @@
 		<td ALIGN=center><h4>Choose a document</h4></td>
 
 		<td align="center">
-		<!--<a href="http://www.eclipse.org/downloads/download.php?file=/gmt/modisco/useCases/JavaAbstractSyntax/downloads/???_InstallationUserGuide.pdf">-->
+		<!--<a href="http://www.eclipse.org/downloads/download.php?file=/gmt/modisco/toolBox/JavaAbstractSyntax/downloads/???_InstallationUserGuide.pdf">-->
 			<img src="../../resources/buttons/InstallationUserGuide_button.jpg"/>
 		<!--</a>-->
 		</td>
 		<td>
-			<b>JavaAbstractSyntaxDiscoverer Installation & User Guide</b>: How to install and use the discoverer for building Java AST models from Java compilation units.
+			<b>Java Abstract Syntax Discovery Tool Installation & User Guide</b>: How to install and use the discoverer for building Java AST models from Java compilation units.
 			<br>Not yet available.
 		</td>		
 		</tr>
@@ -144,12 +144,13 @@
 		<td></td>
 
 		<td align="center">
-		<!--<a href="http://www.eclipse.org/downloads/download.php?file=/gmt/modisco/useCases/JavaAbstractSyntax/downloads/JavaAbstractSyntaxDiscoverer_v1-0.zip">-->
+		<a href="downloads/JavaAbstractSyntaxDiscoveryTool_MoDisco-Tool_v1-0.zip">
 			<img src="../../resources/buttons/Discoverer_button.jpg"/>
-		<!--</a>-->
+		</a>
 		</td>
 		<td>
-			First version available soon...
+			First complete version of the <b>Java Abstract Syntax Discovery Tool</b> plug-in (with all the required resources including a use example and the metamodel).
+			All the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/toolbox/org.eclipse.gmt.modisco.javast/">MoDisco CVS</a>
 		</td>		
 		</tr>
 		

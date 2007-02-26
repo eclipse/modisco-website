@@ -102,21 +102,6 @@
 						</tr>
 					</table>
 	    		</li>
-				<li style="list-style:none">
-	    			<table width="100%">
-						<tr>
-							<td width="20%" valign="middle">
-					    		<h2> <a href="JavaAbstractSyntax">Java Abstract Syntax</a> </h2>
-		  					</td>
-							<td width="70%" align="justify">
-								This use case is about discovering a full abstract syntax tree (AST) of the code (statements, expressions, annotations and Javadoc) taken from a Java compilation unit (typically a Class), and building a model representing it.
-							</td>
-							<td width="10%" align="center">		
-								<img src="../../resources/images/specification.png"  />
-							</td>
-						</tr>
-					</table>
-	    		</li>
 	    	</ul>
 	    </div>
 		<hr class="clearer" />
