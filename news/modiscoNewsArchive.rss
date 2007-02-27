@@ -22,6 +22,23 @@
 	-->
 	
 	<item>
+		<title>The complete "SharenGo Java Legacy Reverse-Engineering" new MoDisco use case is now available</title>
+		<link>http://www.eclipse.org/gmt/modisco/useCases/JavaLegacyRE/</link>
+		<description>
+			<p>
+			The "SharenGo Java Legacy Reverse-Engineering" use case has just been published into the MoDisco "Use Cases" section. This complex use case, developed by the <a href="http://www.argia.fr/site-argia/html/accueil.html">Argia-Engineering Company</a>, contains a general description but also a complete implementation.
+			</p>
+			<p>
+			It is about reverse engineering a Java application. It uses the <a href="http://www.eclipse.org/gmt/modisco/toolBox/JavaAbstractSyntax">Java Abstract Syntax discovery tool</a> (from the <a href="http://www.eclipse.org/gmt/modisco/toolBox">MoDisco tool box</a>) to discoverer the abstract syntax tree (AST) of each Java compilation unit (i.e. each source file). The generated models are then analyzed by model transformations in order to produce a <a href="http://www.sharengo.org/">SharenGo</a> business model.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/useCases/JavaLegacyRE/">http://www.eclipse.org/gmt/modisco/useCases/JavaLegacyRE/</a> for consulting the use case.
+			</p>
+		</description>
+		<pubDate>Tuesday, 27 Feb 2007 16:00:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>The "Java Abstract Syntax" discovery tool is now available from the MoDisco tool box</title>
 		<link>http://www.eclipse.org/gmt/modisco/toolBox/JavaAbstractSyntax/</link>
 		<description>

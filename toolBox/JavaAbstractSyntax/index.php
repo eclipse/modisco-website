@@ -91,7 +91,23 @@
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="relatedUseCases">Related Use Cases</a></h4>
 		
 		<p align="justify">
-	    	None at the current time.
+	    	<table>
+			<COLGROUP>
+				<COL width="15%">
+				<COL width="20%">
+				<COL width="65%">
+				<tr>
+					<td ALIGN=center><h4>Choose a use case</h4></td>
+		
+					<td align="center">
+						<h2> <a href="../../useCases/JavaLegacyRE">SharenGo Java Legacy<br/>Reverse-Engineering</a> </h2>
+					</td>
+					<td>
+	    				This complete use case, which covers both the "Model Discovery" and "Model Understanding" phases, is about reverse engineering a Java application. It uses the Java Abstract Syntax discovery tool (from the MoDisco Tool Box) to discoverer the abstract syntax tree (AST) of each Java compilation unit (i.e. each source file). The generated models are then analyzed by model transformations in order to produce a <a href="http://www.sharengo.org/">SharenGo</a> business model.
+    				</td>
+    			</tr>
+    			<tr></tr>
+    		</table>
     	</p>
 		
 		<br>
