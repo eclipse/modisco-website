@@ -62,7 +62,7 @@
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="overview">Overview</a></h4>
 		
 		<p align="justify">
-	    	This complete use case, which covers both the <b>Model Discovery</b> and <b>Model Understanding</b> phases, is about reverse engineering a Java application. It uses the <a href="../toolBox/JavaAbstractSyntax">Java Abstract Syntax discovery tool</a> (from the <a href="../../toolBox">MoDisco tool box</a>) to discoverer the abstract syntax tree (AST) of each Java compilation unit (i.e. each source file). The generated models are then analyzed by model transformations in order to produce a <a href="http://www.sharengo.org/">SharenGo</a> business model.
+	    	This complete use case, which covers both the <b>Model Discovery</b> and <b>Model Understanding</b> phases, is about reverse engineering a Java application. It uses the <a href="../../toolBox/JavaAbstractSyntax">Java Abstract Syntax discovery tool</a> (from the <a href="../../toolBox">MoDisco tool box</a>) to discoverer the abstract syntax tree (AST) of each Java compilation unit (i.e. each source file). The generated models are then analyzed by model transformations in order to produce a <a href="http://www.sharengo.org/">SharenGo</a> business model.
 	    	<br /><br />
 	    	This use case has been developed and provided by <b><a href="http://www.argia.fr/site-argia/html/accueil.html">Argia-Engineering Company</a></b>.
 	    	<br /><br />
@@ -74,7 +74,7 @@
 			<b>"SharenGo Java Legacy Reverse-Engineering" Use Case's Overview</b>
 		</p>
 		<p align="justify">
-			The <b>model discovery</b> step uses the <a href="../toolBox/JavaAbstractSyntax">Java Abstract Syntax discovery tool</a>. This tool produces models representing complete abstract syntax trees of Java source files. 
+			The <b>model discovery</b> step uses the <a href="../../toolBox/JavaAbstractSyntax">Java Abstract Syntax discovery tool</a>. This tool produces models representing complete abstract syntax trees of Java source files. 
 			<br /><br />
 			The <b>model understanding</b> step is about finding business classes and services within the previously produced models. In order to find those classes, it is necessary to implement (in an <a href="http://www.eclipse.org/m2m/atl/">ATL model-to-model transformation</a>) some heuristics. For instance, a business class is a class having BusinessObjectBase as supertype, a business rule is a method throwing a BusinessException, etc.
 			<br /><br />
