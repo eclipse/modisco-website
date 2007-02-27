@@ -102,9 +102,9 @@
 		<td ALIGN=center><h4>Choose a document</h4></td>
 
 		<td align="center">
-		<!--<a href="downloads/JavaLegacyReverseEngineering_InstallationUserGuide.pdf">-->
+		<a href="downloads/JavaLegacyReverseEngineering_InstallationUserGuide.pdf">
 			<img src="../../resources/buttons/InstallationExecutionGuide_button.jpg"/>
-		<!--</a>-->
+		</a>
 		</td>
 		<td>
 			<b>"SharenGo Java Legacy Reverse-Engineering" Use Case - Installation & Execution Guide</b>: How to install and execute this use case for building a SharenGo model from SharenGo Java source files.
@@ -167,7 +167,7 @@
 			<ul>
 				<li>March 2007</li>
 				<li style="list-style:none"><br/></li>
-				<li>By <a href="mailto://benois@argia-engineering">Jerome Benois</a> <br/> and <a href="mailto://belmonte@argia-engineering">Laurent Belmonte</a>  (<a href="http://www.argia.fr/site-argia/html/accueil.html">Argia-Engineering</a>)</li>
+				<li>By <a href="mailto://benois@argia-engineering.fr">Jerome Benois</a> <br/> and <a href="mailto://belmonte@argia-engineering.fr">Laurent Belmonte</a>  (<a href="http://www.argia.fr/site-argia/html/accueil.html">Argia-Engineering</a>)</li>
 				<li style="list-style:none"><br/></li>
 				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
 			</ul>
