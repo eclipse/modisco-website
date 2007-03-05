@@ -114,6 +114,21 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="http://ssel.vub.ac.be/viewcvs/viewcvs.py/PlatformKit/platformkit-java/">Jar2UML Discovery Tool</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This discovery tool, written by <a href="http://ssel.vub.ac.be/ssel/about:members:denniswagelaar">Dennis Wagelaar</a> from the System and Software Engineering Lab (VUB), is about generating <b>UML models</b> from <b>Java APIs</b>. It takes a Jar file as input and generates a UML file (that contains a representation of the API) as output.
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/implementation.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
 	    	</ul>
 	    </div>
 		<hr class="clearer" />
