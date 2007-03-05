@@ -161,6 +161,18 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+	    			    		<a href="http://ssel.vub.ac.be/ssel/">Vrije Universiteit Brussel (VUB): <br />System and Software Engineering lab</a>
+		  					</td>
+							<td align="right">
+								<a href="http://ssel.vub.ac.be/ssel/"><img align="right" src="./resources/logoVUB.png" height="65" /></a>
+							</td>
+						</tr>
+					</table>
+	    		</li>
 	    	</ul>
 		</div>
 		<hr class="clearer" />
