@@ -173,6 +173,18 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+	    			    		<a href="http://www.stragilis.fr/">Stragilis</a>
+		  					</td>
+							<td align="right">
+								<a href="http://www.stragilis.fr/"><img align="right" src="./resources/logoStragilis.png" height="65" /></a>
+							</td>
+						</tr>
+					</table>
+	    		</li>
 	    	</ul>
 		</div>
 		<hr class="clearer" />
