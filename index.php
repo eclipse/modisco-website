@@ -182,9 +182,9 @@
 		<div class="sideitem">
 			<h6>Getting Started</h6>
 			<ul>
-				<li><a href="about.php">Component description</a></li>
-				<!--<li><a href="doc/MoDisco_Flyer-Poster_1.0.pdf">Component flyer-poster</a></li>-->
-				<li><a href="doc/MoDisco_Overview_1.0.pdf">Component overview (slides)</a></li>
+				<li><a href="doc/MoDisco_Flyer-Poster_1.0.pdf">Flyer-poster</a></li>
+				<li><a href="doc/MoDisco_Overview_1.0.pdf">Overview (slides)</a></li>
+				<li><a href="about.php">Description</a></li>
 				<li style="list-style:none">----------</li>
 				<li><a href="doc/">MoDisco Documentation</a></li>
 				<li style="list-style:none">----------</li>
