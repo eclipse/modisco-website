@@ -62,7 +62,7 @@
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="overview">Overview</a></h4>
 		
 		<p align="justify">
-	    	This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering bugs information expressed in HTML format and building a Bugzilla model from these data (<b>Model Discovery</b>). Then, this generated model is computed in order to produce a Metrics model and to finally build different visualizations from these calculated metrics (<b>Model Understanding</b>).
+	    	This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering bugs information expressed in HTML format and building a Bugzilla model from these data (<b>Model Discovery</b>). Then, this generated model is computed in order to produce a Metrics model and to finally build different visualizations from these calculated metrics (<b>Model Understanding</b>). Note that this last part has lead to the implementation of the <a href="../../toolBox/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool (from the MoDisco tool box). 
 	    	<br /><br />
 	    	This use case is provided by <b><a href="http://www.inria.fr/recherche/equipes/atlas.en.html">INRIA ATLAS</a></b> and its development has been supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
 	    	<br /><br />
@@ -77,6 +77,8 @@
 			The <b>Model Discovery</b> phase is implemented by applying the XML Discovery general methodology, i.e. the input file is injected into a <i>XML</i> model which is then transformed into a domain-specific model thanks to an <a href="http://www.eclipse.org/m2m/atl/">ATL model-to-model transformation</a>. The created model conforms to the <i>Bugzilla</i> metamodel.
 	  		<br/><br/>
 	  		The <b>Model Understanding</b> phase is also implemented by using <a href="http://www.eclipse.org/m2m/atl/">ATL model-to-model transformations</a>. A <i>Metrics</i> model, containing the data concerning the computed metrics, is first generated from the <i>Bugzilla</i> model. This <i>Metrics</i> model is then transformed into a <i>Table</i> model that provides a simple tabular representation of the data. After that, different visualization's formats specific models (i.e. <i>HTML</i>, <i>Excel</i> and <i>SVG</i> models) are built from the <i>Table</i> model. These generated models are finally extracted into software readable files.
+	  		<br/>
+	  		This general process corresponds to the one followed by the <a href="../../toolBox/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool (from the MoDisco tool box). 
 	  		<br/><br/>
 			All the metamodels mentioned in the previous schema (and so used within this use case) are available at the <a href="#download">Download section</a>.
 	  	<br/><br/>

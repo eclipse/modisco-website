@@ -84,6 +84,21 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="MetricsVisualizationBuilder">Metrics Visualization Builder</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This generic tool is about <b>building metrics visualizations</b> in different formats (<b>HTML</b> and <b>Excel</b> for tabular representations, <b>SVG</b> for graphical ones like bar charts and pie charts) <b>from any metrics data</b> stored into models that conform to the provided generic <i>Metrics</i> metamodel. 
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/completion.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
 				<li style="list-style:none">
 	    			<table width="100%">
 						<tr>

@@ -79,7 +79,7 @@
 					    		<h2> <a href="BugzillaMetrics">Bugzilla Metrics</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
-								This complete use case covers both the "Model Discovery" and "Model Understanding" phases. It is about discovering bugs information expressed in HTML format, building a Bugzilla model from these data, computing it in order to produce a Metrics model and finally building some visualizations of the generated metrics. 
+								This complete use case covers both the "Model Discovery" and "Model Understanding" phases. It is about discovering bugs information expressed in HTML format, building a Bugzilla model from these data, computing it in order to produce a Metrics model and finally building some visualizations of the generated metrics. This last part has lead to the implementation of the <a href="../toolBox/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool (from the MoDisco tool box). 
 							</td>
 							<td width="10%" align="center">		
 								<img src="../../resources/images/completion.png"  />
@@ -94,7 +94,7 @@
 					    		<h2> <a href="BIRTSampleDB">Eclipse/BIRT Project <br/>Sample Database</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
-								This complete use case covers a complex "Model Discovery" phase. It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of the <a href="../toolBox/RelationalDBInformation/">generic "Relational Database Information" discovery tool</a> (MoDisco tool box), and then generating a specific ClassicModels model. 
+								This complete use case covers a complex "Model Discovery" phase. It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of the <a href="../toolBox/RelationalDBInformation/">generic "Relational Database Information" discovery tool</a> (from the MoDisco tool box), and then generating a specific ClassicModels model. 
 							</td>
 							<td width="10%" align="center">		
 								<img src="../../resources/images/completion.png"  />

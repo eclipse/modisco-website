@@ -6,6 +6,20 @@
     <description>MoDisco News</description>
 
 	<item>
+		<title>The "Metrics Visualization Builder" tool is now available from the MoDisco tool box</title>
+		<link>http://www.eclipse.org/gmt/modisco/toolBox/MetricsVisualizationBuilder/</link>
+		<description>
+			<p>
+			The "Metrics Visualization Builder" tool has just been published into the MoDisco "Tool box" section. This simple generic tool (which is an <a href="http://www.eclipse.org/m2m/atl/">ATL</a> project for Eclipse) provides facilities for buidling visualizations (in several formats) from <i>Metrics</i> models.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/MetricsVisualizationBuilder/">http://www.eclipse.org/gmt/modisco/toolBox/MetricsVisualizationBuilder/</a> for accessing the tool.
+			</p>
+		</description>
+		<pubDate>Tuesday, 3 Apr 2007 15:15:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>The MoDisco flyer-poster is now available</title>
 		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf</link>
 		<description>
