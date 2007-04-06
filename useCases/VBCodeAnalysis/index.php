@@ -70,7 +70,10 @@
 	    	<br />
 	    	<ul>
 	    		<li>
-	    			The <b>VB discoverer</b> will be implemented using more especially <a href="http://wiki.eclipse.org/index.php/TCS">TCS</a>, which is a DSL for the specification of textual concrete syntaxes. Of course, the VB metamodel (expressed in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> format) and the corresponding textual syntax description in TCS will be provided.
+	    			Along with the VB-to-model code (i.e. the <b>VB discoverer</b>), we will also put into MoDisco the VB metamodel in <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> and the corresponding textual syntax description in <a href="http://wiki.eclipse.org/index.php/TCS">TCS</a>.
+	    			<!--
+	    				The <b>VB discoverer</b> will be implemented using more especially <a href="http://wiki.eclipse.org/index.php/TCS">TCS</a>, which is a DSL for the specification of textual concrete syntaxes. The VB metamodel (expressed in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> format) and the corresponding textual syntax description in TCS will be provided.
+					-->
 					<br/>
 					This tool should be able to discover the internal structure of a VB system including:
 					<ul>
