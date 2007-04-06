@@ -117,6 +117,21 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="VBCodeAnalysis">Visual Basic Code Analysis</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This complete use case covers both the "Model Discovery" and "Model Understanding" phases. It is about discovering Visual Basic (VB) models from VB source code, building UML models (i.e. in our case class diagrams) from these models and processing the VB models in order to produce some metrics (and their corresponding visualizations) on them.  
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/specification.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
 	    	</ul>
 	    </div>
 		<hr class="clearer" />
