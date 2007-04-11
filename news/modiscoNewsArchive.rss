@@ -6,6 +6,20 @@
     <description>MoDisco News</description>
 
 	<item>
+		<title>The "Visual Basic Code Analysis" use case specification is now available</title>
+		<link>http://www.eclipse.org/gmt/modisco/useCases/VBCodeAnalysis/</link>
+		<description>
+			<p>
+			The "Visual Basic Code Analysis" use case has just been published into the MoDisco "Use Cases" section. This complex use case, developed by the <a href="http://www.obeo.fr">Obeo Company</a>, currently contains a general description and is intented to reach completion by September 2007.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/useCases/VBCodeAnalysis/">http://www.eclipse.org/gmt/modisco/useCases/VBCodeAnalysis/</a> for consulting the use case.
+			</p>
+		</description>
+		<pubDate>Wednesday, 11 Apr 2007 10:45:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>The "Metrics Visualization Builder" tool is now available from the MoDisco tool box</title>
 		<link>http://www.eclipse.org/gmt/modisco/toolBox/MetricsVisualizationBuilder/</link>
 		<description>
