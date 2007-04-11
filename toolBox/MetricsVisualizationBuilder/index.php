@@ -177,7 +177,7 @@
 
 		<td align="center">
 		<a href="downloads/MetricsVisualizationBuilder_MoDisco-Tool_v1-0.zip">
-			<img src="../../resources/buttons/Discoverer_button.jpg"/>
+			<img src="../../resources/buttons/Tool_button.jpg"/>
 		</a>
 		</td>
 		<td>
