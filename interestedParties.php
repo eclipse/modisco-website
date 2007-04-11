@@ -65,6 +65,18 @@
 						</tr>
 					</table>
     			</li>
+    			<li>
+	    			<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+				    			<a href="http://adm.omg.org/">OMG ADM Task Force<br/>(Architecture Driven Modernization)</a>
+		  					</td>
+							<td align="right">
+								<a href="http://adm.omg.org/"><img align="right" src="./resources/logoOMG-ADM.png" height="55" /></a>
+							</td>
+						</tr>
+					</table>
+    			</li>
 	    		<li>
 	    			<table width="100%">
 						<tr>

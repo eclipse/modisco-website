@@ -47,7 +47,7 @@
 						their own solutions to discover models in various kinds of legacy.
 						<br /><br />
 						Due to the highly diversified nature of the considered legacy, MoDisco is a collaborative component involving many organizations. Each of them will bring its own expertise in 
-						a given area. A common infrastructure, inspired by the OMG KDM recommendation, will allow integrating all these contributions.
+						a given area. MoDisco will use as often as possible the solutions elaborated by the OMG ADM (Architecture Driven Modernization) Task Force. The latest information on ADM recommendations like KDM, GASTM or SMM may be found at <a href="http://adm.omg.org">http://adm.omg.org</a>.
 						<br /><br />
 						As a GMT component, MoDisco will make good use of other GMT components or solutions available in the Eclipse Modeling Project (EMF, M2M, GMF, TMF, etc), and more generally of 
 						any plugin available in the Eclipse environment.
