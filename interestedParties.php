@@ -33,6 +33,9 @@
     	<p align="justify">
     		The MoDisco component is initiated by the <a href="http://www.inria.fr/recherche/equipes/atlas.fr.html">ATLAS team</a>, <a href="http://www.inria.fr">INRIA</a>.
 		</p>
+		<p align="justify">
+    		If you are interested in joining, as a user or contributor, please contact <a href="http://www.sciences.univ-nantes.fr/lina/atl/contrib/bruneliere">Hugo Bruneliere</a>. 
+		</p>
     	<p align="justify">
 	    	Here is the current list of interested parties. This list will be regularly updated.
     	</p>
