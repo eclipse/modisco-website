@@ -200,6 +200,18 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+	    			    		<a href="http://www.kdmanalytics.com/">KDM Analytics</a>
+		  					</td>
+							<td align="right">
+								<a href="http://www.kdmanalytics.com/"><img align="right" src="./resources/logoKdmanalytics.gif" height="60" /></a>
+							</td>
+						</tr>
+					</table>
+	    		</li>
 	    	</ul>
 		</div>
 		<hr class="clearer" />
