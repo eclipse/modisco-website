@@ -198,9 +198,9 @@
 		<td></td>
 
 		<td align="center">
-		<a href="downloads/DBInformationDiscoveryTool_MoDisco-Tool_v1-0.zip">
+		<!--<a href="downloads/DBInformationDiscoveryTool_MoDisco-Tool_v1-0.zip">-->
 			<img src="../../resources/buttons/Discoverer_button.jpg"/>
-		</a>
+		<!--</a>-->
 		</td>
 		<td>
 			First complete version of the <b>Database Information Discovery Tool</b> plug-in (with all the required resources including a use example and the metamodels).
