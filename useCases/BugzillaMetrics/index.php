@@ -184,7 +184,7 @@
 		</a>
 		</td>
 		<td>
-			First complete version of the <b>Bugzilla Metrics</b> use case (you must also get the <a href="../toolBox/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool from the MoDisco tool box).
+			First complete version of the <b>Bugzilla Metrics</b> use case (you must also get the <a href="../../toolBox/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool from the MoDisco tool box).
 			Note that all the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/use-cases/BugzillaMetrics_MoDisco-UseCase/">MoDisco CVS</a>
 		</td>		
 		</tr>
