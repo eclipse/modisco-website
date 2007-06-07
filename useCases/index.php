@@ -106,6 +106,21 @@
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="middle">
+					    		<h2> <a href="JavaPlatformOntologies">Generating Java Platform Ontologies </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This complete use case covers both the "Model Discovery" and "Model Understanding" phases. It is about reverse engineering the Java API from the class library JAR files using the <a href="http://ssel.vub.ac.be/ssel/research:mdd:jar2uml">Jar2UML discovery tool</a> (part of the MoDisco tool box), generating OWL ontologies from the created UML models using <a href="http://www.eclipse.org/m2m/atl/">ATL model transformations</a>, and finally bundling these ontologies with the <a href="http://ssel.vub.ac.be/ssel/research:mdd:platformkit">PlatformKit</a> Eclipse plugin.
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/completion.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
 					    		<h2> <a href="UnixFileSystem">Unix File System</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
@@ -142,9 +157,9 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://www.eclipse.org/m2m/atl/usecases/">Eclipse/M2M ATL Use Cases</a></li>
+				<li><a href="http://www.eclipse.org/m2m/atl/usecases/">Eclipse/M2M ATL Use Cases</a><br/>(Model transformation use cases)</li>
 				<li style="list-style:none">----------</li>
-				<li><a href="http://www.eclipse.org/gmt/amw/usecases/">Eclipse/GMT AMW Use Cases</a></li>
+				<li><a href="http://www.eclipse.org/gmt/amw/usecases/">Eclipse/GMT AMW Use Cases</a><br/>(Model weaving use cases)</li>
 			</ul>
 		</div>
 	</div>
