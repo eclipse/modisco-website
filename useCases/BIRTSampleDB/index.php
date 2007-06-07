@@ -189,6 +189,8 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
+				<li><a href="http://www.eclipse.org/m2m/atl/">ATL (Model transformation language)</a></li>
+				<li style="list-style:none">----------</li>
 				<li><a href="http://www.eclipse.org/birt/phoenix/">Eclipse/BIRT project</a></li>
 				<li style="list-style:none">----------</li>
 				<li><a href="http://www.eclipse.org/birt/phoenix/db/">BIRT Sample Database</a></li>
