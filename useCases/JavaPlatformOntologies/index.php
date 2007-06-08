@@ -60,7 +60,12 @@
 		<br>
 
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="overview">Overview</a></h4>
-		
+		<p align="justify">
+			This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about reverse engineering the Java API from the class library JAR files using the <a href="http://ssel.vub.ac.be/ssel/research:mdd:jar2uml">Jar2UML discovery tool</a> (part of the MoDisco tool box), generating OWL ontologies from the created UML models using <a href="http://www.eclipse.org/m2m/atl/">ATL model transformations</a>, and finally bundling these ontologies with the <a href="http://ssel.vub.ac.be/ssel/research:mdd:platformkit">PlatformKit</a> Eclipse plugin.
+		</p>
+		<p align="justify">
+			This use case is provided by the <a href="http://ssel.vub.ac.be/ssel/">Vrije Universiteit Brussel (VUB) System and Software Engineering Lab</a> and its development has been realized by <a href="http://ssel.vub.ac.be/ssel/about:members:denniswagelaar">Dennis Wagelaar</a>. 
+		</p>
 		<p align="justify">
 	    	The <a href="http://ssel.vub.ac.be/ssel/research:mdd:platformkit">PlatformKit</a> tool uses platform ontologies to reason about platform dependencies introduced by model-driven software artefacts, such as models and model transformations. These ontologies provide a base vocabulary that explains what a <i>platform</i> is. Ontologies that are specific to a particular platform, such as Java, can be defined on top of this general platform vocabulary.
     	</p>
@@ -141,7 +146,7 @@
 		</a>
 		</td>
 		<td>
-			The <b>Generating Java Platform Ontologies</b> use case is performed thanks to the PlatformKit plugin which is freely available and downloadable from the provided link.
+			The <b>Generating Java Platform Ontologies</b> use case is performed thanks to the PlatformKit plugin which is freely available and downloadable using the provided link.
 		</td>		
 		</tr>
 		
