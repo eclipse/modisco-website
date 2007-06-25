@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco Use Case - Bugzilla Metrics";
-	$pageKeywords	= "";
+	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, Bugzilla, Metrics";
 	$pageAuthor		= "Hugo Bruneliere";
 	
 	# End: page-specific settings

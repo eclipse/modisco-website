@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco Tool - Relational Database Information Discovery Tool: Metamodels";
-	$pageKeywords	= "";
+	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, Relational Database, DBMS, Java JDBC, MySQL, Schemas, Tuples, Metamodels";
 	$pageAuthor		= "Hugo Bruneliere";
 	
 	# End: page-specific settings

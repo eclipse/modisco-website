@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco Use Cases";
-	$pageKeywords	= "MDE, Reverse-Engineering, Model Discovery, Use Case, Discoverer, Metamodel";
+	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, Use Case";
 	$pageAuthor		= "Hugo Bruneliere";
 	
 	# End: page-specific settings

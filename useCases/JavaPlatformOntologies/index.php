@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco Use Case - Generating Java Platform Ontologies";
-	$pageKeywords	= "";
+	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, Java, Ontologies";
 	$pageAuthor		= "Hugo Bruneliere";
 	
 	# End: page-specific settings

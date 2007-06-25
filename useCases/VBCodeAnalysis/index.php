@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco Use Case - Visual Basic Code Analysis";
-	$pageKeywords	= "";
+	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, Visual Basic";
 	$pageAuthor		= "Hugo Bruneliere";
 	
 	# End: page-specific settings

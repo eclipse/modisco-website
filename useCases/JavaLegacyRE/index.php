@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco Use Case - SharenGo Java Legacy Reverse-Engineering";
-	$pageKeywords	= "Java, Reverse-Engineering, Legacy modernization";
+	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, Java, Legacy modernization";
 	$pageAuthor		= "Hugo Bruneliere";
 	
 	# End: page-specific settings

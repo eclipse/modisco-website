@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco Use Case - Eclipse/BIRT Project Sample Database: Metamodels";
-	$pageKeywords	= "";
+	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, Eclipse, BIRT, Database, Metamodels";
 	$pageAuthor		= "Hugo Bruneliere";
 	
 	# End: page-specific settings

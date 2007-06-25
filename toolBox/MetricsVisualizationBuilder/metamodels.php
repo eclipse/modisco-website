@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco Tool - Metrics Visualization Builder: Metamodels";
-	$pageKeywords	= "";
+	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, Metrics, SVG, Excel, HTML, Metamodels";
 	$pageAuthor		= "Hugo Bruneliere";
 	
 	# End: page-specific settings

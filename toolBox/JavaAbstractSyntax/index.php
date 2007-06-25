@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco Tool - Java Abstract Syntax Discovery Tool";
-	$pageKeywords	= "Java, Abstract Syntax Tree (AST), Compilation unit, Eclipse JDT";
+	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, Java, Abstract Syntax Tree (AST), Compilation unit, Eclipse JDT";
 	$pageAuthor		= "Hugo Bruneliere";
 	
 	# End: page-specific settings

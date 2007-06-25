@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco Home page";
-	$pageKeywords	= "MDE, Reverse-Engineering, Model Discovery, Discoverer, Metamodel";
+	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, Discoverer";
 	$pageAuthor		= "Freddy Allilaire, Hugo Bruneliere";
 	
 	# Add page-specific Nav bars here

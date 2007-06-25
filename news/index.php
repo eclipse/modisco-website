@@ -15,8 +15,8 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco News";
-	$pageKeywords	= "Type, page, keywords, here";
-	$pageAuthor		= "Freddy Allilaire";
+	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, News";
+	$pageAuthor		= "Hugo Bruneliere";
 	
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
