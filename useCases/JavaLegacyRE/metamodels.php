@@ -107,6 +107,16 @@
 	<!-- Right Part -->
 	<div id="rightcolumn">
 		<div class="sideitem">
+			<h6>General Information</h6>
+			<ul>
+				<li>March 2007</li>
+				<li style="list-style:none"><br/></li>
+				<li>By <a href="mailto://benois@argia-engineering.fr">Jerome Benois</a> <br/> and <a href="mailto://belmonte@argia-engineering.fr">Laurent Belmonte</a>  (<a href="http://www.argia.fr/site-argia/html/accueil.html">Argia-Engineering</a>)</li>
+				<li style="list-style:none"><br/></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+			</ul>
+		</div>
+		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="http://www.sharengo.org/">The SharenGo Group</a></li>

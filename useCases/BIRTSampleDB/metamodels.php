@@ -107,6 +107,16 @@
 	<!-- Right Part -->
 	<div id="rightcolumn">
 		<div class="sideitem">
+			<h6>General Information</h6>
+			<ul>
+				<li>February 2007</li>
+				<li style="list-style:none"><br/></li>
+				<li>By <a href="http://www.sciences.univ-nantes.fr/lina/atl/contrib/bruneliere">Hugo Bruneliere (INRIA)</a></li>
+				<li style="list-style:none"><br/></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+			</ul>
+		</div>
+		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="http://www.eclipse.org/birt/phoenix/">Eclipse/BIRT project</a></li>
