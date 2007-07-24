@@ -83,7 +83,7 @@
 			We provide below a set of screenshots showing the different input/output files provided/created with this use case:	
 	  	</p>
 	  	<p align="center">
-	  		<img src="../resources/excerpts/PerformanceAnnotatedUmlStateCharts_Screenshots.png"/>
+	  		<img src="../resources/excerpts/PerformanceAnnotatedUmlStateCharts_ScreenShots.png"/>
 	  		<br /><br />
 			<b>Screenshots of the input/outputs of the <i>Performance-Annotated UML2 State Charts</i> use case</b>
 		</p>
