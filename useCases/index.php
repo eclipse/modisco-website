@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "MoDisco Use Cases";
-	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, Use Case";
+	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, Use Cases";
 	$pageAuthor		= "Hugo Bruneliere";
 	
 	# End: page-specific settings
@@ -64,7 +64,7 @@
 					    		<h2> <a href="JavaLegacyRE">SharenGo Java Legacy Reverse-Engineering</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
-								This complete use case, which covers both the "Model Discovery" and "Model Understanding" phases, is about reverse engineering a Java application. It uses the <a href="../toolBox/JavaAbstractSyntax">Java Abstract Syntax discovery tool</a> (from the MoDisco Tool Box) to discoverer the abstract syntax tree (AST) of each Java compilation unit (i.e. each source file). The generated models are then analyzed by model transformations in order to produce a <a href="http://www.sharengo.org/">SharenGo</a> business model.
+								This complete use case, which covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases, is about reverse engineering a Java application. It uses the <a href="../toolBox/JavaAbstractSyntax">Java Abstract Syntax discovery tool</a> (from the MoDisco Tool Box) to discoverer the abstract syntax tree (AST) of each Java compilation unit (i.e. each source file). The generated models are then analyzed by model transformations in order to produce a <a href="http://www.sharengo.org/">SharenGo</a> business model.
 							</td>
 							<td width="10%" align="center">		
 								<img src="../../resources/images/completion.png"  />
@@ -79,7 +79,7 @@
 					    		<h2> <a href="BugzillaMetrics">Bugzilla Metrics</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
-								This complete use case covers both the "Model Discovery" and "Model Understanding" phases. It is about discovering bugs information expressed in HTML format, building a Bugzilla model from these data, computing it in order to produce a Metrics model and finally building some visualizations of the generated metrics. In order to perform this last step, the <a href="../toolBox/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool (from the MoDisco tool box) is used. 
+								This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering bugs information expressed in HTML format, building a Bugzilla model from these data, computing it in order to produce a Metrics model and finally building some visualizations of the generated metrics. In order to perform this last step, the <a href="../toolBox/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool (from the MoDisco tool box) is used. 
 							</td>
 							<td width="10%" align="center">		
 								<img src="../../resources/images/completion.png"  />
@@ -94,7 +94,7 @@
 					    		<h2> <a href="BIRTSampleDB">Eclipse/BIRT Project <br/>Sample Database</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
-								This complete use case covers a complex "Model Discovery" phase. It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of the <a href="../toolBox/RelationalDBInformation/">generic "Relational Database Information" discovery tool</a> (from the MoDisco tool box), and then generating a specific ClassicModels model. 
+								This complete use case covers a complex <i>Model Discovery</i> phase. It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of the <a href="../toolBox/RelationalDBInformation/">generic "Relational Database Information" discovery tool</a> (from the MoDisco tool box), and then generating a specific ClassicModels model. 
 							</td>
 							<td width="10%" align="center">		
 								<img src="../../resources/images/completion.png"  />
@@ -109,7 +109,7 @@
 					    		<h2> <a href="JavaPlatformOntologies">Generating Java Platform Ontologies </h2>
 		  					</td>
 							<td width="70%" align="justify">
-								This complete use case covers both the "Model Discovery" and "Model Understanding" phases. It is about reverse engineering the Java API from the class library JAR files using the <a href="http://ssel.vub.ac.be/ssel/research:mdd:jar2uml">Jar2UML discovery tool</a> (part of the MoDisco tool box), generating OWL ontologies from the created UML models using <a href="http://www.eclipse.org/m2m/atl/">ATL model transformations</a>, and finally bundling these ontologies with the <a href="http://ssel.vub.ac.be/ssel/research:mdd:platformkit">PlatformKit</a> Eclipse plugin.
+								This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about reverse engineering the Java API from the class library JAR files using the <a href="http://ssel.vub.ac.be/ssel/research:mdd:jar2uml">Jar2UML discovery tool</a> (part of the MoDisco tool box), generating OWL ontologies from the created UML models using <a href="http://www.eclipse.org/m2m/atl/">ATL model transformations</a>, and finally bundling these ontologies with the <a href="http://ssel.vub.ac.be/ssel/research:mdd:platformkit">PlatformKit</a> Eclipse plugin.
 							</td>
 							<td width="10%" align="center">		
 								<img src="../../resources/images/completion.png"  />
@@ -117,6 +117,55 @@
 						</tr>
 					</table>
 	    		</li>
+	    	<!--
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="ExecutionTracesMetrics">Execution Traces Metrics</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering execution traces and performance information expressed in an Excel format, building a Trace model from these data, computing it in order to produce a Metrics model and finally building some visualizations of the generated metrics. In order to perform this last step, the <a href="../toolBox/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool (from the MoDisco tool box) is used. 
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/completion.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    	-->
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="PerformanceAnnotatedUmlStateCharts">Performance-Annotated UML2 State Charts</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering performance information from an Excel file and building a Trace model from these data. Then, this generated model is computed in order to produce a Metrics model whose data are finally used to automatically apply a "Performance" profile to a UML2 state chart. 
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/implementation.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    	<!--
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="SemanticGroupingOnUmlClassDiagrams">Semantic Grouping On UML2 Java Class Diagrams</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about reverse-engineering a UML2 model from a Java class library JAR file (using the <a href="http://ssel.vub.ac.be/ssel/research:mdd:jar2uml">Jar2UML discovery tool</a> from the MoDisco tool box), and compute this generated model in order to extract information from it and finally create semantic abstractions on it using this information. 
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/implementation.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    	-->
 	    		<li style="list-style:none">
 	    			<table width="100%">
 						<tr>
@@ -139,7 +188,7 @@
 					    		<h2> <a href="VBCodeAnalysis">Visual Basic Code Analysis</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
-								This complete use case covers both the "Model Discovery" and "Model Understanding" phases. It is about discovering Visual Basic (VB) models from VB source code, building UML models (i.e. in our case class diagrams) from these models and processing the VB models in order to produce some metrics (and their corresponding visualizations) on them.  
+								This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering Visual Basic (VB) models from VB source code, building UML models (i.e. in our case class diagrams) from these models and processing the VB models in order to produce some metrics (and their corresponding visualizations) on them.  
 							</td>
 							<td width="10%" align="center">		
 								<img src="../../resources/images/specification.png"  />

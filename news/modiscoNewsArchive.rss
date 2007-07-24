@@ -6,6 +6,23 @@
     <description>MoDisco News</description>
 
 	<item>
+		<title>The "Performance-Annotated UML2 State Charts" new MoDisco use case is now available</title>
+		<link>http://www.eclipse.org/gmt/modisco/useCases/PerformanceAnnotatedUmlStateCharts/</link>
+		<description>
+			<p>
+			The "Performance-Annotated UML2 State Charts" use case has just been published into the MoDisco "Use Cases" section. This complex use case contains a general description but also a complete implementation.
+			</p>
+			<p>
+			It is about discovering performance information from an Excel file and building a Trace model from these data. Then, this generated model is computed in order to produce a Metrics model whose data are finally used to automatically apply a "Performance" profile to a UML2 state chart.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/useCases/PerformanceAnnotatedUmlStateCharts/">http://www.eclipse.org/gmt/modisco/useCases/PerformanceAnnotatedUmlStateCharts/</a> for consulting the use case.
+			</p>
+		</description>
+		<pubDate>Tuesday, 24 July 2007 18:15:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>The complete "Generating Java Platform Ontologies" new MoDisco use case is now available</title>
 		<link>http://www.eclipse.org/gmt/modisco/useCases/JavaPlatformOntologies/</link>
 		<description>
