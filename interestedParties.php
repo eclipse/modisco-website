@@ -212,6 +212,18 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+	    			    		<a href="http://lig.imag.fr">Laboratoire d'Informatique de Grenoble</a>
+		  					</td>
+							<td align="right">
+								<a href="http://lig.imag.fr"><img align="right" src="./resources/logoLig.jpg" height="65" /></a>
+							</td>
+						</tr>
+					</table>
+	    		</li>
 	    	</ul>
 		</div>
 		<hr class="clearer" />
