@@ -69,9 +69,9 @@
 	    	The overall approach is summarized in the following figure:
     	</p>    	
 	  	<p align="center">
-	  		<img src="../resources/schemas/MoDisco_JavaAbstractSyntax_UseCaseOverview.png"/>
+	  		<img src="../resources/schemas/MoDisco_JavaAbstractSyntax_Overview.png"/>
 	  		<br /><br />
-			<b>"Java Abstract Syntax" Use Case Overview</b>
+			<b>"Java Abstract Syntax" Tool Overview</b>
 		</p>
 		<p align="justify">
 			The <a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">discoverer</a>, named <b>JavaAbstractSyntaxDiscoverer</b>, is built upon the Eclipse JDT. It takes as input a Java compilation unit (DOT java file). It uses the JDT parser in order to have an in-memory representation of the compilation unit. Then, it uses a visitor processing each in-memory AST node and creates the corresponding model elements.
