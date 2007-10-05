@@ -115,12 +115,12 @@
 		<td ALIGN=center><h4>Choose a download</h4></td>
 
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#J2SE5">
+		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#J2SE5">
 			<img src="../../resources/buttons/Metamodel_button.jpg"/>
 		</a>
 		</td>
 		<td>
-			The <b>J2SE5 metamodel</b> is already available in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format. It will be also soon available in the Ecore format.
+			The <b>J2SE5 metamodel</b> is already available in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#J2SE5">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
 		</td>		
 		</tr>
 		

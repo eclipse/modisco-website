@@ -6,6 +6,20 @@
     <description>MoDisco News</description>
 
 	<item>
+		<title>The "Java 2 Standard Edition 5.0 Discovery Tool" specification is now available</title>
+		<link>http://www.eclipse.org/gmt/modisco/toolBox/J2SE5/</link>
+		<description>
+			<p>
+			The "Java 2 Standard Edition 5.0 Discovery Tool" specification has just been published into the MoDisco "Tool Box" section. This specification, proposed by the <a href="http://www.mia-software.com/index.php?lang=en">MIA-Software</a> company, currently contains a general description of the tool and provides a J2SE5 metamodel.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/J2SE5/">http://www.eclipse.org/gmt/modisco/toolBox/J2SE5/</a> for getting more information about the tool.
+			</p>
+		</description>
+		<pubDate>Friday, 5 Oct 2007 16:30:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>The "Performance-Annotated UML2 State Charts" new MoDisco use case is now available</title>
 		<link>http://www.eclipse.org/gmt/modisco/useCases/PerformanceAnnotatedUmlStateCharts/</link>
 		<description>

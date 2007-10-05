@@ -144,6 +144,21 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="J2SE5">Java 2 Standard Edition 5.0 Discovery Tool</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This generic tool is about <b>discovering a complete model out of the source code of a Java 5 application</b>. The model, which conforms to the <b>J2SE5</b> metamodel, describes all the structural concepts (from packages up to method invocations and comments) and links between code elements (method invocations, variables usage, class inheritance, etc). 
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/specification.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
 	    	</ul>
 	    </div>
 		<hr class="clearer" />
