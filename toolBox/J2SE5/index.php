@@ -120,7 +120,7 @@
 		</a>
 		</td>
 		<td>
-			The <b>J2SE5 metamodel</b> is already available in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#J2SE5">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
+			The <b>J2SE5 metamodel</b> is available in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#J2SE5">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
 		</td>		
 		</tr>
 		
