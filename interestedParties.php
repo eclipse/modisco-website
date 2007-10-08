@@ -183,7 +183,7 @@
 	    			    		<a href="http://ssel.vub.ac.be/ssel/">Vrije Universiteit Brussel (VUB): <br />System and Software Engineering lab</a>
 		  					</td>
 							<td align="right">
-								<a href="http://ssel.vub.ac.be/ssel/"><img align="right" src="./resources/logoVUB.png" height="65" /></a>
+								<a href="http://ssel.vub.ac.be/ssel/"><img align="right" src="./resources/logoVUB.png" height="50" /></a>
 							</td>
 						</tr>
 					</table>
