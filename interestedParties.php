@@ -224,6 +224,24 @@
 						</tr>
 					</table>
 	    		</li>
+	    		<li>
+	    			<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+	    			    		<a href="http://www.ucv.ve">Universidad Central de Venezuela</a><br/>
+	    			    		(member of the <a href="http://isys.ciens.ucv.ve">ISYS Research Group</a>)
+		  					</td>
+							<td align="right">
+								<table>
+									<tr>
+										<td><a href="http://www.ucv.ve"><img align="right" src="./resources/logoUCV.png" height="65" /></a></td>
+										<td><a href="http://isys.ciens.ucv.ve"><img align="right" src="./resources/logoIsys.png" height="65" /></a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+	    		</li>
 	    	</ul>
 		</div>
 		<hr class="clearer" />
