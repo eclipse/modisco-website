@@ -148,6 +148,21 @@
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="middle">
+					    		<h2> <a href="VisualBasic">Visual Basic 6 <br/> Discovery Tool</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This generic tool is about <b>discovering the structural part of the Visual Basic source code</b>. It identifies and stores into a model (which conforms to the provided Visual Basic metamodel) the headers, constants, variables, functions and subs contained in a Visual Basic 6 source file. 
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/completion.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
 					    		<h2> <a href="J2SE5">Java 2 Standard Edition 5.0 Discovery Tool</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
