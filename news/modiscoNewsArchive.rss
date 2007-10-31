@@ -6,6 +6,20 @@
     <description>MoDisco News</description>
 
 	<item>
+		<title>The "Visual Basic 6" discovery tool (part of the "Visual Basic Code Analysis" use case) is now available from the MoDisco tool box</title>
+		<link>http://www.eclipse.org/gmt/modisco/toolBox/VisualBasic/</link>
+		<description>
+			<p>
+			The "Visual Basic 6" discovery tool has just been published into the MoDisco "Tool box" section. This tool, provided by the <b><a href="http://www.obeo.fr/">Obeo</a></b> company, allows building models representing the structural parts (and their interdependencies) of Visual Basic source code.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/VisualBasic/">http://www.eclipse.org/gmt/modisco/toolBox/VisualBasic/</a> for accessing the tool.
+			</p>
+		</description>
+		<pubDate>Wednesday, 31 Oct 2007 11:15:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>The "Java 2 Standard Edition 5.0 Discovery Tool" specification is now available</title>
 		<link>http://www.eclipse.org/gmt/modisco/toolBox/J2SE5/</link>
 		<description>
