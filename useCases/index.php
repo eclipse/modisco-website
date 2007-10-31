@@ -191,7 +191,7 @@
 								This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering Visual Basic (VB) models from VB source code, building UML models (i.e. in our case class diagrams) from these models and processing the VB models in order to produce some metrics (and their corresponding visualizations) on them.  
 							</td>
 							<td width="10%" align="center">		
-								<img src="../../resources/images/specification.png"  />
+								<img src="../../resources/images/implementation.png"  />
 							</td>
 						</tr>
 					</table>

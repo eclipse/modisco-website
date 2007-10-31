@@ -64,30 +64,17 @@
 		<p align="justify">
 	   		This use case is about discovering Visual Basic (VB) models from VB source code, building UML models (i.e. in our case class diagrams) from these models and processing the VB models in order to produce some metrics (and their corresponding visualizations) on them.  
 	   		<br /><br />
-	    	The use case is developed and provided by the <b><a href="http://www.obeo.fr/">Obeo</a></b> company. It is intented to reach completion by September 2007. 
+	    	The use case is developed and provided by the <b><a href="http://www.obeo.fr/">Obeo</a></b> company. 
 	    	<br /><br />
-	    	This use case is mainly composed of a Visual Basic discoverer (<i>Model Discovery</i> phase) and of two different analyzing tools (<i>Model Understanding</i> phase): each of them will be made with the AMMA Platform and its corresponding tools.
+	    	It is mainly composed of a Visual Basic discoverer (<i>Model Discovery</i> phase) and of two different analyzing tools (<i>Model Understanding</i> phase): each of them will be made with the AMMA Platform and its corresponding components.
 	    	<br />
 	    	<ul>
 	    		<li>
-	    			Along with the VB-to-model code (i.e. the <b>VB discoverer</b>), we will also put into MoDisco the VB metamodel in <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> and the corresponding textual syntax description in <a href="http://wiki.eclipse.org/index.php/TCS">TCS</a>.
-	    			<!--
-	    				The <b>VB discoverer</b> will be implemented using more especially <a href="http://wiki.eclipse.org/index.php/TCS">TCS</a>, which is a DSL for the specification of textual concrete syntaxes. The VB metamodel (expressed in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> format) and the corresponding textual syntax description in TCS will be provided.
-					-->
-					<br/>
-					This tool should be able to discover the internal structure of a VB system including:
-					<ul>
-						<li>classes</li>
-						<li>attributes</li>
-						<li>functions</li>
-						<li>screens</li>
-						<li>subs</li>
-						<li>etc</li>
-					</ul>
+	    			The <b>Visual Basic 6 discoverer</b> implementing the model-based reverse-engineering process from Visual Basic 6 source code is <a href="../../toolBox/VisualBasic">already available from the MoDisco tool box</a> section. 
 				</li>
 				<br/>
 				<li>
-					The <b>two analyzing tools</b> will provide advanced information from the VB models discovered by the reverse-engineering process. The initial idea is to apply model-to-model transformations on the discovered models in order to retrieve/compute the required information.
+					The <b>two analyzing tools</b> (not yet available) will provide advanced information from the VB models discovered by the reverse-engineering process. The initial idea is to apply model-to-model transformations on the discovered models in order to retrieve/compute the required information.
 					<ul>
 						<li>
 							The <b>UML class diagram exhibitor</b> will be able to build UML models (in a readable format) from input VB models. 
