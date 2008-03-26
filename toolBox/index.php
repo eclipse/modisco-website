@@ -58,21 +58,6 @@
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="middle">
-					    		<h2> <a href="RelationalDBInformation">Relational Database Information Discovery Tool</a> </h2>
-		  					</td>
-							<td width="70%" align="justify">
-								This generic tool is about <b>discovering information from any concrete relational database</b> stored into a DBMS. It is composed of two distinct but complementary discoverers: the retrieved information concerns both <b>the schema</b> (i.e. the structure) and <b>the tuples</b> (i.e. the content) of a database. The objective of this tool is to <b>build models</b>, from this information, that conform to a database's schema metamodel or to a database's content metamodel.
-							</td>
-							<td width="10%" align="center">		
-								<img src="../../resources/images/completion.png"  />
-							</td>
-						</tr>
-					</table>
-	    		</li>
-	    		<li style="list-style:none">
-	    			<table width="100%">
-						<tr>
-							<td width="20%" valign="middle">
 					    		<h2> <a href="JavaAbstractSyntax">Java Abstract Syntax Discovery Tool</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
@@ -155,6 +140,21 @@
 							</td>
 							<td width="10%" align="center">		
 								<img src="../../resources/images/completion.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="RelationalDBInformation">Relational Database Information Discovery Tool</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This generic tool is about <b>discovering information from any concrete relational database</b> stored into a DBMS. It is composed of two distinct but complementary discoverers: the retrieved information concerns both <b>the schema</b> (i.e. the structure) and <b>the tuples</b> (i.e. the content) of a database. The objective of this tool is to <b>build models</b>, from this information, that conform to a database's schema metamodel or to a database's content metamodel.
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/implementation.png"  />
 							</td>
 						</tr>
 					</table>
