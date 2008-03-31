@@ -6,6 +6,20 @@
     <description>MoDisco News</description>
 
 	<item>
+		<title>The KDM-to-UML2 Converter is now available from the MoDisco tool box</title>
+		<link>http://www.eclipse.org/gmt/modisco/toolBox/KDMtoUML2Converter/</link>
+		<description>
+			<p>
+			The KDM-to-UML2 Converter has just been published into the MoDisco "Tool box" section. This tool, provided by the <b><a href="http://www.mia-software.com/">MIA-Software</a></b> company, is about converting KDM models into UML2 models in order to allow integrating KDM-compliant tools (i.e. discoverers) with UML2-compliant tools (e.g. modelers, model transformation tools, code generators, etc).
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/KDMtoUML2Converter/">http://www.eclipse.org/gmt/modisco/toolBox/KDMtoUML2Converter/</a> for accessing the tool.
+			</p>
+		</description>
+		<pubDate>Monday, 31 Mar 2008 14:30:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>The "Visual Basic 6" discovery tool (part of the "Visual Basic Code Analysis" use case) is now available from the MoDisco tool box</title>
 		<link>http://www.eclipse.org/gmt/modisco/toolBox/VisualBasic/</link>
 		<description>
