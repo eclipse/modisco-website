@@ -110,7 +110,7 @@
 			<ul>
 				<li>March 2008</li>
 				<li style="list-style:none"><br/></li>
-				<li>By <a href="mailto://hdubourg@sodifrance.fr">Hubert Dubourg (Mia-Software)</a></li>
+				<li>By <a href="mailto://hdubourg@sodifrance.fr">Hugues Dubourg (Mia-Software)</a></li>
 				<li style="list-style:none"><br/></li>
 				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
 			</ul>
