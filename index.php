@@ -180,6 +180,13 @@
 	<div id="rightcolumn">
 	
 		<div class="sideitem">
+			<h6>Incubation</h6>
+   				<div align="center"><a href="http://www.eclipse.org/projects/what-is-incubation.php"><img 
+        			 align="center" src="../resources/images/egg-incubation.png" 
+        			 border="0" alt="Incubation" /></a></div>
+		</div>
+		
+		<div class="sideitem">
 			<h6>Getting Started</h6>
 			<ul>
 				<li><a href="doc/MoDisco_Flyer-Poster_1.0.pdf">Flyer-poster</a></li>
