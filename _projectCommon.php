@@ -29,6 +29,7 @@ EOBRANDING;
 	# Define your project-wide Nav bars here.
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	# these are optional
+	$Nav->addCustomNav("About This Project", "http://www.eclipse.org/projects/project_summary.php?projectid=modeling.gmt", "", 1);
 	$Nav->addNavSeparator("GMT", "/gmt/");
 	$Nav->addCustomNav("Download", "/gmt/download/", "_self", 1);
 	$Nav->addCustomNav("Documentation", "/gmt/doc/", "_self", 1);
