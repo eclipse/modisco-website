@@ -203,6 +203,14 @@
 
 	<!-- Right Part -->
 	<div id="rightcolumn">
+		
+		<div class="sideitem">
+			<h6>Incubation</h6>
+   				<div align="center"><a href="http://www.eclipse.org/projects/what-is-incubation.php"><img 
+        			 align="center" src="../../resources/images/egg-incubation.png" 
+        			 border="0" alt="Incubation" /></a></div>
+		</div>
+		
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
