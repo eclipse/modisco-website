@@ -131,28 +131,37 @@
 				<COL width="65%">
 		<tr>
 		<td ALIGN=center><h4>Choose a download</h4></td>
-
+<!--
 		<td align="center">
 		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#Visual%20Basic">
-			<img src="../../resources/buttons/Metamodel_button.jpg"/>
+			<img src="../../resources/buttons/Metamodel_button.jpg"/>		
 		</a>
+
 		</td>
 		<td>
 			<b>Visual Basic metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#Visual%20Basic">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
+			Due to IP restrictions, the zoos of metamodels are not currently available anymore from <i>Eclipse.org</i>.	
 		</td>		
 		</tr>
 		
 		<tr>
 		<td></td>
-
+-->
 		<td align="center">
+<!--
 		<a href="downloads/VisualBasicDiscoveryTool_MoDisco-Tool_v1-0.zip">
+-->
 			<img src="../../resources/buttons/Discoverer_button.jpg"/>
+<!--		
 		</a>
+-->
 		</td>
 		<td>
+<!--
 			First complete version of the <b>Visual Basic Discovery Tool</b> plug-in (with all the required resources including the metamodel).
 			All the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/toolbox/fr.obeo.modisco.vb.parser/">MoDisco CVS</a>
+-->
+			Due to IP restrictions, the prototype is not currently available from <i>Eclipse.org</i>.
 		</td>		
 		</tr>
 		
@@ -178,7 +187,7 @@
 				<li style="list-style:none"><br/></li>
 				<li>By the <a href="http://www.obeo.fr/">Obeo</a> company</li>
 				<li style="list-style:none"><br/></li>
-				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">

@@ -102,12 +102,13 @@
 		<td ALIGN=center><h4>Choose a document</h4></td>
 
 		<td align="center">
-		<a href="downloads/JavaLegacyReverseEngineering_InstallationUserGuide.pdf">
+		<!--<a href="downloads/JavaLegacyReverseEngineering_InstallationUserGuide.pdf">-->
 			<img src="../../resources/buttons/InstallationExecutionGuide_button.jpg"/>
-		</a>
+		<!--</a>-->
 		</td>
 		<td>
 			<b>"SharenGo Java Legacy Reverse-Engineering" Use Case - Installation & Execution Guide</b>: How to install and execute this use case for building a SharenGo model from SharenGo Java source files.
+			<br/>Not available
 		</td>		
 		</tr>
 		
@@ -123,28 +124,38 @@
 				<COL width="65%">
 		<tr>
 		<td ALIGN=center><h4>Choose a download</h4></td>
-
+<!--
 		<td align="center">
+
 		<a href="metamodels.php">
 			<img src="../../resources/buttons/Metamodels_button.jpg"/>
 		</a>
+
 		</td>
 		<td>
 			The two provided metamodels are expressed in the Ecore format and also in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
+			Due to IP restrictions, the zoos of metamodels are not currently available anymore from <i>Eclipse.org</i>.
 		</td>		
 		</tr>
 		
 		<tr>
 		<td></td>
-
+-->
 		<td align="center">
+<!--
 		<a href="downloads/JavaLegacyReverseEngineering_MoDisco-UseCase_v1-0.zip">
+-->
 			<img src="../../resources/buttons/Prototype_button.jpg"/>
+<!--
 		</a>
+-->
 		</td>
 		<td>
+<!--
 			First complete version of the <b>SharenGo Java Legacy Reverse-Engineering</b> use case (with all the required resources including the used metamodels).
 			Note that all the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/use-cases/ARGIA-JavaAST/">MoDisco CVS</a>
+-->
+			Due to IP restrictions, the prototype is not currently available from <i>Eclipse.org</i>.
 		</td>		
 		</tr>
 		
@@ -169,7 +180,7 @@
 				<li style="list-style:none"><br/></li>
 				<li>By <a href="mailto://benois@argia-engineering.fr">Jerome Benois</a> <br/> and <a href="mailto://belmonte@argia-engineering.fr">Laurent Belmonte</a>  (<a href="http://www.argia.fr/site-argia/html/accueil.html">Argia-Engineering</a>)</li>
 				<li style="list-style:none"><br/></li>
-				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">

@@ -6,6 +6,19 @@
     <description>MoDisco News</description>
 
 	<item>
+		<title>MoDisco sources just moved from old Technology CVS to new Modeling SVN</title>
+		<link>http://dev.eclipse.org/viewsvn/index.cgi/?root=Modeling_MODISCO</link>
+		<description>
+			The content of the previous MoDisco CVS located onto the Technology project CVS has been archived.
+			<br/>
+			The MoDisco fully IP-approved material is now available from the <a href="http://dev.eclipse.org/viewsvn/index.cgi/?root=Modeling_MODISCO">MoDisco Modeling SVN</a>.
+			<br/>
+			<b>The content of the MoDisco website has been updated accordingly. However note that, due to IP restrictions, some of the previously published use cases and tools are no longer available.</b> 
+		</description>
+		<pubDate>Wednesday, 17 September 2008 15:15:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>The KDM-to-UML2 Converter is now available from the MoDisco tool box</title>
 		<link>http://www.eclipse.org/gmt/modisco/toolBox/KDMtoUML2Converter/</link>
 		<description>

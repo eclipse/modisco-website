@@ -107,12 +107,13 @@
 		<td ALIGN=center><h4>Choose a document</h4></td>
 
 		<td align="center">
-		<a href="downloads/UnixFSDiscoverer_InstallUse.pdf">
+		<!--<a href="downloads/UnixFSDiscoverer_InstallUse.pdf">-->
 			<img src="../../resources/buttons/InstallationUserGuide_button.jpg"/>
-		</a>
+		<!--</a>-->
 		</td>
 		<td>
 			<b>UnixFSDiscoverer Installation & User Guide</b>: How to install and use the discoverer for building file tree models from Unix file system's paths.
+			<br/>Not available
 		</td>		
 		</tr>
 		
@@ -128,28 +129,38 @@
 				<COL width="65%">
 		<tr>
 		<td ALIGN=center><h4>Choose a download</h4></td>
-
+<!--
 		<td align="center">
+
 		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#UnixFS">
-			<img src="../../resources/buttons/Metamodel_button.jpg"/>
+			<img src="../../resources/buttons/Metamodel_button.jpg"/>		
 		</a>
+
 		</td>
 		<td>
-			<b>UnixFS metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#UnixFS">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual formatSchema, or in the <a href="downloads/UnixFS.png">PNG</a> and <a href="downloads/UnixFS.vsd">Visio</a> formats.
+			<b>UnixFS metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#UnixFS">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual formatSchema, or in the <a href="downloads/UnixFS.png">PNG</a> and <a href="downloads/UnixFS.vsd">Visio</a> formats.	
+			Due to IP restrictions, the zoos of metamodels are not currently available anymore from <i>Eclipse.org</i>.
 		</td>		
 		</tr>
 		
 		<tr>
 		<td></td>
-
+-->
 		<td align="center">
+<!--
 		<a href="downloads/UnixFSDiscoverer.zip">
-			<img src="../../resources/buttons/Discoverer_button.jpg"/>
+-->
+			<img src="../../resources/buttons/Prototype_button.jpg"/>
+<!--		
 		</a>
+-->
 		</td>
 		<td>
+<!--
 			A first version of the prototype.
 			<br />All the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/use-cases/UnixFileSystem/">MoDisco CVS</a>
+-->
+			Due to IP restrictions, the prototype is not currently available from <i>Eclipse.org</i>.
 		</td>		
 		</tr>
 		
@@ -175,7 +186,7 @@
 				<li style="list-style:none"><br/></li>
 				<li>By <a href="http://www.sciences.univ-nantes.fr/lina/atl/contrib/mikael_barbero">Mikael Barbero (INRIA)</a></li>
 				<li style="list-style:none"><br/></li>
-				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">

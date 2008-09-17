@@ -164,28 +164,31 @@
 				<COL width="65%">
 		<tr>
 		<td ALIGN=center><h4>Choose a download</h4></td>
-
+<!--
 		<td align="center">
+
 		<a href="metamodels.php">
-			<img src="../../resources/buttons/Metamodels_button.jpg"/>
+			<img src="../../resources/buttons/Metamodels_button.jpg"/>		
 		</a>
+
 		</td>
 		<td>
 			All the provided metamodels are expressed in the Ecore format and also in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
+			Due to IP restrictions, the zoos of metamodels are not currently available anymore from <i>Eclipse.org</i>. However, the metamodels used within this use case are included in the project you can download below.
 		</td>		
 		</tr>
 		
 		<tr>
 		<td></td>
-
+-->
 		<td align="center">
-		<a href="downloads/BugzillaMetrics_MoDisco-UseCase_v1-0.zip">
+		<a href="downloads/org.eclipse.gmt.modisco.usecase.bugzillametrics_v0.2.zip">
 			<img src="../../resources/buttons/Prototype_button.jpg"/>
 		</a>
 		</td>
 		<td>
 			First complete version of the <b>Bugzilla Metrics</b> use case (you must also get the <a href="../../toolBox/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool from the MoDisco tool box).
-			Note that all the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/use-cases/BugzillaMetrics_MoDisco-UseCase/">MoDisco CVS</a>
+			Note that all the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewsvn/index.cgi/examples/trunk/org.eclipse.gmt.modisco.usecase.bugzillametrics/?root=Modeling_MODISCO">MoDisco SVN</a>
 		</td>		
 		</tr>
 		
@@ -210,7 +213,7 @@
 				<li style="list-style:none"><br/></li>
 				<li>By <a href="http://www.sciences.univ-nantes.fr/lina/atl/contrib/bruneliere">Hugo Bruneliere (INRIA)</a></li>
 				<li style="list-style:none"><br/></li>
-				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">

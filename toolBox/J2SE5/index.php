@@ -113,12 +113,14 @@
 				<COL width="65%">
 		<tr>
 		<td ALIGN=center><h4>Choose a download</h4></td>
-
+<!--
 		<td align="center">
+
 		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#J2SE5">
 			<img src="../../resources/buttons/Metamodel_button.jpg"/>
 		</a>
 		</td>
+		
 		<td>
 			The <b>J2SE5 metamodel</b> is available in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#J2SE5">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
 		</td>		
@@ -126,18 +128,18 @@
 		
 		<tr>
 		<td></td>
-
+-->
 		<td align="center">
 		<!--<a href="downloads/J2SE5DiscoveryTool_MoDisco-Tool_v1-0.zip">-->
 			<img src="../../resources/buttons/Discoverer_button.jpg"/>
 		<!--</a>-->
 		</td>
 		<td>
-			Not yet available.
 			<!--
 			First complete version of the <b>Java 2 Standard Edition 5.0 Discovery Tool</b> plug-in (with all the required resources including the metamodel).
 			All the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/toolbox/org.eclipse.gmt.modisco.discoverer.j2se5/">MoDisco CVS</a>
 			-->
+			A complete version of this plugin will be soon available from MoDisco.
 		</td>		
 		</tr>
 		
@@ -163,7 +165,7 @@
 				<li style="list-style:none"><br/></li>
 				<li>By the <a href="http://www.mia-software.com/index.php?lang=en">MIA-Software</a> company</li>
 				<li style="list-style:none"><br/></li>
-				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">

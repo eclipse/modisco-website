@@ -147,28 +147,32 @@
 			</COLGROUP>
 		<tr>
 		<td ALIGN=center><h4>Choose a download</h4></td>
-
+<!--
 		<td align="center">
 		<a href="metamodels.php">
-			<img src="../../resources/buttons/Metamodels_button.jpg"/>
+			<img src="../../resources/buttons/Metamodels_button.jpg"/>		
 		</a>
 		</td>
 		<td>
 			The two used metamodels are both expressed in two different formats: the <b>Ecore</b> one and the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual one.
+			Due to IP restrictions, the zoos of metamodels are not currently available anymore from <i>Eclipse.org</i>. However, the metamodels used by this tool will be included into the plugin's project you will be soon able to download below.	
 		</td>		
 		</tr>
 		
 		<tr>
 		<td></td>
-
+-->
 		<td align="center">
+<!--
 		<a href="downloads/KDMtoUML2Converter_MoDisco-Tool_v1-0.zip">
+-->
 			<img src="../../resources/buttons/Tool_button.jpg"/>
+<!--
 		</a>
+-->
 		</td>
 		<td>
-			Complete version of the <b>KDM-to-UML2 Converter</b> ATL project (with all the required resources including sample <i>KDM</i> models and corresponding <i>UML2</i> models).
-			All the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/toolbox/KDMtoUML2Converter_MoDisco-Toolbox/">MoDisco CVS</a>
+			A complete version of this plugin will be soon available from MoDisco.
 		</td>		
 		</tr>
 		
@@ -194,7 +198,7 @@
 				<li style="list-style:none"><br/></li>
 				<li>By <a href="mailto://hdubourg@sodifrance.fr">Hugues Dubourg (Mia-Software)</a></li>
 				<li style="list-style:none"><br/></li>
-				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">

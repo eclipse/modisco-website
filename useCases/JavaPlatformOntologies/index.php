@@ -171,7 +171,7 @@
 				<li style="list-style:none"><br/></li>
 				<li>By <a href="http://ssel.vub.ac.be/ssel/about:members:denniswagelaar">Dennis Wagelaar (VUB)</a></li>
 				<li style="list-style:none"><br/></li>
-				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">

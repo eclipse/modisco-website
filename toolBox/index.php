@@ -139,7 +139,7 @@
 								This generic tool is about <b>discovering the structural part of the Visual Basic source code</b>. It identifies and stores into a model (which conforms to the provided Visual Basic metamodel) the headers, constants, variables, functions and subs contained in a Visual Basic 6 source file. 
 							</td>
 							<td width="10%" align="center">		
-								<img src="../../resources/images/completion.png"  />
+								<img src="../../resources/images/specification.png"  />
 							</td>
 						</tr>
 					</table>
@@ -154,7 +154,7 @@
 								This generic tool is about <b>discovering information from any concrete relational database</b> stored into a DBMS. It is composed of two distinct but complementary discoverers: the retrieved information concerns both <b>the schema</b> (i.e. the structure) and <b>the tuples</b> (i.e. the content) of a database. The objective of this tool is to <b>build models</b>, from this information, that conform to a database's schema metamodel or to a database's content metamodel.
 							</td>
 							<td width="10%" align="center">		
-								<img src="../../resources/images/implementation.png"  />
+								<img src="../../resources/images/specification.png"  />
 							</td>
 						</tr>
 					</table>
@@ -169,7 +169,7 @@
 								This tool is about <b>converting KDM models into UML2 models</b> in order to allow integrating KDM-compliant tools (i.e. discoverers) with UML2-compliant tools (e.g. modelers, model transformation tools, code generators, etc). The converter is implemented by an <a href="http://www.eclipse.org/m2m/atl/">ATL model-to-model transformation</a> taking as input a model conforming to the <i>KDM</i> metamodel and producing as output a model conforming to the <i>UML2</i> metamodel.
 							</td>
 							<td width="10%" align="center">		
-								<img src="../../resources/images/implementation.png"  />
+								<img src="../../resources/images/specification.png"  />
 							</td>
 						</tr>
 					</table>

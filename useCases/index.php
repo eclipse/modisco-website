@@ -61,21 +61,6 @@
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="middle">
-					    		<h2> <a href="JavaLegacyRE">SharenGo Java Legacy Reverse-Engineering</a> </h2>
-		  					</td>
-							<td width="70%" align="justify">
-								This complete use case, which covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases, is about reverse engineering a Java application. It uses the <a href="../toolBox/JavaAbstractSyntax">Java Abstract Syntax discovery tool</a> (from the MoDisco Tool Box) to discoverer the abstract syntax tree (AST) of each Java compilation unit (i.e. each source file). The generated models are then analyzed by model transformations in order to produce a <a href="http://www.sharengo.org/">SharenGo</a> business model.
-							</td>
-							<td width="10%" align="center">		
-								<img src="../../resources/images/completion.png"  />
-							</td>
-						</tr>
-					</table>
-	    		</li>
-				<li style="list-style:none">
-	    			<table width="100%">
-						<tr>
-							<td width="20%" valign="middle">
 					    		<h2> <a href="BugzillaMetrics">Bugzilla Metrics</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
@@ -117,23 +102,6 @@
 						</tr>
 					</table>
 	    		</li>
-	    	<!--
-	    		<li style="list-style:none">
-	    			<table width="100%">
-						<tr>
-							<td width="20%" valign="middle">
-					    		<h2> <a href="ExecutionTracesMetrics">Execution Traces Metrics</a> </h2>
-		  					</td>
-							<td width="70%" align="justify">
-								This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering execution traces and performance information expressed in an Excel format, building a Trace model from these data, computing it in order to produce a Metrics model and finally building some visualizations of the generated metrics. In order to perform this last step, the <a href="../toolBox/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool (from the MoDisco tool box) is used. 
-							</td>
-							<td width="10%" align="center">		
-								<img src="../../resources/images/completion.png"  />
-							</td>
-						</tr>
-					</table>
-	    		</li>
-	    	-->
 	    		<li style="list-style:none">
 	    			<table width="100%">
 						<tr>
@@ -149,34 +117,17 @@
 						</tr>
 					</table>
 	    		</li>
-	    	<!--
 	    		<li style="list-style:none">
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="middle">
-					    		<h2> <a href="SemanticGroupingOnUmlClassDiagrams">Semantic Grouping On UML2 Java Class Diagrams</a> </h2>
+					    		<h2> <a href="JavaLegacyRE">SharenGo Java Legacy Reverse-Engineering</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
-								This use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about reverse-engineering a UML2 model from a Java class library JAR file (using the <a href="http://ssel.vub.ac.be/ssel/research:mdd:jar2uml">Jar2UML discovery tool</a> from the MoDisco tool box), and compute this generated model in order to extract information from it and finally create semantic abstractions on it using this information. 
+								This complete use case, which covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases, is about reverse engineering a Java application. It uses the <a href="../toolBox/JavaAbstractSyntax">Java Abstract Syntax discovery tool</a> (from the MoDisco Tool Box) to discoverer the abstract syntax tree (AST) of each Java compilation unit (i.e. each source file). The generated models are then analyzed by model transformations in order to produce a <a href="http://www.sharengo.org/">SharenGo</a> business model.
 							</td>
 							<td width="10%" align="center">		
-								<img src="../../resources/images/implementation.png"  />
-							</td>
-						</tr>
-					</table>
-	    		</li>
-	    	-->
-	    		<li style="list-style:none">
-	    			<table width="100%">
-						<tr>
-							<td width="20%" valign="middle">
-					    		<h2> <a href="UnixFileSystem">Unix File System</a> </h2>
-		  					</td>
-							<td width="70%" align="justify">
-								This use case is about discovering the file tree of a Unix system and building a model representing it. The model produced conforms to a very simple Unix file system metamodel.
-							</td>
-							<td width="10%" align="center">		
-								<img src="../../resources/images/implementation.png"  />
+								<img src="../../resources/images/specification.png"  />
 							</td>
 						</tr>
 					</table>
@@ -191,7 +142,22 @@
 								This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering Visual Basic (VB) models from VB source code, building UML models (i.e. in our case class diagrams) from these models and processing the VB models in order to produce some metrics (and their corresponding visualizations) on them.  
 							</td>
 							<td width="10%" align="center">		
-								<img src="../../resources/images/implementation.png"  />
+								<img src="../../resources/images/specification.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="UnixFileSystem">Unix File System</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This use case is about discovering the file tree of a Unix system and building a model representing it. The model produced conforms to a very simple Unix file system metamodel.
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/specification.png"  />
 							</td>
 						</tr>
 					</table>

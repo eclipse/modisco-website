@@ -144,10 +144,11 @@
 					<table width="100%">
 						<tr>
 							<td width="80%" valign="bottom">
-								<b><a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">Newsgroup</a></b>,
+								<b><a href="news://news.eclipse.org/eclipse.modisco">Newsgroup</a></b>,
 					            <a href="http://www.eclipse.org/search/search.cgi">Search</a>,
-					            <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.modeling.gmt.modisco">Web Interface</a>,
-					            <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmt.modisco/threads.html">Archive</a>
+					            <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.modisco">Web Interface</a>,
+					            <a href="http://dev.eclipse.org/newslists/news.eclipse.modisco/threads.html">Archive</a>,
+					            <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmt.modisco/threads.html">Archive (Old)</a>
 		  					</td>
 							<td align="right">
 								<a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco"><img align="right" src="../resources/images/news.gif" valign="top"/></a>
@@ -159,10 +160,10 @@
 					<table width="100%">
 						<tr>
 							<td width="80%" valign="bottom">
-				                <b><a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco">CVS</a></b>
+				                <b><a href="http://dev.eclipse.org/viewsvn/index.cgi/?root=Modeling_MODISCO">SVN</a></b>
 		  					</td>
 							<td align="right">
-								<a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco"><img align="right" src="../resources/images/cvs.gif" valign="top"/></a>
+								<a href="http://dev.eclipse.org/viewsvn/index.cgi/?root=Modeling_MODISCO"><img align="right" src="../resources/images/cvs.gif" valign="top"/></a>
 							</td>
 						</tr>
 					</table>

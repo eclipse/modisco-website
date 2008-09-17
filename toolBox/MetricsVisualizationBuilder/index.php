@@ -161,28 +161,31 @@
 			</COLGROUP>
 		<tr>
 		<td ALIGN=center><h4>Choose a download</h4></td>
-
+<!--
 		<td align="center">
+
 		<a href="metamodels.php">
-			<img src="../../resources/buttons/Metamodels_button.jpg"/>
+			<img src="../../resources/buttons/Metamodels_button.jpg"/>		
 		</a>
+		
 		</td>
 		<td>
 			All the provided metamodels are expressed in two different formats: the <b>Ecore</b> one and the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual one.
+			Due to IP restrictions, the zoos of metamodels are not currently available anymore from <i>Eclipse.org</i>. However, the metamodels used within this use case are included into the plugin project you can download below.
 		</td>		
 		</tr>
 		
 		<tr>
 		<td></td>
-
+-->
 		<td align="center">
-		<a href="downloads/MetricsVisualizationBuilder_MoDisco-Tool_v1-0.zip">
+		<a href="downloads/org.eclipse.gmt.modisco.tool.metricsvisualizationbuilder_v0.2.zip">
 			<img src="../../resources/buttons/Tool_button.jpg"/>
 		</a>
 		</td>
 		<td>
 			Complete version of the <b>Metrics Visualization Builder</b> ATL project (with all the required resources including a sample Metrics model and the metamodels).
-			All the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/toolbox/MetricsVisualizationBuilder_MoDisco-Toolbox/">MoDisco CVS</a>
+			All the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewsvn/index.cgi/plugins/trunk/org.eclipse.gmt.modisco.tool.metricsvisualizationbuilder/?root=Modeling_MODISCO">MoDisco SVN</a>
 		</td>		
 		</tr>
 		
@@ -208,7 +211,7 @@
 				<li style="list-style:none"><br/></li>
 				<li>By <a href="http://www.sciences.univ-nantes.fr/lina/atl/contrib/bruneliere">Hugo Bruneliere (INRIA)</a> <br/>and <a href="mailto://eric.vepa@gmail.com">Eric Vepa</a></li>
 				<li style="list-style:none"><br/></li>
-				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">

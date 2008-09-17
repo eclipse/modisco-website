@@ -146,28 +146,31 @@
 				<COL width="65%">
 		<tr>
 		<td ALIGN=center><h4>Choose a download</h4></td>
-
+<!--
 		<td align="center">
+		
 		<a href="metamodels.php">
 			<img src="../../resources/buttons/Metamodels_button.jpg"/>
 		</a>
+
 		</td>
 		<td>
 			The provided metamodels are expressed in the Ecore format and also (for most of them) in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
+			Due to IP restrictions, the zoos of metamodels are not currently available anymore from <i>Eclipse.org</i>. However, the metamodels used within this use case are included in the project you can download below.
 		</td>		
 		</tr>
 		
 		<tr>
 		<td></td>
-
+-->
 		<td align="center">
-		<a href="downloads/PerformanceAnnotatedUmlStateCharts_MoDisco-UseCase_v1-0.zip">
+		<a href="downloads/org.eclipse.gmt.modisco.usecase.perfannotatedumlstatechart_v0.2.zip">
 			<img src="../../resources/buttons/Prototype_button.jpg"/>
 		</a>
 		</td>
 		<td>
 			First complete version of the <b>Performance-Annotated UML2 State Charts</b> use case (you must also get the <a href="http://www.eclipse.org/modeling/mdt/downloads/?project=uml2">Eclipse/MDT UML2 component</a> as well as the <a href="http://wiki.eclipse.org/index.php/ATL/How_Install_ATL_From_CVS/">Uml4Atl ATL driver</a>).
-			<br/>Note that all the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/use-cases/PerformanceAnnotatedUmlStateCharts_MoDisco-UseCase/">MoDisco CVS</a>
+			<br/>Note that all the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewsvn/index.cgi/examples/trunk/org.eclipse.gmt.modisco.usecase.perfannotatedumlstatechart/?root=Modeling_MODISCO">MoDisco SVN</a>
 		</td>		
 		</tr>
 		
@@ -192,7 +195,7 @@
 				<li style="list-style:none"><br/></li>
 				<li>By <a href="http://www.sciences.univ-nantes.fr/lina/atl/contrib/bruneliere">Hugo Bruneliere (INRIA)</a></li>
 				<li style="list-style:none"><br/></li>
-				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">

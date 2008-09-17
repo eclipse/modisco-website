@@ -145,28 +145,30 @@
 				<COL width="65%">
 		<tr>
 		<td ALIGN=center><h4>Choose a download</h4></td>
-
+<!--
 		<td align="center">
 		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#JavaAbstractSyntax">
 			<img src="../../resources/buttons/Metamodel_button.jpg"/>
 		</a>
+
 		</td>
 		<td>
-			<b>JavaAbstractSyntax metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#JavaAbstractSyntax">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
+			<b>JavaAbstractSyntax metamodel</b> expressed in the Ecore format. It is also available <b><a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#JavaAbstractSyntax">here</a></b> in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.		
+			Due to IP restrictions, the zoos of metamodels are not currently available anymore from <i>Eclipse.org</i>. However, the metamodels used within this use case are included into the plugin project you can download below.
 		</td>		
 		</tr>
 		
 		<tr>
 		<td></td>
-
+-->
 		<td align="center">
-		<a href="downloads/JavaAbstractSyntaxDiscoveryTool_MoDisco-Tool_v1-0.zip">
+		<a href="downloads/org.eclipse.gmt.modisco.discoverer.javast_v0.2.zip">
 			<img src="../../resources/buttons/Discoverer_button.jpg"/>
 		</a>
 		</td>
 		<td>
 			First complete version of the <b>Java Abstract Syntax Discovery Tool</b> plug-in (with all the required resources including a use example and the metamodel).
-			All the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/toolbox/org.eclipse.gmt.modisco.javast/">MoDisco CVS</a>
+			All the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewsvn/index.cgi/plugins/trunk/org.eclipse.gmt.modisco.discoverer.javast/?root=Modeling_MODISCO">MoDisco SVN</a>
 		</td>		
 		</tr>
 		
@@ -192,7 +194,7 @@
 				<li style="list-style:none"><br/></li>
 				<li>By <a href="http://www.sciences.univ-nantes.fr/lina/atl/contrib/mikael_barbero">Mikael Barbero (INRIA)</a></li>
 				<li style="list-style:none"><br/></li>
-				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">

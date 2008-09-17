@@ -75,7 +75,7 @@
 	  		<b>"Relational Database Information" Tool Overview</b>
 		</p>
 		<p align="justify">
-			The tool is composed of two <a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">discoverers</a> which are implemented using the generic interfaces provided by the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/plugins/">"org.eclipse.gmt.modisco.core" MoDisco base plug-in</a>. They retrieve, by calling the JDBC Java API, the information concerning the database schema and content from a specified database (stored into a DBMS such as MySQL for example) and inject these data into models. These created models respectively conform to the <b>RelationalDBSchema</b> and <b>RelationalDBContent</b> metamodels.
+			The tool is composed of two distinct <a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">discoverers</a>. They retrieve, by calling the JDBC Java API, the information concerning the database schema and content from a specified database (stored into a DBMS such as MySQL for example) and inject these data into models. These created models respectively conform to the <b>RelationalDBSchema</b> and <b>RelationalDBContent</b> metamodels.
 	  		<br/><br/>
 			We defined these metamodel, which has been specificaly designed for describing the database information, by studying the SQL language and more particularly the <i>CREATE</i> statement. The two metamodels are available at the <a href="#download">Download section</a>.
 			<br/><br/>
@@ -154,19 +154,20 @@
 		</td>
 		<td>
 			<b>Tool Description</b>: General description of the discoverer, its architecture, its possible uses, the RelationalDBSchema and RelationalDBContent metamodels, etc.
-			<br>Not yet available
+			<br>Not available
 		</td>		
 		</tr>
 		<tr>
 		<td></td>
 
 		<td align="center">
-		<a href="downloads/RelationalDBInformation_InstallationUserGuide.pdf">
+		<!--<a href="downloads/RelationalDBInformation_InstallationUserGuide.pdf">-->
 			<img src="../../resources/buttons/InstallationUserGuide_button.jpg"/>
-		</a>
+		<!--</a>-->
 		</td>
 		<td>
 			<b>Tool Installation & User Guide</b>: How to install and use the discoverer for building database schema or content models from already existing databases.
+			<br>Not available
 		</td>		
 		</tr>
 		
@@ -183,28 +184,37 @@
 			</COLGROUP>
 		<tr>
 		<td ALIGN=center><h4>Choose a download</h4></td>
-
+<!--
 		<td align="center">
 		<a href="metamodels.php">
-			<img src="../../resources/buttons/Metamodels_button.jpg"/>
+			<img src="../../resources/buttons/Metamodels_button.jpg"/>		
 		</a>
+
 		</td>
 		<td>
 			The provided <b>RelationalDBSchema</b> and <b>RelationalDBContent</b> metamodels are expressed in different formats such as the <b>Ecore</b> one, the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual one and are also available in the <b>PNG</b> and <b>Visio</b> formats.
+			Due to IP restrictions, the zoos of metamodels are not currently available anymore from <i>Eclipse.org</i>.		
 		</td>		
 		</tr>
 		
 		<tr>
 		<td></td>
-
+-->
 		<td align="center">
+<!--
 		<a href="downloads/DBInformationDiscoveryTool_MoDisco-Tool_v1-0.zip">
+-->
 			<img src="../../resources/buttons/Discoverer_button.jpg"/>
+<!--		
 		</a>
+-->
 		</td>
 		<td>
+<!--
 			First complete version of the <b>Database Information Discovery Tool</b> plug-in (with all the required resources including a use example and the metamodels).
 			All the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/toolbox/org.eclipse.gmt.modisco.dbinfodiscoverer/">MoDisco CVS</a>
+-->
+			Due to IP restrictions, the prototype is not currently available from <i>Eclipse.org</i>.	
 		</td>		
 		</tr>
 		
@@ -230,7 +240,7 @@
 				<li style="list-style:none"><br/></li>
 				<li>By <a href="http://www.sciences.univ-nantes.fr/lina/atl/contrib/bruneliere">Hugo Bruneliere (INRIA)</a></li>
 				<li style="list-style:none"><br/></li>
-				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">
