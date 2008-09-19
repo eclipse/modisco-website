@@ -64,7 +64,7 @@
 		<p align="justify">
 	    	This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering bugs information expressed in HTML format and building a Bugzilla model from these data (<b>Model Discovery</b>). Then, this generated model is computed in order to produce a Metrics model and to finally build different visualizations from these calculated metrics (<b>Model Understanding</b>). Note that in order to perform this last step, the <a href="../../toolBox/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool (from the MoDisco tool box) is used.  
 	    	<br /><br />
-	    	This use case is provided by <b><a href="http://www.inria.fr/recherche/equipes/atlas.en.html">INRIA ATLAS</a></b> and its development has been supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
+	    	This use case is provided by <b>INRIA AtlanMod</b> and its development has been supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
 	    	<br /><br />
 	    	The overall approach is summarized in the following figure:
     	</p>

@@ -64,7 +64,7 @@
 		<p align="justify">
 	    	This use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering performance information from an Excel file and building a Trace model from these data (<b>Model Discovery</b>). Then, this generated model is computed in order to produce a Metrics model whose data are finally used to automatically apply a "Performance" profile to a UML2 state chart (<b>Model Understanding</b>).   
 	    	<br /><br />
-	    	This use case is provided by <b><a href="http://www.inria.fr/recherche/equipes/atlas.en.html">INRIA ATLAS</a></b> and its development has been supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
+	    	This use case is provided by <b>INRIA AtlanMod</b> and its development has been supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
 	    	<br /><br />
 	    	The overall approach is summarized in the following figure:
     	</p>

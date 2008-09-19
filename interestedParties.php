@@ -48,10 +48,10 @@
 	    			<table width="100%">
 						<tr>
 							<td width="80%" valign="bottom">
-					    		<a href="http://www.inria.fr/recherche/equipes/atlas.en.html">INRIA ATLAS</a>
+					    		<b>INRIA AtlanMod</b>
 		  					</td>
 							<td align="right">
-								<a href="http://www.inria.fr/recherche/equipes/atlas.en.html"><img align="right" src="http://www.sciences.univ-nantes.fr/lina/atl/inria.png" /></a>
+								<img align="right" src="http://www.sciences.univ-nantes.fr/lina/atl/inria.png" />
 							</td>
 						</tr>
 					</table>
