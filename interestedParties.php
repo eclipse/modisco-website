@@ -87,7 +87,7 @@
 	    			    		<a href="http://www.mia-software.com">MIA Software</a>
 		  					</td>
 							<td align="right">
-								<a href="http://www.mia-software.com"><img align="right" src="http://www.mia-software.com/img/logo.png" height="55" /></a>
+								<a href="http://www.mia-software.com"><img align="right" src="./resources/logoMIA.png" height="55" /></a>
 							</td>
 						</tr>
 					</table>
