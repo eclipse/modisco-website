@@ -149,7 +149,7 @@ the <a href="http://dev.eclipse.org/viewsvn/index.cgi/plugins/trunk/org.eclipse.
 			<ul>
 				<li>February 2009</li>
 				<li style="list-style:none"><br/></li>
-				<li>By <a href="mailto://NBros@mia-software.com">Nicolas Bros (Mia-Software)</a></li>
+				<li>By <a href="mailto://NBros@mia-software.com">Nicolas Bros</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">
