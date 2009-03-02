@@ -150,6 +150,8 @@ the <a href="http://dev.eclipse.org/viewsvn/index.cgi/plugins/trunk/org.eclipse.
 				<li>February 2009</li>
 				<li style="list-style:none"><br/></li>
 				<li>By <a href="mailto://NBros@mia-software.com">Nicolas Bros</a></li>
+				<li style="list-style:none"><br/></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">
