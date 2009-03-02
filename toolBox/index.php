@@ -58,6 +58,38 @@
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="middle">
+					    		<h2> <a href="GenericModelEditor">Generic Model Editor</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This generic tool is about providing a parametrizable feature-rich Ecore model editor which can be used to browse and edit any Ecore model more easily than with the default sample Ecore editor.
+								This is particularly useful when dealing with models discovered from large legacy systems. 
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/completion.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
+					    		<h2> <a href="KDM">Knowledge Discovery Metamodel Implementation</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This provides an EMF implementation of the <a href="http://www.omg.org/technology/kdm/index.htm">Knowledge Discovery Metamodel (KDM) </a>specification which defines a metamodel for representing information related to existing software assets
+            					and their operational environments. It can be intensively used for representing models discovered from large legacy systems.  
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/completion.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
 					    		<h2> <a href="JavaAbstractSyntax">Java Abstract Syntax Discovery Tool</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">

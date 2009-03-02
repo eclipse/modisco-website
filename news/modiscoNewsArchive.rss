@@ -6,6 +6,36 @@
     <description>MoDisco News</description>
 
 	<item>
+		<title>The MoDisco Generic Model Editor is now available from the MoDisco tool box</title>
+		<link>http://www.eclipse.org/gmt/modisco/toolBox/GenericModelEditor/</link>
+		<description>
+			<p>
+			The Generic Model Editor has just been published into the MoDisco "Tool box" section. This tool, provided by the <b><a href="http://www.mia-software.com/">MIA-Software</a></b> company, is about providing a parametrizable feature-rich Ecore model editor which can be used to browse and edit any Ecore model more easily than with the default sample Ecore editor.
+			This is particularly useful when dealing with models discovered from large legacy systems. 
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/GenericModelEditor/">http://www.eclipse.org/gmt/modisco/toolBox/GenericModelEditor/</a> for accessing the tool.
+			</p>
+		</description>
+		<pubDate>Monday, 2 Mar 2009 15:00:00 CET</pubDate>
+	</item>
+	
+	<item>
+		<title>The Knowledge Discovery Metamodel (KDM) implementation is now available from the MoDisco tool box</title>
+		<link>http://www.eclipse.org/gmt/modisco/toolBox/KDM/</link>
+		<description>
+			<p>
+			The Knowledge Discovery Metamodel (KDM) implementation has just been published into the MoDisco "Tool box" section. This provides an EMF implementation of the <a href="http://www.omg.org/technology/kdm/index.htm">KDM</a> specification which defines a metamodel for representing information related to existing software assets
+            and their operational environments. It can be intensively used for representing models discovered from large legacy systems.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/KDM/">http://www.eclipse.org/gmt/modisco/toolBox/KDM/</a> for accessing the tool.
+			</p>
+		</description>
+		<pubDate>Monday, 2 Mar 2009 15:00:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>MoDisco sources just moved from old Technology CVS to new Modeling SVN</title>
 		<link>http://dev.eclipse.org/viewsvn/index.cgi/?root=Modeling_MODISCO</link>
 		<description>
