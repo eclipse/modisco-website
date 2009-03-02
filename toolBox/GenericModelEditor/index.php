@@ -117,7 +117,7 @@ Among its features are (this list is not exhaustive):
 		<tr>
 		
 		<td align="center">
-		<a href="downloads/org.eclipse.gmt.modisco.common.editor_0.6.0.jar">
+		<a href="downloads/org.eclipse.gmt.modisco.common.editor_0.7.0.jar">
 			<img src="../../resources/buttons/Discoverer_button.jpg"/>
 		</a>
 		</td>
