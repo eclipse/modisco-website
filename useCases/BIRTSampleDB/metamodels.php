@@ -67,24 +67,25 @@
 		
 		<tr>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#RelationalDBContent">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Ecore#RelationalDBContent_1.0">
 		RelationalDBContent
 		</a>
 		</td>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#RelationalDBContent">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Atlantic#RelationalDBContent_1.0">
 		RelationalDBContent
 		</a>	
+		</td>	
 		</tr>
 		
 		<tr>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#ClassicModels%20BIRT%20Sample%20Database">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Ecore#ClassicModels_1.0">
 		ClassicModels BIRT Sample Database
 		</a>
 		</td>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#ClassicModels%20BIRT%20Sample%20Database">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Atlantic#ClassicModels_1.0">
 		ClassicModels BIRT Sample Database
 		</a>	
 		</tr>

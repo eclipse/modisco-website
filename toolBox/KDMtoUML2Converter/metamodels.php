@@ -69,12 +69,12 @@
 		
 		<tr>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#KDM">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Ecore#KDM_1.0">
 		KDM
 		</a>
 		</td>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#KDM">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Atlantic#KDM_1.0">
 		KDM
 		</a>	
 		</td>		

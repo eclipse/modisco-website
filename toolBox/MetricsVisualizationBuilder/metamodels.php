@@ -69,12 +69,12 @@
 		
 		<tr>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#XML">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Ecore#XML_1.1">
 		XML
 		</a>
 		</td>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#XML">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Atlantic#XML_1.1">
 		XML
 		</a>	
 		</td>		
@@ -83,12 +83,12 @@
 		</tr>
 		<tr>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#Metrics">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Ecore#Metrics_1.0">
 		Metrics
 		</a>
 		</td>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#Metrics">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Atlantic#Metrics_1.0">
 		Metrics
 		</a>	
 		</td>		
@@ -97,12 +97,12 @@
 		</tr>
 		<tr>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#Table">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Ecore#Table_1.1">
 		Table
 		</a>
 		</td>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#Table">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Atlantic#Table_1.1">
 		Table
 		</a>	
 		</td>		
@@ -111,12 +111,12 @@
 		</tr>
 		<tr>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#HTML">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Ecore#HTML_1.0">
 		HTML
 		</a>
 		</td>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#HTML">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Atlantic#HTML_1.0">
 		HTML
 		</a>	
 		</td>		
@@ -125,12 +125,12 @@
 		</tr>
 		<tr>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#SpreadsheetMLSimplified">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Ecore#SpreadsheetMLSimplified_1.2">
 		MS Office Excel SpreadsheetML
 		</a>
 		</td>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#SpreadsheetMLSimplified">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Atlantic#SpreadsheetMLSimplified_1.2">
 		MS Office Excel SpreadsheetML
 		</a>	
 		</td>		
@@ -139,12 +139,12 @@
 		</tr>
 		<tr>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#SVG">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Ecore#SVG_1.1">
 		SVG
 		</a>
 		</td>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#SVG">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Atlantic#SVG_1.1">
 		SVG
 		</a>	
 		</td>		

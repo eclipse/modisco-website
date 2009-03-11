@@ -164,7 +164,7 @@
 				<COL width="65%">
 		<tr>
 		<td ALIGN=center><h4>Choose a download</h4></td>
-<!--
+
 		<td align="center">
 
 		<a href="metamodels.php">
@@ -180,7 +180,7 @@
 		
 		<tr>
 		<td></td>
--->
+
 		<td align="center">
 		<a href="downloads/org.eclipse.gmt.modisco.usecase.bugzillametrics_v0.2.zip">
 			<img src="../../resources/buttons/Prototype_button.jpg"/>

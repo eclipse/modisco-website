@@ -67,24 +67,24 @@
 		
 		<tr>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#JavaAbstractSyntax">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Ecore#JavaAbstractSyntax_1.0">
 		Java Abstract Syntax
 		</a>
 		</td>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#JavaAbstractSyntax">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Atlantic#JavaAbstractSyntax_1.0">
 		Java Abstract Syntax
 		</a>	
 		</tr>
 		
 		<tr>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#Sharengo">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Ecore#Sharengo_1.0">
 		Sharengo
 		</a>
 		</td>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#Sharengo">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Atlantic#Sharengo_1.0">
 		Sharengo
 		</a>	
 		</tr>

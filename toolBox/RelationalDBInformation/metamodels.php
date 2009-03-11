@@ -75,12 +75,12 @@
 		
 		<tr>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#RelationalDBSchema">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Ecore#RelationalDBSchema_1.0">
 		RelationalDBSchema
 		</a>
 		</td>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#RelationalDBSchema">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Atlantic#RelationalDBSchema_1.0">
 		RelationalDBSchema
 		</a>	
 		</td>
@@ -98,12 +98,12 @@
 		
 		<tr>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlantEcoreZoo/#RelationalDBContent">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Ecore#RelationalDBContent_1.0">
 		RelationalDBContent
 		</a>
 		</td>
 		<td align="center">
-		<a href="http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#RelationalDBContent">
+		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Atlantic#RelationalDBContent_1.0">
 		RelationalDBContent
 		</a>	
 		</td>

@@ -124,7 +124,7 @@
 				<COL width="65%">
 		<tr>
 		<td ALIGN=center><h4>Choose a download</h4></td>
-<!--
+
 		<td align="center">
 
 		<a href="metamodels.php">
@@ -140,7 +140,7 @@
 		
 		<tr>
 		<td></td>
--->
+		
 		<td align="center">
 <!--
 		<a href="downloads/JavaLegacyReverseEngineering_MoDisco-UseCase_v1-0.zip">

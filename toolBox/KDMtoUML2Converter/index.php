@@ -147,7 +147,7 @@
 			</COLGROUP>
 		<tr>
 		<td ALIGN=center><h4>Choose a download</h4></td>
-<!--
+
 		<td align="center">
 		<a href="metamodels.php">
 			<img src="../../resources/buttons/Metamodels_button.jpg"/>		
@@ -161,7 +161,7 @@
 		
 		<tr>
 		<td></td>
--->
+
 		<td align="center">
 <!--
 		<a href="downloads/KDMtoUML2Converter_MoDisco-Tool_v1-0.zip">
