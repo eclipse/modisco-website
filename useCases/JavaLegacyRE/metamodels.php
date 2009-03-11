@@ -97,7 +97,7 @@
 	    
 		<hr class="clearer" />
 		<br />
-		Note that these two metamodels are also available in other varied graphical and textual formats from the <a href="http://www.eclipse.org/gmt/am3/zoos/">Eclipse/GMT AM3 component zoos</a>.
+		Note that these two metamodels are also available in other varied graphical and textual formats from the <a href="http://www.emn.fr/x-info/atlanmod/index.php/Zoos">metamodel zoos</a>.
 		<br /><br />
 		<a href="index.php">Back to the "Sharengo Java Legacy Reverse-Engineering" use case main page &raquo;</a>
 		<br /><br /><br />
