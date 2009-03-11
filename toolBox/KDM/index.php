@@ -217,7 +217,7 @@ business rules, insofar as this information can be mined from existing applicati
 		
 		<td align="center">
 		<a href="downloads/org.eclipse.gmt.modisco.omg.kdm_0.6.0.jar">
-			<img src="../../resources/buttons/Discoverer_button.jpg"/>
+			<img src="../../resources/buttons/Tool_button.jpg"/>
 		</a>
 		</td>
 		<td>
