@@ -35,13 +35,21 @@ EOBRANDING;
 	$Nav->addCustomNav("Documentation", "/gmt/doc/", "_self", 1);
 	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/GMT", "_self", 1);
 	$Nav->addCustomNav("MoDisco", "/gmt/modisco/", "_self", 1);
-	$Nav->addCustomNav("Roadmap", "/gmt/modisco/roadmap.php", "_self", 2);
-	$Nav->addCustomNav("Use Cases", "/gmt/modisco/useCases", "_self", 2);
-	$Nav->addCustomNav("Tool Box", "/gmt/modisco/toolBox", "_self", 2);
+	$Nav->addCustomNav("Components", ".", "_self", 2);
+	$Nav->addCustomNav("Use Cases", "/gmt/modisco/useCases/", "_self", 3);
+	$Nav->addCustomNav("Technologies", "/gmt/modisco/technologies/", "_self", 3);
+	$Nav->addCustomNav("Infrastructure", "/gmt/modisco/infrastructure/", "_self", 3);
+	$Nav->addCustomNav("Download", "/gmt/modisco/download/", "_self", 2);
+	$Nav->addCustomNav("Documentation", "/gmt/modisco/doc/", "_self", 2);
+	$Nav->addCustomNav("Roadmap", "http://wiki.eclipse.org/MoDisco/Project_Plan", "_self", 3);
+	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/MoDisco", "_self", 3);
+	$Nav->addCustomNav("Community", ".", "_self", 2);
+	$Nav->addCustomNav("SVN", "http://dev.eclipse.org/viewsvn/index.cgi/?root=Modeling_MODISCO", "_self", 3);
+	$Nav->addCustomNav("Newsgroup", "news://news.eclipse.org/eclipse.modisco", "_self", 3);
+	$Nav->addCustomNav("Submit a bug", "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=GMT", "_self", 3);
+	$Nav->addCustomNav("Open bugs", "https://bugs.eclipse.org/bugs/buglist.cgi?quicksearch=MoDisco", "_self", 3);
+	$Nav->addCustomNav("Contributors", "/gmt/modisco/contributors.php", "_self", 3);
 	$Nav->addCustomNav("Interested Parties", "/gmt/modisco/interestedParties.php", "_self", 2);
 	$Nav->addCustomNav("Related Projects", "/gmt/modisco/relatedProjects.php", "_self", 2);
-	$Nav->addCustomNav("Documentation", "/gmt/modisco/doc/", "_self", 2);
-	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/MoDisco", "_self", 2);
-	$Nav->addCustomNav("Newsgroup", "news://news.eclipse.org/eclipse.modisco", "_self", 2);
-	$Nav->addCustomNav("SVN", "http://dev.eclipse.org/viewsvn/index.cgi/?root=Modeling_MODISCO", "_self", 2);
+	
 ?>

@@ -147,21 +147,6 @@
 						</tr>
 					</table>
 	    		</li>
-	    		<li style="list-style:none">
-	    			<table width="100%">
-						<tr>
-							<td width="20%" valign="middle">
-					    		<h2> <a href="UnixFileSystem">Unix File System</a> </h2>
-		  					</td>
-							<td width="70%" align="justify">
-								This use case is about discovering the file tree of a Unix system and building a model representing it. The model produced conforms to a very simple Unix file system metamodel.
-							</td>
-							<td width="10%" align="center">		
-								<img src="../../resources/images/specification.png"  />
-							</td>
-						</tr>
-					</table>
-	    		</li>
 	    	</ul>
 	    </div>
 		<hr class="clearer" />
@@ -178,13 +163,33 @@
 		</div>
 		
 		<div class="sideitem">
-			<h6>Related Links</h6>
+			<h6>Getting Started</h6>
 			<ul>
-				<li><a href="http://www.eclipse.org/m2m/atl/usecases/">Eclipse/M2M ATL Use Cases</a><br/>(Model transformation use cases)</li>
-				<li style="list-style:none">----------</li>
-				<li><a href="http://www.eclipse.org/gmt/amw/usecases/">Eclipse/GMT AMW Use Cases</a><br/>(Model weaving use cases)</li>
+				<li><a href="doc/MoDisco_Flyer-Poster_1.0.pdf">Flyer-poster</a></li>
+				<li><a href="doc/MoDisco_Overview_1.0.pdf">Overview (slides)</a></li>
+				<li><a href="about.php">Description</a></li>
+				<li><a href="http://wiki.eclipse.org/index.php/MoDisco">Wiki</a></li>
 			</ul>
 		</div>
+		
+		<div class="sideitem">
+			<h6>Components</h6>
+			<ul>
+				<li><a href="useCases/">Use Cases</a></li>
+				<li><a href="technologies/">Technologies</a></li>
+				<li><a href="infrastructure/">Infrastructure</a></li>
+			</ul>
+		</div>
+		
+		<div class="sideitem">
+			<h6>Utilities</h6>
+			<ul>
+				<li><a href="http://www.eclipse.org/modeling/emf/">EMF (Model Handling)</a></li>
+				<li><a href="http://www.eclipse.org/m2m/atl/">ATL (Model Transformation)</a></li>
+				<li><a href="http://www.eclipse.org/gmt/amw/">AMW (Model Weaving)</a></li>
+			</ul>
+		</div>
+		
 	</div>
 
 EOHTML;

@@ -28,7 +28,7 @@
 	#
 	
 	include('../news/scripts/news.php');
-	$modisconews = get_modisconews(10);
+	$modisconews = get_modisconews(7);
 		
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
@@ -41,20 +41,23 @@
 					<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Home page</h1>
 					<h3>Welcome</h3>
 				      <p align="JUSTIFY">
-						MoDisco (for Model Discovery) is an Eclipse GMT component for model-driven reverse engineering. The objective is to allow practical extractions of models from legacy systems. 
+						MoDisco (for Model Discovery) is an Eclipse-GMT project for model-driven reverse engineering. The objective is to allow practical extractions of models from legacy systems. 
 						Because of the widely different nature and technological heterogeneity of legacy systems, there are several different ways to extract models from such systems. MoDisco 
 						proposes a generic and extensible metamodel-driven approach to <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">model discovery</a></b>. A basic framework and a set of guidelines are provided to the Eclipse contributors to bring 
 						their own solutions to discover models in various kinds of legacy.
 						<br /><br />
-						Due to the highly diversified nature of the considered legacy, MoDisco is a collaborative component involving many organizations. Each of them will bring its own expertise in 
+						Due to the highly diversified nature of the considered legacy, MoDisco is a collaborative project involving several organizations. Each of them will bring its own expertise in 
 						a given area. MoDisco will use as often as possible the solutions elaborated by the OMG ADM (Architecture Driven Modernization) Task Force. The latest information on ADM recommendations like the <a href="http://www.kdmanalytics.com/kdm">Knowledge Discovery Metamodel (KDM)</a>, GASTM or SMM may be found at <a href="http://adm.omg.org">http://adm.omg.org</a>.
 						<br /><br />
-						As a GMT component, MoDisco will make good use of other GMT components or solutions available in the Eclipse Modeling Project (EMF, M2M, GMF, TMF, etc), and more generally of 
+						As a GMT project, MoDisco will make good use of other GMT projects or solutions available in the Eclipse Modeling Project (EMF, M2M, GMF, TMF, etc), and more generally of 
 						any plugin available in the Eclipse environment.
 				      	<br /><br />
-				      	The creation and the launch of the MoDisco component has been realized in the context of the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081).
+				      	The creation and the launch of the MoDisco project has been realized in the context of the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081).
 				      	<br /><br />
-				      	<a href="about.php">more about MoDisco &raquo;</a> | <b><a href="useCases">MoDisco Use Cases &raquo;</a> </b> | <b><a href="toolBox">MoDisco Tool Box &raquo;</a> </b>
+				      	<a href="about.php">more about MoDisco &raquo;</a> 
+				      	<!--
+				      		| <b><a href="useCases">MoDisco Use Cases &raquo;</a> </b> | <b><a href="toolBox">MoDisco Tool Box &raquo;</a> </b>
+				      	-->
 				      </p>
 		  		</td>
 				<td align="right">
@@ -72,18 +75,6 @@
 					<table width="100%">
 						<tr>
 							<td width="80%" valign="bottom">
-								<b><a href="roadmap.php">MoDisco Roadmap</a></b>
-		  					</td>
-							<td align="right">
-								<a href="doc/"><img align="right" src="../resources/images/reference.gif" valign="top"/></a>
-							</td>
-						</tr>
-					</table>
-				</li>
-				<li>
-					<table width="100%">
-						<tr>
-							<td width="80%" valign="bottom">
 								<b><a href="useCases">Use Cases</a></b>
 		  					</td>
 							<td align="right">
@@ -96,10 +87,10 @@
 					<table width="100%">
 						<tr>
 							<td width="80%" valign="bottom">
-								<b><a href="toolBox">Tool Box</a></b>
+								<b><a href="technologies">Technologies</a></b>
 		  					</td>
 							<td align="right">
-								<a href="toolBox"><img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" height="42" width="42" /></a>
+								<a href="technologies"><img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" height="42" width="42" /></a>
 							</td>
 						</tr>
 					</table>
@@ -108,10 +99,10 @@
 					<table width="100%">
 						<tr>
 							<td width="80%" valign="bottom">
-								<b><a href="interestedParties.php">Interested Parties</a></b>
+								<b><a href="infrastructure">Infrastructure</a></b>
 		  					</td>
 							<td align="right">
-								<a href="interestedParties.php"><img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" height="42" width="42" /></a>
+								<a href="infrastructure"><img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" height="42" width="42" /></a>
 							</td>
 						</tr>
 					</table>
@@ -120,22 +111,12 @@
 					<table width="100%">
 						<tr>
 							<td width="80%" valign="bottom">
-								<b><a href="relatedProjects.php">Related projects</a></b>
+								<b><a href="http://wiki.eclipse.org/MoDisco/Project_Plan">Roadmap</a></b>,
+								<b><a href="doc/">Documentation</a></b>, 
+								<b><a href="http://wiki.eclipse.org/index.php/MoDisco">Wiki</a></b>
 		  					</td>
 							<td align="right">
-								<a href="relatedProjects.php"><img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" height="42" width="42" /></a>
-							</td>
-						</tr>
-					</table>
-				</li>
-				<li>
-					<table width="100%">
-						<tr>
-							<td width="80%" valign="bottom">
-								<b><a href="doc/">Documentation</a></b>, <b><a href="http://wiki.eclipse.org/index.php/MoDisco">Wiki</a></b>
-		  					</td>
-							<td align="right">
-								<a href="doc/"><img align="right" src="../resources/images/reference.gif" valign="top"/></a>
+								<a href="http://wiki.eclipse.org/index.php/MoDisco"><img align="right" src="../resources/images/reference.gif" valign="top"/></a>
 							</td>
 						</tr>
 					</table>
@@ -147,11 +128,10 @@
 								<b><a href="news://news.eclipse.org/eclipse.modisco">Newsgroup</a></b>,
 					            <a href="http://www.eclipse.org/search/search.cgi">Search</a>,
 					            <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.modisco">Web Interface</a>,
-					            <a href="http://dev.eclipse.org/newslists/news.eclipse.modisco/threads.html">Archive</a>,
-					            <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmt.modisco/threads.html">Archive (Old)</a>
+					            <a href="http://dev.eclipse.org/newslists/news.eclipse.modisco/threads.html">Archive</a>
 		  					</td>
 							<td align="right">
-								<a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco"><img align="right" src="../resources/images/news.gif" valign="top"/></a>
+								<a href="news://news.eclipse.org/eclipse.modisco"><img align="right" src="../resources/images/news.gif" valign="top"/></a>
 							</td>
 						</tr>
 					</table>
@@ -170,8 +150,8 @@
 				</li>
 			</ul>
 		</div>
-
-		<div class="homeitem">
+	
+		<div class="homeitem"> <!-- homeitem3col -->
 			$modisconews
 		</div>
 		<hr class="clearer" />
@@ -193,19 +173,29 @@
 				<li><a href="doc/MoDisco_Flyer-Poster_1.0.pdf">Flyer-poster</a></li>
 				<li><a href="doc/MoDisco_Overview_1.0.pdf">Overview (slides)</a></li>
 				<li><a href="about.php">Description</a></li>
-				<li style="list-style:none">----------</li>
-				<li><a href="doc/">MoDisco Documentation</a></li>
-				<li style="list-style:none">----------</li>
-				<li><b><a href="useCases">MoDisco Use Cases</a></b></li>
-				<li style="list-style:none">----------</li>
-				<li><b><a href="toolBox">MoDisco Tool Box</a></b></li>
-				<li style="list-style:none">----------</li>
-				<li><b><a href="http://wiki.eclipse.org/index.php/MoDisco">MoDisco Wiki Page</a></b></li>
+				<li><a href="http://wiki.eclipse.org/index.php/MoDisco">Wiki</a></li>
 			</ul>
 		</div>
 		
-		<br>	
-		<!--<SCRIPT TYPE="text/javascript" SRC="http://www.brainyquote.com/link/quotebr.js"></SCRIPT>-->
+		<div class="sideitem">
+			<h6>Components</h6>
+			<ul>
+				<li><a href="useCases/">Use Cases</a></li>
+				<li><a href="technologies/">Technologies</a></li>
+				<li><a href="infrastructure/">Infrastructure</a></li>
+			</ul>
+		</div>
+		
+		<div class="sideitem">
+			<h6>Utilities</h6>
+			<ul>
+				<li><a href="http://www.eclipse.org/modeling/emf/">EMF (Model Handling)</a></li>
+				<li><a href="http://www.eclipse.org/m2m/atl/">ATL (Model Transformation)</a></li>
+				<li><a href="http://www.eclipse.org/gmt/amw/">AMW (Model Weaving)</a></li>
+			</ul>
+		</div>
+		
+		<br>
 		
 	</div>
 

@@ -31,7 +31,7 @@
 		<a name="goals"></a>
 		<img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" style="padding-left: 10px;" alt="MoDisco Logo" />
     	<p align="justify">
-    		The MoDisco component is initiated by the <a href="http://www.inria.fr/recherche/equipes/atlas.fr.html">ATLAS team</a>, <a href="http://www.inria.fr">INRIA</a>.
+    		The MoDisco project has been initiated by the <a href="http://www.emn.fr/x-info/atlanmod/index.php/Main_Page">AtlanMod team</a>, <a href="http://www.inria.fr">INRIA</a>.
 		</p>
 		<p align="justify">
     		If you are interested in joining, as a user or contributor, please contact <a href="http://www.sciences.univ-nantes.fr/lina/atl/contrib/bruneliere">Hugo Bruneliere</a>. 
@@ -48,26 +48,14 @@
 	    			<table width="100%">
 						<tr>
 							<td width="80%" valign="bottom">
-					    		<b>INRIA AtlanMod</b>
+					    		<a href="http://www.emn.fr/x-info/atlanmod/index.php/Main_Page">INRIA AtlanMod</a>
 		  					</td>
 							<td align="right">
-								<img align="right" src="http://www.sciences.univ-nantes.fr/lina/atl/inria.png" />
+								<a href="http://www.emn.fr/x-info/atlanmod/index.php/Main_Page"><img align="right" src="http://www.sciences.univ-nantes.fr/lina/atl/inria.png" /></a>
 							</td>
 						</tr>
 					</table>
 	    		</li>
-	    		<li>
-	    			<table width="100%">
-						<tr>
-							<td width="80%" valign="bottom">
-				    			<a href="http://www.sciences.univ-nantes.fr/lina/atl/">University of Nantes</a>
-		  					</td>
-							<td align="right">
-								<a href="http://www.sciences.univ-nantes.fr/lina/atl/"><img align="right" src="http://www.sciences.univ-nantes.fr/lina/atl/univ-nantes.jpg" height="55" /></a>
-							</td>
-						</tr>
-					</table>
-    			</li>
     			<li>
 	    			<table width="100%">
 						<tr>

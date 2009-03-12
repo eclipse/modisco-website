@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "MoDisco Documentation";
+	$pageTitle 		= "MoDisco Downloads";
 	$pageKeywords	= "";
 	$pageAuthor		= "Hugo Bruneliere";
 	
@@ -25,7 +25,7 @@
 		<table width="100%">
 			<tr>
 				<td width="50%">
-					<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Documentation</h1>
+					<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Downloads</h1>
 				</td>
 				<td align="right">
 					<img alt="MoDisco Logo" src="../resources/logoMoDiscoSmall.jpg" valign="top" />
@@ -33,21 +33,24 @@
 			</tr>
 		</table>
 
-		<h3>Documentation</h3
+		<h3>Downloads</h3
 		<p>
-          <ul class="midlist">
+		 	The available components can be already downloaded from the following pages: 
+		 	<ul class="midlist">
             <li>
-		      <b><a href="MoDisco_Proposal_1.0.pdf">MoDisco Proposal</a></b>: Official (and accepted) proposal for the MoDisco component.
+		      <b><a href="../useCases">Use case</a></b>
 			</li>
 			<br>
 			<li>
-		      <b><a href="MoDisco_Flyer-Poster_1.0.pdf">MoDisco Flyer-Poster</a></b>: A double page flyer-poster describing the MoDisco component.
+		      <b><a href="../technologies">Technologies</a></b>
 			</li>
 			<br>
 			<li>
-		      <b><a href="MoDisco_Overview_1.0.pdf">MoDisco Overview (slides)</a></b>: Overall presentation of the MoDisco component.
+		      <b><a href="../infrastructure">Infrastructure</a></b>
 			</li>
-		  </ul>
+		  	</ul>
+		  	<br/>
+        	More information on the project's general downloads will be provided soon.
 		</p>
 		
       	<hr class="clearer" />

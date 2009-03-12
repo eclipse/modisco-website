@@ -6,6 +6,20 @@
     <description>MoDisco News</description>
 
 	<item>
+		<title>MoDisco poster to be presented at EclipseCon 2009, Santa Clara</title>
+		<link>http://www.eclipsecon.org/2009/sessions?id=822</link>
+		<description>
+			<p>
+			This poster will present the MoDisco global architecture and some of the key components already available: Java discoverer and metamodel to create models from Java applications, a generic Model Editor to navigate through a reverse-engineered model and transformations to KDM and UML to export discovered models into tools compliant with those standards. 
+			</p>
+			<p>
+			See <a href="http://www.eclipsecon.org/2009/sessions?id=822">http://www.eclipsecon.org/2009/sessions?id=822</a> for accessing the poster.
+			</p>
+		</description>
+		<pubDate>Thursday, 12 Mar 2009 14:00:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>The MoDisco Generic Model Editor is now available from the MoDisco tool box</title>
 		<link>http://www.eclipse.org/gmt/modisco/toolBox/GenericModelEditor/</link>
 		<description>

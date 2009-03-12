@@ -16,7 +16,7 @@
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "About MoDisco";
 	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE";
-	$pageAuthor		= "Freddy Allilaire";
+	$pageAuthor		= "Hugo Bruneliere";
 	
 	# End: page-specific settings
 	#
@@ -34,13 +34,13 @@
 		<a name="introduction"></a>
 		<h3>Introduction</h3
         <p align="justify">
-			MoDisco (for Model Discovery) is an Eclipse GMT component for model-driven reverse engineering. The objective is to allow practical extractions of models from legacy systems. Because of the widely different nature and technological heterogeneity of legacy systems, there are several different ways to extract models from such systems. MoDisco proposes a generic and extensible metamodel-driven approach to <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">model discovery</a></b>. A basic framework and a set of guidelines are provided to the Eclipse contributors to bring their own solutions to discover models in various kinds of legacy.
+			MoDisco (for Model Discovery) is an Eclipse GMT project for model-driven reverse engineering. The objective is to allow practical extractions of models from legacy systems. Because of the widely different nature and technological heterogeneity of legacy systems, there are several different ways to extract models from such systems. MoDisco proposes a generic and extensible metamodel-driven approach to <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">model discovery</a></b>. A basic framework and a set of guidelines are provided to the Eclipse contributors to bring their own solutions to discover models in various kinds of legacy.
 		</p>
 		<p align="justify">
-			Due to the highly diversified nature of the considered legacy, MoDisco is a collaborative component involving many organizations. Each of them will bring its own expertise in a given area. A common infrastructure, inspired by the OMG KDM recommendation, will allow integrating all these contributions.
+			Due to the highly diversified nature of the considered legacy, MoDisco is a collaborative project involving several organizations. Each of them will bring its own expertise in a given area. A common infrastructure, inspired by the OMG KDM recommendation, will allow integrating all these contributions.
 		</p>
 		<p align="justify">
-			As a GMT component, MoDisco will make good use of other GMT components or solutions available in the Eclipse Modeling Project (EMF, M2M, GMF, TMF, etc), and more generally of any plugin available in the Eclipse environment.
+			As a GMT project, MoDisco will make good use of other GMT projects or solutions available in the Eclipse Modeling Project (EMF, M2M, GMF, TMF, etc), and more generally of any plugin available in the Eclipse environment.
       	</p>
       	<hr class="clearer" />
 
@@ -49,7 +49,7 @@
 			Systems are becoming more and more complex. Developing and managing such complex systems already is a main issue. The next important effort is about reverse engineering complex legacy systems in order to be able to migrate them, make them interoperable, or simply understand them.
 		</p>
 		<p align="justify">
-			The proposed MoDisco component is mainly about providing an extensible and generic framework under the Eclipse GMT project, part of the top-level Eclipse Modeling Project. The Eclipse GMT project acts as a research incubator for MDE prototypes. Thus, the MoDisco component aims at providing a base framework for model driven reverse engineering tasks. We will discuss the framework’s composition further in this document.
+			The proposed MoDisco project is mainly about providing an extensible and generic framework under the Eclipse GMT project, part of the top-level Eclipse Modeling Project. The Eclipse GMT project acts as a research incubator for MDE prototypes. Thus, the MoDisco project aims at providing a base framework for model driven reverse engineering tasks. We will discuss the framework’s composition further in this document.
 		</p>
 		<p align="justify">
 			One of the key to success of this extensible framework will be its adoption by leading industrials and the development of a wide variety of extensions and a wide user community.
