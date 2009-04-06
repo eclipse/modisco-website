@@ -6,6 +6,35 @@
     <description>MoDisco News</description>
 
 	<item>
+		<title>The J2SE5 Discoverer is now available from the MoDisco technologies</title>
+		<link>http://www.eclipse.org/gmt/modisco/technologies/J2SE5/</link>
+		<description>
+			<p>
+			The J2SE5 Discoverer has just been published into the MoDisco "Technologies" section. This generic tool is about <b>discovering a complete model out of the source code of a Java 5 application</b>. The model, which conforms to the <b>J2SE5</b> metamodel, describes all the structural concepts (from packages up to method invocations and comments) and links between code elements (method invocations, variables usage, class inheritance, etc).
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/technologies/J2SE5/">http://www.eclipse.org/gmt/modisco/technologies/J2SE5/</a> for accessing the tool.
+			</p>
+		</description>
+		<pubDate>Monday, 6 Apr 2009 16:30:00 CET</pubDate>
+	</item>
+	
+	<item>
+		<title>The J2SE5 Metamodel implementation is now available from the MoDisco infrastructure</title>
+		<link>http://www.eclipse.org/gmt/modisco/infrastructure/J2SE5/</link>
+		<description>
+			<p>
+			The J2SE5 Metamodel implementation has just been published into the MoDisco "Infrastructure" section. This provides an EMF implementation of the <a href="http://java.sun.com/j2se/1.5.0/">Java 2 Standard Edition 5 Metamodel (J2SE5)</a> specification which defines a metamodel for representing models of Java programs 
+			developed using the Java Platform Standard Edition (Java SE), which is the premier platform for rapidly developing and deploying secure, portable applications that run on server and desktop systems spanning most operating systems.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/infrastructure/J2SE5/">http://www.eclipse.org/gmt/modisco/infrastructure/J2SE5/</a> for accessing the tool.
+			</p>
+		</description>
+		<pubDate>Monday, 6 Apr 2009 15:30:00 CET</pubDate>
+	</item>
+
+	<item>
 		<title>MoDisco poster to be presented at EclipseCon 2009, Santa Clara</title>
 		<link>http://www.eclipsecon.org/2009/sessions?id=822</link>
 		<description>
@@ -75,7 +104,7 @@
 		</description>
 		<pubDate>Monday, 31 Mar 2008 14:30:00 CET</pubDate>
 	</item>
-	
+<!--	
 	<item>
 		<title>The "Visual Basic 6" discovery tool (part of the "Visual Basic Code Analysis" use case) is now available from the MoDisco technologies</title>
 		<link>http://www.eclipse.org/gmt/modisco/technologies/VisualBasic/</link>
@@ -103,7 +132,7 @@
 		</description>
 		<pubDate>Friday, 5 Oct 2007 16:30:00 CET</pubDate>
 	</item>
-	
+-->	
 	<item>
 		<title>The "Performance-Annotated UML2 State Charts" new MoDisco use case is now available</title>
 		<link>http://www.eclipse.org/gmt/modisco/useCases/PerformanceAnnotatedUmlStateCharts/</link>
