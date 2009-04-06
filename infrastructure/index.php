@@ -90,6 +90,22 @@
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="middle">
+					    		<h2> <a href="J2SE5">Java 2 Standard Edition 5 Metamodel Implementation</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This provides an EMF implementation of the <a href="http://java.sun.com/j2se/1.5.0/">Java 2 Standard Edition 5 Metamodel (J2SE5)</a> specification which defines a metamodel for representing models of Java programs 
+								developed using the Java Platform Standard Edition (Java SE), which is the premier platform for rapidly developing and deploying secure, portable applications that run on server and desktop systems spanning most operating systems.
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/completion.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
 					    		<h2> <a href="MetricsVisualizationBuilder">Metrics Visualization Builder</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
