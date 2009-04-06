@@ -20,30 +20,30 @@
 	</item>
 	
 	<item>
-		<title>The MoDisco Generic Model Editor is now available from the MoDisco tool box</title>
-		<link>http://www.eclipse.org/gmt/modisco/toolBox/GenericModelEditor/</link>
+		<title>The MoDisco Generic Model Editor is now available from the MoDisco infrastructure</title>
+		<link>http://www.eclipse.org/gmt/modisco/infrastructure/GenericModelEditor/</link>
 		<description>
 			<p>
-			The Generic Model Editor has just been published into the MoDisco "Tool box" section. This tool, provided by the <b><a href="http://www.mia-software.com/">MIA-Software</a></b> company, is about providing a parametrizable feature-rich Ecore model editor which can be used to browse and edit any Ecore model more easily than with the default sample Ecore editor.
+			The Generic Model Editor has just been published into the MoDisco "Infrastructure" section. This tool, provided by the <b><a href="http://www.mia-software.com/">MIA-Software</a></b> company, is about providing a parametrizable feature-rich Ecore model editor which can be used to browse and edit any Ecore model more easily than with the default sample Ecore editor.
 			This is particularly useful when dealing with models discovered from large legacy systems. 
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/GenericModelEditor/">http://www.eclipse.org/gmt/modisco/toolBox/GenericModelEditor/</a> for accessing the tool.
+			See <a href="http://www.eclipse.org/gmt/modisco/infrastructure/GenericModelEditor/">http://www.eclipse.org/gmt/modisco/infrastructure/GenericModelEditor/</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Monday, 2 Mar 2009 15:00:00 CET</pubDate>
 	</item>
 	
 	<item>
-		<title>The Knowledge Discovery Metamodel (KDM) implementation is now available from the MoDisco tool box</title>
-		<link>http://www.eclipse.org/gmt/modisco/toolBox/KDM/</link>
+		<title>The Knowledge Discovery Metamodel (KDM) implementation is now available from the MoDisco infrastructure</title>
+		<link>http://www.eclipse.org/gmt/modisco/infrastructure/KDM/</link>
 		<description>
 			<p>
-			The Knowledge Discovery Metamodel (KDM) implementation has just been published into the MoDisco "Tool box" section. This provides an EMF implementation of the <a href="http://www.omg.org/technology/kdm/index.htm">KDM</a> specification which defines a metamodel for representing information related to existing software assets
+			The Knowledge Discovery Metamodel (KDM) implementation has just been published into the MoDisco "Infrastructure" section. This provides an EMF implementation of the <a href="http://www.omg.org/technology/kdm/index.htm">KDM</a> specification which defines a metamodel for representing information related to existing software assets
             and their operational environments. It can be intensively used for representing models discovered from large legacy systems.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/KDM/">http://www.eclipse.org/gmt/modisco/toolBox/KDM/</a> for accessing the tool.
+			See <a href="http://www.eclipse.org/gmt/modisco/infrastructure/KDM/">http://www.eclipse.org/gmt/modisco/infrastructure/KDM/</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Monday, 2 Mar 2009 15:00:00 CET</pubDate>
@@ -63,28 +63,28 @@
 	</item>
 	
 	<item>
-		<title>The KDM-to-UML2 Converter is now available from the MoDisco tool box</title>
-		<link>http://www.eclipse.org/gmt/modisco/toolBox/KDMtoUML2Converter/</link>
+		<title>The KDM-to-UML2 Converter is now available from the MoDisco infrastructure</title>
+		<link>http://www.eclipse.org/gmt/modisco/infrastructure/KDMtoUML2Converter/</link>
 		<description>
 			<p>
-			The KDM-to-UML2 Converter has just been published into the MoDisco "Tool box" section. This tool, provided by the <b><a href="http://www.mia-software.com/">MIA-Software</a></b> company, is about converting KDM models into UML2 models in order to allow integrating KDM-compliant tools (i.e. discoverers) with UML2-compliant tools (e.g. modelers, model transformation tools, code generators, etc).
+			The KDM-to-UML2 Converter has just been published into the MoDisco "Infrastructure" section. This tool, provided by the <b><a href="http://www.mia-software.com/">MIA-Software</a></b> company, is about converting KDM models into UML2 models in order to allow integrating KDM-compliant tools (i.e. discoverers) with UML2-compliant tools (e.g. modelers, model transformation tools, code generators, etc).
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/KDMtoUML2Converter/">http://www.eclipse.org/gmt/modisco/toolBox/KDMtoUML2Converter/</a> for accessing the tool.
+			See <a href="http://www.eclipse.org/gmt/modisco/infrastructure/KDMtoUML2Converter/">http://www.eclipse.org/gmt/modisco/infrastructure/KDMtoUML2Converter/</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Monday, 31 Mar 2008 14:30:00 CET</pubDate>
 	</item>
 	
 	<item>
-		<title>The "Visual Basic 6" discovery tool (part of the "Visual Basic Code Analysis" use case) is now available from the MoDisco tool box</title>
-		<link>http://www.eclipse.org/gmt/modisco/toolBox/VisualBasic/</link>
+		<title>The "Visual Basic 6" discovery tool (part of the "Visual Basic Code Analysis" use case) is now available from the MoDisco technologies</title>
+		<link>http://www.eclipse.org/gmt/modisco/technologies/VisualBasic/</link>
 		<description>
 			<p>
-			The "Visual Basic 6" discovery tool has just been published into the MoDisco "Tool box" section. This tool, provided by the <b><a href="http://www.obeo.fr/">Obeo</a></b> company, allows building models representing the structural parts (and their interdependencies) of Visual Basic source code.
+			The "Visual Basic 6" discovery tool has just been published into the MoDisco "Technologies" section. This tool, provided by the <b><a href="http://www.obeo.fr/">Obeo</a></b> company, allows building models representing the structural parts (and their interdependencies) of Visual Basic source code.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/VisualBasic/">http://www.eclipse.org/gmt/modisco/toolBox/VisualBasic/</a> for accessing the tool.
+			See <a href="http://www.eclipse.org/gmt/modisco/technologies/VisualBasic/">http://www.eclipse.org/gmt/modisco/technologies/VisualBasic/</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Wednesday, 31 Oct 2007 11:15:00 CET</pubDate>
@@ -92,13 +92,13 @@
 	
 	<item>
 		<title>The "Java 2 Standard Edition 5.0 Discovery Tool" specification is now available</title>
-		<link>http://www.eclipse.org/gmt/modisco/toolBox/J2SE5/</link>
+		<link>http://www.eclipse.org/gmt/modisco/technologies/J2SE5/</link>
 		<description>
 			<p>
-			The "Java 2 Standard Edition 5.0 Discovery Tool" specification has just been published into the MoDisco "Tool Box" section. This specification, proposed by the <a href="http://www.mia-software.com/index.php?lang=en">MIA-Software</a> company, currently contains a general description of the tool and provides a J2SE5 metamodel.
+			The "Java 2 Standard Edition 5.0 Discovery Tool" specification has just been published into the MoDisco "Technologies" section. This specification, proposed by the <a href="http://www.mia-software.com/index.php?lang=en">MIA-Software</a> company, currently contains a general description of the tool and provides a J2SE5 metamodel.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/J2SE5/">http://www.eclipse.org/gmt/modisco/toolBox/J2SE5/</a> for getting more information about the tool.
+			See <a href="http://www.eclipse.org/gmt/modisco/technologies/J2SE5/">http://www.eclipse.org/gmt/modisco/technologies/J2SE5/</a> for getting more information about the tool.
 			</p>
 		</description>
 		<pubDate>Friday, 5 Oct 2007 16:30:00 CET</pubDate>
@@ -153,14 +153,14 @@
 	</item>
 	
 	<item>
-		<title>The "Metrics Visualization Builder" tool is now available from the MoDisco tool box</title>
-		<link>http://www.eclipse.org/gmt/modisco/toolBox/MetricsVisualizationBuilder/</link>
+		<title>The "Metrics Visualization Builder" tool is now available from the MoDisco infrastructure</title>
+		<link>http://www.eclipse.org/gmt/modisco/infrastructure/MetricsVisualizationBuilder/</link>
 		<description>
 			<p>
-			The "Metrics Visualization Builder" tool has just been published into the MoDisco "Tool box" section. This simple generic tool (which is an <a href="http://www.eclipse.org/m2m/atl/">ATL</a> project for Eclipse) provides facilities for building visualizations (in several formats) from <i>Metrics</i> models.
+			The "Metrics Visualization Builder" tool has just been published into the MoDisco "Infrastructure" section. This simple generic tool (which is an <a href="http://www.eclipse.org/m2m/atl/">ATL</a> project for Eclipse) provides facilities for building visualizations (in several formats) from <i>Metrics</i> models.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/MetricsVisualizationBuilder/">http://www.eclipse.org/gmt/modisco/toolBox/MetricsVisualizationBuilder/</a> for accessing the tool.
+			See <a href="http://www.eclipse.org/gmt/modisco/infrastructure/MetricsVisualizationBuilder/">http://www.eclipse.org/gmt/modisco/infrastructure/MetricsVisualizationBuilder/</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Tuesday, 3 Apr 2007 15:15:00 CET</pubDate>
@@ -198,14 +198,14 @@
 	</item>
 	
 	<item>
-		<title>The "Java Abstract Syntax" discovery tool is now available from the MoDisco tool box</title>
-		<link>http://www.eclipse.org/gmt/modisco/toolBox/JavaAbstractSyntax/</link>
+		<title>The "Java Abstract Syntax" discovery tool is now available from the MoDisco technologies</title>
+		<link>http://www.eclipse.org/gmt/modisco/technologies/JavaAbstractSyntax/</link>
 		<description>
 			<p>
-			The "Java Abstract Syntax" discovery tool has just been published into the MoDisco "Tool box" section. This simple tool (which is an Eclipse plug-in based upon MoDisco) is fully implemented and provides facilities for buidling Java AST models from Java compilation units.
+			The "Java Abstract Syntax" discovery tool has just been published into the MoDisco "Technologies" section. This simple tool (which is an Eclipse plug-in based upon MoDisco) is fully implemented and provides facilities for building Java AST models from Java compilation units.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/JavaAbstractSyntax/">http://www.eclipse.org/gmt/modisco/toolBox/JavaAbstractSyntax/</a> for accessing the tool.
+			See <a href="http://www.eclipse.org/gmt/modisco/technologies/JavaAbstractSyntax/">http://www.eclipse.org/gmt/modisco/technologies/JavaAbstractSyntax/</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Monday, 26 Feb 2007 17:45:00 CET</pubDate>
