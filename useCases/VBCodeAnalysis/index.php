@@ -70,7 +70,7 @@
 	    	<br />
 	    	<ul>
 	    		<li>
-	    			The <b>Visual Basic 6 discoverer</b> implementing the model-based reverse-engineering process from Visual Basic 6 source code is <a href="../../toolBox/VisualBasic">already available from the MoDisco tool box</a> section. 
+	    			The <b>Visual Basic 6 discoverer</b> implementing the model-based reverse-engineering process from Visual Basic 6 source code. 
 				</li>
 				<br/>
 				<li>

@@ -64,7 +64,7 @@
 					    		<h2> <a href="BugzillaMetrics">Bugzilla Metrics</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
-								This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering bugs information expressed in HTML format, building a Bugzilla model from these data, computing it in order to produce a Metrics model and finally building some visualizations of the generated metrics. In order to perform this last step, the <a href="../toolBox/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool (from the MoDisco tool box) is used. 
+								This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering bugs information expressed in HTML format, building a Bugzilla model from these data, computing it in order to produce a Metrics model and finally building some visualizations of the generated metrics. In order to perform this last step, the <a href="../infrastructure/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool (from the MoDisco infrastructure) is used. 
 							</td>
 							<td width="10%" align="center">		
 								<img src="../../resources/images/completion.png"  />
@@ -79,7 +79,7 @@
 					    		<h2> <a href="BIRTSampleDB">Eclipse/BIRT Project <br/>Sample Database</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
-								This complete use case covers a complex <i>Model Discovery</i> phase. It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of the <a href="../toolBox/RelationalDBInformation/">generic "Relational Database Information" discovery tool</a> (from the MoDisco tool box), and then generating a specific ClassicModels model. 
+								This complete use case covers a complex <i>Model Discovery</i> phase. It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of the generic "Relational Database Information" discovery tool (currently not available), and then generating a specific ClassicModels model. 
 							</td>
 							<td width="10%" align="center">		
 								<img src="../../resources/images/completion.png"  />
@@ -124,7 +124,7 @@
 					    		<h2> <a href="JavaLegacyRE">SharenGo Java Legacy Reverse-Engineering</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
-								This complete use case, which covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases, is about reverse engineering a Java application. It uses the <a href="../toolBox/JavaAbstractSyntax">Java Abstract Syntax discovery tool</a> (from the MoDisco Tool Box) to discoverer the abstract syntax tree (AST) of each Java compilation unit (i.e. each source file). The generated models are then analyzed by model transformations in order to produce a <a href="http://www.sharengo.org/">SharenGo</a> business model.
+								This complete use case, which covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases, is about reverse engineering a Java application. It uses the <a href="../technologies/JavaAbstractSyntax">Java Abstract Syntax discovery tool</a> (from the MoDisco technologies) to discoverer the abstract syntax tree (AST) of each Java compilation unit (i.e. each source file). The generated models are then analyzed by model transformations in order to produce a <a href="http://www.sharengo.org/">SharenGo</a> business model.
 							</td>
 							<td width="10%" align="center">		
 								<img src="../../resources/images/specification.png"  />

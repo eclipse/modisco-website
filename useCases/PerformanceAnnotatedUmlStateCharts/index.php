@@ -156,7 +156,7 @@
 		</td>
 		<td>
 			The provided metamodels are expressed in the Ecore format and also (for most of them) in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
-			Due to IP restrictions, the zoos of metamodels are not currently available anymore from <i>Eclipse.org</i>. However, the metamodels used within this use case are included in the project you can download below.
+			Note that the metamodels used within this use case are also included in the project you can download below.
 		</td>		
 		</tr>
 		

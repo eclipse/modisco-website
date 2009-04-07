@@ -62,7 +62,7 @@
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="overview">Overview</a></h4>
 		
 		<p align="justify">
-	    	This complete use case covers a complex <i>Model Discovery</i> phase. It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of the <a href="../../toolBox/RelationalDBInformation/">generic "Relational Database Information" discovery tool</a> (from the <a href="../../toolBox">MoDisco tool box</a>), and then generating a specific ClassicModels model. 
+	    	This complete use case covers a complex <i>Model Discovery</i> phase. It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of the generic "Relational Database Information" discovery tool (currently not available), and then generating a specific ClassicModels model. 
 	    	<br /><br />
 	    	This use case is provided by <b>INRIA AtlanMod</b> and its development has been supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
 	    	<br /><br />
@@ -77,7 +77,7 @@
 			The complete <b>Model Discovery</b> phase is implemented by applying two consecutive steps:
 			<ul>
 			<li>
-			The first one is about retrieving the database content information from the "Classic Models" database by using the <a href="../../toolBox/RelationalDBInformation/">"Relational Database Information" discovery tool</a>'s provided facilities. The result is a model that conforms to the generic <i>RelationalDBContent</i> metamodel.
+			The first one is about retrieving the database content information from the "Classic Models" database by using the generic "Relational Database Information" discovery tool's provided facilities (currently not available). The result is a model that conforms to the generic <i>RelationalDBContent</i> metamodel.
 			</li>
 			<br/>
 			<li>
@@ -147,7 +147,7 @@
 		</td>
 		<td>
 			All the provided metamodels are expressed in the Ecore format and also in the <a href="http://wiki.eclipse.org/index.php/KM3">KM3</a> textual format.
-			Due to IP restrictions, the zoos of metamodels are not currently available anymore from <i>Eclipse.org</i>. However, the metamodels used within this use case are included in the project you can download below.
+			Note that the metamodels used within this use case are also included in the project you can download below.
 		</td>		
 		</tr>
 		
