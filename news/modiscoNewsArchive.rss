@@ -6,6 +6,20 @@
     <description>MoDisco News</description>
 
 	<item>
+		<title>The KDM Source Discoverer is now available from the MoDisco technologies</title>
+		<link>http://www.eclipse.org/gmt/modisco/technologies/KDMSourceDiscoverer/</link>
+		<description>
+			<p>
+			The KDM Source Discoverer has just been published into the MoDisco "Technologies" section. This generic tool is about discovering a model out of an application files hierarchy, which conforms to the sub-package <i>Source</i> of <a href="../infrastructure/KDM">KDM metamodel</a>. The <i>Source</i> package defines a set of metamodel elements whose purpose is to represent the physical artifacts of the existing system, such as source files, images, configuration files, resource descriptions, etc.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/technologies/KDMSourceDiscoverer/">http://www.eclipse.org/gmt/modisco/technologies/KDMSourceDiscoverer/</a> for accessing the tool.
+			</p>
+		</description>
+		<pubDate>Wednesday, 8 Apr 2009 14:00:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>The J2SE5 Discoverer is now available from the MoDisco technologies</title>
 		<link>http://www.eclipse.org/gmt/modisco/technologies/J2SE5/</link>
 		<description>

@@ -88,6 +88,21 @@
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="middle">
+					    		<h2> <a href="KDMSourceDiscoverer">KDM Source <br/>Discovery Tool</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This generic tool is about discovering a model out of an application files hierarchy, which conforms to the sub-package <i>Source</i> of <a href="../infrastructure/KDM">KDM metamodel</a>. The <i>Source</i> package defines a set of metamodel elements whose purpose is to represent the physical artifacts of the existing system, such as source files, images, configuration files, resource descriptions, etc.
+							</td>
+							<td width="10%" align="center">		
+								<img src="../../resources/images/completion.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
 					    		<h2> <a href="http://ssel.vub.ac.be/ssel/research:mdd:jar2uml">Jar2UML Discovery Tool</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
