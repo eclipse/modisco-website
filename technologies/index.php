@@ -199,6 +199,7 @@
 				<li><a href="http://www.eclipse.org/modeling/emf/">EMF (Model Handling)</a></li>
 				<li><a href="http://www.eclipse.org/m2m/atl/">ATL (Model Transformation)</a></li>
 				<li><a href="http://www.eclipse.org/gmt/amw/">AMW (Model Weaving)</a></li>
+				<li><a href="http://www.eclipse.org/gmt/am3/">AM3 (Megamodeling)</a></li>
 			</ul>
 		</div>
 		
