@@ -141,7 +141,7 @@
 			<ul>
 				<li>February 2007</li>
 				<li style="list-style:none"><br/></li>
-				<li>By <a href="http://www.sciences.univ-nantes.fr/lina/atl/contrib/bruneliere">Hugo Bruneliere (INRIA)</a></li>
+				<li>By <a href="http://www.emn.fr/x-info/atlanmod/index.php/User:Bruneliere">Hugo Bruneliere (INRIA)</a></li>
 				<li style="list-style:none"><br/></li>
 				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modeling.gmt.modisco">MoDisco newsgroup</a></li>
 			</ul>
