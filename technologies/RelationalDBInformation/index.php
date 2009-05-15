@@ -65,7 +65,7 @@
 		<p align="justify">
 	    	This generic tool is about discovering information from any concrete relational database stored into a DBMS. It is composed of two distinct but complementary discoverers: the retrieved information concerns both the schema (i.e. the structure) and the tuples (i.e. the content) of a database. The objective is to express this information as models that conform to a database's schema metamodel or to a database's content metamodel.
 	    	<br /><br />
-	    	This tool is provided by <b>INRIA AtlanMod</b> and its development has been supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
+	    	This tool is provided by <b>INRIA AtlanMod</b> and its development has been supported by the <a href="http://www.modelplex.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
 	    	<br /><br />
 	    	The overall approach applied by this tool is summarized in the following figure: 
     	</p>

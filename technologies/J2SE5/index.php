@@ -73,7 +73,7 @@
             <br>
             <br>
             This tool is provided by <a href="http://www.mia-software.com/">MIA-Software</a> and its development
-            is being supported by the <a href="https://www.modelplex-ist.org/">IST European MODELPLEX project</a>
+            is being supported by the <a href="https://www.modelplex.org/">IST European MODELPLEX project</a>
             (MODELing solution for comPLEX software systems, FP6-IP 34081).
             <br>
             The overall approach is summarized in the following figure:

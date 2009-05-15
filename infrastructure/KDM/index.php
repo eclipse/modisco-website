@@ -69,7 +69,7 @@
             This is the first in the series of specifications related to <a href="http://www.omg.org/adm/">Architecture-Driven Modernization (ADM)</a> activity.
             <br /><a href="http://www.omg.org/adm/">ADM</a> facilitates modernization projects by insuring interoperability for exchange of data between tools provided by different vendors.
             <br /><br />
-	    	This development of this metamodel implementation is being supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081).
+	    	This development of this metamodel implementation is being supported by the <a href="http://www.modelplex.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081).
 	    	<br /><br />
 	    	<b>Architecture of the Knowledge Discovery Metamodel</b>
             <br/>

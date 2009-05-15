@@ -64,7 +64,7 @@
 		<p align="justify">
 	    	This complete use case covers a complex <i>Model Discovery</i> phase. It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of the generic "Relational Database Information" discovery tool (currently not available), and then generating a specific ClassicModels model. 
 	    	<br /><br />
-	    	This use case is provided by <b>INRIA AtlanMod</b> and its development has been supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
+	    	This use case is provided by <b>INRIA AtlanMod</b> and its development has been supported by the <a href="http://www.modelplex.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
 	    	<br /><br />
 	    	The overall approach is summarized in the following figure:
     	</p>

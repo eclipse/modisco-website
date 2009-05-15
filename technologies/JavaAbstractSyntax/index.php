@@ -64,7 +64,7 @@
 		<p align="justify">
 	    	This generic tool is about <b>discovering a full abstract syntax tree (AST)</b> of the code (statements, expressions, annotations and Javadoc) taken from a <b>Java compilation unit</b> (typically a Class). It builds models, representing Java compilation units, which conform to a metamodel designed from the <a href="http://help.eclipse.org/help32/index.jsp?topic=/org.eclipse.jdt.doc.isv/reference/apt/overview-summary.html">Eclipse JDT Java API</a>.
 	    	<br /><br />
-	    	This tool is provided by <b>INRIA AtlanMod</b> and its development is being supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
+	    	This tool is provided by <b>INRIA AtlanMod</b> and its development is being supported by the <a href="http://www.modelplex.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
 	    	<br /><br />
 	    	The overall approach is summarized in the following figure:
     	</p>    	

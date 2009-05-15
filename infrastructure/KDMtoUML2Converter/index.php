@@ -65,7 +65,7 @@
 		<p align="justify">
 	    	This tool is about <b>converting KDM models into UML2 models</b> in order to allow integrating KDM-compliant tools (i.e. discoverers) with UML2-compliant tools (e.g. modelers, model transformation tools, code generators, etc).
 	    	<br /><br />
-	    	This tool is provided by <b><a href="http://www.mia-software.com/">MIA-Software</a></b> and its development has been supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
+	    	This tool is provided by <b><a href="http://www.mia-software.com/">MIA-Software</a></b> and its development has been supported by the <a href="http://www.modelplex.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
 	    	<br /><br />
 	    	The overall approach applied by this tool is summarized in the following figure: 
     	</p>

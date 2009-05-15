@@ -64,7 +64,7 @@
 		<p align="justify">
 	   		This use case is about discovering the file tree of a Unix system and building a model representing it. The model produced conforms to a very simple Unix file system metamodel (which is described and provided in the <a href="#download">Download section</a>).
 	   		<br /><br />
-	    	This use case is provided by <b>INRIA AtlanMod</b> and its development is being supported by the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
+	    	This use case is provided by <b>INRIA AtlanMod</b> and its development is being supported by the <a href="http://www.modelplex.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
 	    	<br /><br />
 	    	The overall approach is summarized in the following figure:
     	</p>
