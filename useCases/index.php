@@ -175,9 +175,9 @@
 		<div class="sideitem">
 			<h6>Components</h6>
 			<ul>
-				<li><a href="useCases/">Use Cases</a></li>
-				<li><a href="technologies/">Technologies</a></li>
-				<li><a href="infrastructure/">Infrastructure</a></li>
+				<li><a href="../useCases/">Use Cases</a></li>
+				<li><a href="../technologies/">Technologies</a></li>
+				<li><a href="../infrastructure/">Infrastructure</a></li>
 			</ul>
 		</div>
 		
