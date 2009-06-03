@@ -150,9 +150,9 @@
 		<div class="sideitem">
 			<h6>Getting Started</h6>
 			<ul>
-				<li><a href="doc/MoDisco_Flyer-Poster_1.0.pdf">Flyer-poster</a></li>
-				<li><a href="doc/MoDisco_Overview_1.0.pdf">Overview (slides)</a></li>
-				<li><a href="about.php">Description</a></li>
+				<li><a href="../doc/MoDisco_Flyer-Poster_1.0.pdf">Flyer-poster</a></li>
+				<li><a href="../doc/MoDisco_Overview_1.0.pdf">Overview (slides)</a></li>
+				<li><a href="../about.php">Description</a></li>
 				<li><a href="http://wiki.eclipse.org/index.php/MoDisco">Wiki</a></li>
 			</ul>
 		</div>
