@@ -44,7 +44,7 @@
 		<hr class="clearer" />
 
 		<div>
-		<table>
+		<table border="0" width="100%">
 			<COLGROUP>
 				<COL width="2%">
 				<COL width="98%">
@@ -154,7 +154,7 @@ business rules, insofar as this information can be mined from existing applicati
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="relatedUseCases">Related Use Cases and Tools</a></h4>
 
 		<p align="justify">
-	    	<table>
+	    	<table border="0" width="100%">
 			<COLGROUP>
 				<COL width="25%">
 				<COL width="75%">
@@ -189,7 +189,7 @@ business rules, insofar as this information can be mined from existing applicati
 
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="documentation">Documentation</a></h4>
 
-		<table>
+		<table border="0" width="100%">
 			<COLGROUP>
 				<COL width="25%">
 				<COL width="75%">
@@ -209,7 +209,7 @@ business rules, insofar as this information can be mined from existing applicati
 
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="download">Download</a></h4>
 
-		<table>
+		<table border="0" width="100%">
 			<COLGROUP>
 				<COL width="25%">
 				<COL width="75%">

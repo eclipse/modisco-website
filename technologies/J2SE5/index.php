@@ -44,7 +44,7 @@
 		<hr class="clearer" />
 
 		<div>
-		<table>
+		<table border="0" width="100%">
 			<COLGROUP>
 				<COL width="2%">
 				<COL width="98%">
@@ -108,7 +108,7 @@
                 <li>refactoring (transformation of the resulting model and re-generation to Java)</li>
             </ul>
             <br>
-	    	<table>
+	    	<table border="0" width="100%">
 			<COLGROUP>
 				<COL width="25%">
 				<COL width="75%">
@@ -126,7 +126,7 @@
     		-->
                 <tr>
 					<td align="center">
-						<h2> <a href="http://wiki.eclipse.org/index.php/MoDisco/ModelFilter">Model filter use case</a> </h2>
+						<h2> <a href="../../useCases/ModelFilter">Model filter use case</a> </h2>
 					</td>
 					<td>
 	    				The goal of this use case is to obtain a specific UML model of a java element,
@@ -142,7 +142,7 @@
 
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="documentation">Documentation</a></h4>
 
-		<table>
+		<table border="0" width="100%">
 			<COLGROUP>
 				<COL width="25%">
 				<COL width="75%">
@@ -162,7 +162,7 @@
 
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="download">Download</a></h4>
 
-		<table>
+		<table border="0" width="100%">
 			<COLGROUP>
 				<COL width="25%">
 				<COL width="75%">

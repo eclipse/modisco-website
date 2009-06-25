@@ -44,7 +44,7 @@ $html = <<<EOHTML
         <hr class="clearer" />
 
         <div>
-        <table>
+        <table border="0" width="100%">
             <COLGROUP>
                 <COL width="2%">
                 <COL width="98%">
@@ -102,13 +102,13 @@ $html = <<<EOHTML
 
         <h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="relatedUseCases">Related Use Cases or tool boxes</a></h4>
      
-        <table>
+        <table border="0" width="100%">
             <COLGROUP>
                 <COL width="25%">
                 <COL width="75%">
             <tr>
                 <td align="center">
-                    <h2> <a href="../../useCases/Modelplex">Modelplex use case</a> </h2>
+                    <h2> <a href="../Modelplex">Modelplex use case</a> </h2>
                 </td>
                 <td>
                     The goal of this use case is to obtain a UML model of a java application.
@@ -118,7 +118,7 @@ $html = <<<EOHTML
             </tr>
             <tr>
                 <td align="center">
-                    <h2> <a href="../../useCases/ModelFilter">Model filter use case</a> </h2>
+                    <h2> <a href="../ModelFilter">Model filter use case</a> </h2>
                 </td>
                 <td>
                     The goal of this use case is to obtain a specific UML model of a java element,
@@ -134,7 +134,7 @@ $html = <<<EOHTML
 
         <h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="documentation">Documentation</a></h4>
 
-        <table>
+        <table border="0" width="100%">
             <COLGROUP>
                 <COL width="25%">
                 <COL width="75%">
@@ -153,7 +153,7 @@ $html = <<<EOHTML
 
         <h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="download">Download</a></h4>
 
-        <table>
+        <table border="0" width="100%">
             <COLGROUP>
                 <COL width="25%">
                 <COL width="75%">
@@ -199,9 +199,11 @@ $html = <<<EOHTML
                 <li style="list-style:none">----------</li>
                 <li><a href="http://www.omg.org/technology/kdm/index.htm">OMG KDM</a></li>
                 <li style="list-style:none">----------</li>
+                <li><a href="http://en.wikipedia.org/wiki/Knowledge_Discovery_Metamodel">Wikipedia KDM</a></li>
+                <li style="list-style:none">----------</li>
                 <li><a href="http://www.omg.org/spec/UML/2.1.2/">OMG UML 2.1.2</a></li>
                 <li style="list-style:none">----------</li>
-                <li><a href="http://en.wikipedia.org/wiki/Knowledge_Discovery_Metamodel">Wikipedia KDM</a></li>
+                <li><a href="http://www.eclipse.org/modeling/mdt/?project=uml2">Eclipse UML2</a></li>
             </ul>
         </div>
 
