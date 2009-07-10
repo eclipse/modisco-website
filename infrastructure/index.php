@@ -121,6 +121,21 @@
 	    			<table width="100%">
 						<tr>
 							<td width="20%" valign="middle">
+					    		<h2> <a href="KDMtoUML2Converter">KDM-to-UML2 Converter</a> </h2>
+		  					</td>
+							<td width="70%" align="justify">
+								This tool is about <b>converting KDM models into UML2 models</b> in order to allow integrating KDM-compliant tools (i.e. discoverers) with UML2-compliant tools (e.g. modelers, model transformation tools, code generators, etc). The converter is implemented by an <a href="http://www.eclipse.org/m2m/atl/">ATL model-to-model transformation</a> taking as input a model conforming to the <i>KDM</i> metamodel and producing as output a model conforming to the <i>UML2</i> metamodel.
+							</td>
+							<td width="10%" align="center">
+								<img src="../../resources/images/implementation.png"  />
+							</td>
+						</tr>
+					</table>
+	    		</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="20%" valign="middle">
 					    		<h2> <a href="CSharp">CSharp Metamodel Implementation</a> </h2>
 		  					</td>
 							<td width="70%" align="justify">
