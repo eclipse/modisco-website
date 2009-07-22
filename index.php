@@ -39,146 +39,67 @@
 	<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Home page</h1>
 	<h3>Welcome</h3>
 	<p align="JUSTIFY">
-	MoDisco (for Model Discovery) is an Eclipse-GMT project for model-driven reverse engineering. The objective is to allow practical extractions of models from legacy systems. 
-	Because of the widely different nature and technological heterogeneity of legacy systems, there are several different ways to extract models from such systems. MoDisco 
-	proposes a generic and extensible metamodel-driven approach to <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">model discovery</a></b>. A basic framework and a set of guidelines are provided to the Eclipse contributors to bring 
-	their own solutions to discover models in various kinds of legacy.
+Legacy systems embrace a large number of technologies, making the development of tools to cope with legacy 
+systems evolution a tedious and time consuming task.
+
+As modernization projects face with both technologies combination and various modernization situations,
+ model-driven approaches and tools offer the requisite abstraction level to build up mature and flexible
+ modernization solutions. 
+
+ 	<h2>What is MoDisco ? </h2>
+
+MoDisco provides an extensible framework to develop model-driven tools to support use-cases of existing software modernization :
+<ul>
+	<li>
+    Quality Assurance: verifying whether an existing system meets the required qualities (detection of anti-patterns in existing code and computation of metrics.)
+    </li>
+    <li>
+    Documentation: extraction of information from an existing system to help understanding one aspect of this system (structure, behaviour, persistence, data-flow, change impact , etc).
+    </li>
+    <li>
+    Improvement: transformation of an existing system to integrate better coding norms or design patterns.
+    </li>
+    <li>
+    Migration: transformation of an existing system to change a component, the framework, the language, or its architecture
+    </li>
+</ul>
+<br />
+<img align="center" src="resources/Modisco-Overview.PNG" alt="MoDisco Overview"/>
+In each case, modernizing an existing software system implies:
+<ul>
+	<li>
+	Describing the information extracted out of the artifacts of this system
+    </li>
+    <li>
+    Understanding the extracted information in order to take the good modernization decisions
+    </li>
+    <li>
+    Transforming this information to new artifacts facilitating the modernization (metrics, document, transformed code, ...) 
+    </li>
+</ul>
+    
+MoDisco aims at supporting these three phases by providing :
+<ul>
+	<li>
+	Metamodels to describe existing systems
+    </li>
+    <li>
+    Discoverers to automaticaly create models of these systems
+    </li>
+    <li>
+    Generic tools to understand and transform complex models created out of existing systems
+    </li>
+    <li>
+    Use-cases illustrating how MoDisco can support modernization process 
+    </li>
+</ul>
+    <br />
+	<a target="_blank" href="http://wiki.eclipse.org/MoDisco#Description">more about MoDisco &raquo;</a> 
 	<br /><br />
-	Due to the highly diversified nature of the considered legacy, MoDisco is a collaborative project involving several organizations. Each of them will bring its own expertise in 
-	a given area. MoDisco will use as often as possible the solutions elaborated by the OMG ADM (Architecture Driven Modernization) Task Force. The latest information on ADM recommendations like the <a href="http://www.kdmanalytics.com/kdm">Knowledge Discovery Metamodel (KDM)</a>, GASTM or SMM may be found at <a href="http://adm.omg.org">http://adm.omg.org</a>.
-	<br /><br />
-	As a GMT project, MoDisco will make good use of other GMT projects or solutions available in the Eclipse Modeling Project (EMF, M2M, GMF, TMF, etc), and more generally of 
-	any plugin available in the Eclipse environment.
-	<br /><br />
-	The creation and the launch of the MoDisco project has been realized in the context of the <a href="http://www.modelplex.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081).
-	<br /><br />
-	<a href="about.php">more about MoDisco &raquo;</a> 
-	<!--
-	| <b><a href="useCases">MoDisco Use Cases &raquo;</a> </b> | <b><a href="toolBox">MoDisco Tool Box &raquo;</a> </b>
-	-->
 	</p>
 		
 	<hr/>
 		
-<!--		<div class="homeitem">
-			<h3>Quick Navigator</h3>
-			<ul>
-				<li>
-					<table width="100%">
-						<tr>
-							<td width="80%" valign="bottom">
-								<b><a href="useCases">Use Cases</a></b>
-		  					</td>
-							<td align="right">
-								<a href="useCases"><img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" height="42" width="42" /></a>
-							</td>
-						</tr>
-					</table>
-				</li>
-				<li>
-					<table width="100%">
-						<tr>
-							<td width="80%" valign="bottom">
-								<b><a href="technologies">Technologies</a></b>
-		  					</td>
-							<td align="right">
-								<a href="technologies"><img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" height="42" width="42" /></a>
-							</td>
-						</tr>
-					</table>
-				</li>
-				<li>
-					<table width="100%">
-						<tr>
-							<td width="80%" valign="bottom">
-								<b><a href="infrastructure">Infrastructure</a></b>
-		  					</td>
-							<td align="right">
-								<a href="infrastructure"><img align="right" src="resources/logoMoDiscoSmall.jpg" valign="top" height="42" width="42" /></a>
-							</td>
-						</tr>
-					</table>
-				</li>
-				<li>
-					<table width="100%">
-						<tr>
-							<td width="80%" valign="bottom">
-								<b><a href="http://wiki.eclipse.org/MoDisco/Project_Plan">Roadmap</a></b>,
-								<b><a href="doc/">Documentation</a></b>, 
-								<b><a href="http://wiki.eclipse.org/index.php/MoDisco">Wiki</a></b>
-		  					</td>
-							<td align="right">
-								<a href="http://wiki.eclipse.org/index.php/MoDisco"><img align="right" src="../resources/images/reference.gif" valign="top"/></a>
-							</td>
-						</tr>
-					</table>
-				</li>
-				<li>
-					<table width="100%">
-						<tr>
-							<td width="80%" valign="bottom">
-								<b><a href="news://news.eclipse.org/eclipse.modisco">Newsgroup</a></b>,
-					            <a href="http://www.eclipse.org/search/search.cgi">Search</a>,
-					            <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.modisco">Web Interface</a>,
-					            <a href="http://dev.eclipse.org/newslists/news.eclipse.modisco/threads.html">Archive</a>
-		  					</td>
-							<td align="right">
-								<a href="news://news.eclipse.org/eclipse.modisco"><img align="right" src="../resources/images/news.gif" valign="top"/></a>
-							</td>
-						</tr>
-					</table>
-				</li>
-				<li>
-					<table width="100%">
-						<tr>
-							<td width="80%" valign="bottom">
-				                <b><a href="http://dev.eclipse.org/viewsvn/index.cgi/?root=Modeling_MODISCO">SVN</a></b>
-		  					</td>
-							<td align="right">
-								<a href="http://dev.eclipse.org/viewsvn/index.cgi/?root=Modeling_MODISCO"><img align="right" src="../resources/images/cvs.gif" valign="top"/></a>
-							</td>
-						</tr>
-					</table>
-				</li>
-				<li>
-					<table width="100%">
-						<tr>
-							<td width="80%" valign="bottom">
-				                <b><a href="eclipse-project-ip-log.csv">Static Project IP Log</a></b>
-		  					</td>
-							<td align="right">
-								<a href="eclipse-project-ip-log.csv"><img align="right" src="http://dev.eclipse.org/large_icons/apps/accessories-text-editor.png" valign="top"/></a>
-							</td>
-						</tr>
-					</table>
-				</li>
-				<li>
-					<table width="100%">
-						<tr>
-							<td width="80%" valign="bottom">
-				                <b><a href="project-info/ipquery.php">Half&Half Project IP Log</a></b>
-		  					</td>
-							<td align="right">
-								<a href="project-info/ipquery.php"><img align="right" src="http://dev.eclipse.org/large_icons/apps/accessories-text-editor.png" valign="top"/></a>
-							</td>
-						</tr>
-					</table>
-				</li>
-				<li>
-					<table width="100%">
-						<tr>
-							<td width="80%" valign="bottom">
-				                <b><a href="http://www.eclipse.org/projects/ip_log.php?projectid=modeling.gmt">Dynamic Project IP Log</a></b>
-		  					</td>
-							<td align="right">
-								<a href="http://www.eclipse.org/projects/ip_log.php?projectid=modeling.gmt"><img align="right" src="http://dev.eclipse.org/large_icons/apps/accessories-text-editor.png" valign="top"/></a>
-							</td>
-						</tr>
-					</table>
-				</li>
-			</ul>
-		</div>
--->	
 		<div class="homeitem"> <!-- homeitem3col -->
 			$modisconews
 		</div>
