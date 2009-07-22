@@ -35,7 +35,7 @@ EOBRANDING;
 	$Nav->addCustomNav("Documentation", "http://www.eclipse.org/gmt/doc/", "_self", 1);
 	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/GMT", "_blank", 1);
 	$Nav->addNavSeparator("MoDisco", "/gmt/modisco/");
-	$Nav->addCustomNav("Components", "http://wiki.eclipse.org/MoDisco#Available_Components", "_blank", 2);
+	$Nav->addCustomNav("Components", "http://wiki.eclipse.org/MoDisco#Description", "_blank", 2);
 	#$Nav->addCustomNav("Use Cases", "/gmt/modisco/useCases/", "_self", 3);
 	#$Nav->addCustomNav("Technologies", "/gmt/modisco/technologies/", "_self", 3);
 	#$Nav->addCustomNav("Infrastructure", "/gmt/modisco/infrastructure/", "_self", 3);
