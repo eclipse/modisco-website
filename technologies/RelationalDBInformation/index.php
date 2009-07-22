@@ -82,31 +82,16 @@
 			We provide below two short excerpts of models produced using the tool discoverers. The first one represents the simple <i>Employees</i> table (taken from the <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT Sample Database</a>), the second one represents a tuple of this table:	
 	  	</p>
 	  	<p align="center">
-	  		<table>
-				<COLGROUP>
-					<COL width="50%">
-					<COL width="50%">
-				</COLGROUP>
-				<tr>
-	  				<td align="center">
-	  					<img src="../resources/excerpts/RelationalDBSchema_ModelExcerpt.png"/>
-	  				</td>
-	  				<td align="center">
-	  					<img src="../resources/excerpts/RelationalDBContent_ModelExcerpt.png"/>
-	  				</td>
-	  			</tr>
-	  			<tr>
-	  				<td align="center">
-	  					<br />
-						<b>Excerpt (representing the <i>Employees</i> table) of a RelationalDBSchema model</b>
-	  				</td>
-	  				<td align="center">
-	  					<br />
-	  					<b>Excerpt (representing a tuple of the <i>Employees</i> table) of a RelationalDBContent model</b>
-	  				</td>
-	  			</tr>
-	  		</table>
-		</p>
+	  		<img src="../resources/excerpts/RelationalDBSchema_ModelExcerpt.png"/>
+	  		<br />
+			<b>Excerpt (representing the <i>Employees</i> table) of a RelationalDBSchema model</b>
+			<br />
+
+			<img src="../resources/excerpts/RelationalDBContent_ModelExcerpt.png"/>
+	  		<br />
+	  		<b>Excerpt (representing a tuple of the <i>Employees</i> table) of a RelationalDBContent model</b>
+			<br />
+	  	</p>
 		
 		<br>
 		

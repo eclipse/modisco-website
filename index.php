@@ -35,40 +35,32 @@
 
 	<!-- Middle part -->
 	<div id="midcolumn">
-		<table width="100%">
-			<tr>
-				<td width="80%">
-					<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Home page</h1>
-					<h3>Welcome</h3>
-				      <p align="JUSTIFY">
-						MoDisco (for Model Discovery) is an Eclipse-GMT project for model-driven reverse engineering. The objective is to allow practical extractions of models from legacy systems. 
-						Because of the widely different nature and technological heterogeneity of legacy systems, there are several different ways to extract models from such systems. MoDisco 
-						proposes a generic and extensible metamodel-driven approach to <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">model discovery</a></b>. A basic framework and a set of guidelines are provided to the Eclipse contributors to bring 
-						their own solutions to discover models in various kinds of legacy.
-						<br /><br />
-						Due to the highly diversified nature of the considered legacy, MoDisco is a collaborative project involving several organizations. Each of them will bring its own expertise in 
-						a given area. MoDisco will use as often as possible the solutions elaborated by the OMG ADM (Architecture Driven Modernization) Task Force. The latest information on ADM recommendations like the <a href="http://www.kdmanalytics.com/kdm">Knowledge Discovery Metamodel (KDM)</a>, GASTM or SMM may be found at <a href="http://adm.omg.org">http://adm.omg.org</a>.
-						<br /><br />
-						As a GMT project, MoDisco will make good use of other GMT projects or solutions available in the Eclipse Modeling Project (EMF, M2M, GMF, TMF, etc), and more generally of 
-						any plugin available in the Eclipse environment.
-				      	<br /><br />
-				      	The creation and the launch of the MoDisco project has been realized in the context of the <a href="http://www.modelplex.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081).
-				      	<br /><br />
-				      	<a href="about.php">more about MoDisco &raquo;</a> 
-				      	<!--
-				      		| <b><a href="useCases">MoDisco Use Cases &raquo;</a> </b> | <b><a href="toolBox">MoDisco Tool Box &raquo;</a> </b>
-				      	-->
-				      </p>
-		  		</td>
-				<td align="right">
-					<img align="right" src="resources/logoMoDiscoBig.jpg" valign="top" alt="MoDisco Logo" height="200" width="200" />
-				</td>
-			</tr>
-		</table>
+	<img style="float:right" src="resources/logoMoDiscoSmall.jpg" alt="MoDisco Logo"/>
+	<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Home page</h1>
+	<h3>Welcome</h3>
+	<p align="JUSTIFY">
+	MoDisco (for Model Discovery) is an Eclipse-GMT project for model-driven reverse engineering. The objective is to allow practical extractions of models from legacy systems. 
+	Because of the widely different nature and technological heterogeneity of legacy systems, there are several different ways to extract models from such systems. MoDisco 
+	proposes a generic and extensible metamodel-driven approach to <b><a href="http://wiki.eclipse.org/index.php/MoDisco#Definitions">model discovery</a></b>. A basic framework and a set of guidelines are provided to the Eclipse contributors to bring 
+	their own solutions to discover models in various kinds of legacy.
+	<br /><br />
+	Due to the highly diversified nature of the considered legacy, MoDisco is a collaborative project involving several organizations. Each of them will bring its own expertise in 
+	a given area. MoDisco will use as often as possible the solutions elaborated by the OMG ADM (Architecture Driven Modernization) Task Force. The latest information on ADM recommendations like the <a href="http://www.kdmanalytics.com/kdm">Knowledge Discovery Metamodel (KDM)</a>, GASTM or SMM may be found at <a href="http://adm.omg.org">http://adm.omg.org</a>.
+	<br /><br />
+	As a GMT project, MoDisco will make good use of other GMT projects or solutions available in the Eclipse Modeling Project (EMF, M2M, GMF, TMF, etc), and more generally of 
+	any plugin available in the Eclipse environment.
+	<br /><br />
+	The creation and the launch of the MoDisco project has been realized in the context of the <a href="http://www.modelplex.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081).
+	<br /><br />
+	<a href="about.php">more about MoDisco &raquo;</a> 
+	<!--
+	| <b><a href="useCases">MoDisco Use Cases &raquo;</a> </b> | <b><a href="toolBox">MoDisco Tool Box &raquo;</a> </b>
+	-->
+	</p>
 		
-		<hr/>
+	<hr/>
 		
-		<div class="homeitem">
+<!--		<div class="homeitem">
 			<h3>Quick Navigator</h3>
 			<ul>
 				<li>
@@ -148,24 +140,62 @@
 						</tr>
 					</table>
 				</li>
+				<li>
+					<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+				                <b><a href="eclipse-project-ip-log.csv">Static Project IP Log</a></b>
+		  					</td>
+							<td align="right">
+								<a href="eclipse-project-ip-log.csv"><img align="right" src="http://dev.eclipse.org/large_icons/apps/accessories-text-editor.png" valign="top"/></a>
+							</td>
+						</tr>
+					</table>
+				</li>
+				<li>
+					<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+				                <b><a href="project-info/ipquery.php">Half&Half Project IP Log</a></b>
+		  					</td>
+							<td align="right">
+								<a href="project-info/ipquery.php"><img align="right" src="http://dev.eclipse.org/large_icons/apps/accessories-text-editor.png" valign="top"/></a>
+							</td>
+						</tr>
+					</table>
+				</li>
+				<li>
+					<table width="100%">
+						<tr>
+							<td width="80%" valign="bottom">
+				                <b><a href="http://www.eclipse.org/projects/ip_log.php?projectid=modeling.gmt">Dynamic Project IP Log</a></b>
+		  					</td>
+							<td align="right">
+								<a href="http://www.eclipse.org/projects/ip_log.php?projectid=modeling.gmt"><img align="right" src="http://dev.eclipse.org/large_icons/apps/accessories-text-editor.png" valign="top"/></a>
+							</td>
+						</tr>
+					</table>
+				</li>
 			</ul>
 		</div>
-	
+-->	
 		<div class="homeitem"> <!-- homeitem3col -->
 			$modisconews
 		</div>
 		<hr class="clearer" />
 	</div>
 
-	<!-- Right Part -->
-	<div id="rightcolumn">
-	
-		<div class="sideitem">
-			<h6>Incubation</h6>
-   				<div align="center"><a href="http://www.eclipse.org/projects/what-is-incubation.php"><img 
-        			 align="center" src="../resources/images/egg-incubation.png" 
-        			 border="0" alt="Incubation" /></a></div>
-		</div>
+<!-- Right Part -->
+<div id="rightcolumn">
+	<div class="sideitem">
+		<h6>Incubation</h6>
+   		<p>Some components are currently in their <a href="http://www.eclipse.org/projects/dev_process/validation-phase.php">Validation (Incubation) Phase</a>.</p> 
+	   	<div align="center">
+   			<a href="http://www.eclipse.org/projects/what-is-incubation.php">
+   				<img align="right" src="../resources/images/egg-incubation.png" border="0" alt="Incubation" />
+   			</a>
+   		</div>
+	</div>
 		
 		<div class="sideitem">
 			<h6>Getting Started</h6>

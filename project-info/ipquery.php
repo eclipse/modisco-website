@@ -2,7 +2,7 @@
 $product_id = 12; # GMT/MoDisco
 $committers = array(
  	# taken from http://www.eclipse.org/projects/project_summary.php?projectid=modeling.m2m
- 	"hbruneliere" => "modisco",
+ 	"hbrunelie" => "modisco",
  	"gbarbier" => "modisco",
  	
 );

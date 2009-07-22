@@ -1,7 +1,7 @@
 <?php
 
-	# set default theme
-	$_theme = "Lazarus";
+	# set default theme Lazarus -> Nova
+	$_theme = "Nova";
 	$theme = "";
 	if(isset($_POST['theme'])) {
 		$_theme = $_POST['theme'];
@@ -30,25 +30,25 @@ EOBRANDING;
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	# these are optional
 	$Nav->addCustomNav("About This Project", "http://www.eclipse.org/projects/project_summary.php?projectid=modeling.gmt", "", 1);
-	$Nav->addNavSeparator("GMT", "/gmt/");
-	$Nav->addCustomNav("Download", "/gmt/download/", "_self", 1);
-	$Nav->addCustomNav("Documentation", "/gmt/doc/", "_self", 1);
-	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/GMT", "_self", 1);
-	$Nav->addCustomNav("MoDisco", "/gmt/modisco/", "_self", 1);
-	$Nav->addCustomNav("Components", ".", "_self", 2);
+	$Nav->addNavSeparator("GMT", "http://www.eclipse.org/gmt/");
+	$Nav->addCustomNav("Download", "http://www.eclipse.org/gmt/download/", "_self", 1);
+	$Nav->addCustomNav("Documentation", "http://www.eclipse.org/gmt/doc/", "_self", 1);
+	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/GMT", "_blank", 1);
+	$Nav->addNavSeparator("MoDisco", "/gmt/modisco/");
+	$Nav->addCustomNav("Components", "http://wiki.eclipse.org/MoDisco#Available_Components", "_blank", 2);
 	$Nav->addCustomNav("Use Cases", "/gmt/modisco/useCases/", "_self", 3);
 	$Nav->addCustomNav("Technologies", "/gmt/modisco/technologies/", "_self", 3);
 	$Nav->addCustomNav("Infrastructure", "/gmt/modisco/infrastructure/", "_self", 3);
-	$Nav->addCustomNav("Download", "/gmt/modisco/download/", "_self", 2);
-	$Nav->addCustomNav("Documentation", "/gmt/modisco/doc/", "_self", 2);
-	$Nav->addCustomNav("Roadmap", "http://wiki.eclipse.org/MoDisco/Project_Plan", "_self", 3);
-	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/MoDisco", "_self", 3);
-	$Nav->addCustomNav("Community", ".", "_self", 2);
-	$Nav->addCustomNav("SVN", "http://dev.eclipse.org/viewsvn/index.cgi/?root=Modeling_MODISCO", "_self", 3);
-	$Nav->addCustomNav("Newsgroup", "news://news.eclipse.org/eclipse.modisco", "_self", 3);
-	$Nav->addCustomNav("Submit a bug", "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=GMT", "_self", 3);
-	$Nav->addCustomNav("Open bugs", "https://bugs.eclipse.org/bugs/buglist.cgi?quicksearch=MoDisco", "_self", 3);
-	$Nav->addCustomNav("Contributors", "/gmt/modisco/contributors.php", "_self", 3);
+	$Nav->addNavSeparator("Download", "/gmt/modisco/download/");
+	$Nav->addNavSeparator("Documentation", "/gmt/modisco/doc/");
+	$Nav->addCustomNav("Roadmap", "http://wiki.eclipse.org/MoDisco/Project_Plan", "_blank", 3);
+	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/MoDisco", "_blank", 3);
+	$Nav->addNavSeparator("Community", ".");
+	$Nav->addCustomNav("SVN", "http://dev.eclipse.org/viewsvn/index.cgi/?root=Modeling_MODISCO", "_blank", 3);
+	$Nav->addCustomNav("Newsgroup", "news://news.eclipse.org/eclipse.modisco", "_blank", 3);
+	$Nav->addCustomNav("Submit a bug", "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=GMT&component=MoDisco", "_blank", 3);
+	$Nav->addCustomNav("Open bugs", "https://bugs.eclipse.org/bugs/buglist.cgi?quicksearch=MoDisco", "_blank", 3);
+	$Nav->addCustomNav("Contributors", "http://www.eclipse.org/gmt/modisco/project-info/team.php", "_self", 3);
 	$Nav->addCustomNav("Interested Parties", "/gmt/modisco/interestedParties.php", "_self", 2);
 	$Nav->addCustomNav("Related Projects", "/gmt/modisco/relatedProjects.php", "_self", 2);
 	

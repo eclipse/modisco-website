@@ -57,108 +57,109 @@
 	    		<li style="list-style:none">
 	    			<table width="100%">
 						<tr>
-							<td width="20%" valign="middle">
-					    		<h2> <a href="J2SE5">Java 2 Standard Edition 5.0 Discovery Tool</a> </h2>
+							<td width="90%">
+					    		<h2> <a href="J2SE5">Java 2 Standard Edition 5 Metamodel Implementation</a> </h2>
 		  					</td>
-							<td width="70%" align="justify">
-								This generic tool is about <b>discovering a complete model out of the source code of a Java 5 application</b>. The model, which conforms to the <b>J2SE5</b> metamodel, describes all the structural concepts (from packages up to method invocations and comments) and links between code elements (method invocations, variables usage, class inheritance, etc). 
-							</td>
-							<td width="10%" align="center">		
+							<td width="10%">		
 								<img src="../../resources/images/completion.png"  />
 							</td>
 						</tr>
 					</table>
+					This provides an EMF implementation of the <a href="http://java.sun.com/j2se/1.5.0/">Java 2 Standard Edition 5 Metamodel (J2SE5)</a> specification which defines a metamodel for representing models of Java programs 
+					developed using the Java Platform Standard Edition (Java SE), which is the premier platform for rapidly developing and deploying secure, portable applications that run on server and desktop systems spanning most operating systems.
 	    		</li>
 	    		<li style="list-style:none">
 	    			<table width="100%">
 						<tr>
-							<td width="20%" valign="middle">
+							<td width="90%">
+					    		<h2> <a href="J2SE5Discoverer">Java 2 Standard Edition 5.0 Discovery Tool</a> </h2>
+		  					</td>
+							<td width="10%">		
+								<img src="../../resources/images/completion.png"  />
+							</td>
+						</tr>
+					</table>
+					This generic tool is about <b>discovering a complete model out of the source code of a Java 5 application</b>. The model, which conforms to the <b>J2SE5</b> metamodel, describes all the structural concepts (from packages up to method invocations and comments) and links between code elements (method invocations, variables usage, class inheritance, etc). 
+				</li>
+	    		<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="90%">
 					    		<h2> <a href="JavaAbstractSyntax">Java Abstract Syntax Discovery Tool</a> </h2>
 		  					</td>
-							<td width="70%" align="justify">
-								This generic tool is about <b>discovering a full abstract syntax tree (AST)</b> of the code (statements, expressions, annotations and Javadoc) taken from a <b>Java compilation unit</b> (typically a Class). It builds models, representing Java compilation units, which conform to a metamodel designed from the <a href="http://help.eclipse.org/help32/index.jsp?topic=/org.eclipse.jdt.doc.isv/reference/apt/overview-summary.html">Eclipse JDT Java API</a>.
-							</td>
-							<td width="10%" align="center">		
+							<td width="10%">		
 								<img src="../../resources/images/completion.png"  />
 							</td>
 						</tr>
 					</table>
-	    		</li>
+					This generic tool is about <b>discovering a full abstract syntax tree (AST)</b> of the code (statements, expressions, annotations and Javadoc) taken from a <b>Java compilation unit</b> (typically a Class). It builds models, representing Java compilation units, which conform to a metamodel designed from the <a href="http://help.eclipse.org/help32/index.jsp?topic=/org.eclipse.jdt.doc.isv/reference/apt/overview-summary.html">Eclipse JDT Java API</a>.
+				</li>
 	    		<li style="list-style:none">
 	    			<table width="100%">
 						<tr>
-							<td width="20%" valign="middle">
-					    		<h2> <a href="KDMSourceDiscoverer">KDM Source <br/>Discovery Tool</a> </h2>
-		  					</td>
-							<td width="70%" align="justify">
-								This generic tool is about discovering a model out of an application files hierarchy, which conforms to the sub-package <i>Source</i> of <a href="../infrastructure/KDM">KDM metamodel</a>. The <i>Source</i> package defines a set of metamodel elements whose purpose is to represent the physical artifacts of the existing system, such as source files, images, configuration files, resource descriptions, etc.
-							</td>
-							<td width="10%" align="center">		
-								<img src="../../resources/images/completion.png"  />
-							</td>
-						</tr>
-					</table>
-	    		</li>
-	    		<li style="list-style:none">
-	    			<table width="100%">
-						<tr>
-							<td width="20%" valign="middle">
+							<td width="90%">
 					    		<h2> <a href="http://ssel.vub.ac.be/ssel/research:mdd:jar2uml">Jar2UML Discovery Tool</a> </h2>
 		  					</td>
-							<td width="70%" align="justify">
-								This discovery tool, written by <a href="http://ssel.vub.ac.be/ssel/about:members:denniswagelaar">Dennis Wagelaar</a> from the System and Software Engineering Lab (VUB), is about generating <b>UML models</b> from <b>Java APIs</b>. It takes a Jar file as input and generates a UML file (that contains a representation of the API) as output.
-							</td>
-							<td width="10%" align="center">		
+							<td width="10%">		
 								<img src="../../resources/images/completion.png"  />
 							</td>
 						</tr>
 					</table>
-	    		</li>
+					This discovery tool, written by <a href="http://ssel.vub.ac.be/ssel/about:members:denniswagelaar">Dennis Wagelaar</a> from the System and Software Engineering Lab (VUB), is about generating <b>UML models</b> from <b>Java APIs</b>. It takes a Jar file as input and generates a UML file (that contains a representation of the API) as output.
+				</li>
 	    		<li style="list-style:none">
 	    			<table width="100%">
 						<tr>
-							<td width="20%" valign="middle">
+							<td width="90%">
+					    		<h2> <a href="CSharp">CSharp Metamodel Implementation</a> </h2>
+		  					</td>
+							<td width="10%">
+								<img src="../../resources/images/implementation.png"  />
+							</td>
+						</tr>
+					</table>
+					This provides an EMF implementation of the <a href="http://msdn.microsoft.com/en-us/vcsharp/aa336809.aspx">CSharp language specification</a> which defines a metamodel for representing models of CSharp programs
+					developed using the .Net Platform , which is the premier platform for rapidly developing and deploying secure, portable applications that run on server and desktop systems.
+				</li>
+				<li style="list-style:none">
+	    			<table width="100%">
+						<tr>
+							<td width="90%">
 					    		<h2> <a href="VisualBasic">Visual Basic 6 <br/> Discovery Tool</a> </h2>
 		  					</td>
-							<td width="70%" align="justify">
-								This generic tool is about <b>discovering the structural part of the Visual Basic source code</b>. It identifies and stores into a model (which conforms to the provided Visual Basic metamodel) the headers, constants, variables, functions and subs contained in a Visual Basic 6 source file. 
-							</td>
-							<td width="10%" align="center">		
+							<td width="10%">		
 								<img src="../../resources/images/specification.png"  />
 							</td>
 						</tr>
 					</table>
-	    		</li>
+					This generic tool is about <b>discovering the structural part of the Visual Basic source code</b>. It identifies and stores into a model (which conforms to the provided Visual Basic metamodel) the headers, constants, variables, functions and subs contained in a Visual Basic 6 source file. 
+				</li>
 	    		<li style="list-style:none">
 	    			<table width="100%">
 						<tr>
-							<td width="20%" valign="middle">
+							<td width="90%">
 					    		<h2> <a href="RelationalDBInformation">Relational Database Information Discovery Tool</a> </h2>
 		  					</td>
-							<td width="70%" align="justify">
-								This generic tool is about <b>discovering information from any concrete relational database</b> stored into a DBMS. It is composed of two distinct but complementary discoverers: the retrieved information concerns both <b>the schema</b> (i.e. the structure) and <b>the tuples</b> (i.e. the content) of a database. The objective of this tool is to <b>build models</b>, from this information, that conform to a database's schema metamodel or to a database's content metamodel.
-							</td>
-							<td width="10%" align="center">		
+							<td width="10%">		
 								<img src="../../resources/images/specification.png"  />
 							</td>
 						</tr>
 					</table>
-	    		</li>
+					This generic tool is about <b>discovering information from any concrete relational database</b> stored into a DBMS. It is composed of two distinct but complementary discoverers: the retrieved information concerns both <b>the schema</b> (i.e. the structure) and <b>the tuples</b> (i.e. the content) of a database. The objective of this tool is to <b>build models</b>, from this information, that conform to a database's schema metamodel or to a database's content metamodel.
+				</li>
 	    		<li style="list-style:none">
 	    			<table width="100%">
 						<tr>
-							<td width="20%" valign="middle">
+							<td width="90%">
 					    		<h2> <a href="UnixFileSystem">Unix File System</a> </h2>
 		  					</td>
-							<td width="70%" align="justify">
-								This use case is about discovering the file tree of a Unix system and building a model representing it. The model produced conforms to a very simple Unix file system metamodel.
-							</td>
-							<td width="10%" align="center">		
+							<td width="10%">		
 								<img src="../../resources/images/specification.png"  />
 							</td>
 						</tr>
 					</table>
-	    		</li>
+					This use case is about discovering the file tree of a Unix system and building a model representing it. The model produced conforms to a very simple Unix file system metamodel.
+				</li>
 	    	</ul>
 	    </div>
 		<hr class="clearer" />

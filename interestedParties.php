@@ -235,11 +235,9 @@
 		<hr class="clearer" />
 	</div>
 
-	</div>
+<div id="rightcolumn">
 
-	<div id="rightcolumn">
-
-	</div>
+</div>
 
 EOHTML;
 
