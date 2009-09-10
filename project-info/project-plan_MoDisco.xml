@@ -26,7 +26,7 @@
    <release_deliverables>
      <html:div>
      	The MoDisco project delivers a set of Eclipse features (and underlying plug-ins) according to the different framework layers, i.e. to the various legacy technologies and several use-cases which are actually supported.
-     	<html:br/>
+     	<html:br/><html:br/>
      	The current version of the framework is made of two features: one providing the common infrastructure and another one offering dedicated support for the Java legacy technology. 
      </html:div>
    </release_deliverables>
@@ -34,11 +34,11 @@
       <preamble>
          <html:div>
          	A version "1.0" of MoDisco is set to be released by the end June 2010, according to the Eclipse Helios Simultaneous Release timeline. However, the actual full plan has not been established yet.
-         	<html:br/>
-         	More detailed release milestones will come soon.
+         	<html:br/><html:br/>
+         	More detailed milestones will be added soon.
          </html:div>
       </preamble>
-      <milestone date="6/28/2010" milestone="1.0">June Release</milestone>
+      <milestone date="6/28/2010" milestone="1.0"><html:p>June Release</html:p></milestone>
       <postamble>
       	<html:div>
 			<!-- To fill later if necessary -->
@@ -48,8 +48,8 @@
    <target_environments>
      <html:div>
      	MoDisco runs under a standard Eclipse Modeling platform, including EMF (for model handling), MDT-UML2 (for UML support) and M2M-ATL (for model-to-model transformation support).
-     	<html:br/>
-     	Its current version is developed with and for Eclipse Galileo. 
+     	<html:br/><html:br/>
+     	Its current version is developed with and for <html:b>Eclipse Galileo</html:b>. 
      </html:div>
      <internationalization>
           <html:div>
