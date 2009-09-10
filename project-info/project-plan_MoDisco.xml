@@ -28,7 +28,7 @@
      	The MoDisco project delivers a set of Eclipse features (and underlying plug-ins) according to the different framework layers, i.e. to the various legacy technologies and several use-cases which are actually supported.
      	<html:br/><html:br/>
      	The current version of the framework is made of two features: one providing the common infrastructure and another one offering dedicated support for the Java legacy technology. 
-     	<html:br/>
+     	<html:br/><html:br/>
      </html:div>
    </release_deliverables>
    <release_milestones>
@@ -42,7 +42,6 @@
       <milestone date="6/28/2010" milestone="1.0"><html:p>June Release</html:p></milestone>
       <postamble>
       	<html:div>
-      		<html:br/>
       	</html:div>
       </postamble>
    </release_milestones>
@@ -55,14 +54,14 @@
      <internationalization>
           <html:div>
           	None of the MoDisco components are currently internationalized. The used language is English-US.
-          	<html:br/>
+          	<html:br/><html:br/>
           </html:div>
      </internationalization>
    </target_environments>
    <compatibility_with_previous_releases>
    		<html:div>
        		As it is the first official project release to be planned, there are no such compatibility issues.
-       		<html:br/>	
+       		<html:br/><html:br/>	
        	</html:div>
    </compatibility_with_previous_releases>
    <themes_and_priorities>
@@ -95,7 +94,7 @@
         	</html:div>
         </description>
      </theme>
-     <theme name="Extend the support for other legacy technologies">
+     <theme name="Extend the support to other legacy technologies">
         <description>
         	<html:div>
         		Although the focus has first been voluntarily put on the Java technology, there are many other different technologies which are relevant within the context of modernization scenarios.
@@ -120,7 +119,7 @@
      </theme>
      <postamble>
      	<html:div>
-        	<html:br/>
+        	<html:br/><html:br/>
         </html:div>	
      </postamble>
    </themes_and_priorities>
