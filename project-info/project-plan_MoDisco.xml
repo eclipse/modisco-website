@@ -74,7 +74,9 @@
 				Thus, the stabilization of its architecture in a clean shape is a main theme.
 			</html:div>
         </description>
+        <!-- 
         <committed bugzilla="https://bugs.eclipse.org/bugs/query.cgi?bug_file_loc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_id=&amp;bugidtype=include&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;email1=&amp;email2=&amp;emailtype1=substring&amp;emailtype2=substring&amp;field0-0-0=bug_id&amp;field0-0-1=bug_id&amp;field0-0-10=bug_id&amp;field0-0-11=bug_id&amp;field0-0-12=bug_id&amp;field0-0-13=bug_id&amp;field0-0-14=bug_id&amp;field0-0-2=bug_id&amp;field0-0-3=bug_id&amp;field0-0-4=bug_id&amp;field0-0-5=bug_id&amp;field0-0-6=bug_id&amp;field0-0-7=bug_id&amp;field0-0-8=bug_id&amp;field0-0-9=bug_id&amp;keywords=&amp;keywords_type=allwords&amp;longdesc=&amp;longdesc_type=allwordssubstr&amp;query_format=advanced&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;status_whiteboard=&amp;status_whiteboard_type=allwordssubstr&amp;type0-0-0=equals&amp;type0-0-1=equals&amp;type0-0-10=equals&amp;type0-0-11=equals&amp;type0-0-12=equals&amp;type0-0-13=equals&amp;type0-0-14=equals&amp;type0-0-2=equals&amp;type0-0-3=equals&amp;type0-0-4=equals&amp;type0-0-5=equals&amp;type0-0-6=equals&amp;type0-0-7=equals&amp;type0-0-8=equals&amp;type0-0-9=equals&amp;value0-0-0=259223&amp;value0-0-1=259234&amp;value0-0-10=272881&amp;value0-0-11=281512&amp;value0-0-12=281612&amp;value0-0-13=287787&amp;value0-0-14=288127&amp;value0-0-2=263643&amp;value0-0-3=266356&amp;value0-0-4=266425&amp;value0-0-5=267327&amp;value0-0-6=267830&amp;value0-0-7=269029&amp;value0-0-8=271158&amp;value0-0-9=272159"/>
+     	 -->
      </theme>
      <theme name="Integrate other Eclipse technologies">
         <description>
@@ -114,8 +116,10 @@
         		This "miscellaneous" theme gathers the items which cannot be classified yet in any other of the previous themes.
         	</html:div>
         </description>
+        <!-- 
         <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?bug_file_loc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_id=&amp;bugidtype=include&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;email1=&amp;email2=&amp;emailtype1=substring&amp;emailtype2=substring&amp;field0-0-0=bug_id&amp;keywords=&amp;keywords_type=allwords&amp;longdesc=&amp;longdesc_type=allwordssubstr&amp;query_format=advanced&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;status_whiteboard=&amp;status_whiteboard_type=allwordssubstr&amp;type0-0-0=equals&amp;value0-0-0=258281"/>
         <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?bug_file_loc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_id=&amp;bugidtype=include&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;email1=&amp;email2=&amp;emailtype1=substring&amp;emailtype2=substring&amp;field0-0-0=bug_id&amp;keywords=&amp;keywords_type=allwords&amp;longdesc=&amp;longdesc_type=allwordssubstr&amp;query_format=advanced&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;status_whiteboard=&amp;status_whiteboard_type=allwordssubstr&amp;type0-0-0=equals&amp;value0-0-0=252361"/>
+     	-->
      </theme>
      <postamble>
      	<html:div>
