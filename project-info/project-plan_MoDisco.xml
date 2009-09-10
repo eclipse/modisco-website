@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"? standalone="yes">
+<?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
+<plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml"
+      name="MoDisco (Model Discovery)">
+   <release projectid="modeling.gmt.modisco" version="1.0"/>
+   <introduction>
+     <html:div>
+     	<p>
+     		The MoDisco project provides an extensible framework for developing model-driven tools in order to support different software modernization use-cases.
+  			The various components which are part of this model-driven reverse engineering framework are organized, within the project, in three different layers:
+  		</p>
+     	<ul>
+     		<li>
+     			<b>Infrastructure</b>: reusable generic components independent from any specific legacy technology;
+     			<b>Technologies</b>: components dedicated to a particular legacy technology (e.g. Java, C#, Cobol, etc) but independent from any specific modernization scenario;
+     			<b>Use-cases</b>: components providing a direct solution for a given modernization scenario (and reusing components from the <b>Infrastructure</b> and <b>Technologies</b> layers).
+     		</li>
+     	</ul> 
+     	<p>
+     		This project plan covers components contained in each of these three layers. 
+     		The already available components will be continuously developed or enhanced by the MoDisco team, and some additional components increasing the number of provided modernization capabilities will be created. 
+     		Note that new components proposed by external contributors would also be integrated at some point by the MoDisco team if relevant within the context of the project.
+    	</p>
+     </html:div>
+   </introduction>
+   <release_deliverables>
+     <html:div>
+     	The MoDisco project delivers a set of Eclipse features (and underlying plug-ins) according to the different framework layers, i.e. to the various legacy technologies and several use-cases which are actually supported.
+     	<br/>
+     	The current version of the framework is made of two features: one providing the common infrastructure and another one offering dedicated support for the Java legacy technology. 
+     </html:div>
+   </release_deliverables>
+   <release_milestones>
+      <preamble>
+         <html:div>
+         	A version "1.0" of MoDisco is set to be released by the end June 2010, according to the Eclipse Helios Simultaneous Release timeline. However, the actual full plan has not been established yet.
+         	<br/>
+         	More detailed release milestones will come soon.
+         </html:div>
+      </preamble>
+      <milestone date="6/28/2010" milestone="1.0"/>
+      <postamble>
+      	<html:div>
+			<!-- To fill later if necessary -->
+      	</html:div>
+      </postamble>
+   </release_milestones>
+   <target_environments>
+     <html:div>
+     	MoDisco runs under a standard Eclipse Modeling platform, including EMF (for model handling), MDT-UML2 (for UML support) and M2M-ATL (for model-to-model transformation support).
+     	<br/>
+     	Its current version is developed with and for Eclipse Galileo. 
+     </html:div>
+     <internationalization>
+          <html:div>
+          	None of the MoDisco components are currently internationalized. The used language is English-US.
+          </html:div>
+     </internationalization>
+   </target_environments>
+   <compatibility_with_previous_releases>
+   		<html:div>
+       		As it is the first official project release to be planned, there are no such compatibility issues.	
+       	</html:div>
+   </compatibility_with_previous_releases>
+   <themes_and_priorities>
+     <preamble>
+         <html:div>
+         	A list of project requirements and agreed upon implementation time frames is found in this document. A set of overall themes is used there in order to indicate what major set of functionalities is to be concentrated on. These themes are presented below, while the requirements document and associated Bugzilla entries are left to those wanting more detailed information on each. 
+         </html:div>
+     </preamble>
+     <theme name="Stabilize the architecture of the framework infrastructure">
+        <description>
+        	The first objective of the MoDisco project is to provide a common generic framework dedicated to model-driven reverse engineering.
+			Thus, the stabilization of its architecture in a clean shape is a main theme.
+        </description>
+        <committed bugzilla="...(recommended) bugzilla search url...">
+           ...(optional alternate) html...</committed>
+     </theme>
+     <theme name="Integrate other Eclipse technologies">
+        <description>
+        	As the MoDisco infrastructure has been clearly designed with the aim of being highly extensible, the objective is to make as much as possible a good use of other Eclipse technologies (especially the ones coming from the Modeling project).
+        	This theme gathers all the items related to this area. 
+        </description>
+     </theme>
+     <theme name="Provide an intensive support for the Java legacy technology">
+        <description>
+        	In order for the framework to be directly usable within a given modernization scenario, some components specific to legacy technologies must be available.
+        	As Java is currently one of the most used technology (if not the most), the focus will first be put on providing a relevant set of capabilities around it.
+        </description>
+     </theme>
+     <theme name="Extend the support for other legacy technologies">
+        <description>
+        	Although the focus has first been voluntarily put on the Java technology, there are many other different technologies which are relevant within the context of modernization scenarios.
+        	This theme is about enumerating the various items concerning such technologies.
+        </description>
+     </theme>
+     <theme name="Develop the MoDisco team & community">
+        <description>
+        	With the reverse engineering field gaining more and more importance in industry, MoDisco, as an Eclipse project, has a key role to play. This is why developing the MoDisco team and promoting the project in general, both inside and outside the Eclipse community, are main goals.
+        	Items related to these objectives are listed in this theme.
+        </description>
+     </theme>
+     <theme name="Others">
+        <description>
+        	This "miscellaneous" theme gathers the items which cannot be classified yet in any other of the previous themes.
+        </description>
+     </theme>
+   </themes_and_priorities>
+   <appendix name="">
+     <!-- To fill later if necessary -->
+   </appendix>	
+ </plan>
