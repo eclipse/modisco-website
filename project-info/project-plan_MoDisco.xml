@@ -41,8 +41,6 @@
       </preamble>
       <milestone date="6/28/2010" milestone="1.0"><html:p>June Release</html:p></milestone>
       <postamble>
-      	<html:div>
-      	</html:div>
       </postamble>
    </release_milestones>
    <target_environments>
