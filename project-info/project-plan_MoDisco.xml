@@ -70,37 +70,49 @@
      </preamble>
      <theme name="Stabilize the architecture of the framework infrastructure">
         <description>
-        	The first objective of the MoDisco project is to provide a common generic framework dedicated to model-driven reverse engineering.
-			Thus, the stabilization of its architecture in a clean shape is a main theme.
+        	<html:div>
+        		The first objective of the MoDisco project is to provide a common generic framework dedicated to model-driven reverse engineering.
+				Thus, the stabilization of its architecture in a clean shape is a main theme.
+			</html:div>
         </description>
      </theme>
      <theme name="Integrate other Eclipse technologies">
         <description>
-        	As the MoDisco infrastructure has been clearly designed with the aim of being highly extensible, the objective is to make as much as possible a good use of other Eclipse technologies (especially the ones coming from the Modeling project).
-        	This theme gathers all the items related to this area. 
+        	<html:div>
+        		As the MoDisco infrastructure has been clearly designed with the aim of being highly extensible, the objective is to make as much as possible a good use of other Eclipse technologies (especially the ones coming from the Modeling project).
+        		This theme gathers all the items related to this area.
+        	</html:div> 
         </description>
      </theme>
      <theme name="Provide an intensive support for the Java legacy technology">
         <description>
-        	In order for the framework to be directly usable within a given modernization scenario, some components specific to legacy technologies must be available.
-        	As Java is currently one of the most used technology (if not the most), the focus will first be put on providing a relevant set of capabilities around it.
+        	<html:div>
+        		In order for the framework to be directly usable within a given modernization scenario, some components specific to legacy technologies must be available.
+        		As Java is currently one of the most used technology (if not the most), the focus will first be put on providing a relevant set of capabilities around it.
+        	</html:div>
         </description>
      </theme>
      <theme name="Extend the support for other legacy technologies">
         <description>
-        	Although the focus has first been voluntarily put on the Java technology, there are many other different technologies which are relevant within the context of modernization scenarios.
-        	This theme is about enumerating the various items concerning such technologies.
+        	<html:div>
+        		Although the focus has first been voluntarily put on the Java technology, there are many other different technologies which are relevant within the context of modernization scenarios.
+        		This theme is about enumerating the various items concerning such technologies.
+        	</html:div>
         </description>
      </theme>
      <theme name="Develop the MoDisco team and community">
         <description>
-        	With the reverse engineering field gaining more and more importance in industry, MoDisco, as an Eclipse project, has a key role to play. This is why developing the MoDisco team and promoting the project in general, both inside and outside the Eclipse community, are main goals.
-        	Items related to these objectives are listed in this theme.
+        	<html:div>
+        		With the reverse engineering field gaining more and more importance in industry, MoDisco, as an Eclipse project, has a key role to play. This is why developing the MoDisco team and promoting the project in general, both inside and outside the Eclipse community, are main goals.
+        		Items related to these objectives are listed in this theme.
+        	</html:div>
         </description>
      </theme>
      <theme name="Others">
         <description>
-        	This "miscellaneous" theme gathers the items which cannot be classified yet in any other of the previous themes.
+        	<html:div>
+        		This "miscellaneous" theme gathers the items which cannot be classified yet in any other of the previous themes.
+        	</html:div>
         </description>
      </theme>
    </themes_and_priorities>
