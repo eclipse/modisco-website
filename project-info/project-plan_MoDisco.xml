@@ -113,11 +113,8 @@
         		This "miscellaneous" theme gathers the items which cannot be classified yet in any other of the previous themes.
         	</html:div>
         </description>
-        <deferred bugzilla="https://bugs.eclipse.org/bugs/show_bug.cgi&amp;id=252361">
-        	<html:div>
-        		Contribution from MOMOCS Project: two tools to be part of the MoDisco toolbox and two related use cases
-        	</html:div>		
-        </deferred>
+        <committed bugzilla="https://bugs.eclipse.org/bugs/show_bug.cgi&amp;id=258281"/>
+        <deferred bugzilla="https://bugs.eclipse.org/bugs/show_bug.cgi&amp;id=252361"/>
      </theme>
      <postamble>
      	<html:div>
