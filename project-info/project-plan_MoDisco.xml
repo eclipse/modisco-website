@@ -128,7 +128,7 @@
         		This "miscellaneous" theme gathers the items which cannot be classified yet in any other of the previous themes.
         	</html:div>
         </description>
-        <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?bug_file_loc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_id=&amp;bugidtype=include&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;email1=&amp;email2=&amp;emailtype1=substring&amp;emailtype2=substring&amp;field0-0-0=bug_id&amp;field0-0-1=bug_id&amp;keywords=&amp;keywords_type=allwords&amp;longdesc=&amp;longdesc_type=allwordssubstr&amp;query_format=advanced&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;status_whiteboard=&amp;status_whiteboard_type=allwordssubstr&amp;type0-0-0=equals&amp;type0-0-1=equals&amp;value0-0-0=252361&amp;value0-0-1=258281&amp;votes="/>
+        <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?bug_file_loc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_id=&amp;bugidtype=include&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;email1=&amp;email2=&amp;emailtype1=substring&amp;emailtype2=substring&amp;field0-0-0=bug_id&amp;field0-0-1=bug_id&amp;keywords=&amp;keywords_type=allwords&amp;longdesc=&amp;longdesc_type=allwordssubstr&amp;query_format=advanced&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;status_whiteboard=&amp;status_whiteboard_type=allwordssubstr&amp;type0-0-0=equals&amp;value0-0-0=258281="/>
         <proposed bugzilla=""/>
         <deferred bugzilla=""/>
      </theme>
