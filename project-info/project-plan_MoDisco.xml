@@ -5,22 +5,22 @@
    <release projectid="modeling.gmt.modisco" version="1.0"/>
    <introduction>
      <html:div>
-     	<html:p>
-     		The MoDisco project provides an extensible framework for developing model-driven tools in order to support different software modernization use-cases.
-  			The various components which are part of this model-driven reverse engineering framework are organized, within the project, in three different layers:
-  		</html:p>
+     	The MoDisco project provides an extensible framework for developing model-driven tools in order to support different software modernization use-cases.
+  		The various components which are part of this model-driven reverse engineering framework are organized, within the project, in three different layers:
      	<html:ul>
      		<html:li>
      			<html:b>Infrastructure</html:b>: reusable generic components independent from any specific legacy technology;
+     		</html:li>
+     		<html:li>
      			<html:b>Technologies</html:b>: components dedicated to a particular legacy technology (e.g. Java, C#, Cobol, etc) but independent from any specific modernization scenario;
+			</html:li>
+			<html:li>
      			<html:b>Use-cases</html:b>: components providing a direct solution for a given modernization scenario (and reusing components from the <html:b>Infrastructure</html:b> and <html:b>Technologies</html:b> layers).
      		</html:li>
      	</html:ul> 
-     	<html:p>
-     		This project plan covers components contained in each of these three layers. 
-     		The already available components will be continuously developed or enhanced by the MoDisco team, and some additional components increasing the number of provided modernization capabilities will be created. 
-     		Note that new components proposed by external contributors would also be integrated at some point by the MoDisco team if relevant within the context of the project.
-    	</html:p>
+     	This project plan covers components contained in each of these three layers. 
+     	The already available components will be continuously developed or enhanced by the MoDisco team, and some additional components increasing the number of provided modernization capabilities will be created. 
+     	Note that new components proposed by external contributors would also be integrated at some point by the MoDisco team if relevant within the context of the project.
      </html:div>
    </introduction>
    <release_deliverables>
@@ -38,7 +38,7 @@
          	More detailed release milestones will come soon.
          </html:div>
       </preamble>
-      <milestone date="6/28/2010" milestone="1.0"/>
+      <milestone date="6/28/2010" milestone="1.0">June Release</milestone>
       <postamble>
       	<html:div>
 			<!-- To fill later if necessary -->
