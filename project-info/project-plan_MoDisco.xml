@@ -74,6 +74,9 @@
 				Thus, the stabilization of its architecture in a clean shape is a main theme.
 			</html:div>
         </description>
+        <committed bugzilla=""/>
+        <proposed bugzilla=""/>
+        <deferred bugzilla=""/>
      </theme>
      <theme name="Integrate other Eclipse technologies">
         <description>
@@ -82,6 +85,9 @@
         		This theme gathers all the items related to this area.
         	</html:div> 
         </description>
+        <committed bugzilla=""/>
+        <proposed bugzilla=""/>
+        <deferred bugzilla=""/>
      </theme>
      <theme name="Provide an intensive support for the Java legacy technology">
         <description>
@@ -90,6 +96,9 @@
         		As Java is currently one of the most used technology (if not the most), the focus will first be put on providing a relevant set of capabilities around it.
         	</html:div>
         </description>
+        <committed bugzilla=""/>
+        <proposed bugzilla=""/>
+        <deferred bugzilla=""/>
      </theme>
      <theme name="Extend the support to other legacy technologies">
         <description>
@@ -98,6 +107,9 @@
         		This theme is about enumerating the various items concerning such technologies.
         	</html:div>
         </description>
+        <committed bugzilla=""/>
+        <proposed bugzilla=""/>
+        <deferred bugzilla=""/>
      </theme>
      <theme name="Develop the MoDisco team and community">
         <description>
@@ -106,6 +118,9 @@
         		Items related to these objectives are listed in this theme.
         	</html:div>
         </description>
+        <committed bugzilla=""/>
+        <proposed bugzilla=""/>
+        <deferred bugzilla=""/>
      </theme>
      <theme name="Others">
         <description>
@@ -113,8 +128,9 @@
         		This "miscellaneous" theme gathers the items which cannot be classified yet in any other of the previous themes.
         	</html:div>
         </description>
-        <committed bugzilla="https://bugs.eclipse.org/bugs/show_bug.cgi&amp;id=258281"/>
-        <deferred bugzilla="https://bugs.eclipse.org/bugs/show_bug.cgi&amp;id=252361"/>
+        <committed bugzilla=""/>
+        <proposed bugzilla=""/>
+        <deferred bugzilla=""/>
      </theme>
      <postamble>
      	<html:div>
