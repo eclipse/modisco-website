@@ -128,7 +128,7 @@
         		This "miscellaneous" theme gathers the items which cannot be classified yet in any other of the previous themes.
         	</html:div>
         </description>
-        <committed bugzilla=""/>
+        <committed bugzilla="https://bugs.eclipse.org/bugs/query.cgi?bug_file_loc=&bug_file_loc_type=allwordssubstr&bug_id=&bugidtype=include&chfieldfrom=&chfieldto=Now&chfieldvalue=&email1=&email2=&emailtype1=substring&emailtype2=substring&field0-0-0=bug_id&field0-0-1=bug_id&keywords=&keywords_type=allwords&longdesc=&longdesc_type=allwordssubstr&query_format=advanced&short_desc=&short_desc_type=allwordssubstr&status_whiteboard=&status_whiteboard_type=allwordssubstr&type0-0-0=equals&type0-0-1=equals&value0-0-0=252361&value0-0-1=258281&votes="/>
         <proposed bugzilla=""/>
         <deferred bugzilla=""/>
      </theme>
