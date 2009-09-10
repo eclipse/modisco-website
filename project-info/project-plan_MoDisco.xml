@@ -37,11 +37,10 @@
          	A version "1.0" of MoDisco is set to be released by the end June 2010, according to the Eclipse Helios Simultaneous Release timeline. However, the actual full plan has not been established yet.
          	<html:br/><html:br/>
          	More detailed milestones will be added soon.
+         	<html:br/><html:br/>
          </html:div>
       </preamble>
       <milestone date="6/28/2010" milestone="1.0"><html:p>June Release</html:p></milestone>
-      <postamble>
-      </postamble>
    </release_milestones>
    <target_environments>
      <html:div>
