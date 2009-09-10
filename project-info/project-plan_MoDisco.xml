@@ -74,10 +74,7 @@
 				Thus, the stabilization of its architecture in a clean shape is a main theme.
 			</html:div>
         </description>
-        https://bugs.eclipse.org/bugs/buglist.cgi?bug_file_loc=&bug_file_loc_type=allwordssubstr&bug_id=&bugidtype=include&chfieldfrom=&chfieldto=Now&chfieldvalue=&email1=&email2=&emailtype1=substring&emailtype2=substring&field0-0-0=bug_id&field0-0-1=bug_id&field0-0-10=bug_id&field0-0-11=bug_id&field0-0-12=bug_id&field0-0-13=bug_id&field0-0-14=bug_id&field0-0-2=bug_id&field0-0-3=bug_id&field0-0-4=bug_id&field0-0-5=bug_id&field0-0-6=bug_id&field0-0-7=bug_id&field0-0-8=bug_id&field0-0-9=bug_id&keywords=&keywords_type=allwords&longdesc=&longdesc_type=allwordssubstr&query_format=advanced&short_desc=&short_desc_type=allwordssubstr&status_whiteboard=&status_whiteboard_type=allwordssubstr&type0-0-0=equals&type0-0-1=equals&type0-0-10=equals&type0-0-11=equals&type0-0-12=equals&type0-0-13=equals&type0-0-14=equals&type0-0-2=equals&type0-0-3=equals&type0-0-4=equals&type0-0-5=equals&type0-0-6=equals&type0-0-7=equals&type0-0-8=equals&type0-0-9=equals&value0-0-0=259223&value0-0-1=259234&value0-0-10=272881&value0-0-11=281512&value0-0-12=281612&value0-0-13=287787&value0-0-14=288127&value0-0-2=263643&value0-0-3=266356&value0-0-4=266425&value0-0-5=267327&value0-0-6=267830&value0-0-7=269029&value0-0-8=271158&value0-0-9=272159&votes=&order=bug_id&tweak=1
         <committed bugzilla="https://bugs.eclipse.org/bugs/query.cgi?bug_file_loc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_id=&amp;bugidtype=include&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;email1=&amp;email2=&amp;emailtype1=substring&amp;emailtype2=substring&amp;field0-0-0=bug_id&amp;field0-0-1=bug_id&amp;field0-0-10=bug_id&amp;field0-0-11=bug_id&amp;field0-0-12=bug_id&amp;field0-0-13=bug_id&amp;field0-0-14=bug_id&amp;field0-0-2=bug_id&amp;field0-0-3=bug_id&amp;field0-0-4=bug_id&amp;field0-0-5=bug_id&amp;field0-0-6=bug_id&amp;field0-0-7=bug_id&amp;field0-0-8=bug_id&amp;field0-0-9=bug_id&amp;keywords=&amp;keywords_type=allwords&amp;longdesc=&amp;longdesc_type=allwordssubstr&amp;query_format=advanced&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;status_whiteboard=&amp;status_whiteboard_type=allwordssubstr&amp;type0-0-0=equals&amp;type0-0-1=equals&amp;type0-0-10=equals&amp;type0-0-11=equals&amp;type0-0-12=equals&amp;type0-0-13=equals&amp;type0-0-14=equals&amp;type0-0-2=equals&amp;type0-0-3=equals&amp;type0-0-4=equals&amp;type0-0-5=equals&amp;type0-0-6=equals&amp;type0-0-7=equals&amp;type0-0-8=equals&amp;type0-0-9=equals&amp;value0-0-0=259223&amp;value0-0-1=259234&amp;value0-0-10=272881&amp;value0-0-11=281512&amp;value0-0-12=281612&amp;value0-0-13=287787&amp;value0-0-14=288127&amp;value0-0-2=263643&amp;value0-0-3=266356&amp;value0-0-4=266425&amp;value0-0-5=267327&amp;value0-0-6=267830&amp;value0-0-7=269029&amp;value0-0-8=271158&amp;value0-0-9=272159&amp;votes="/>
-        <proposed bugzilla=""/>
-        <deferred bugzilla=""/>
      </theme>
      <theme name="Integrate other Eclipse technologies">
         <description>
@@ -86,9 +83,6 @@
         		This theme gathers all the items related to this area.
         	</html:div> 
         </description>
-        <committed bugzilla=""/>
-        <proposed bugzilla=""/>
-        <deferred bugzilla=""/>
      </theme>
      <theme name="Provide an intensive support for the Java legacy technology">
         <description>
@@ -97,9 +91,6 @@
         		As Java is currently one of the most used technology (if not the most), the focus will first be put on providing a relevant set of capabilities around it.
         	</html:div>
         </description>
-        <committed bugzilla=""/>
-        <proposed bugzilla=""/>
-        <deferred bugzilla=""/>
      </theme>
      <theme name="Extend the support to other legacy technologies">
         <description>
@@ -108,9 +99,6 @@
         		This theme is about enumerating the various items concerning such technologies.
         	</html:div>
         </description>
-        <committed bugzilla=""/>
-        <proposed bugzilla=""/>
-        <deferred bugzilla=""/>
      </theme>
      <theme name="Develop the MoDisco team and community">
         <description>
@@ -119,9 +107,6 @@
         		Items related to these objectives are listed in this theme.
         	</html:div>
         </description>
-        <committed bugzilla=""/>
-        <proposed bugzilla=""/>
-        <deferred bugzilla=""/>
      </theme>
      <theme name="Others">
         <description>
