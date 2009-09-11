@@ -36,16 +36,16 @@
 		<h3>Documentation</h3
 		<p>
           <ul class="midlist">
+          	<li>
+		      <b><a href="MoDisco_Flyer-Poster_1.0.pdf">MoDisco Flyer-Poster</a></b>: A new flyer-poster describing the MoDisco project.
+			</li>
+			<br>
             <li>
-		      <b><a href="MoDisco_Proposal_1.0.pdf">MoDisco Proposal</a></b>: Official (and accepted) proposal for the MoDisco component.
+		      <b><a href="MoDisco_Proposal_1.0.pdf">MoDisco Proposal</a></b>: Official (and accepted) proposal for the MoDisco project.
 			</li>
 			<br>
 			<li>
-		      <b><a href="MoDisco_Flyer-Poster_1.0.pdf">MoDisco Flyer-Poster</a></b>: A double page flyer-poster describing the MoDisco component.
-			</li>
-			<br>
-			<li>
-		      <b><a href="MoDisco_Overview_1.0.pdf">MoDisco Overview (slides)</a></b>: Overall presentation of the MoDisco component.
+		      <b><a href="MoDisco_Overview_1.0.pdf">MoDisco Overview (initial slides)</a></b>: Overall presentation of the MoDisco project.
 			</li>
 		  </ul>
 		</p>
