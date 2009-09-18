@@ -46,6 +46,7 @@ EOBRANDING;
 	$Nav->addNavSeparator("Community", ".");
 	$Nav->addCustomNav("SVN", "http://dev.eclipse.org/viewsvn/index.cgi/?root=Modeling_MODISCO", "_blank", 3);
 	$Nav->addCustomNav("Newsgroup", "news://news.eclipse.org/eclipse.modisco", "_blank", 3);
+	$Nav->addCustomNav("Newsgroup (Web)", "http://www.eclipse.org/newsportal/thread.php?group=eclipse.modisco", "_blank", 3);
 	$Nav->addCustomNav("Submit a bug", "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=GMT&component=MoDisco", "_blank", 3);
 	$Nav->addCustomNav("Open bugs", "https://bugs.eclipse.org/bugs/buglist.cgi?quicksearch=MoDisco", "_blank", 3);
 	$Nav->addCustomNav("Contributors", "http://www.eclipse.org/gmt/modisco/project-info/team.php", "_self", 3);
