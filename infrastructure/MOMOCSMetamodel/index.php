@@ -71,14 +71,14 @@
 	    					<br/><br/>
 	    					The contribution is composed of:
 	    					<ul>
-	      						<li>The EMF-based XSM metamodel. A simple editor: allows the end-user to interact with metamodel elements both for visualizing it and for manually transforming it</li>
+	      						<li>The EMF-based XSM metamodel and corresponding simple editor allowing the end-user to interact with metamodel elements both for visualizing it and for manually transforming it</li>
 	      						<li>A J2EE model discoverer: analyzing the source artifacts of a Java 2 Enterprise Edition system, this tool is able to harvest its architectural structure, and produce the corresponding XSM model of the system.</li>
 	    					</ul>
 	   						
 	    					<img src="../resources/excerpts/SimpleEditor-screenshot.jpg" alt="MOMOCS Metamodel and Simple editor" />
 	    				</p>
 	    				
-	    				<br/>
+	    				<br/><br/>
 	    
 	    				<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="documentation">Documentation</a></h4>
 	    
@@ -89,14 +89,14 @@
 								<COL width="65%">
 							</COLGROUP>
 							<tr>
-								<td ALIGN=center><h4>MOMOCS Metamodel and Simple Editor Notes</h4></td>
+								<td ALIGN=center><h4>Notes on the Metamodel and Editor</h4></td>
 								<td align="center">
 									<a href="http://www.viewzone.org/momocs/index.php?option=com_docman&task=doc_download&gid=35&Itemid=19&SID=9af900e1535c169a3add8e79f9b20ac8">
 										<img src="../../resources/buttons/InstallationUserGuide_button.jpg"/>		
 									</a>
 								</td>
 								<td>
-		  							A more detailed description of the MoDisco MOMOCS Metamodel and simple editor is  on  <a href="http://www.momocs.org">MOMOCS website</a>.
+		  							A more detailed description of the MoDisco MOMOCS metamodel and simple editor is  on  <a href="http://www.momocs.org">MOMOCS website</a>.
 		  						</td>
 							</tr>
 			    		</table>
@@ -115,7 +115,7 @@
 						    		<!--</a>-->
 						  		</td>
 						  		<td>
-						    		Modisco version of the <b>MOMOCS Metamodel and simple editor</b> plug-in.
+						    		Modisco version of the <b>MOMOCS metamodel and simple editor</b> plug-in.
 						    		<br/>All the sources contained in the archive are also available from
 						    		the <a href="http://dev.eclipse.org/viewsvn/index.cgi/incubation/trunk/org.eclipse.gmt.modisco.common.editor/?root=Modeling_MODISCO">MoDisco SVN</a>
 						  		</td>
