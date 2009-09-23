@@ -57,27 +57,28 @@
 	   					<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="overview">Overview</a></h4>
 	    				<p align="justify">
 	      					The MODISCO MOMOCS Simple Editor is aiming to aid the evolution complex system
-	    					<br/><br/>
+	    					<br/>
 	      					Its main  Characteristics are:
 	      					<ul>
 								<li>Component-oriented </li>
 								<li>Complexity Handling</li>
 								<li>Focus on the architecture</li>
 								<li>Supports vertical & horizontal system decomposition</li>
-								<li>Integration with OMG’s KDM in progress</li>
+								<li>Integration with KDM (OMG) in progress</li>
 	      					</ul>
-	      					<br/><br/>
-	      					The metamodel is encoded using EMF. This allows different vendors to easily create a tightly coupled IDE for modernizing existing applications. Some proof-of-concepts eclipse plugins are also provided, with the purpose to show the possibility to harvest the architectural structure of existing systems, and produce an XSM model of the to-be-modernize system.
+	      					<br/>
+	      					The metamodel is encoded using EMF. This allows different vendors to easily create a tightly coupled IDE for modernizing existing applications. Some proof-of-concepts eclipse plug-ins are also provided, with the purpose to show the possibility to harvest the architectural structure of existing systems, and produce an XSM model of the to-be-modernize system.
 	    					<br/><br/>
 	    					The contribution is composed of:
 	    					<ul>
 	      						<li>The EMF-based XSM metamodel. A simple editor: allows the end-user to interact with metamodel elements both for visualizing it and for manually transforming it</li>
 	      						<li>A J2EE model discoverer: analyzing the source artifacts of a Java 2 Enterprise Edition system, this tool is able to harvest its architectural structure, and produce the corresponding XSM model of the system.</li>
 	    					</ul>
-	   						<br>
-	    					 <img src="../resources/excerpts/SimpleEditor-screenshot.jpg" alt="MOMOCS Metamodel and Simple editor" />
+	   						
+	    					<img src="../resources/excerpts/SimpleEditor-screenshot.jpg" alt="MOMOCS Metamodel and Simple editor" />
 	    				</p>
-	    				<br>
+	    				
+	    				<br/>
 	    
 	    				<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="documentation">Documentation</a></h4>
 	    
@@ -135,7 +136,7 @@
 	  <div class="sideitem">
 	    <h6>General Information</h6>
 	    <ul>
-	      <li>Last update: Semptember 2009</li>
+	      <li>September 2009</li>
 	      <li style="list-style:none"><br/></li>
 	      <li>By <a href="mailto:miraz@elet.polimi.it">Matteo Miraz</a>, Dipartimento di Elettronica e Informazione, Politecnico di Milano (Italy)</li>
 	      <li style="list-style:none"><br/></li>
