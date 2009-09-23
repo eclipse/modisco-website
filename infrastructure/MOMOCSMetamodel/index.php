@@ -109,9 +109,9 @@
 							</COLGROUP>
 							<tr>
 								<td align="center">
-						    		<a href="downloads/org.eclipse.gmt.modisco.common.editor_0.7.0.jar">
+						    		<!--<a href="downloads/org.eclipse.gmt.modisco.common.editor_0.7.0.jar">-->
 						      			<img src="../../resources/buttons/Tool_button.jpg"/>
-						    		</a>
+						    		<!--</a>-->
 						  		</td>
 						  		<td>
 						    		Modisco version of the <b>MOMOCS Metamodel and simple editor</b> plug-in.
@@ -137,7 +137,7 @@
 	    <ul>
 	      <li>Last update: Semptember 2009</li>
 	      <li style="list-style:none"><br/></li>
-	      <li>By <a href="mailto:miraz@elet.polimi.it">Matteo Miraz</a>, <a href="http://www.dei.polimi.it">Dipartimento di Elettronica e Informazione</a>, Politecnico di Milano (Italy)</li>
+	      <li>By <a href="mailto:miraz@elet.polimi.it">Matteo Miraz</a>, Dipartimento di Elettronica e Informazione, Politecnico di Milano (Italy)</li>
 	      <li style="list-style:none"><br/></li>
 	      <li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
 	    </ul>
