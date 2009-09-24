@@ -110,12 +110,12 @@ an XSM file (TravelAgency_MySQL_Oracle.xsm) containing both the "to-be-replaced"
 an XSM file (TravelAgency_Oracle.xsm) which is the output of the transformation pattern execution and its related EMF file (TravelAgencyFinal.xsm).The created model conforms to the MOMOCS metamodel. The MOMOCS metamodel mentioned used within this use case is available at the Download section. 
 </ul>
 We provide below a set of screenshots showing the different input/output files provided/created with this use case: 
+<br/>
 
  <p style="text-align: center;">
 <img src="../resources/excerpts/Replacement.jpg" alt="MOMOCS Travel Agency Component Replacement Screenshot" /> <br>MOMOCS Travel Agency Replacement Screenshot
 </p>
 
-		<br/>
 
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="documentation">Documentation</a></h4>
 
