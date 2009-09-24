@@ -14,8 +14,8 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "MoDisco Use Case - Bugzilla Metrics";
-	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, Bugzilla, Metrics";
+	$pageTitle 		= "MoDisco Use Case - MOMOCS Travel Agency";
+	$pageKeywords	= "MoDisco, Complex Systems Modernization, MOMOCS Metamodel, MOMOCS, ATL Transformations ";
 	$pageAuthor		= "Alessandra Bagnato";
 	
 	# End: page-specific settings
@@ -188,7 +188,7 @@ the <a href="http://dev.eclipse.org/viewsvn/index.cgi/examples/trunk/org.eclipse
 
   
  
-<li> <a href="http://www.momocs.org"> MOMOCS web site .</a> </li> 
+<li> <a href="http://www.momocs.org"> MOMOCS web site </a> </li> 
 <li> <a href="http://www.viewzone.org/momocs/index.php?option=com_content&task=view&id=40&Itemid=28">MOMOCS Travel Agency Demo (including all MOMOCS Suite) </li>
 
 			</ul>

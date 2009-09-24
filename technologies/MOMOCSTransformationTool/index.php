@@ -14,8 +14,8 @@
 
 	#
 	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "MoDisco Tool - Generic Model Editor";
-	$pageKeywords	= "MoDisco, model, modeling, model editing, UI, model browsing";
+	$pageTitle 		= "MoDisco Tool - MOMOCS Transformation Tool";
+	$pageKeywords	= "MoDisco, ATL Transformations Editing, ATL Transformation patterns, ATL transformations over the MOMOCS metamodel, Cheat Sheets to guide users , complex systems";
 	$pageAuthor		= "Alessandra Bagnato";
 
 	# End: page-specific settings
