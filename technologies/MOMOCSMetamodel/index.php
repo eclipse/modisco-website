@@ -14,8 +14,8 @@
 
 	#
 	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "MoDisco Tool - Generic Model Editor";
-	$pageKeywords	= "MoDisco, model, modeling, model editing, UI, model browsing";
+	$pageTitle 		= "MoDisco Tool - MOMOCS Metamodel and Simple Editor";
+	$pageKeywords	= "MoDisco, EMF metamodel, complex systems";
 	$pageAuthor		= "Matteo Miraz";
 
 	# End: page-specific settings
@@ -137,7 +137,7 @@
 	    <h6>General Information</h6>
 	    <ul>
 	      <li>September 2009</li>
-	      <li>By <a href="mailto:miraz@elet.polimi.it">Matteo Miraz</a>, Dipartimento di Elettronica e Informazione, Politecnico di Milano (Italy)</li>
+	      <li>By <a href="mailto:miraz@elet.polimi.it">Matteo Miraz</a>, Dipartimento di Elettronica e Informazione, Politecnico di Milano</li>
 	      <li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco forum</a></li>
 	    </ul>
 	  </div>

@@ -26,7 +26,7 @@
 
 	<!-- Main part -->
 	<div id="midcolumn">
-		<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> MoDisco Use Case - MOMOCS Travel Agency</h1>
+		<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Use Case - MOMOCS Travel Agency</h1>
 
 		<a name="goals"></a>
 		<img align="right" src="../../resources/logoMoDiscoSmall.jpg" valign="top" style="padding-left: 10px;" alt="MoDisco Logo" />
@@ -115,25 +115,28 @@ We provide below a set of screenshots showing the different input/output files p
 <img src="../resources/excerpts/Replacement.jpg" alt="MOMOCS Travel Agency Component Replacement Screenshot" /> <br>MOMOCS Travel Agency Replacement Screenshot
 </p>
 
-
-
-
-		<br>
+		<br/>
 
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="documentation">Documentation</a></h4>
 
 		<table>
 			<COLGROUP>
-				<COL width="25%">
-				<COL width="75%">
-		<tr>
-		<td align="center">
-		<a href="http://www.viewzone.org/momocs/index.php?option=com_docman&task=doc_download&gid=44&Itemid=19&SID=a4f4d5bdb7422ee466dc0258f025516e">
-			Screenshots of the input/outputs of the MODISCO MOMOCS Travel Agency use case  <img src="../../resources/buttons/InstallationUserGuide_button.jpg"/>tascreenshots.zip
-		</a>
-		</td></tr>	 
+				<COL width="15%">
+				<COL width="20%">
+				<COL width="65%">
+			</COLGROUP>
+			<tr>
+				<td ALIGN=center><h4>MOMOCS Travel Agency use case</h4></td>
+				<td align="center">
+					<a href="http://www.viewzone.org/momocs/index.php?option=com_docman&task=doc_download&gid=44&Itemid=19&SID=a4f4d5bdb7422ee466dc0258f025516e">
+						<img src="../../resources/buttons/InstallationUserGuide_button.jpg"/>		
+					</a>
+				</td>
+				<td>
+					Get various screenshots of the different inputs/outputs of the MOMOCS Travel Agency use case.
+				</td>
+			</tr>
 		</table>
-
 
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="download">Download</a></h4>
 
@@ -144,13 +147,13 @@ We provide below a set of screenshots showing the different input/output files p
 		<tr>
 		
 		<td align="center">
-		<a href="downloads/org.eclipse.gmt.modisco.common.editor_0.7.0.jar">
+		<!--<a href="downloads/org.eclipse.gmt.modisco.common.editor_0.7.0.jar">-->
 			<img src="../../resources/buttons/Tool_button.jpg"/>
-		</a>
+		<!--</a>-->
 		</td>
 		<td>
 			Modisco version of the <b>Travel Agency Use Case</b>  is available from
-the <a href="http://dev.eclipse.org/viewsvn/index.cgi/plugins/trunk/org.eclipse.gmt.modisco.common.editor/?root=Modeling_MODISCO">MoDisco web site</a>
+the <a href="http://dev.eclipse.org/viewsvn/index.cgi/examples/trunk/org.eclipse.gmt.modisco.usecase.travelagency/?root=Modeling_MODISCO">MoDisco SVN</a>
 		</td>
 		</tr>
 
@@ -173,11 +176,9 @@ the <a href="http://dev.eclipse.org/viewsvn/index.cgi/plugins/trunk/org.eclipse.
 		<div class="sideitem">
 			<h6>General Information</h6>
 			<ul>
-				<li>Semptember 2009</li>
-				<li style="list-style:none"><br/></li>
-				<li>By <a href="mailto://alessandra.bagnato@txt.it">Alessandra Bagnato</a> and <a href="mailto://andrey.sadovykh@softeam.fr">Andrey Sadovykh  </a></li>
-				<li style="list-style:none"><br/></li>
-				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
+				<li>September 2009</li>
+				<li>By <a href="mailto://alessandra.bagnato@txt.it">Alessandra Bagnato</a> and <a href="mailto://andrey.sadovykh@softeam.fr">Andrey Sadovykh </a></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco forum</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">
@@ -189,8 +190,6 @@ the <a href="http://dev.eclipse.org/viewsvn/index.cgi/plugins/trunk/org.eclipse.
  
 <li> <a href="http://www.momocs.org"> MOMOCS web site .</a> </li> 
 <li> <a href="http://www.viewzone.org/momocs/index.php?option=com_content&task=view&id=40&Itemid=28">MOMOCS Travel Agency Demo (including all MOMOCS Suite) </li>
-<li><a href="http://www.softeam.com ">SOFTEAM web site . </a> </li> 
-<li><a href="http://www.txt.it "> TXT e-solutions web site . </a> </li> 
 
 			</ul>
 		</div>
