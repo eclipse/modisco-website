@@ -140,13 +140,13 @@
 	      <li style="list-style:none"><br/></li>
 	      <li>By <a href="mailto:miraz@elet.polimi.it">Matteo Miraz</a>, Dipartimento di Elettronica e Informazione, Politecnico di Milano (Italy)</li>
 	      <li style="list-style:none"><br/></li>
-	      <li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
+	      <li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco forum</a></li>
 	    </ul>
 	  </div>
 	  <div class="sideitem">
 	    <h6>Related Links</h6>
 	    <ul>
-	      <li>Metamodel and simple editor <a href="http://www.momocs.org"> MOMOCS web site</a></li>
+	      <li><a href="http://www.momocs.org">MOMOCS European Project website</a></li>
 	      <li><a href="http://www.viewzone.org/momocs/index.php?option=com_docman&task=doc_download&gid=35&Itemid=19&SID=9af900e1535c169a3add8e79f9b20ac8">Notes on Metamodel</a></li>
 	    </ul>
 	  </div>

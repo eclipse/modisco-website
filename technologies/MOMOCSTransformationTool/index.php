@@ -110,7 +110,7 @@ Online Help is the XSM Transformation Tool voice inside the Eclipse Online Help
 
  <br>
 <p style="text-align: center;">
-<img src="TTScreenshot.jpg" alt="MOMOCS Transformation Tool" />
+<img src="../resources/excerpts/TTScreenshot.jpg" alt="MOMOCS Transformation Tool" />
 </p>
 
 
@@ -179,30 +179,18 @@ the <a href="http://dev.eclipse.org/viewsvn/index.cgi/plugins/trunk/org.eclipse.
 			<ul>
 				<li>Semptember 2009</li>
 				<li style="list-style:none"><br/></li>
-				<li>By <a href="mailto://alessandra.bagnato@txt.it">Alessandra Bagnato</a> <a
-     href="http://www.txt.it"> Corporate Research Division - TXT e-solutions </a></li> 
+				<li>By <a href="mailto://alessandra.bagnato@txt.it">Alessandra Bagnato</a> Corporate Research Division - TXT e-solutions</li> 
 				<li style="list-style:none"><br/></li>
-				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
+				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco forum</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">
 			<h6>Related Links</h6>
 
 <ul type=disc>
- <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l2 level1 lfo4;tab-stops:list 36.0pt'>Transformation Tool <a
-     href="http://www.momocs.org">MOMOCS European Project</a>web <span class=GramE>site </span>.
-     </li>
-
- <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l2 level1 lfo4;tab-stops:list 36.0pt'><a
-     href="http://www.viewzone.org/momocs/index.php?option=com_docman&amp;task=doc_download&amp;gid=44&amp;Itemid=19&amp;SID=a4f4d5bdb7422ee466dc0258f025516e">MOMOCS
-     Transformation Tool User Guide </a></li>
- <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l2 level1 lfo4;tab-stops:list 36.0pt'>TXT e-solutions<a
-     href="http://www.txt.it"><span class=GramE>TXT e-solutions </a>web <span class=GramE>site </span>.
-     </li>
-			</ul>
+ <li><a href="http://www.momocs.org">MOMOCS European Project website</a></li>
+ <li><a href="http://www.viewzone.org/momocs/index.php?option=com_docman&amp;task=doc_download&amp;gid=44&amp;Itemid=19&amp;SID=a4f4d5bdb7422ee466dc0258f025516e">MOMOCS Transformation Tool User Guide </a></li>
+</ul>
 		</div>
 
 	</div>
