@@ -90,7 +90,7 @@ Editing is for creating or customizing transformations by means of special-targe
 </li>
  <li>
 ATL4Xirup is a set of wizards providing fundamental resources for MOMOCS transformations. It also gives the possibility to select among a set of Transformation Patterns which are highly reusable transformations defined for common modernization situations.
-Transformation Chain is for the automatic creation of “chain scripts” (defined in Ant) that are used to execute a sequence of transformations where the output of a transformation is the input of the immediately following one.
+Transformation Chain is for the automatic creation of <i>chain scripts</i> (defined in Ant) that are used to execute a sequence of transformations where the output of a transformation is the input of the immediately following one.
 </li>
  <li>
 Cheat Sheets is for providing users with a set of interactive tutorial totally integrated in Eclipse. These tutorials also contain a set of advanced example transformations for UML2Xirup, Xirup2UML and model querying.
@@ -122,21 +122,22 @@ Online Help is the XSM Transformation Tool voice inside the Eclipse Online Help
 
 		<table>
 			<COLGROUP>
-				<COL width="25%">
-				<COL width="75%">
-		<tr>
-		<td align="center">
-		<a href="http://www.viewzone.org/momocs/index.php?option=com_docman&task=doc_download&gid=44&Itemid=19&SID=a4f4d5bdb7422ee466dc0258f025516e">
-			MOMOCS Transformation Tool <img src="../../resources/buttons/InstallationUserGuide_button.jpg"/>
-		</a>
-		</td></tr>	<tr>
-		<td>
-			A more detailed description of the MoDisco MOMOCS Transformation Tool is  on  <a href="http://www.momocs.org"> MOMOCS web site </a>.
-		</td>
-		</tr>
-
+				<COL width="15%">
+				<COL width="20%">
+				<COL width="65%">
+			</COLGROUP>
+			<tr>
+				<td ALIGN=center><h4>MOMOCS Transformation Tool</h4></td>
+				<td align="center">
+					<a href="http://www.viewzone.org/momocs/index.php?option=com_docman&task=doc_download&gid=44&Itemid=19&SID=a4f4d5bdb7422ee466dc0258f025516e">
+						<img src="../../resources/buttons/InstallationUserGuide_button.jpg"/>		
+					</a>
+				</td>
+				<td>
+					A more detailed description of the MoDisco MOMOCS Transformation Tool is available from the <a href="http://www.momocs.org">MOMOCS website</a>.
+				</td>
+			</tr>
 		</table>
-
 
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="download">Download</a></h4>
 
@@ -144,20 +145,19 @@ Online Help is the XSM Transformation Tool voice inside the Eclipse Online Help
 			<COLGROUP>
 				<COL width="25%">
 				<COL width="75%">
-		<tr>
-		
-		<td align="center">
-		<a href="downloads/org.eclipse.gmt.modisco.common.editor_0.7.0.jar">
-			<img src="../../resources/buttons/Tool_button.jpg"/>
-		</a>
-		</td>
-		<td>
-			Modisco version of the <b>MOMOCS Transformation Tool</b> plug-in.
-			<br/>All the sources contained in the archive are also available from
-the <a href="http://dev.eclipse.org/viewsvn/index.cgi/plugins/trunk/org.eclipse.gmt.modisco.common.editor/?root=Modeling_MODISCO">MoDisco web site</a>
-		</td>
-		</tr>
-
+			</COLGROUP>
+			<tr>
+				<td align="center">
+		    		<!--<a href="downloads/org.eclipse.gmt.modisco.common.editor_0.7.0.jar">-->
+		      			<img src="../../resources/buttons/Tool_button.jpg"/>
+		    		<!--</a>-->
+		  		</td>
+				<td>
+					MoDisco version of the <b>MOMOCS Transformation Tool</b> plug-in.
+					<br/>All the sources contained in the archive are also available from
+					the <a href="http://dev.eclipse.org/viewsvn/index.cgi/incubation/trunk/?root=Modeling_MODISCO">MoDisco SVN</a>
+				</td>
+			</tr>
 		</table>
 
 
@@ -177,10 +177,8 @@ the <a href="http://dev.eclipse.org/viewsvn/index.cgi/plugins/trunk/org.eclipse.
 		<div class="sideitem">
 			<h6>General Information</h6>
 			<ul>
-				<li>Semptember 2009</li>
-				<li style="list-style:none"><br/></li>
+				<li>September 2009</li>
 				<li>By <a href="mailto://alessandra.bagnato@txt.it">Alessandra Bagnato</a> Corporate Research Division - TXT e-solutions</li> 
-				<li style="list-style:none"><br/></li>
 				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco forum</a></li>
 			</ul>
 		</div>

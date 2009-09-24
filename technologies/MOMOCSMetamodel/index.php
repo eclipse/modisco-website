@@ -117,7 +117,7 @@
 						  		<td>
 						    		Modisco version of the <b>MOMOCS metamodel and simple editor</b> plug-in.
 						    		<br/>All the sources contained in the archive are also available from
-						    		the <a href="http://dev.eclipse.org/viewsvn/index.cgi/incubation/trunk/org.eclipse.gmt.modisco.common.editor/?root=Modeling_MODISCO">MoDisco SVN</a>
+						    		the <a href="http://dev.eclipse.org/viewsvn/index.cgi/incubation/trunk/?root=Modeling_MODISCO">MoDisco SVN</a>
 						  		</td>
 							</tr>
 					    </table>
@@ -137,9 +137,7 @@
 	    <h6>General Information</h6>
 	    <ul>
 	      <li>September 2009</li>
-	      <li style="list-style:none"><br/></li>
 	      <li>By <a href="mailto:miraz@elet.polimi.it">Matteo Miraz</a>, Dipartimento di Elettronica e Informazione, Politecnico di Milano (Italy)</li>
-	      <li style="list-style:none"><br/></li>
 	      <li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco forum</a></li>
 	    </ul>
 	  </div>
