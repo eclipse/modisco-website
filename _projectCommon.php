@@ -1,5 +1,29 @@
 <?php
 
+	// project root
+	$PR = "modeling/gmt/modisco";
+	$projectName = "MoDisco";
+	$projects = array("MoDisco" => "modisco");
+	//$projects = array();
+	//$defaultProj = "modisco";
+
+	$extraprojects = array(); //components with only downloads, no info yet, "prettyname" => "directory"
+	$nodownloads = array(); //components with only information, no downloads, or no builds available yet, "projectkey"
+	$nonewsgroup = array(); //components without newsgroup
+	$nomailinglist = array(); //components without mailinglist
+	$incubating = array(); // components which are incubating - EMF will never have incubating components -- see EMFT
+	$nomenclature = "Project"; //are we dealing with "components" or "projects"?
+	
+	$buildtypes = array(
+		"R" => "Release",
+		"S" => "Stable",
+		"I" => "Integration",
+		"M" => "Maintenance",
+		"N" => "Nightly"
+	);
+	
+	include_once $_SERVER["DOCUMENT_ROOT"] . "/modeling/includes/scripts.php";
+
 	# set default theme Lazarus -> Nova
 	$_theme = "Nova";
 	$theme = "";
