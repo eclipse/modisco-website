@@ -802,7 +802,8 @@ function outputBuild($branch, $ID, $c)
 		"</a>" .
 		((isset($opts["noclean"]) && $opts["noclean"]) || is_dir("$PWD/$branch/$ID/eclipse/$ID") ? doNoclean("$PWD/$branch/$ID") : "");
 		
-	$ret .= "<ul id=\"r$ID\"" . (($c == 0 && !isset($_GET["hlbuild"])) || isset($_GET["hlbuild"]) && $ID == $_GET["hlbuild"] ? "" : " style=\"display: none\"") . ">\n";
+	//$ret .= "<ul id=\"r$ID\"" . (($c == 0 && !isset($_GET["hlbuild"])) || isset($_GET["hlbuild"]) && $ID == $_GET["hlbuild"] ? "" : " style=\"display: none\"") . ">\n";
+	$ret .= "<ul id=\"r$ID\"" . (isset($_GET["hlbuild"]) && $ID == $_GET["hlbuild"] ? "" : " style=\"display: none\"") . ">\n";
 
 	if (!isset($filePre[$proj]) && isset($filePre["/"]))
 	{
