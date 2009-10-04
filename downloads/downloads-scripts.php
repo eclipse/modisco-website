@@ -249,9 +249,9 @@ function createFileLinks($dls, $PWD, $branch, $ID, $pre2, $filePreProj, $ziplabe
 /* if $styled = 0 or false, return text only */
 function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads/drops/M200402021234/
 {
-	global $downloadPre, $pre, $isBuildServer, $doRefreshPage, $numzips, $PR, $projct, $isBuildDotEclipseServer, $isTech, $isTools;
-	$PR2 = ($isTools ? "tools/$PR" : ($isTech ? "technology/$PR" : "$PR")); # to allow for www.eclipse.org/gef/ and download.eclipse.org/tools/gef
-	$mid = "$downloadPre/$PR2" . ($projct == "" ? $projct : "/$projct") . "/downloads/drops/";
+	global $downloadPre, $pre, $isBuildServer, $doRefreshPage, $numzips, $PR, $PR_www, $projct, $isBuildDotEclipseServer, $isTech, $isTools;
+	$PR2 = ($isTools ? "tools/$PR" : ($isTech ? "technology/$PR" : "$PR_www")); # to allow for www.eclipse.org/gef/ and download.eclipse.org/tools/gef
+	$mid = "$downloadPre/$PR_www" . ($projct == "" ? $projct : "/$projct") . "/downloads/drops/";
 	$out = "";
 	$buildlog = "$PWD${path}buildlog.txt";
 	$buildlog_cache = null;
@@ -276,7 +276,7 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 	{
 		$icon = "check-maybe";
 		$conlog = "${path}testing/${ID}testing/linux.gtk_consolelog.txt";
-		$testlog = ($isBuildServer ? "" : "http://www.eclipse.org") . "/$PR2/downloads/testResults.php?hl=1&amp;project=$projct&amp;ID=" . substr($path, 0, strlen($path) - 1);
+		$testlog = ($isBuildServer ? "" : "http://www.eclipse.org") . "/$PR_www/downloads/testResults.php?hl=1&amp;project=$projct&amp;ID=" . substr($path, 0, strlen($path) - 1);
 		$link = ($isBuildServer && !$isBuildDotEclipseServer ? "/$PR/build/log-viewer.php?" . ($isTools ? "tools&" : ($isTech ? "technology&" : "")) . "project=$projct&amp;build=$path" :
 				($isBuildServer ? "" : "http://download.eclipse.org/") . $mid.$path."buildlog.txt");
 		$link2 = (is_file("$PWD$conlog") ? "$mid$conlog" : (is_file("$PWD$testlog") ? "$testlog" : $link));
@@ -343,7 +343,7 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 			if (is_file("$PWD${path}compilelogs/summary.txt"))
 			{
 				$compilelogSummary = file_get_contents("$PWD${path}compilelogs/summary.txt");
-				$link2 = ($isBuildServer ? "" : "http://www.eclipse.org") . "/$PR/downloads/testResults.php?hl=1&amp;project=$projct&amp;ID=" . substr($path, 0, strlen($path) - 1);
+				$link2 = ($isBuildServer ? "" : "http://www.eclipse.org") . "/$PR_www/downloads/testResults.php?hl=1&amp;project=$projct&amp;ID=" . substr($path, 0, strlen($path) - 1);
 				if ($compilelogSummary)
 				{
 					$m = null;
