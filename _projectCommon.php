@@ -2,6 +2,7 @@
 
 	// project root
 	$PR = "modeling/gmt/modisco";
+	$PR_www = "gmt/modisco";
 	$projectName = "MoDisco";
 	$projects = array("MoDisco" => "modisco");
 	//$projects = array();
@@ -11,7 +12,7 @@
 	$nodownloads = array(); //components with only information, no downloads, or no builds available yet, "projectkey"
 	$nonewsgroup = array(); //components without newsgroup
 	$nomailinglist = array(); //components without mailinglist
-	$incubating = array(); // components which are incubating - EMF will never have incubating components -- see EMFT
+	$incubating = true; // components which are incubating
 	$nomenclature = "Project"; //are we dealing with "components" or "projects"?
 	
 	$buildtypes = array(

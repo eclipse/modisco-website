@@ -63,7 +63,8 @@ $filePre = array( # use "/" because MODISCO has no parent or child projects/comp
 /* end config */
 
 //if ($isBuildServer) { include_once $_SERVER["DOCUMENT_ROOT"] . "/pdt/build/sideitems-common.php"; }
-require_once($_SERVER["DOCUMENT_ROOT"] . "/modeling/includes/downloads-common.php");
+//require_once($_SERVER["DOCUMENT_ROOT"] . "/modeling/includes/downloads-common.php");
+require_once("downloads-common.php");
 
 $html = ob_get_contents();
 ob_end_clean();
