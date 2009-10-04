@@ -1,6 +1,6 @@
 <?php
 
-require_once($_SERVER["DOCUMENT_ROOT"] . "/modeling/includes/downloads-scripts.php");
+require_once("downloads-scripts.php");
 
 if (is_array($projects))
 {
