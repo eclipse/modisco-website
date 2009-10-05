@@ -251,7 +251,7 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 {
 	global $downloadPre, $pre, $isBuildServer, $doRefreshPage, $numzips, $PR, $PR_www, $projct, $isBuildDotEclipseServer, $isTech, $isTools;
 	$PR2 = ($isTools ? "tools/$PR" : ($isTech ? "technology/$PR" : "$PR_www")); # to allow for www.eclipse.org/gef/ and download.eclipse.org/tools/gef
-	$mid = "$downloadPre/$PR_www" . ($projct == "" ? $projct : "/$projct") . "/downloads/drops/";
+	$mid = "$downloadPre/$PR" . ($projct == "" ? $projct : "/$projct") . "/downloads/drops/";
 	$out = "";
 	$buildlog = "$PWD${path}buildlog.txt";
 	$buildlog_cache = null;
