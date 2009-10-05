@@ -6,14 +6,72 @@
     <description>MoDisco News</description>
 
 	<item>
-		<title>The KDM Source Discoverer is now available from the MoDisco technologies</title>
-		<link>http://www.eclipse.org/gmt/modisco/technologies/KDMSourceDiscoverer/</link>
+		<title>Talk on MoDisco at next Eclipse Summit Europe 2009 in Ludwigsburgh, Germany</title>
+		<link>http://www.eclipsecon.org/summiteurope2009/sessions?id=886</link>
 		<description>
 			<p>
-			The KDM Source Discoverer has just been published into the MoDisco "Technologies" section. This generic tool is about discovering a model out of an application files hierarchy, which conforms to the sub-package <i>Source</i> of <a href="../infrastructure/KDM">KDM metamodel</a>. The <i>Source</i> package defines a set of metamodel elements whose purpose is to represent the physical artifacts of the existing system, such as source files, images, configuration files, resource descriptions, etc.
+			There will be a short talk on the MoDisco project at the coming ESE 2009 event. It will be during the Modeling Symposium on Tuesday 27th of October (afternoon).
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/technologies/KDMSourceDiscoverer/">http://www.eclipse.org/gmt/modisco/technologies/KDMSourceDiscoverer/</a> for accessing the tool.
+			See the ESE website in order to get more information on this talk: <a href="http://www.eclipsecon.org/summiteurope2009/sessions?id=886">http://www.eclipsecon.org/summiteurope2009/sessions?id=886</a> 
+			</p>
+		</description>
+		<pubDate>Monday, 5 Oct 2009 11:45:00 CET</pubDate>
+	</item>
+
+	<item>
+		<title>The Java Discoverer is now available from the MoDisco technologies</title>
+		<link>http://wiki.eclipse.org/MoDisco/JavaDiscoverer2</link>
+		<description>
+			<p>
+			The Java Discoverer has just been published into the MoDisco "Technologies". This generic tool is about <b>discovering a complete model out of the source code of a Java application</b>. The model, which conforms to the <a href="http://wiki.eclipse.org/MoDisco/Java">Java</a> metamodel, describes all the structural concepts (from packages up to method invocations and comments) and links between code elements (method invocations, variables usage, class inheritance, etc).
+			</p>
+			<p>
+			See <a href="http://wiki.eclipse.org/MoDisco/JavaDiscoverer2">http://wiki.eclipse.org/MoDisco/JavaDiscoverer2</a> for accessing the tool.
+			</p>
+		</description>
+		<pubDate>Friday, 2 Oct 2009 16:00:00 CET</pubDate>
+	</item>
+	
+	<item>
+		<title>The Java Metamodel implementation is now available from the MoDisco technologies</title>
+		<link>http://wiki.eclipse.org/MoDisco/Java</link>
+		<description>
+			<p>
+			The Java Metamodel implementation has just been published into the MoDisco "Technologies". This provides an EMF implementation of the version 3 of the Java Language Specification, which defines a metamodel for representing models of Java programs 
+			developed using the Java Development Kit 5 (JDK 5).
+			This Java common metamodel is the result of the unification of the previous works realized around the <a href="http://wiki.eclipse.org/MoDisco/J2SE5">J2SE5</a> and <a href="http://www.eclipse.org/gmt/modisco/technologies/JavaAbstractSyntax/">JavaAbstractSyntax</a> metamodels.
+			</p>
+			<p>
+			See <a href="http://wiki.eclipse.org/MoDisco/Java">http://wiki.eclipse.org/MoDisco/Java</a> for accessing the tool.
+			</p>
+		</description>
+		<pubDate>Friday, 2 Oct 2009 16:00:00 CET</pubDate>
+	</item>
+
+	<item>
+		<title>The new version of the MoDisco flyer-poster is now available</title>
+		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf</link>
+		<description>
+			<p>
+			The new version of the flyer-poster describing the MoDisco project has just been published in the "Documentation" section.
+			</p>
+			<p>
+			See <a href="http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf">http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf</a> for getting the flyer-poster.
+			</p>
+		</description>
+		<pubDate>Friday, 11 Sep 2009 17:00:00 CET</pubDate>
+	</item>
+
+	<item>
+		<title>The KDM Source Discoverer is now available from the MoDisco infrastructure</title>
+		<link>http://wiki.eclipse.org/MoDisco/KDMSourceDiscoverer</link>
+		<description>
+			<p>
+			The KDM Source Discoverer has just been published into the MoDisco "Infrastructure". This generic tool is about discovering a model out of an application files hierarchy, which conforms to the sub-package <i>Source</i> of <a href="../infrastructure/KDM">KDM metamodel</a>. The <i>Source</i> package defines a set of metamodel elements whose purpose is to represent the physical artifacts of the existing system, such as source files, images, configuration files, resource descriptions, etc.
+			</p>
+			<p>
+			See <a href="http://wiki.eclipse.org/MoDisco/KDMSourceDiscoverer">http://wiki.eclipse.org/MoDisco/KDMSourceDiscoverer</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Wednesday, 8 Apr 2009 14:00:00 CET</pubDate>
@@ -21,28 +79,28 @@
 	
 	<item>
 		<title>The J2SE5 Discoverer is now available from the MoDisco technologies</title>
-		<link>http://www.eclipse.org/gmt/modisco/technologies/J2SE5/</link>
+		<link>http://wiki.eclipse.org/MoDisco/JavaDiscoverer</link>
 		<description>
 			<p>
-			The J2SE5 Discoverer has just been published into the MoDisco "Technologies" section. This generic tool is about <b>discovering a complete model out of the source code of a Java 5 application</b>. The model, which conforms to the <b>J2SE5</b> metamodel, describes all the structural concepts (from packages up to method invocations and comments) and links between code elements (method invocations, variables usage, class inheritance, etc).
+			The J2SE5 Discoverer has just been published into the MoDisco "Technologies". This generic tool is about <b>discovering a complete model out of the source code of a Java 5 application</b>. The model, which conforms to the <b>J2SE5</b> metamodel, describes all the structural concepts (from packages up to method invocations and comments) and links between code elements (method invocations, variables usage, class inheritance, etc).
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/technologies/J2SE5/">http://www.eclipse.org/gmt/modisco/technologies/J2SE5/</a> for accessing the tool.
+			See <a href="http://wiki.eclipse.org/MoDisco/JavaDiscoverer">http://wiki.eclipse.org/MoDisco/JavaDiscoverer</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Monday, 6 Apr 2009 16:30:00 CET</pubDate>
 	</item>
 	
 	<item>
-		<title>The J2SE5 Metamodel implementation is now available from the MoDisco infrastructure</title>
-		<link>http://www.eclipse.org/gmt/modisco/infrastructure/J2SE5/</link>
+		<title>The J2SE5 Metamodel implementation is now available from the MoDisco technologies</title>
+		<link>http://wiki.eclipse.org/MoDisco/J2SE5</link>
 		<description>
 			<p>
-			The J2SE5 Metamodel implementation has just been published into the MoDisco "Infrastructure" section. This provides an EMF implementation of the <a href="http://java.sun.com/j2se/1.5.0/">Java 2 Standard Edition 5 Metamodel (J2SE5)</a> specification which defines a metamodel for representing models of Java programs 
+			The J2SE5 Metamodel implementation has just been published into the MoDisco "Technologies". This provides an EMF implementation of the <a href="http://java.sun.com/j2se/1.5.0/">Java 2 Standard Edition 5 Metamodel (J2SE5)</a> specification which defines a metamodel for representing models of Java programs 
 			developed using the Java Platform Standard Edition (Java SE), which is the premier platform for rapidly developing and deploying secure, portable applications that run on server and desktop systems spanning most operating systems.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/infrastructure/J2SE5/">http://www.eclipse.org/gmt/modisco/infrastructure/J2SE5/</a> for accessing the tool.
+			See <a href="http://wiki.eclipse.org/MoDisco/J2SE5">http://wiki.eclipse.org/MoDisco/J2SE5</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Monday, 6 Apr 2009 15:30:00 CET</pubDate>
@@ -63,15 +121,15 @@
 	</item>
 	
 	<item>
-		<title>The MoDisco Generic Model Editor is now available from the MoDisco infrastructure</title>
-		<link>http://www.eclipse.org/gmt/modisco/infrastructure/GenericModelEditor/</link>
+		<title>The MoDisco Generic Model Browser is now available from the MoDisco infrastructure</title>
+		<link>http://wiki.eclipse.org/MoDisco/ModelBrowser</link>
 		<description>
 			<p>
-			The Generic Model Editor has just been published into the MoDisco "Infrastructure" section. This tool, provided by the <b><a href="http://www.mia-software.com/">MIA-Software</a></b> company, is about providing a parametrizable feature-rich Ecore model editor which can be used to browse and edit any Ecore model more easily than with the default sample Ecore editor.
+			The Generic Model Browser has just been published into the MoDisco "Infrastructure". This tool, provided by the <b><a href="http://www.mia-software.com/">MIA-Software</a></b> company, is about providing a parameterizable feature-rich Ecore model editor which can be used to browse and edit any Ecore model more easily than with the default sample Ecore editor.
 			This is particularly useful when dealing with models discovered from large legacy systems. 
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/infrastructure/GenericModelEditor/">http://www.eclipse.org/gmt/modisco/infrastructure/GenericModelEditor/</a> for accessing the tool.
+			See <a href="http://wiki.eclipse.org/MoDisco/ModelBrowser">http://wiki.eclipse.org/MoDisco/ModelBrowser</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Monday, 2 Mar 2009 15:00:00 CET</pubDate>
@@ -79,14 +137,14 @@
 	
 	<item>
 		<title>The Knowledge Discovery Metamodel (KDM) implementation is now available from the MoDisco infrastructure</title>
-		<link>http://www.eclipse.org/gmt/modisco/infrastructure/KDM/</link>
+		<link>http://wiki.eclipse.org/MoDisco/KDM</link>
 		<description>
 			<p>
-			The Knowledge Discovery Metamodel (KDM) implementation has just been published into the MoDisco "Infrastructure" section. This provides an EMF implementation of the <a href="http://www.omg.org/technology/kdm/index.htm">KDM</a> specification which defines a metamodel for representing information related to existing software assets
+			The Knowledge Discovery Metamodel (KDM) implementation has just been published into the MoDisco "Infrastructure". This provides an EMF implementation of the <a href="http://www.omg.org/technology/kdm/index.htm">KDM</a> specification which defines a metamodel for representing information related to existing software assets
             and their operational environments. It can be intensively used for representing models discovered from large legacy systems.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/infrastructure/KDM/">http://www.eclipse.org/gmt/modisco/infrastructure/KDM/</a> for accessing the tool.
+			See <a href="http://wiki.eclipse.org/MoDisco/KDM">http://wiki.eclipse.org/MoDisco/KDM</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Monday, 2 Mar 2009 15:00:00 CET</pubDate>
@@ -107,13 +165,13 @@
 	
 	<item>
 		<title>The KDM-to-UML2 Converter is now available from the MoDisco infrastructure</title>
-		<link>http://www.eclipse.org/gmt/modisco/infrastructure/KDMtoUML2Converter/</link>
+		<link>http://wiki.eclipse.org/MoDisco/KDM/UMLConverter</link>
 		<description>
 			<p>
-			The KDM-to-UML2 Converter has just been published into the MoDisco "Infrastructure" section. This tool, provided by the <b><a href="http://www.mia-software.com/">MIA-Software</a></b> company, is about converting KDM models into UML2 models in order to allow integrating KDM-compliant tools (i.e. discoverers) with UML2-compliant tools (e.g. modelers, model transformation tools, code generators, etc).
+			The KDM-to-UML2 Converter has just been published into the MoDisco "Infrastructure". This tool, provided by the <b><a href="http://www.mia-software.com/">MIA-Software</a></b> company, is about converting KDM models into UML2 models in order to allow integrating KDM-compliant tools (i.e. discoverers) with UML2-compliant tools (e.g. modelers, model transformation tools, code generators, etc).
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/infrastructure/KDMtoUML2Converter/">http://www.eclipse.org/gmt/modisco/infrastructure/KDMtoUML2Converter/</a> for accessing the tool.
+			See <a href="http://wiki.eclipse.org/MoDisco/KDM/UMLConverter">http://wiki.eclipse.org/MoDisco/KDM/UMLConverter</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Monday, 31 Mar 2008 14:30:00 CET</pubDate>
@@ -152,7 +210,7 @@
 		<link>http://www.eclipse.org/gmt/modisco/useCases/PerformanceAnnotatedUmlStateCharts/</link>
 		<description>
 			<p>
-			The "Performance-Annotated UML2 State Charts" use case has just been published into the MoDisco "Use Cases" section. This complex use case contains a general description but also a complete implementation.
+			The "Performance-Annotated UML2 State Charts" use case has just been published into the MoDisco "Use Cases". This complex use case contains a general description but also a complete implementation.
 			</p>
 			<p>
 			It is about discovering performance information from an Excel file and building a Trace model from these data. Then, this generated model is computed in order to produce a Metrics model whose data are finally used to automatically apply a "Performance" profile to a UML2 state chart.
@@ -165,7 +223,7 @@
 	</item>
 	
 	<item>
-		<title>The complete "Generating Java Platform Ontologies" new MoDisco use case is now available</title>
+		<title>The complete "Generating Java Platform Ontologies" new MoDisco use case is now available (Deprecated)</title>
 		<link>http://www.eclipse.org/gmt/modisco/useCases/JavaPlatformOntologies/</link>
 		<description>
 			<p>
@@ -182,7 +240,7 @@
 	</item>
 	
 	<item>
-		<title>The "Visual Basic Code Analysis" use case specification is now available</title>
+		<title>The "Visual Basic Code Analysis" use case specification is now available (Deprecated)</title>
 		<link>http://www.eclipse.org/gmt/modisco/useCases/VBCodeAnalysis/</link>
 		<description>
 			<p>
@@ -200,7 +258,7 @@
 		<link>http://www.eclipse.org/gmt/modisco/infrastructure/MetricsVisualizationBuilder/</link>
 		<description>
 			<p>
-			The "Metrics Visualization Builder" tool has just been published into the MoDisco "Infrastructure" section. This simple generic tool (which is an <a href="http://www.eclipse.org/m2m/atl/">ATL</a> project for Eclipse) provides facilities for building visualizations (in several formats) from <i>Metrics</i> models.
+			The "Metrics Visualization Builder" tool has just been published into the MoDisco "Infrastructure". This simple generic tool (which is an <a href="http://www.eclipse.org/m2m/atl/">ATL</a> project for Eclipse) provides facilities for building visualizations (in several formats) from <i>Metrics</i> models.
 			</p>
 			<p>
 			See <a href="http://www.eclipse.org/gmt/modisco/infrastructure/MetricsVisualizationBuilder/">http://www.eclipse.org/gmt/modisco/infrastructure/MetricsVisualizationBuilder/</a> for accessing the tool.
@@ -224,7 +282,7 @@
 	</item>
 	
 	<item>
-		<title>The complete "SharenGo Java Legacy Reverse-Engineering" new MoDisco use case is now available</title>
+		<title>The complete "SharenGo Java Legacy Reverse-Engineering" new MoDisco use case is now available (Deprecated)</title>
 		<link>http://www.eclipse.org/gmt/modisco/useCases/JavaLegacyRE/</link>
 		<description>
 			<p>
@@ -245,7 +303,7 @@
 		<link>http://www.eclipse.org/gmt/modisco/technologies/JavaAbstractSyntax/</link>
 		<description>
 			<p>
-			The "Java Abstract Syntax" discovery tool has just been published into the MoDisco "Technologies" section. This simple tool (which is an Eclipse plug-in based upon MoDisco) is fully implemented and provides facilities for building Java AST models from Java compilation units.
+			The "Java Abstract Syntax" discovery tool has just been published into the MoDisco "Technologies". This simple tool (which is an Eclipse plug-in based upon MoDisco) is fully implemented and provides facilities for building Java AST models from Java compilation units.
 			</p>
 			<p>
 			See <a href="http://www.eclipse.org/gmt/modisco/technologies/JavaAbstractSyntax/">http://www.eclipse.org/gmt/modisco/technologies/JavaAbstractSyntax/</a> for accessing the tool.
@@ -259,7 +317,7 @@
 		<link>http://www.eclipse.org/gmt/modisco/useCases/BIRTSampleDB/</link>
 		<description>
 			<p>
-			The "Eclipse/BIRT Project Sample Database" use case has just been published into the MoDisco "Use Cases" section. This complex use case contains a general description but also a complete implementation.
+			The "Eclipse/BIRT Project Sample Database" use case has just been published into the MoDisco "Use Cases". This complex use case contains a general description but also a complete implementation.
 			</p>
 			<p>
 			It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of the <a href="http://www.eclipse.org/gmt/modisco/toolBox/RelationalDBInformation/">generic "Relational Database Information" discovery tool</a> (from the <a href="http://www.eclipse.org/gmt/modisco/toolBox">MoDisco tool box</a>), and then generating a specific ClassicModels model. 
@@ -272,7 +330,7 @@
 	</item>
 	
 	<item>
-		<title>The "Relational Database Information" discovery tool is now available from the MoDisco tool box</title>
+		<title>The "Relational Database Information" discovery tool is now available from the MoDisco tool box (Deprecated)</title>
 		<link>http://www.eclipse.org/gmt/modisco/toolBox/RelationalDBInformation/</link>
 		<description>
 			<p>
@@ -286,7 +344,7 @@
 	</item>
 	
 	<item>
-		<title>Creation and initialization of the MoDisco "Tool Box" section</title>
+		<title>Creation and initialization of the MoDisco "Tool Box" section (Deprecated)</title>
 		<link>http://www.eclipse.org/gmt/modisco/toolBox</link>
 		<description>
 			<p>
@@ -304,7 +362,7 @@
 	</item>
 	
 	<item>
-		<title>MoDisco model handlers' source code is now available from the MoDisco CVS</title>
+		<title>MoDisco model handlers' source code is now available from the MoDisco CVS  (Deprecated)</title>
 		<link>http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco/plugins/</link>
 		<description>
 			<p>
@@ -324,7 +382,7 @@
 	</item>
 	
 	<item>
-		<title>Use cases sources are now also available from the MoDisco CVS</title>
+		<title>Use cases sources are now also available from the MoDisco CVS (Deprecated)</title>
 		<link>http://dev.eclipse.org/viewcvs/indextech.cgi/org.eclipse.gmt/MoDisco</link>
 		<description>
 			<p>
@@ -345,7 +403,7 @@
 		<link>http://www.eclipse.org/gmt/modisco/useCases/BugzillaMetrics/</link>
 		<description>
 			<p>
-			The "Bugzilla Metrics" use case has just been published into the MoDisco "Use Cases" section. This complex use case contains a general description but also a complete implementation.
+			The "Bugzilla Metrics" use case has just been published into the MoDisco "Use Cases". This complex use case contains a general description but also a complete implementation.
 			</p>
 			<p>
 			See <a href="http://www.eclipse.org/gmt/modisco/useCases/BugzillaMetrics/">http://www.eclipse.org/gmt/modisco/useCases/BugzillaMetrics/</a> for consulting the use case.
@@ -355,7 +413,7 @@
 	</item>
 	
 	<item>
-		<title>The "Unix File System" new MoDisco use case is now available</title>
+		<title>The "Unix File System" new MoDisco use case is now available (Deprecated)</title>
 		<link>http://www.eclipse.org/gmt/modisco/useCases/UnixFileSystem/</link>
 		<description>
 			<p>
@@ -383,7 +441,7 @@
 	</item>
 	
 	<item>
-		<title>Creation and initialization of the MoDisco "Use Cases" section</title>
+		<title>Creation and initialization of the MoDisco "Use Cases" section (Deprecated)</title>
 		<link>http://www.eclipse.org/gmt/modisco/useCases</link>
 		<description>
 			<p>
