@@ -328,10 +328,10 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 			$noProblems = true;
 			foreach ($files as $file)
 			{
-				// XXX DEBUG
+				// XXX "/home/data2/httpd/download.eclipse.org" didn't work
 				$testFilePath = "/home/data/httpd/download.eclipse.org/modeling/gmt/modisco/downloads/drops/${path}testresults/xml/" . $file;
-				echo "testFilePath=$testFilePath ";
-				echo "PWD=$PWD ";
+				//echo "testFilePath=$testFilePath ";
+				//echo "PWD=$PWD ";
 				
 				$results = getTestResultsJUnitXML("$PWD${path}testresults/xml/" . $file);
 				if ($results && is_array($results))
@@ -1062,9 +1062,8 @@ function showArchived($oldrels)
 function getTestResultsJUnitXML($file)
 {
 	$data = file($file);
-	// XXX DEBUG
-	if($data == false)
-		echo "[ERROR] getTestResultsJUnitXML";
+	//if($data == false)
+	//	echo "[ERROR] getTestResultsJUnitXML";
 	foreach ($data as $line)
 	{
 		// <testsuite errors="0" failures="0" ...>
