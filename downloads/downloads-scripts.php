@@ -328,6 +328,8 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 			$noProblems = true;
 			foreach ($files as $file)
 			{
+				// XXX debug
+				echo "$PWD${path}testresults/xml/" . $file;
 				$results = getTestResultsJUnitXML("$PWD${path}testresults/xml/" . $file);
 				if ($results && is_array($results))
 				{
