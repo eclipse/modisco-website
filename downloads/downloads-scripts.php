@@ -328,6 +328,10 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 			$noProblems = true;
 			foreach ($files as $file)
 			{
+				$testFilePath = "/home/data/httpd/download.eclipse.org/modeling/gmt/modisco/downloads/drops/${path}testresults/xml/" . $file;
+				echo "testFilePath=$testFilePath ";
+				echo "PWD=$PWD ";
+				
 				$results = getTestResultsJUnitXML("$PWD${path}testresults/xml/" . $file);
 				if ($results && is_array($results))
 				{
