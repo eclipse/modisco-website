@@ -328,6 +328,7 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 			$noProblems = true;
 			foreach ($files as $file)
 			{
+				// XXX DEBUG
 				$testFilePath = "/home/data/httpd/download.eclipse.org/modeling/gmt/modisco/downloads/drops/${path}testresults/xml/" . $file;
 				echo "testFilePath=$testFilePath ";
 				echo "PWD=$PWD ";
@@ -1060,8 +1061,10 @@ function showArchived($oldrels)
 
 function getTestResultsJUnitXML($file)
 {
-	$data = array();
-	exec("head -3 $file | grep \"<testsuite\"", $data); // possibly faster than file($file), but might break on some servers (eg., exec() is disabled on www.eclipse.org, so warnings are thrown)
+	$data = file($file);
+	// XXX DEBUG
+	if($data == false)
+		echo "[ERROR] getTestResultsJUnitXML";
 	foreach ($data as $line)
 	{
 		// <testsuite errors="0" failures="0" ...>
