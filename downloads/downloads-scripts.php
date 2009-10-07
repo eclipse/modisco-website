@@ -1061,26 +1061,43 @@ function showArchived($oldrels)
 
 function getTestResultsJUnitXML($file)
 {
-	$data = file($file);
-	//if($data == false)
-	//	echo "[ERROR] getTestResultsJUnitXML";
-	foreach ($data as $line)
-	{
-		// <testsuite errors="0" failures="0" ...>
-		$matches = null;
-		if (preg_match("/<testsuite errors=\"(\d+)\" failures=\"(\d+).+\"/", $line, $matches))
-		{
-			return array($matches[1], $matches[2], 0);
-		}
-		else if (preg_match("/<testsuite.+failures=\"(\d+)\" errors=\"(\d+)\".+/", $line, $matches))
-		{
-			return array($matches[2], $matches[1], 0);
-		}
-		else if (false!==strpos($line,"<testsuites/>") || false!==strpos($line,"<testsuites />") || false!==strpos($line,"<testsuites></testsuites>") || false!==strpos($line,"Failed to invoke suite")) // no tests run!
-		{
-			return array(0, 0, 1);
-		}
+	$time_start = microtime(true);
+
+	$result = array(0, 0, 0); # Errors, Failures, DNRs
+	
+	//$data = file($file);
+	//exec("head -3 $file | grep \"<testsuite\"", $data); // possibly faster than file($file), but might break on some servers (eg., exec() is disabled on www.eclipse.org, so warnings are thrown)
+	
+	$handle = @fopen($file, "r");
+	if ($handle) {
+	    while (!feof($handle)) {
+	        $line = fgets($handle, 4096);
+        
+       		// <testsuite errors="0" failures="0" ...>
+			$matches = null;
+			if (preg_match("/<testsuite errors=\"(\d+)\" failures=\"(\d+).+\"/", $line, $matches))
+			{
+				$result = array($matches[1], $matches[2], 0);
+			}
+			else if (preg_match("/<testsuite.+failures=\"(\d+)\" errors=\"(\d+)\".+/", $line, $matches))
+			{
+				$result = array($matches[2], $matches[1], 0);
+			}
+			else if (false!==strpos($line,"<testsuites/>") || false!==strpos($line,"<testsuites />") || false!==strpos($line,"<testsuites></testsuites>") || false!==strpos($line,"Failed to invoke suite")) // no tests run!
+			{
+				$result = array(0, 0, 1);
+			}
+	    }
+	    fclose($handle);
+	} else {
+		echo "ERROR opening \"$file\"";
 	}
-	return array(0, 0, 0); # Errors, Failures, DNRs
+	
+	$time_end = microtime(true);
+	$time = $time_end - $time_start;
+
+	echo "getTestResultsJUnitXML : <b>$time</b> seconds\n";
+	
+	return $result;
 }
 ?>
