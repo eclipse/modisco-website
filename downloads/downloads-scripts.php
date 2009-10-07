@@ -1061,8 +1061,6 @@ function showArchived($oldrels)
 
 function getTestResultsJUnitXML($file)
 {
-	$time_start = microtime(true);
-
 	$result = array(0, 0, 0); # Errors, Failures, DNRs
 	
 	//$data = file($file);
@@ -1092,11 +1090,6 @@ function getTestResultsJUnitXML($file)
 	} else {
 		echo "ERROR opening \"$file\"";
 	}
-	
-	$time_end = microtime(true);
-	$time = $time_end - $time_start;
-
-	echo "getTestResultsJUnitXML : <b>$time</b> seconds\n";
 	
 	return $result;
 }
