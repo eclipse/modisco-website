@@ -130,8 +130,12 @@ $deps = array(
 	"subversive" => "<a href=\"http://www.eclipse.org/subversive/\">Subversive</a>",
 );
 
+//print "<div id=\"midcolumn\">\n";
+//print "<h1>Downloads</h1>\n";
+// MoDisco specific:
 print "<div id=\"midcolumn\">\n";
-print "<h1>Downloads</h1>\n";
+print '<img style="float:right" src="../resources/logoMoDiscoSmall.jpg" alt="MoDisco Logo"/>';
+print "<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Downloads</h1>";
 
 if (is_array($projects) && sizeof($projects) > 1)
 {
