@@ -135,7 +135,7 @@ $deps = array(
 // MoDisco specific:
 print "<div id=\"midcolumn\">\n";
 print '<img style="float:right" src="../resources/logoMoDiscoSmall.jpg" alt="MoDisco Logo"/>';
-print "<h1><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Downloads</h1>";
+print "<h1 style='min-height:60px'><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Downloads</h1>";
 
 if (is_array($projects) && sizeof($projects) > 1)
 {
