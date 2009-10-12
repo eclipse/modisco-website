@@ -42,7 +42,7 @@ ob_start();
 To install the different MoDisco plug-ins, just point your Install Manager to the following site:
 <ul><li>Location: <a href="http://download.eclipse.org/modeling/gmt/modisco/updates/release/">http://download.eclipse.org/modeling/gmt/modisco/updates/release/</a></li></ul>
 
-To get more details about the MoDisco update site, please visit the following page: <a href="http://www.eclipse.org/gmt/modico/updates/">http://www.eclipse.org/gmt/modico/updates/</a>.
+To get more details about the MoDisco update site, please visit the following page: <a href="http://www.eclipse.org/gmt/modisco/updates/">http://www.eclipse.org/gmt/modisco/updates/</a>.
 
 <h3>Downloading</h3>
 <ul><li>It is also possible to download a zipped version of the MoDisco tools from the <a href="http://www.eclipse.org/gmt/modisco/downloads/">downloads page</a>.</li></ul>
