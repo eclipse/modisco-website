@@ -45,7 +45,7 @@ To install the different MoDisco plug-ins, just point your Install Manager to th
 To get more details about the MoDisco update site, please visit the following page: <a href="http://www.eclipse.org/gmt/modico/updates/">http://www.eclipse.org/gmt/modico/updates/</a>.
 
 <h3>Downloading</h3>
-<ul><li>It is also possible to download a zipped version of the MoDisco tools from the download page: <a href="http://www.eclipse.org/downloads/">http://www.eclipse.org/downloads/</a></li></ul>
+<ul><li>It is also possible to download a zipped version of the MoDisco tools from the <a href="http://www.eclipse.org/gmt/modisco/downloads/">downloads page</a>.</li></ul>
 
 <h3>Required Configuration</h3>
 
