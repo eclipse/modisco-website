@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
-<plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml"
+<plan plan-format="0.9" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml"
       name="MoDisco (Model Discovery)">
-   <release projectid="modeling.gmt.modisco" version="1.0"/>
+   <release projectid="modeling.gmt.modisco" version="0.9"/>
    <introduction>
      <html:div>
      	The MoDisco project provides an extensible framework for developing model-driven tools in order to support different software modernization use-cases.
@@ -25,22 +25,33 @@
    </introduction>
    <release_deliverables>
      <html:div>
-     	The MoDisco project delivers a set of Eclipse features (and underlying plug-ins) according to the different framework layers, i.e. to the various legacy technologies and several use-cases which are actually supported.
+     	The MoDisco project delivers a set of facilities covering the different MoDisco framework layers, i.e. the MoDisco infrastructure as well as the various legacy technologies and several use-cases which are supported.
      	<html:br/><html:br/>
-     	The current version of the framework is made of two features: one providing the common infrastructure and another one offering dedicated support for the Java legacy technology. 
+     	Each release will include:
+     	<html:ul>
+     		<html:li>An update site including runtime, SDK, documentation and source</html:li>
+     		<html:li>Features and plugins packaged (download)</html:li>
+     		<html:li>Examples (download)</html:li>
+     	</html:ul>
+     	<html:br/><html:br/>
+     	The current release provides the common infrastructure and a dedicated support for the Java legacy technology. 
      	<html:br/><html:br/>
      </html:div>
    </release_deliverables>
    <release_milestones>
       <preamble>
          <html:div>
-         	A version "1.0" of MoDisco is set to be released by the end June 2010, according to the Eclipse Helios Simultaneous Release timeline. However, the actual full plan has not been established yet.
+         	MoDisco 0.8 will be available at the end of 2009.
          	<html:br/><html:br/>
-         	More detailed milestones will be added soon.
+			Then, MoDisco 0.9 will synchronize its release milestones with the Helios release schedule.
          	<html:br/><html:br/>
          </html:div>
       </preamble>
-      <milestone date="6/28/2010" milestone="1.0"><html:p>June Release</html:p></milestone>
+      <milestone date="12/31/2009" milestone="0.8"></milestone>
+      <milestone date="01/29/2010" milestone="0.9M5"></milestone>
+      <milestone date="03/12/2010" milestone="0.9M6">(API Freeze)</milestone>
+      <milestone date="04/30/2010" milestone="0.9M7">(Feature Freeze)</milestone>
+      <milestone date="06/26/2010" milestone="0.9"></milestone>
    </release_milestones>
    <target_environments>
      <html:div>
