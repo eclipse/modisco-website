@@ -48,8 +48,8 @@
       </preamble>
       <milestone date="12/31/2009" milestone="0.8"></milestone>
       <milestone date="01/29/2010" milestone="0.9M5"></milestone>
-      <milestone date="03/12/2010" milestone="0.9M6"><html:p>(API Freeze)</html:p></milestone>
-      <milestone date="04/30/2010" milestone="0.9M7"><html:p>(Feature Freeze)</html:p></milestone>
+      <milestone date="03/12/2010" milestone="0.9M6"><html:b>(API Freeze)</html:b></milestone>
+      <milestone date="04/30/2010" milestone="0.9M7"><html:b>(Feature Freeze)</html:b></milestone>
       <milestone date="06/26/2010" milestone="0.9"></milestone>
    </release_milestones>
    <target_environments>
