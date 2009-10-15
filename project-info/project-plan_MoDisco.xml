@@ -33,7 +33,6 @@
      		<html:li>Features and plugins packaged (download)</html:li>
      		<html:li>Examples (download)</html:li>
      	</html:ul>
-     	<html:br/><html:br/>
      	The current release provides the common infrastructure and a dedicated support for the Java legacy technology. 
      	<html:br/><html:br/>
      </html:div>
@@ -42,15 +41,15 @@
       <preamble>
          <html:div>
          	MoDisco 0.8 will be available at the end of 2009.
-         	<html:br/><html:br/>
+         	<html:br/>
 			Then, MoDisco 0.9 will synchronize its release milestones with the Helios release schedule.
          	<html:br/><html:br/>
          </html:div>
       </preamble>
       <milestone date="12/31/2009" milestone="0.8"></milestone>
       <milestone date="01/29/2010" milestone="0.9M5"></milestone>
-      <milestone date="03/12/2010" milestone="0.9M6">(API Freeze)</milestone>
-      <milestone date="04/30/2010" milestone="0.9M7">(Feature Freeze)</milestone>
+      <milestone date="03/12/2010" milestone="0.9M6"><html:p>(API Freeze)</html:p></milestone>
+      <milestone date="04/30/2010" milestone="0.9M7"><html:p>(Feature Freeze)</html:p></milestone>
       <milestone date="06/26/2010" milestone="0.9"></milestone>
    </release_milestones>
    <target_environments>
