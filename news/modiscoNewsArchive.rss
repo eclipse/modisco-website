@@ -6,7 +6,18 @@
     <description>MoDisco News</description>
 
 	<item>
-		<title>Screencast: MoDisco at ESE 2009</title>
+		<title>Screencast: MoDisco Talk at ESE 2009</title>
+		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco-ESE2009-Talk/demo.htm</link>
+		<description>
+			<p>
+			A screencast from the MoDisco presentation at Eclipse Summit Europe 2009 is available.
+			</p>
+		</description>
+		<pubDate>Thursday, 29 Oct 2009 17:30:00 CET</pubDate>
+	</item>
+
+	<item>
+		<title>Screencast: MoDisco at ESE 2009, Modeling Symposium</title>
 		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco-ESE2009-Symposium/demo.htm</link>
 		<description>
 			<p>
