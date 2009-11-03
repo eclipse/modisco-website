@@ -55,7 +55,7 @@ There are several different ways to add a new update site to the list of sites a
  In all cases, the site location (i.e. the Web URL or the archived Update Site provided above) is the only required item.
  <br/>
 To add the MoDisco site, one of the procedures described from the
- <a href="http://help.eclipse.org/ganymede/index.jsp?topic=/org.eclipse.platform.doc.user/tasks/tasks-129.htm" target="_blank">Install Manager documentation</a> must be followed.
+ <a href="http://help.eclipse.org/galileo/index.jsp?topic=/org.eclipse.platform.doc.user/tasks/tasks-129.htm" target="_blank">Install Manager documentation</a> must be followed.
 
 <h3>Required configuration</h3>
 
