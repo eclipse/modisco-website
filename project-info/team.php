@@ -1,6 +1,11 @@
-<?php
+<?php 																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
 $PR = "modeling/gmt/modisco";
 $PR = "modisco";
+
+	$pageTitle 		= "MoDisco Team";
+	$pageKeywords	= "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, Discoverer";
+	$pageAuthor		= "Gabriel Barbier";
+	
 ob_start();
 ?>
 <div id="midcolumn">
