@@ -20,3 +20,14 @@ ob_start();
 <!--<?php-->
 <!--include_once $_SERVER['DOCUMENT_ROOT'] . "/modeling/includes/team-common.php";-->
 <!--?>-->
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . "/gmt/modisco/right_column.php");
+
+
+$html = ob_get_contents();
+ob_end_clean();
+
+
+	# Generate the web page
+	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
+?>
