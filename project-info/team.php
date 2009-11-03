@@ -7,7 +7,7 @@
 ob_start();
 ?>
 <div id="midcolumn">
-<img style="float:right" src="resources/logoMoDiscoSmall.jpg" alt="MoDisco Logo"/>
+<img style="float:right" src="../resources/logoMoDiscoSmall.jpg" alt="MoDisco Logo"/>
 <h1>Meet The MoDisco Team</h1>
 <h3>Contributors</h3>
 <ul>
