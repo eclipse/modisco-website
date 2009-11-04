@@ -6,6 +6,20 @@
     <description>MoDisco News</description>
 
 	<item>
+		<title>The XML metamodel implementation and corresponding discoverer are now available from the MoDisco technologies</title>
+		<link>http://wiki.eclipse.org/MoDisco/XMLDiscoverer</link>
+		<description>
+			<p>
+			The XML metamodel implementation and corresponding discoverer have recently been published into the MoDisco "Technologies". These generic tools allow <b>discovering a complete model out of any XML document</b> (independently from its XSchema or DTD). The model, which conforms to the <a href="http://wiki.eclipse.org/MoDisco/XML">XML</a> metamodel, describes all the content of a given XML document.
+			</p>
+			<p>
+			See <a href="http://wiki.eclipse.org/MoDisco/XMLDiscoverer">http://wiki.eclipse.org/MoDisco/XMLDiscoverer</a> for accessing the tools.
+			</p>
+		</description>
+		<pubDate>Wednesday, 4 Nov 2009 10:15:00 CET</pubDate>
+	</item>
+
+	<item>
 		<title>Screencast: MoDisco Talk at ESE 2009</title>
 		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco-ESE2009-Talk/Short_talk_demo-20091028-0003.htm</link>
 		<description>
