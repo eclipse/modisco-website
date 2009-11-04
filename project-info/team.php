@@ -11,13 +11,16 @@ ob_start();
 <h1>Meet The MoDisco Team</h1>
 <h3>Contributors</h3>
 <ul>
-<li>Gabriel Barbier</li>
-<li>Nicolas Bros</li>
-<li>Hugo Bruneliere</li>
+<li>Gabriel Barbier (Mia-Software)</li>
+<li>Nicolas Bros (Mia-Software)</li>
+<li>Hugo Bruneliere (Atlanmod)</li>
+<li>Gregoire Dupe (Mia-Software)</li>
+<li>Fabien Giquel (Mia-Software)</li>
+<li>Frederic Madiot (Mia-Software)</li>
 </ul>
 <h3>Project leads</h3>
 <ul>
-<li>Hugo Bruneliere</li>
+<li>Hugo Bruneliere (Atlanmod)</li>
 </ul>
 </div>
 
