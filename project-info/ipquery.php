@@ -2,11 +2,11 @@
 $product_id = 12; # GMT/MoDisco
 $committers = array(
  	# taken from http://www.eclipse.org/projects/project_summary.php?projectid=modeling.m2m
- 	"hbrunelie" => "modeling.gmt.modisco",
- 	"gbarbier" => "modeling.gmt.modisco",
-	"nbros" => "modeling.gmt.modisco",
-	"gdupe" => "modeling.gmt.modisco",
-	"fgiquel" => "modeling.gmt.modisco"
+ 	"hbrunelie" => "modeling.gmt",
+ 	"gbarbier" => "modeling.gmt",
+	"nbros" => "modeling.gmt",
+	"gdupe" => "modeling.gmt",
+	"fgiquel" => "modeling.gmt"
  	
 );
 

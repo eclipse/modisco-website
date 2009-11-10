@@ -1,1 +1,4 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . "/modeling/includes/eclipse-project-ip-log-common.php"); ?>
+<?php 
+$PR = "modeling.gmt";
+include_once($_SERVER['DOCUMENT_ROOT'] . "/modeling/includes/eclipse-project-ip-log-common.php"); 
+?>
