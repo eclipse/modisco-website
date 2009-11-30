@@ -247,7 +247,7 @@ business rules, insofar as this information can be mined from existing applicati
 			<ul>
 				<li>February 2009</li>
 				<li style="list-style:none"><br/></li>
-				<li>By <a href="mailto://Nick.Mansourov@hathasystems.com">Nikolai Mansourov</a></li>
+				<li>By <a href="mailto://nick@kdmanalytics.com">Nikolai Mansourov</a></li>
 				<li style="list-style:none"><br/></li>
 				<li>Please, ask your questions on the <a href="news://news.eclipse.org/eclipse.modisco">MoDisco newsgroup</a></li>
 			</ul>
