@@ -383,6 +383,8 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 				if (preg_match("/<font size=\"-1\" color=\"#FF0000\">skipped<\/font>/", $indexHTML))
 				{
 					// XXX no tests for now, that's normal 
+					$icon = "check";
+					$result = "";
 					//$icon = "check-maybe";
 					//$result = "Skipped ";
 				}
