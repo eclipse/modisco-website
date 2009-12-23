@@ -382,8 +382,9 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 			{
 				if (preg_match("/<font size=\"-1\" color=\"#FF0000\">skipped<\/font>/", $indexHTML))
 				{
-					$icon = "check-maybe";
-					$result = "Skipped ";
+					// XXX no tests for now, that's normal 
+					//$icon = "check-maybe";
+					//$result = "Skipped ";
 				}
 				else if (preg_match("/(?:<!-- Examples -->.*FAIL\.gif|FAIL\.gif.*<!-- Automated Tests -->)/s", $indexHTML))
 				{
