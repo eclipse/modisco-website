@@ -47,9 +47,18 @@
 			<li>
 		      <b><a href="MoDisco_Overview_1.0.pdf">MoDisco Overview (initial slides)</a></b>: Overall presentation of the MoDisco project.
 			</li>
-			<br>
+		  </ul>
+		</p>
+		
+		<h3>Screencasts</h3
+		<p>
+          <ul class="midlist">
 			<li>
-		      <b><a href="MoDisco-ESE2009-Symposium/demo.htm">MoDisco ESE-2009 Symposium (screencast)</a></b>: MoDisco presentation at Eclipse Summit Europe 2009 (<a href="http://www.eclipsecon.org/summiteurope2009/sessions?id=886">session page</a>).
+		      <b><a href="MoDisco-ESE2009-Symposium/demo.htm">The Eclipse MoDisco Project Eclipse</a></b>: Eclipse Summit Europe 2009, <a href="http://www.eclipsecon.org/summiteurope2009/sessions?id=889">Eclipse Modeling Symposium </a>, October 27th, 2009.
+			</li>
+			<br/>
+			<li>
+		      <b><a href="MoDisco-ESE2009-Talk/Short_talk_demo-20091028-0003.htm">Discovery of Models with MoDisco</a></b>: Eclipse Summit Europe 2009, <a href="http://www.eclipsecon.org/summiteurope2009/sessions?id=886">Discovery of Models with MoDisco (Short Talk)</a>, October 29th, 2009.
 			</li>
 		  </ul>
 		</p>
