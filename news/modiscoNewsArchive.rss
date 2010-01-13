@@ -10,7 +10,7 @@
 		<link>http://wiki.eclipse.org/MoDisco/JavaGeneration</link>
 		<description>
 			<p>
-			The M2T templates for Java metamodel have recently been published into the MoDisco "Technologies". The goal of the Java Generation plug-in is to allow Java code generation from a Java model. Such a generation will participate to <b>Legacy Refactoring & Migration</b>. 
+			The M2T templates for Java metamodel have recently been published into the MoDisco "Technologies". The goal of the Java Generation plug-in is to allow Java code generation from a Java model. Such a generation will participate to <b>Legacy Refactoring and Migration</b>. 
 			</p>
 			<p>
 			See <a href="http://wiki.eclipse.org/MoDisco/JavaGeneration">http://wiki.eclipse.org/MoDisco/JavaGeneration</a> for accessing the component.
