@@ -4,6 +4,20 @@
     <title>MoDisco News</title>
     <link>http://eclipse.org/gmt/modisco/</link>
     <description>MoDisco News</description>
+    
+	<item>
+		<title>The M2T templates for Java metamodel are now available from the MoDisco technologies</title>
+		<link>http://wiki.eclipse.org/MoDisco/JavaGeneration</link>
+		<description>
+			<p>
+			The M2T templates for Java metamodel have recently been published into the MoDisco "Technologies". The goal of the Java Generation plug-in is to allow Java code generation from a Java model. Such a generation will participate to <b>Legacy Refactoring & Migration</b>. 
+			</p>
+			<p>
+			See <a href="http://wiki.eclipse.org/MoDisco/JavaGeneration">http://wiki.eclipse.org/MoDisco/JavaGeneration</a> for accessing the component.
+			</p>
+		</description>
+		<pubDate>Wednesday, 13 Jan 2010 18:25:00 CET</pubDate>
+	</item>    
 
 	<item>
 		<title>The XML metamodel implementation and corresponding discoverer are now available from the MoDisco technologies</title>
