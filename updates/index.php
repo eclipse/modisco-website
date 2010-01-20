@@ -53,6 +53,7 @@ To add the MoDisco site, one of the procedures described from the <a href="http:
 
 <h4>Development update sites:</h4>
 <ul>
+<li><a href="http://download.eclipse.org/modeling/gmt/modisco/updates/milestones/">http://download.eclipse.org/modeling/gmt/modisco/updates/milestones/</a></li>
 <li><a href="http://download.eclipse.org/modeling/gmt/modisco/updates/integration/">http://download.eclipse.org/modeling/gmt/modisco/updates/integration/</a></li>
 <li><a href="http://download.eclipse.org/modeling/gmt/modisco/updates/nightly/">http://download.eclipse.org/modeling/gmt/modisco/updates/nightly/</a></li>
 </ul>
