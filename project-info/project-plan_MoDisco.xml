@@ -61,7 +61,7 @@
      <html:div>
      	MoDisco runs under a standard Eclipse Modeling platform, including EMF (for model handling), MDT-UML2 (for UML support) and M2M-ATL (for model-to-model transformation support).
      	<html:br/><html:br/>
-     	Its current version is developed with and for <html:b>Eclipse Galileo</html:b>. 
+     	Its current version is developed with and for <html:b>Eclipse Helios</html:b>. 
      </html:div>
      <internationalization>
           <html:div>
