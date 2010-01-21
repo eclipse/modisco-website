@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
-<plan plan-format="0.9" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml"
+<plan plan-format="0.8" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml"
       name="MoDisco (Model Discovery)">
-   <release projectid="modeling.gmt.modisco" version="0.9"/>
+   <release projectid="modeling.gmt.modisco" version="0.8"/>
    <introduction>
      <html:div>
      	The MoDisco project provides an extensible framework for developing model-driven tools in order to support different software modernization use-cases.
@@ -30,8 +30,8 @@
      	Each release will include:
      	<html:ul>
      		<html:li>An update site including runtime, SDK, documentation and source</html:li>
-     		<html:li>Features and plugins packaged (download)</html:li>
-     		<html:li>Examples (download)</html:li>
+     		<html:li>Packaged features and plug-ins  (downloads)</html:li>
+     		<html:li>Examples (downloads)</html:li>
      	</html:ul>
      	The current release provides the common infrastructure and a dedicated support for the Java legacy technology. 
      	<html:br/><html:br/>
@@ -40,17 +40,22 @@
    <release_milestones>
       <preamble>
          <html:div>
-         	MoDisco 0.8 will be available at the end of 2009.
+         	MoDisco 0.7 has been released by the end of 2009.
          	<html:br/>
-			Then, MoDisco 0.9 will synchronize its release milestones with the Helios release schedule.
+			MoDisco 0.8 synchronizes its builds according to the Helios release schedule.
          	<html:br/><html:br/>
          </html:div>
       </preamble>
-      <milestone date="12/31/2009" milestone="0.8"></milestone>
-      <milestone date="01/29/2010" milestone="0.9M5"></milestone>
-      <milestone date="03/12/2010" milestone="0.9M6"><html:b>(API Freeze)</html:b></milestone>
-      <milestone date="04/30/2010" milestone="0.9M7"><html:b>(Feature Freeze)</html:b></milestone>
-      <milestone date="06/26/2010" milestone="0.9"></milestone>
+      <milestone date="10/23/2009" milestone="0.7"></milestone>
+      <milestone date="01/19/2010" milestone="0.8M4"></milestone>
+      <milestone date="02/05/2010" milestone="0.8M5"></milestone>
+      <milestone date="03/19/2010" milestone="0.8M6"><html:b>(API Freeze)</html:b></milestone>
+      <milestone date="05/07/2010" milestone="0.8M7"><html:b>(Feature Freeze)</html:b></milestone>
+      <milestone date="05/21/2010" milestone="0.8RC1"></milestone>
+      <milestone date="05/28/2010" milestone="0.8RC2"></milestone>
+      <milestone date="06/04/2010" milestone="0.8RC3"></milestone>
+      <milestone date="06/11/2010" milestone="0.8RC4"></milestone>
+      <milestone date="06/23/2010" milestone="0.8"></milestone>
    </release_milestones>
    <target_environments>
      <html:div>
@@ -60,7 +65,7 @@
      </html:div>
      <internationalization>
           <html:div>
-          	None of the MoDisco components are currently internationalized. The used language is English-US.
+         	 Most of the MoDisco components are currently internationalized but the basically used language is English-US.
           	<html:br/><html:br/>
           </html:div>
      </internationalization>
