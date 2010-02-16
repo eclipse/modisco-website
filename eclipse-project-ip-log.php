@@ -1,5 +1,6 @@
 <?php 
 $PR = "modeling.gmt";
+$team = "gmt/modisco";
 /*include_once($_SERVER['DOCUMENT_ROOT'] . "/modeling/includes/eclipse-project-ip-log-common.php"); */
 ?>
 <?php
@@ -86,7 +87,7 @@ if (isset($incubating) && sizeof($incubating) > 0)
 
 <div class="sideitem">
    <h6>Committers &amp; Contributors</h6>
-   <ul><li><a href="http://www.eclipse.org/<?php print $PR; ?>/project-info/team.php">Meet The Team</a></li></ul>
+   <ul><li><a href="http://www.eclipse.org/<?php print $team; ?>/project-info/team.php">Meet The Team</a></li></ul>
 </div>
 
 <div class="sideitem">
