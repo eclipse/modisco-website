@@ -1,6 +1,6 @@
 <?php 
 $PR = "modeling.gmt";
-$team = "gmt/modisco";
+$modisco = "gmt/modisco";
 /*include_once($_SERVER['DOCUMENT_ROOT'] . "/modeling/includes/eclipse-project-ip-log-common.php"); */
 ?>
 <?php
@@ -25,7 +25,7 @@ ob_start();
 		<p>New for Ganymede, the IP log can now be generated from Bugzilla. There are two version available:</p>
 		
 		<ul>
-			<li><a href="http://www.eclipse.org/<?php print $PR; ?>/project-info/ipquery.php">Modeling IP Log</a> (note <a href="http://www.eclipse.org/<?php print $PR; ?>/project-info/ipquery.php#Note">Data Inclusion limitations</a>)</li>
+			<li><a href="http://www.eclipse.org/<?php print $modisco; ?>/project-info/ipquery.php">Modeling IP Log</a> (note <a href="http://www.eclipse.org/<?php print $PR; ?>/project-info/ipquery.php#Note">Data Inclusion limitations</a>)</li>
 			<li><a href="http://www.eclipse.org/projects/ip_log.php?projectid=<?php print str_replace("/",".",$PR); ?>">Foundation IP Log</a> (under development -- see <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=220977">bug 220977</a>)</li>
 		</ul>			
 		
@@ -87,7 +87,7 @@ if (isset($incubating) && sizeof($incubating) > 0)
 
 <div class="sideitem">
    <h6>Committers &amp; Contributors</h6>
-   <ul><li><a href="http://www.eclipse.org/<?php print $team; ?>/project-info/team.php">Meet The Team</a></li></ul>
+   <ul><li><a href="http://www.eclipse.org/<?php print $modisco; ?>/project-info/team.php">Meet The Team</a></li></ul>
 </div>
 
 <div class="sideitem">
