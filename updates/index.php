@@ -48,14 +48,14 @@ To add the MoDisco site, one of the procedures described from the <a href="http:
 <p>
 <h4>Main update site:</h4>
 <ul>
-<li><a href="http://download.eclipse.org/modeling/gmt/modisco/updates/release/">http://download.eclipse.org/modeling/gmt/modisco/updates/release/</a> <font color='#808080'>(Eclipse Galileo Update)</font></li>
+<li><a href="http://download.eclipse.org/modeling/gmt/modisco/updates/release/">http://download.eclipse.org/modeling/gmt/modisco/updates/release/</a> <br><font color='#808080'>(Eclipse Galileo Update)</font></li>
 </ul>
 
 <h4>Development update sites:</h4>
 <ul>
-<li><a href="http://download.eclipse.org/modeling/gmt/modisco/updates/milestones/">http://download.eclipse.org/modeling/gmt/modisco/updates/milestones/</a> <font color='#808080'>(Eclipse Helios Update)</font></li>
-<li><a href="http://download.eclipse.org/modeling/gmt/modisco/updates/integration/">http://download.eclipse.org/modeling/gmt/modisco/updates/integration/</a> <font color='#808080'>(Eclipse Helios Update)</font></li>
-<li><a href="http://download.eclipse.org/modeling/gmt/modisco/updates/nightly/">http://download.eclipse.org/modeling/gmt/modisco/updates/nightly/</a> <font color='#808080'>(Eclipse Helios Update)</font></li>
+<li><a href="http://download.eclipse.org/modeling/gmt/modisco/updates/milestones/">http://download.eclipse.org/modeling/gmt/modisco/updates/milestones/</a> <br><font color='#808080'>(Eclipse Helios Update)</font></li>
+<li><a href="http://download.eclipse.org/modeling/gmt/modisco/updates/integration/">http://download.eclipse.org/modeling/gmt/modisco/updates/integration/</a> <br><font color='#808080'>(Eclipse Helios Update)</font></li>
+<li><a href="http://download.eclipse.org/modeling/gmt/modisco/updates/nightly/">http://download.eclipse.org/modeling/gmt/modisco/updates/nightly/</a> <br><font color='#808080'>(Eclipse Helios Update)</font></li>
 </ul>
 </p>
 
