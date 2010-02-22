@@ -361,12 +361,13 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 				}
 			}
 
-			if ($failures)
+			/*if ($errors)
 			{
 				$icon = "not";
-				$result = "";
+				$result = "ERROR";
 			}
-			else if ($didnotruns)
+			else*/ 
+			if ($didnotruns)
 			{
 				$icon = "not";
 				$result = "CAUTION";
