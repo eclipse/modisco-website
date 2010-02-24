@@ -278,7 +278,7 @@ print "<div class=\"sideitem\">\n";
 print "<h6>Additional Info</h6>\n";
 print "<ul>\n";
 //print "<li><a href=\"http://www.eclipse.org/$PR/faq.php\">FAQs</a></li>\n";
-print "<li><a href=\"#archives\">Archived Releases</a></li>\n";
+print "<li><a href=\"http://archive.eclipse.org/modisco/downloads/\">Archived Releases</a></li>\n";
 print "<li><a href=\"http://www.eclipse.org/modeling/downloads/build-types.php\">About Build Types</a></li>\n";
 print "<li><a href=\"http://www.eclipse.org/modeling/downloads/verifyMD5.php\">Using md5 Files</a></li>\n";
 
