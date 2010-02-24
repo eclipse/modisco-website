@@ -282,9 +282,7 @@ print "<li><a href=\"http://archive.eclipse.org/modisco/downloads/\">Archived Re
 print "<li><a href=\"http://www.eclipse.org/modeling/downloads/build-types.php\">About Build Types</a></li>\n";
 print "<li><a href=\"http://www.eclipse.org/modeling/downloads/verifyMD5.php\">Using md5 Files</a></li>\n";
 
-print "<li><a href=\"https://bugs.eclipse.org/bugs/buglist.cgi?" . 
-	"product=$parentProj&amp;component=modisco" . 
-	"&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED\">Open Bugs</a></li>\n";
+print "<li><a href=\"https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=VERIFIED;component=MoDisco;component=MoDisco-Contribution;component=MoDisco-Infrastructure;component=MoDisco-Technologies;component=MoDisco-UseCases;classification=Modeling;product=GMT\">Open Bugs</a></li>\n";
 //print "<li><a href=\"http://www.eclipse.org/$PR/news/relnotes.php?project=$projct&amp;version=HEAD\">Release Notes</a></li>\n";
 print "</ul>\n";
 print "</div>\n";
