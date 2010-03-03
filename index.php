@@ -93,7 +93,11 @@ MoDisco aims at supporting these three phases by providing :
     Use-cases illustrating how MoDisco can support modernization process 
     </li>
 </ul>
-    <br />
+    
+    The MoDisco project has been initiated and originally developed in the context of the <a href="http://www.modelplex-ist.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081).
+    
+    <br /><br />
+    
 	<a target="_blank" href="http://wiki.eclipse.org/MoDisco#Description">more about MoDisco &raquo;</a> 
 	<br /><br />
 	</p>
