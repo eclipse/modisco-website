@@ -96,16 +96,14 @@ MoDisco aims at supporting these three phases by providing :
     
     <table width="100%">
     	<tr>
-    		<td width="90%" align="center" valign="middle"> 
+    		<td width="95%" align="center" valign="middle"> 
     			The MoDisco project has been initiated and originally developed in the context of the <a href="http://www.modelplex.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081).
     		</td>
-    		<td width="10%"> 
+    		<td width="5%"> 
     			<a href="http://www.modelplex.org"> <img align="right" src="./resources/modelplexLogo.JPG"/> </a>
     		</td>
     	</tr>
     </table>
-    
-    <br /><br />
     
 	<a target="_blank" href="http://wiki.eclipse.org/MoDisco#Description">more about MoDisco &raquo;</a> 
 	<br /><br />
