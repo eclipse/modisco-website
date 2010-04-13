@@ -33,7 +33,7 @@
 			</tr>
 		</table>
 
-		<h3>Documentation</h3
+		<h3>Documentation</h3>
 		<p>
           <ul class="midlist">
           	<li>
@@ -50,7 +50,7 @@
 		  </ul>
 		</p>
 		
-		<h3>Screencasts</h3
+		<h3>Screencasts & Slides</h3>
 		<p>
           <ul class="midlist">
 			<li>
