@@ -54,6 +54,10 @@
 		<p>
           <ul class="midlist">
 			<li>
+		      <b><a href="MoDisco-EclipseCon2010-Talk/eclipsecon2010talk-modisco.pdf">How to Deal With Your IT Legacy?</a></b>: EclipseCon Santa Clara 2010, <a href="http://www.eclipsecon.org/2010/sessions/sessions?id=1173">How to Deal With Your IT Legacy? Reverse Engineering with MoDisco (Standard Talk)</a>, March 22th, 2010.
+			</li>
+			<br/>
+			<li>
 		      <b><a href="MoDisco-ESE2009-Symposium/demo.htm">The Eclipse MoDisco Project Eclipse</a></b>: Eclipse Summit Europe 2009, <a href="http://www.eclipsecon.org/summiteurope2009/sessions?id=889">Eclipse Modeling Symposium </a>, October 27th, 2009.
 			</li>
 			<br/>
