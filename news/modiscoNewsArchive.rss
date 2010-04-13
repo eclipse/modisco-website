@@ -4,6 +4,17 @@
     <title>MoDisco News</title>
     <link>http://eclipse.org/gmt/modisco/</link>
     <description>MoDisco News</description>
+
+	<item>
+		<title>Talk on MoDisco "How to Deal With Your IT Legacy?" at EclipseCon 2010</title>
+		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco-EclipseCon2010-Talk/eclipsecon2010talk-modisco.pdf</link>
+		<description>
+			<p>
+			The slides from the MoDisco talk "How to Deal With Your IT Legacy?" at Eclipsecon 2010 are available.
+			</p>
+		</description>
+		<pubDate>Wednesday, 13 Apr 2010 15:00:00 CET</pubDate>
+	</item>
     
 	<item>
 		<title>The M2T templates for Java metamodel are now available from the MoDisco technologies</title>
