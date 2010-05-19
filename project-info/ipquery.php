@@ -1,12 +1,12 @@
 <?php
-$product_id = 12; # GMT/MoDisco
+$product_id = 12; # MDT/MoDisco
 $committers = array(
  	# taken from http://www.eclipse.org/projects/project_summary.php?projectid=modeling.m2m
- 	"hbrunelie" => "modeling.gmt",
- 	"gbarbier" => "modeling.gmt",
-	"nbros" => "modeling.gmt",
-	"gdupe" => "modeling.gmt",
-	"fgiquel" => "modeling.gmt"
+ 	"hbrunelie" => "modeling.mdt",
+ 	"gbarbier" => "modeling.mdt",
+	"nbros" => "modeling.mdt",
+	"gdupe" => "modeling.mdt",
+	"fgiquel" => "modeling.mdt"
  	
 );
 

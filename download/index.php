@@ -1,3 +1,3 @@
 <?php
-header('Location: http://www.eclipse.org/gmt/modisco/downloads/');
+header('Location: http://www.eclipse.org/MoDisco/downloads/');
 ?>

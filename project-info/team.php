@@ -25,7 +25,7 @@ ob_start();
 </div>
 
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . "/gmt/modisco/right_column.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/MoDisco/right_column.php");
 
 
 $html = ob_get_contents();

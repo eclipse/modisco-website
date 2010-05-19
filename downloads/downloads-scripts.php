@@ -329,7 +329,7 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 			foreach ($files as $file)
 			{
 				// XXX "/home/data2/httpd/download.eclipse.org" didn't work
-				$testFilePath = "/home/data/httpd/download.eclipse.org/modeling/gmt/modisco/downloads/drops/${path}testresults/xml/" . $file;
+				$testFilePath = "/home/data/httpd/download.eclipse.org/modeling/mdt/modisco/downloads/drops/${path}testresults/xml/" . $file;
 				//echo "testFilePath=$testFilePath ";
 				//echo "PWD=$PWD ";
 				

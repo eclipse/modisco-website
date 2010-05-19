@@ -2,12 +2,12 @@
  <rss version="2.0">
   <channel>
     <title>MoDisco News</title>
-    <link>http://eclipse.org/gmt/modisco/</link>
+    <link>http://eclipse.org/MoDisco/</link>
     <description>MoDisco News</description>
 
 	<item>
 		<title>How to Deal With Your IT Legacy ? Talk on MoDisco at EclipseCon 2010</title>
-		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco-EclipseCon2010-Talk/eclipsecon2010talk-modisco.pdf</link>
+		<link>http://www.eclipse.org/MoDisco/doc/MoDisco-EclipseCon2010-Talk/eclipsecon2010talk-modisco.pdf</link>
 		<description>
 			<p>
 			The slides from the MoDisco talk "How to Deal With Your IT Legacy?" at Eclipsecon 2010 are available.
@@ -46,7 +46,7 @@
 
 	<item>
 		<title>Screencast: MoDisco Talk at ESE 2009</title>
-		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco-ESE2009-Talk/Short_talk_demo-20091028-0003.htm</link>
+		<link>http://www.eclipse.org/MoDisco/doc/MoDisco-ESE2009-Talk/Short_talk_demo-20091028-0003.htm</link>
 		<description>
 			<p>
 			A screencast from the MoDisco presentation at Eclipse Summit Europe 2009 is available.
@@ -57,7 +57,7 @@
 
 	<item>
 		<title>Screencast: MoDisco at ESE 2009, Modeling Symposium</title>
-		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco-ESE2009-Symposium/demo.htm</link>
+		<link>http://www.eclipse.org/MoDisco/doc/MoDisco-ESE2009-Symposium/demo.htm</link>
 		<description>
 			<p>
 			A screencast from the MoDisco presentation at Eclipse Summit Europe 2009 is available.
@@ -101,7 +101,7 @@
 			<p>
 			The Java Metamodel implementation has just been published into the MoDisco "Technologies". This provides an EMF implementation of the version 3 of the Java Language Specification, which defines a metamodel for representing models of Java programs 
 			developed using the Java Development Kit 5 (JDK 5).
-			This Java common metamodel is the result of the unification of the previous works realized around the <a href="http://wiki.eclipse.org/MoDisco/J2SE5">J2SE5</a> and <a href="http://www.eclipse.org/gmt/modisco/technologies/JavaAbstractSyntax/">JavaAbstractSyntax</a> metamodels.
+			This Java common metamodel is the result of the unification of the previous works realized around the <a href="http://wiki.eclipse.org/MoDisco/J2SE5">J2SE5</a> and <a href="http://www.eclipse.org/MoDisco/technologies/JavaAbstractSyntax/">JavaAbstractSyntax</a> metamodels.
 			</p>
 			<p>
 			See <a href="http://wiki.eclipse.org/MoDisco/Java">http://wiki.eclipse.org/MoDisco/Java</a> for accessing the tool.
@@ -112,13 +112,13 @@
 
 	<item>
 		<title>The new version of the MoDisco flyer-poster is now available</title>
-		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf</link>
+		<link>http://www.eclipse.org/MoDisco/doc/MoDisco_Flyer-Poster_1.0.pdf</link>
 		<description>
 			<p>
 			The new version of the flyer-poster describing the MoDisco project has just been published in the "Documentation" section.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf">http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf</a> for getting the flyer-poster.
+			See <a href="http://www.eclipse.org/MoDisco/doc/MoDisco_Flyer-Poster_1.0.pdf">http://www.eclipse.org/MoDisco/doc/MoDisco_Flyer-Poster_1.0.pdf</a> for getting the flyer-poster.
 			</p>
 		</description>
 		<pubDate>Friday, 11 Sep 2009 17:00:00 CET</pubDate>
@@ -240,13 +240,13 @@
 <!--	
 	<item>
 		<title>The "Visual Basic 6" discovery tool (part of the "Visual Basic Code Analysis" use case) is now available from the MoDisco technologies</title>
-		<link>http://www.eclipse.org/gmt/modisco/technologies/VisualBasic/</link>
+		<link>http://www.eclipse.org/MoDisco/technologies/VisualBasic/</link>
 		<description>
 			<p>
 			The "Visual Basic 6" discovery tool has just been published into the MoDisco "Technologies" section. This tool, provided by the <b><a href="http://www.obeo.fr/">Obeo</a></b> company, allows building models representing the structural parts (and their interdependencies) of Visual Basic source code.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/technologies/VisualBasic/">http://www.eclipse.org/gmt/modisco/technologies/VisualBasic/</a> for accessing the tool.
+			See <a href="http://www.eclipse.org/MoDisco/technologies/VisualBasic/">http://www.eclipse.org/MoDisco/technologies/VisualBasic/</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Wednesday, 31 Oct 2007 11:15:00 CET</pubDate>
@@ -254,13 +254,13 @@
 	
 	<item>
 		<title>The "Java 2 Standard Edition 5.0 Discovery Tool" specification is now available</title>
-		<link>http://www.eclipse.org/gmt/modisco/technologies/J2SE5/</link>
+		<link>http://www.eclipse.org/MoDisco/technologies/J2SE5/</link>
 		<description>
 			<p>
 			The "Java 2 Standard Edition 5.0 Discovery Tool" specification has just been published into the MoDisco "Technologies" section. This specification, proposed by the <a href="http://www.mia-software.com/index.php?lang=en">MIA-Software</a> company, currently contains a general description of the tool and provides a J2SE5 metamodel.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/technologies/J2SE5/">http://www.eclipse.org/gmt/modisco/technologies/J2SE5/</a> for getting more information about the tool.
+			See <a href="http://www.eclipse.org/MoDisco/technologies/J2SE5/">http://www.eclipse.org/MoDisco/technologies/J2SE5/</a> for getting more information about the tool.
 			</p>
 		</description>
 		<pubDate>Friday, 5 Oct 2007 16:30:00 CET</pubDate>
@@ -268,7 +268,7 @@
 -->	
 	<item>
 		<title>The "Performance-Annotated UML2 State Charts" new MoDisco use case is now available</title>
-		<link>http://www.eclipse.org/gmt/modisco/useCases/PerformanceAnnotatedUmlStateCharts/</link>
+		<link>http://www.eclipse.org/MoDisco/useCases/PerformanceAnnotatedUmlStateCharts/</link>
 		<description>
 			<p>
 			The "Performance-Annotated UML2 State Charts" use case has just been published into the MoDisco "Use Cases". This complex use case contains a general description but also a complete implementation.
@@ -277,7 +277,7 @@
 			It is about discovering performance information from an Excel file and building a Trace model from these data. Then, this generated model is computed in order to produce a Metrics model whose data are finally used to automatically apply a "Performance" profile to a UML2 state chart.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/useCases/PerformanceAnnotatedUmlStateCharts/">http://www.eclipse.org/gmt/modisco/useCases/PerformanceAnnotatedUmlStateCharts/</a> for consulting the use case.
+			See <a href="http://www.eclipse.org/MoDisco/useCases/PerformanceAnnotatedUmlStateCharts/">http://www.eclipse.org/MoDisco/useCases/PerformanceAnnotatedUmlStateCharts/</a> for consulting the use case.
 			</p>
 		</description>
 		<pubDate>Tuesday, 24 July 2007 18:15:00 CET</pubDate>
@@ -285,7 +285,7 @@
 	
 	<item>
 		<title>The complete "Generating Java Platform Ontologies" new MoDisco use case is now available (Deprecated)</title>
-		<link>http://www.eclipse.org/gmt/modisco/useCases/JavaPlatformOntologies/</link>
+		<link>http://www.eclipse.org/MoDisco/useCases/JavaPlatformOntologies/</link>
 		<description>
 			<p>
 			The "Generating Java Platform Ontologies" use case has just been published into the MoDisco "Use Cases" section. This complex use case, developed by <a href="http://ssel.vub.ac.be/ssel/about:members:denniswagelaar">Dennis Wagelaar (VUB)</a>, contains a general description but also a complete implementation.
@@ -294,7 +294,7 @@
 			It is about reverse engineering the Java API from the class library JAR files using the <a href="http://ssel.vub.ac.be/ssel/research:mdd:jar2uml">Jar2UML discovery tool</a> (part of the MoDisco tool box), generating OWL ontologies from the created UML models using <a href="http://www.eclipse.org/m2m/atl/">ATL model transformations</a>, and finally bundling these ontologies with the <a href="http://ssel.vub.ac.be/ssel/research:mdd:platformkit">PlatformKit</a> Eclipse plugin.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/useCases/JavaPlatformOntologies/">http://www.eclipse.org/gmt/modisco/useCases/JavaPlatformOntologies/</a> for consulting the use case.
+			See <a href="http://www.eclipse.org/MoDisco/useCases/JavaPlatformOntologies/">http://www.eclipse.org/MoDisco/useCases/JavaPlatformOntologies/</a> for consulting the use case.
 			</p>
 		</description>
 		<pubDate>Thursday, 7 June 2007 15:45:00 CET</pubDate>
@@ -302,13 +302,13 @@
 	
 	<item>
 		<title>The "Visual Basic Code Analysis" use case specification is now available (Deprecated)</title>
-		<link>http://www.eclipse.org/gmt/modisco/useCases/VBCodeAnalysis/</link>
+		<link>http://www.eclipse.org/MoDisco/useCases/VBCodeAnalysis/</link>
 		<description>
 			<p>
 			The "Visual Basic Code Analysis" use case has just been published into the MoDisco "Use Cases" section. This complex use case, developed by the <a href="http://www.obeo.fr">Obeo Company</a>, currently contains a general description and is intented to reach completion by September 2007.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/useCases/VBCodeAnalysis/">http://www.eclipse.org/gmt/modisco/useCases/VBCodeAnalysis/</a> for consulting the use case.
+			See <a href="http://www.eclipse.org/MoDisco/useCases/VBCodeAnalysis/">http://www.eclipse.org/MoDisco/useCases/VBCodeAnalysis/</a> for consulting the use case.
 			</p>
 		</description>
 		<pubDate>Wednesday, 11 Apr 2007 10:45:00 CET</pubDate>
@@ -316,13 +316,13 @@
 	
 	<item>
 		<title>The "Metrics Visualization Builder" tool is now available from the MoDisco infrastructure</title>
-		<link>http://www.eclipse.org/gmt/modisco/infrastructure/MetricsVisualizationBuilder/</link>
+		<link>http://www.eclipse.org/MoDisco/infrastructure/MetricsVisualizationBuilder/</link>
 		<description>
 			<p>
 			The "Metrics Visualization Builder" tool has just been published into the MoDisco "Infrastructure". This simple generic tool (which is an <a href="http://www.eclipse.org/m2m/atl/">ATL</a> project for Eclipse) provides facilities for building visualizations (in several formats) from <i>Metrics</i> models.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/infrastructure/MetricsVisualizationBuilder/">http://www.eclipse.org/gmt/modisco/infrastructure/MetricsVisualizationBuilder/</a> for accessing the tool.
+			See <a href="http://www.eclipse.org/MoDisco/infrastructure/MetricsVisualizationBuilder/">http://www.eclipse.org/MoDisco/infrastructure/MetricsVisualizationBuilder/</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Tuesday, 3 Apr 2007 15:15:00 CET</pubDate>
@@ -330,13 +330,13 @@
 	
 	<item>
 		<title>The MoDisco flyer-poster is now available</title>
-		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf</link>
+		<link>http://www.eclipse.org/MoDisco/doc/MoDisco_Flyer-Poster_1.0.pdf</link>
 		<description>
 			<p>
 			The double page flyer-poster describing the MoDisco component has just been published in the "Documentation" section.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf">http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf</a> for getting the flyer-poster.
+			See <a href="http://www.eclipse.org/MoDisco/doc/MoDisco_Flyer-Poster_1.0.pdf">http://www.eclipse.org/MoDisco/doc/MoDisco_Flyer-Poster_1.0.pdf</a> for getting the flyer-poster.
 			</p>
 		</description>
 		<pubDate>Friday, 23 Mar 2007 17:45:00 CET</pubDate>
@@ -344,16 +344,16 @@
 	
 	<item>
 		<title>The complete "SharenGo Java Legacy Reverse-Engineering" new MoDisco use case is now available (Deprecated)</title>
-		<link>http://www.eclipse.org/gmt/modisco/useCases/JavaLegacyRE/</link>
+		<link>http://www.eclipse.org/MoDisco/useCases/JavaLegacyRE/</link>
 		<description>
 			<p>
 			The "SharenGo Java Legacy Reverse-Engineering" use case has just been published into the MoDisco "Use Cases" section. This complex use case, developed by the <a href="http://www.argia.fr/site-argia/html/accueil.html">Argia-Engineering Company</a>, contains a general description but also a complete implementation.
 			</p>
 			<p>
-			It is about reverse engineering a Java application. It uses the <a href="http://www.eclipse.org/gmt/modisco/toolBox/JavaAbstractSyntax">Java Abstract Syntax discovery tool</a> (from the <a href="http://www.eclipse.org/gmt/modisco/toolBox">MoDisco tool box</a>) to discoverer the abstract syntax tree (AST) of each Java compilation unit (i.e. each source file). The generated models are then analyzed by model transformations in order to produce a <a href="http://www.sharengo.org/">SharenGo</a> business model.
+			It is about reverse engineering a Java application. It uses the <a href="http://www.eclipse.org/MoDisco/toolBox/JavaAbstractSyntax">Java Abstract Syntax discovery tool</a> (from the <a href="http://www.eclipse.org/MoDisco/toolBox">MoDisco tool box</a>) to discoverer the abstract syntax tree (AST) of each Java compilation unit (i.e. each source file). The generated models are then analyzed by model transformations in order to produce a <a href="http://www.sharengo.org/">SharenGo</a> business model.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/useCases/JavaLegacyRE/">http://www.eclipse.org/gmt/modisco/useCases/JavaLegacyRE/</a> for consulting the use case.
+			See <a href="http://www.eclipse.org/MoDisco/useCases/JavaLegacyRE/">http://www.eclipse.org/MoDisco/useCases/JavaLegacyRE/</a> for consulting the use case.
 			</p>
 		</description>
 		<pubDate>Tuesday, 27 Feb 2007 16:00:00 CET</pubDate>
@@ -361,13 +361,13 @@
 	
 	<item>
 		<title>The "Java Abstract Syntax" discovery tool is now available from the MoDisco technologies</title>
-		<link>http://www.eclipse.org/gmt/modisco/technologies/JavaAbstractSyntax/</link>
+		<link>http://www.eclipse.org/MoDisco/technologies/JavaAbstractSyntax/</link>
 		<description>
 			<p>
 			The "Java Abstract Syntax" discovery tool has just been published into the MoDisco "Technologies". This simple tool (which is an Eclipse plug-in based upon MoDisco) is fully implemented and provides facilities for building Java AST models from Java compilation units.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/technologies/JavaAbstractSyntax/">http://www.eclipse.org/gmt/modisco/technologies/JavaAbstractSyntax/</a> for accessing the tool.
+			See <a href="http://www.eclipse.org/MoDisco/technologies/JavaAbstractSyntax/">http://www.eclipse.org/MoDisco/technologies/JavaAbstractSyntax/</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Monday, 26 Feb 2007 17:45:00 CET</pubDate>
@@ -375,16 +375,16 @@
 	
 	<item>
 		<title>The complete "Eclipse/BIRT Project Sample Database" new MoDisco use case is now available</title>
-		<link>http://www.eclipse.org/gmt/modisco/useCases/BIRTSampleDB/</link>
+		<link>http://www.eclipse.org/MoDisco/useCases/BIRTSampleDB/</link>
 		<description>
 			<p>
 			The "Eclipse/BIRT Project Sample Database" use case has just been published into the MoDisco "Use Cases". This complex use case contains a general description but also a complete implementation.
 			</p>
 			<p>
-			It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of the <a href="http://www.eclipse.org/gmt/modisco/toolBox/RelationalDBInformation/">generic "Relational Database Information" discovery tool</a> (from the <a href="http://www.eclipse.org/gmt/modisco/toolBox">MoDisco tool box</a>), and then generating a specific ClassicModels model. 
+			It is about discovering the information on the content of the "Classic Models" <a href="http://www.eclipse.org/birt/phoenix/db/">BIRT sample database</a>, by using the database content discovery facility of the <a href="http://www.eclipse.org/MoDisco/toolBox/RelationalDBInformation/">generic "Relational Database Information" discovery tool</a> (from the <a href="http://www.eclipse.org/MoDisco/toolBox">MoDisco tool box</a>), and then generating a specific ClassicModels model. 
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/useCases/BIRTSampleDB/">http://www.eclipse.org/gmt/modisco/useCases/BIRTSampleDB/</a> for consulting the use case.
+			See <a href="http://www.eclipse.org/MoDisco/useCases/BIRTSampleDB/">http://www.eclipse.org/MoDisco/useCases/BIRTSampleDB/</a> for consulting the use case.
 			</p>
 		</description>
 		<pubDate>Friday, 17 Feb 2007 17:30:00 CET</pubDate>
@@ -392,13 +392,13 @@
 	
 	<item>
 		<title>The "Relational Database Information" discovery tool is now available from the MoDisco tool box (Deprecated)</title>
-		<link>http://www.eclipse.org/gmt/modisco/toolBox/RelationalDBInformation/</link>
+		<link>http://www.eclipse.org/MoDisco/toolBox/RelationalDBInformation/</link>
 		<description>
 			<p>
 			The "Relational Database Information" discovery tool has just been published into the MoDisco "Tool box" section. This simple tool (which is an Eclipse plug-in based upon MoDisco) is fully implemented and provides facilities for buidling database schema or content models from already existing databases.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/toolBox/RelationalDBInformation/">http://www.eclipse.org/gmt/modisco/toolBox/RelationalDBInformation/</a> for accessing the tool.
+			See <a href="http://www.eclipse.org/MoDisco/toolBox/RelationalDBInformation/">http://www.eclipse.org/MoDisco/toolBox/RelationalDBInformation/</a> for accessing the tool.
 			</p>
 		</description>
 		<pubDate>Thursday, 15 Feb 2007 17:00:00 CET</pubDate>
@@ -406,7 +406,7 @@
 	
 	<item>
 		<title>Creation and initialization of the MoDisco "Tool Box" section (Deprecated)</title>
-		<link>http://www.eclipse.org/gmt/modisco/toolBox</link>
+		<link>http://www.eclipse.org/MoDisco/toolBox</link>
 		<description>
 			<p>
 			We just create and initialize the MoDisco tool box. In the initial version, we provide the "Relational Database Information" discovery tool as well as pointers to the already existing ATL and AMW Eclipse components.   
@@ -416,7 +416,7 @@
 			Do not hesitate to post messages on the MoDisco newsgroup (eclipse.modeling.gmt.modisco) if you have any particular interests and/or questions about any of the presented tools. We are also always interested by new ideas and propositions of possible other model discovery tools based upon the MoDisco approach. 
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/toolBox">http://www.eclipse.org/gmt/modisco/toolBox</a> for accessing the tool box.
+			See <a href="http://www.eclipse.org/MoDisco/toolBox">http://www.eclipse.org/MoDisco/toolBox</a> for accessing the tool box.
 			</p>
 		</description>
 		<pubDate>Thursday, 15 Feb 2007 16:30:00 CET</pubDate>
@@ -461,13 +461,13 @@
 	
 	<item>
 		<title>The complex and complete "Bugzilla Metrics" new MoDisco use case is now available</title>
-		<link>http://www.eclipse.org/gmt/modisco/useCases/BugzillaMetrics/</link>
+		<link>http://www.eclipse.org/MoDisco/useCases/BugzillaMetrics/</link>
 		<description>
 			<p>
 			The "Bugzilla Metrics" use case has just been published into the MoDisco "Use Cases". This complex use case contains a general description but also a complete implementation.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/useCases/BugzillaMetrics/">http://www.eclipse.org/gmt/modisco/useCases/BugzillaMetrics/</a> for consulting the use case.
+			See <a href="http://www.eclipse.org/MoDisco/useCases/BugzillaMetrics/">http://www.eclipse.org/MoDisco/useCases/BugzillaMetrics/</a> for consulting the use case.
 			</p>
 		</description>
 		<pubDate>Friday, 26 Jan 2007 17:30:00 CET</pubDate>
@@ -475,13 +475,13 @@
 	
 	<item>
 		<title>The "Unix File System" new MoDisco use case is now available (Deprecated)</title>
-		<link>http://www.eclipse.org/gmt/modisco/useCases/UnixFileSystem/</link>
+		<link>http://www.eclipse.org/MoDisco/useCases/UnixFileSystem/</link>
 		<description>
 			<p>
 			The "Unix File System" use case has just been published into the MoDisco "Use Cases" section. This use case contains a general description but also a first available implementation of the discoverer.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/useCases/UnixFileSystem/">http://www.eclipse.org/gmt/modisco/useCases/UnixFileSystem/</a> for consulting the use case.
+			See <a href="http://www.eclipse.org/MoDisco/useCases/UnixFileSystem/">http://www.eclipse.org/MoDisco/useCases/UnixFileSystem/</a> for consulting the use case.
 			</p>
 		</description>
 		<pubDate>Wednesday, 20 Dec 2006 18:30:00 CET</pubDate>
@@ -489,13 +489,13 @@
 	
 	<item>
 		<title>The "MoDisco Overview" slides are now available</title>
-		<link>http://www.eclipse.org/gmt/modisco/doc/MoDisco_Overview_1.0.pdf</link>
+		<link>http://www.eclipse.org/MoDisco/doc/MoDisco_Overview_1.0.pdf</link>
 		<description>
 			<p>
 			The presentation providing the overview of the MoDisco component has just been published in the "Documentation" section.
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/doc/MoDisco_Overview_1.0.pdf">http://www.eclipse.org/gmt/modisco/doc/MoDisco_Overview_1.0.pdf</a> for getting the slides.
+			See <a href="http://www.eclipse.org/MoDisco/doc/MoDisco_Overview_1.0.pdf">http://www.eclipse.org/MoDisco/doc/MoDisco_Overview_1.0.pdf</a> for getting the slides.
 			</p>
 		</description>
 		<pubDate>Wed, 13 Dec 2006 10:15:00 CET</pubDate>
@@ -503,7 +503,7 @@
 	
 	<item>
 		<title>Creation and initialization of the MoDisco "Use Cases" section (Deprecated)</title>
-		<link>http://www.eclipse.org/gmt/modisco/useCases</link>
+		<link>http://www.eclipse.org/MoDisco/useCases</link>
 		<description>
 			<p>
 			We just create and initialize the list of the MoDisco "model discovery" use cases. In the initial version, we only provide general descriptions of three different use cases: <b><a href="../useCases/JavaAbstractSyntax/">Java Abstract Syntax</a></b>, <b><a href="../useCases/RelationalDBSchema/">Relational DB Schema</a></b> and <b><a href="../useCases/RelationalDBContent/">Relational DB Content</a></b>.  
@@ -513,7 +513,7 @@
 			Do not hesitate to post messages on the MoDisco newsgroup (eclipse.modeling.gmt.modisco) if you have any particular interests and/or questions about any of the presented use cases. We are also always interested by new ideas and propositions of possible other model discovery use cases. 
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/useCases">http://www.eclipse.org/gmt/modisco/useCases</a> for consulting the use cases list.
+			See <a href="http://www.eclipse.org/MoDisco/useCases">http://www.eclipse.org/MoDisco/useCases</a> for consulting the use cases list.
 			</p>
 		</description>
 		<pubDate>Tue, 12 Dec 2006 11:15:00 CET</pubDate>
@@ -521,7 +521,7 @@
 	
 	<item>
 		<title>Update of the list of MoDisco related projects</title>
-		<link>http://www.eclipse.org/gmt/modisco/relatedProjects.php</link>
+		<link>http://www.eclipse.org/MoDisco/relatedProjects.php</link>
 		<description>
 			<p>
 			We just update the list of the related projects by providing its initial version. Of course, this list will be updated regularly.
@@ -530,7 +530,7 @@
 			Do not hesitate to post messages on the MoDisco newsgroup (eclipse.modeling.gmt.modisco) if you want your project to be indexed on this list or if you want to add a link to the Eclipse/GMT MoDisco component on your own site!
 			</p>
 			<p>
-			See <a href="http://www.eclipse.org/gmt/modisco/relatedProjects.php">http://www.eclipse.org/gmt/modisco/relatedProjects.php</a> for consulting the related projects list.
+			See <a href="http://www.eclipse.org/MoDisco/relatedProjects.php">http://www.eclipse.org/MoDisco/relatedProjects.php</a> for consulting the related projects list.
 			</p>
 		</description>
 		<pubDate>Mon, 13 Nov 2006 16:30:00 CET</pubDate>
@@ -550,7 +550,7 @@
 			discover models in various kinds of legacy.	
 			</p>
 			<p>
-				More details are available here: <a href="http://www.eclipse.org/gmt/modisco/about.php">http://www.eclipse.org/gmt/modisco/about.php</a>.
+				More details are available here: <a href="http://www.eclipse.org/MoDisco/about.php">http://www.eclipse.org/MoDisco/about.php</a>.
 			</p>
 		</description>
 		<pubDate>Fri, 3 Nov 2006 15:00:00 CET</pubDate>

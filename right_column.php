@@ -13,9 +13,9 @@
 		<div class="sideitem">
 			<h6>Getting Started</h6>
 			<ul>
-				<li><a href="http://www.eclipse.org/gmt/modisco/doc/MoDisco_Flyer-Poster_1.0.pdf">Flyer-poster (New!)</a></li>
+				<li><a href="http://www.eclipse.org/MoDisco/doc/MoDisco_Flyer-Poster_1.0.pdf">Flyer-poster (New!)</a></li>
 				<li><a href="http://wiki.eclipse.org/index.php/MoDisco">Full description</a></li>
-				<li><a href="http://www.eclipse.org/gmt/modisco/doc/MoDisco_Overview_1.0.pdf">Overview (initial slides)</a></li>
+				<li><a href="http://www.eclipse.org/MoDisco/doc/MoDisco_Overview_1.0.pdf">Overview (initial slides)</a></li>
 			</ul>
 		</div>
 		

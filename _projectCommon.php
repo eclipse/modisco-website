@@ -1,8 +1,8 @@
 <?php
 
 	// project root
-	$PR = "modeling/gmt/modisco";
-	$PR_www = "gmt/modisco";
+	$PR = "modeling/mdt/modisco";
+	$PR_www = "MoDisco";
 	$projectName = "MoDisco";
 	$projects = array("MoDisco" => "modisco");
 	//$projects = array();
@@ -54,30 +54,30 @@ EOBRANDING;
 	# Define your project-wide Nav bars here.
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	# these are optional
-	$Nav->addCustomNav("About This Project", "http://www.eclipse.org/projects/project_summary.php?projectid=modeling.gmt.modisco", "", 1);
-	$Nav->addNavSeparator("GMT", "http://www.eclipse.org/gmt/");
-	$Nav->addCustomNav("Download", "http://www.eclipse.org/gmt/download/", "_self", 1);
-	$Nav->addCustomNav("Documentation", "http://www.eclipse.org/gmt/doc/", "_self", 1);
-	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/GMT", "_blank", 1);
-	$Nav->addNavSeparator("MoDisco", "/gmt/modisco/");
+	$Nav->addCustomNav("About This Project", "http://www.eclipse.org/projects/project_summary.php?projectid=modeling.mdt.modisco", "", 1);
+	$Nav->addNavSeparator("MDT", "http://www.eclipse.org/mdt/");
+	$Nav->addCustomNav("Download", "http://www.eclipse.org/modeling/mdt/downloads/", "_self", 1);
+	$Nav->addCustomNav("Documentation", "http://www.eclipse.org/modeling/mdt/docs.php", "_self", 1);
+	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/MDT", "_blank", 1);
+	$Nav->addNavSeparator("MoDisco", "/MoDisco/");
 	$Nav->addCustomNav("Components", "http://wiki.eclipse.org/MoDisco/Components", "_blank", 2);
-	#$Nav->addCustomNav("Use Cases", "/gmt/modisco/useCases/", "_self", 3);
-	#$Nav->addCustomNav("Technologies", "/gmt/modisco/technologies/", "_self", 3);
-	#$Nav->addCustomNav("Infrastructure", "/gmt/modisco/infrastructure/", "_self", 3);
-	$Nav->addNavSeparator("Downloads", "/gmt/modisco/downloads/");
-	$Nav->addCustomNav("Installation", "/gmt/modisco/installation/", "_self", 3);
-	$Nav->addCustomNav("Update site", "/gmt/modisco/updates/", "_self", 3);
-	$Nav->addNavSeparator("Documentation", "/gmt/modisco/doc/");
-	$Nav->addCustomNav("Project Plan", "http://www.eclipse.org/projects/project-plan.php?projectid=modeling.gmt.modisco", "_self", 3);
+	#$Nav->addCustomNav("Use Cases", "/MoDisco/useCases/", "_self", 3);
+	#$Nav->addCustomNav("Technologies", "/MoDisco/technologies/", "_self", 3);
+	#$Nav->addCustomNav("Infrastructure", "/MoDisco/infrastructure/", "_self", 3);
+	$Nav->addNavSeparator("Downloads", "/MoDisco/downloads/");
+	$Nav->addCustomNav("Installation", "/MoDisco/installation/", "_self", 3);
+	$Nav->addCustomNav("Update site", "/MoDisco/updates/", "_self", 3);
+	$Nav->addNavSeparator("Documentation", "/MoDisco/doc/");
+	$Nav->addCustomNav("Project Plan", "http://www.eclipse.org/projects/project-plan.php?projectid=modeling.mdt.modisco", "_self", 3);
 	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/MoDisco", "_blank", 3);
 	$Nav->addNavSeparator("Community", ".");
 	$Nav->addCustomNav("SVN", "http://dev.eclipse.org/viewsvn/index.cgi/?root=Modeling_MODISCO", "_blank", 3);
 	$Nav->addCustomNav("Forum", "news://news.eclipse.org/eclipse.modisco", "_blank", 3);
 	$Nav->addCustomNav("Forum (Web)", "http://www.eclipse.org/forums/eclipse.modisco", "_blank", 3);
-	$Nav->addCustomNav("Submit a bug", "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=GMT&component=MoDisco", "_blank", 3);
-	$Nav->addCustomNav("Open bugs", "https://bugs.eclipse.org/bugs/buglist.cgi?quicksearch=MoDisco", "_blank", 3);
-	$Nav->addCustomNav("Contributors", "http://www.eclipse.org/gmt/modisco/project-info/team.php", "_self", 3);
-	$Nav->addCustomNav("Interested Parties", "/gmt/modisco/interestedParties.php", "_self", 2);
-	$Nav->addCustomNav("Related Projects", "/gmt/modisco/relatedProjects.php", "_self", 2);
+	$Nav->addCustomNav("Submit a bug", "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=MDT&component=MoDisco", "_blank", 3);
+	$Nav->addCustomNav("Open bugs", "https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;component=MoDisco;component=MoDisco-Contribution;component=MoDisco-Infrastructure;component=MoDisco-Technologies;component=MoDisco-UseCases;classification=Modeling;product=MDT", "_blank", 3);
+	$Nav->addCustomNav("Contributors", "http://www.eclipse.org/MoDisco/project-info/team.php", "_self", 3);
+	$Nav->addCustomNav("Interested Parties", "/MoDisco/interestedParties.php", "_self", 2);
+	$Nav->addCustomNav("Related Projects", "/MoDisco/relatedProjects.php", "_self", 2);
 	
 ?>

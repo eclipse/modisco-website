@@ -35,7 +35,7 @@
 	    	Here is a list of other projects related to the reverse engineering field.
     	</p>
     	<p align="justify">
-    		Do not hesitate to post messages on the MoDisco newsgroup (eclipse.modeling.gmt.modisco) if you want your project to be indexed on this page or if you want to add a link to the Eclipse/GMT MoDisco component on your own site! 
+    		Do not hesitate to post messages on the MoDisco newsgroup (eclipse.modeling.mdt.modisco) if you want your project to be indexed on this page or if you want to add a link to the Eclipse/MDT MoDisco component on your own site! 
     	</p>
 		<hr class="clearer" />
 

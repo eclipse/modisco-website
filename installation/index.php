@@ -40,12 +40,12 @@ ob_start();
 <h3>Using Eclipse Install Manager</h3>
 <p align="JUSTIFY">
 To install the different MoDisco plug-ins, just point your Install Manager to the following site:
-<ul><li>Location: <a href="http://download.eclipse.org/modeling/gmt/modisco/updates/release/">http://download.eclipse.org/modeling/gmt/modisco/updates/release/</a></li></ul>
+<ul><li>Location: <a href="http://download.eclipse.org/modeling/mdt/modisco/updates/release/">http://download.eclipse.org/modeling/mdt/modisco/updates/release/</a></li></ul>
 
-To get more details about the MoDisco update site, please visit the following page: <a href="http://www.eclipse.org/gmt/modisco/updates/">http://www.eclipse.org/gmt/modisco/updates/</a>.
+To get more details about the MoDisco update site, please visit the following page: <a href="http://www.eclipse.org/MoDisco/updates/">http://www.eclipse.org/MoDisco/updates/</a>.
 
 <h3>Downloading</h3>
-<ul><li>It is also possible to download a zipped version of the MoDisco tools from the <a href="http://www.eclipse.org/gmt/modisco/downloads/">downloads page</a>.</li></ul>
+<ul><li>It is also possible to download a zipped version of the MoDisco tools from the <a href="http://www.eclipse.org/MoDisco/downloads/">downloads page</a>.</li></ul>
 
 <h3>Required Configuration</h3>
 
@@ -64,7 +64,7 @@ In order to download MoDisco, the following projects must already be installed i
 <?php
 
 // Right Part
-//include($_SERVER['DOCUMENT_ROOT'] . "/gmt/modisco/right_column.php");
+//include($_SERVER['DOCUMENT_ROOT'] . "/MoDisco/right_column.php");
 
 
 $html = ob_get_contents();
