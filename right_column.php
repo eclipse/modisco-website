@@ -5,7 +5,7 @@
    		<p>Some components are currently in their <a href="http://www.eclipse.org/projects/dev_process/validation-phase.php">Validation (Incubation) Phase</a>.</p> 
 	   	<div align="center">
    			<a href="http://www.eclipse.org/projects/what-is-incubation.php">
-   				<img align="right" src="http://www.eclipse.org/gmt/resources/images/egg-incubation.png" border="0" alt="Incubation" />
+   				<img align="right" src="http://www.eclipse.org/images/egg-incubation.png" border="0" alt="Incubation" />
    			</a>
    		</div>
 	</div>
