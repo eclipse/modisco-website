@@ -46,7 +46,7 @@ As modernization projects face with both technologies combination and various mo
  model-driven approaches and tools offer the requisite abstraction level to build up mature and flexible
  modernization solutions. 
 
- 	<h2>What is MoDisco ? </h2>
+ 	<h2>What is MoDisco? </h2>
 
 MoDisco provides an extensible framework to develop model-driven tools to support use-cases of existing software modernization :
 <ul>
@@ -119,7 +119,7 @@ MoDisco aims at supporting these three phases by providing :
 
 <!-- Right Part -->
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . "/gmt/modisco/right_column.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/MoDisco/right_column.php");
 
 
 $html = ob_get_contents();
