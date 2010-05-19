@@ -27,7 +27,7 @@
 	# End: page-specific settings
 	#
 	
-	include('../news/scripts/news.php');
+	include('../gmt/news/scripts/news.php');
 	$modisconews = get_modisconews(7);
 		
 ob_start();
