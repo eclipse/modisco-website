@@ -88,7 +88,7 @@
 			The Java Discoverer has just been published into the MoDisco "Technologies". This generic tool is about <b>discovering a complete model out of the source code of a Java application</b>. The model, which conforms to the <a href="http://wiki.eclipse.org/MoDisco/Java">Java</a> metamodel, describes all the structural concepts (from packages up to method invocations and comments) and links between code elements (method invocations, variables usage, class inheritance, etc).
 			</p>
 			<p>
-			See <a href="http://wiki.eclipse.org/MoDisco/JavaDiscoverer2">http://wiki.eclipse.org/MoDisco/JavaDiscoverer2</a> for accessing the tool.
+			See <a href="http://wiki.eclipse.org/MoDisco/JavaDiscoverer2">http://wiki.eclipse.org/MoDisco/JavaDiscoverer2</a> to access the tool.
 			</p>
 		</description>
 		<pubDate>Friday, 2 Oct 2009 16:00:00 CET</pubDate>

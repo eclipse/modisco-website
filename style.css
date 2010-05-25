@@ -1,6 +1,5 @@
 #novaContent {
 	background: url("images/backgroundMain.png") no-repeat white;
-	padding-top: 170px;
 }
 
 #introText p.left {
@@ -13,37 +12,52 @@
 	float: right;
 }
 
-
+#midcolumn img{
+	margin-bottom: 15px;
+}
+	
 div.block {
 	float: left;
 	width: 40%;
 	margin-right: 3%
 }
 	
+div.bigButton{
+   margin: 50px;
+   display:inline-block;
+   list-style-type:none;
+   padding-left: 70px;
+   padding-top: 10px;
+   margin: 0;
+   width: 180px;
+   height: 77px;	
+}	
+	
 #bigbuttons {
 	position: relative;
-	left: 420px;
-	top: -170px;
+	padding-left: 420px;
+	width : 560px;
 }
 #bigbuttons h3{
 	visibility: hidden;
+	height:0;
 }
 
 #bigbuttons a {
-}
-
-#bigbuttons ul li {
-   display:block;
-   list-style-type:none;
-   background-color: red;
-   padding: 0;
-   margin: 0;
+	color : black;
 }
 
 #bigbuttons a:hover {
 	text-decoration: none;
+	color : black;
 }
 
+#bigbuttons a:hover div {
+	text-decoration: underline;
+	color : black;
+}
+
+/*
 #bigbuttons a {
    display: block;
    height:77px; width:250px;
@@ -51,52 +65,25 @@ div.block {
    margin: 20px;
    text-indent: -9000px;
    position: absolute;
-}
+}*/
 
-#buttonDownload {
+#buttonDownloadLI {
    background:transparent url("images/buttonDownload.png") no-repeat 0 0;
-   top: 0px;
-   left: 0px;
 }
 
-#buttonDownload:hover {
-   background:transparent url("images/buttonDownload_sel.png") no-repeat 0 0;
-}
-
-   
-#buttonDocumentation {
+#buttonDocumentationLI {
    background:transparent url("images/buttonDocumentation.png") no-repeat 0 0;
-   top: 87px;
-   left: 0px;
 }
 
-#buttonDocumentation:hover {
-   background:transparent url("images/buttonDocumentation_sel.png") no-repeat 0 0;
-}
-
-#buttonSupport {
+#buttonSupportLI {
    background:transparent url("images/buttonSupport.png") no-repeat 0 0;
-   top: 0px;
-   left: 280px;
 }
 
-#buttonSupport:hover {
-   background:transparent url("images/buttonSupport_sel.png") no-repeat 0 0;
-}
-
-#buttonInvolved {
+#buttonInvolvedLI {
    background:transparent url("images/buttonInvolved.png") no-repeat 0 0;
-   top: 87px;
-   left: 280px;
 }
 
-#buttonInvolved:hover {
-   background:transparent url("images/buttonInvolved_sel.png") no-repeat 0 0;
-}
 
-#bigbuttons a * {
-	visibility: hidden;
-}
 
 /*
 customizing of yahoo pipes
@@ -115,7 +102,7 @@ customizing of yahoo pipes
 	margin: 0 0;
 	list-style-type: none;
 	list-style-image: none;
-	border-bottom-style: dotted;
+	border-bottom-style: solid;
 	border-bottom-width: 1px;
 }
 
@@ -150,15 +137,6 @@ customizing of yahoo pipes
    padding: 0;
    text-indent: -9000px;
    background:transparent url("images/newAndNoteworthy.png") no-repeat 0 0;
-   margin-top: 10px;
-}
-#eclipseCommunityAward a {
-   display: block;
-   width:144px; 
-   height:144px;
-   padding: 0;
-   text-indent: -9000px;
-   background:transparent url("http://www.eclipse.org/images/awards/winner10.jpg") no-repeat 0 0;
    margin-top: 10px;
 }
 

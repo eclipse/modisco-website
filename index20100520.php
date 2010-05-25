@@ -163,6 +163,8 @@
 	$pipesContent = unserialize($pipesSerialized);
 	
 	
+	$pageTitle = "MoDisco";
+	
 	$news = getMoDiscoNews();
 	$html = str_replace("%%HEADLINES%%", $news, $html);
 	$html = str_replace("%%COMMIT_STATS_IMAGE%%", $commitStatsImageURL, $html);
@@ -170,6 +172,7 @@
 	$html = str_replace("%%COMMIT_STATS_LAST_MONTH%%", $commitStatsLastMonth, $html);
 	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="style.css"/>' . "\n\t");
 	$App->AddExtraHtmlHeader("<link rel='alternate' type='application/rss+xml' title='MoDisco News' href='news/modiscoNewsArchive.rss'>");
+	$pageKeywords="MDA, MDE, MoDisco, Model Discovery, Quality Assurance, Documentation, Improvement,Migration, EMF, Eclipse";
 	# Generate the web page
 	$App->generatePage($theme, $Menu, null, $pageAuthor, $pageKeywords, $pageTitle, $html);
 	#echo $headlines;

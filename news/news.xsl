@@ -7,7 +7,7 @@
 
 <xsl:template match="channel">
   <ul>
-   <xsl:apply-templates select="item"/>
+   <xsl:apply-templates select="item[1]|item[2]|item[3]|item[4]"/>
   </ul>
 </xsl:template>
 
