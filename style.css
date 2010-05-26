@@ -1,5 +1,5 @@
 #novaContent {
-	background: url("images/backgroundMain.png") no-repeat white;
+	background: url("http://www.eclipse.org/MoDisco/images/backgroundMain.png") no-repeat white;
 }
 
 #introText p.left {
@@ -22,7 +22,7 @@ div.block {
 	margin-right: 3%
 }
 	
-div.bigButton{
+a.bigButton{
    margin: 50px;
    display:inline-block;
    list-style-type:none;
@@ -38,9 +38,23 @@ div.bigButton{
 	padding-left: 420px;
 	width : 560px;
 }
+
+#bigbuttons ul li {
+   vertical-align:bottom;
+   display:inline-block;
+   list-style-type:none;
+   padding: 0;
+   margin: 0;
+}
+
 #bigbuttons h3{
 	visibility: hidden;
 	height:0;
+}
+
+#bigbuttons strong{
+   display:block;
+   text-decoration: none;
 }
 
 #bigbuttons a {
@@ -48,11 +62,6 @@ div.bigButton{
 }
 
 #bigbuttons a:hover {
-	text-decoration: none;
-	color : black;
-}
-
-#bigbuttons a:hover div {
 	text-decoration: underline;
 	color : black;
 }
@@ -67,20 +76,20 @@ div.bigButton{
    position: absolute;
 }*/
 
-#buttonDownloadLI {
-   background:transparent url("images/buttonDownload.png") no-repeat 0 0;
+#buttonDownload {
+   background:transparent url("http://www.eclipse.org/MoDisco/images/buttonDownload.png") no-repeat 0 0;
 }
 
-#buttonDocumentationLI {
-   background:transparent url("images/buttonDocumentation.png") no-repeat 0 0;
+#buttonDocumentation {
+   background:transparent url("http://www.eclipse.org/MoDisco/images/buttonDocumentation.png") no-repeat 0 0;
 }
 
-#buttonSupportLI {
-   background:transparent url("images/buttonSupport.png") no-repeat 0 0;
+#buttonSupport {
+   background:transparent url("http://www.eclipse.org/MoDisco/images/buttonSupport.png") no-repeat 0 0;
 }
 
-#buttonInvolvedLI {
-   background:transparent url("images/buttonInvolved.png") no-repeat 0 0;
+#buttonInvolved {
+   background:transparent url("http://www.eclipse.org/MoDisco/images/buttonInvolved.png") no-repeat 0 0;
 }
 
 
