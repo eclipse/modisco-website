@@ -1,0 +1,7 @@
+
+Redirect /MoDisco/project-info/team.php http://wiki.eclipse.org/MoDisco#Team
+Redirect /MoDisco/relatedProjects.php http://wiki.eclipse.org/MoDisco/Related_Projects
+Redirect /MoDisco/interestedParties.php http://wiki.eclipse.org/MoDisco/Interested_Parties
+Redirect /MoDisco/installation/ http://wiki.eclipse.org/MoDisco/Installation
+Redirect /MoDisco/updates/ http://wiki.eclipse.org/MoDisco/Updates
+Redirect /MoDisco/doc/ http://wiki.eclipse.org/MoDisco#Documentation
