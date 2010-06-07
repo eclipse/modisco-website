@@ -1,3 +1,5 @@
+/* Improvements to default CSS have been removed since they have been integrated by the default CSS (http://www.eclipse.org/default/style.css). */
+
 #novaContent {
 	background: url("/default/images/backgroundMainEmpty.png") no-repeat white;
 }
