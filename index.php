@@ -170,7 +170,7 @@
 	$html = str_replace("%%COMMIT_STATS_IMAGE%%", $commitStatsImageURL, $html);
 	$html = str_replace("%%COMMIT_STATS_THIS_MONTH%%", $commitStatsThisMonth, $html);
 	$html = str_replace("%%COMMIT_STATS_LAST_MONTH%%", $commitStatsLastMonth, $html);
-	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="style.css"/>' . "\n\t");
+	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/default/style.css"/>' . "\n\t");
 	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="modisco.css"/>' . "\n\t");
 	$App->AddExtraHtmlHeader("<link rel='alternate' type='application/rss+xml' title='MoDisco News' href='news/modiscoNewsArchive.rss'>");
 	$pageKeywords="MDA, MDE, MoDisco, Model Discovery, Quality Assurance, Documentation, Improvement,Migration, EMF, Eclipse";

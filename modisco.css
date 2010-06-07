@@ -1,0 +1,36 @@
+#novaContent {
+	background: url("/default/images/backgroundMainEmpty.png") no-repeat white;
+}
+
+#bigbuttons {
+	background: url("images/MoDiscoLogo.png") no-repeat;
+	background-position: 20px 10px; 
+}
+
+#midcolumn img {
+	margin-bottom: 15px;
+}
+
+div.block {
+	float: left;
+	width: 40%;
+	margin-right: 3%
+}
+
+#headlines h4 {
+	font-size: 12px;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+}
+
+#headlines ul li {
+	margin: 0 0;
+	list-style-type: none;
+	list-style-image: none;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+#newAndNoteworthy a {
+	background: transparent url("images/newAndNoteworthy.png") no-repeat 0 0;
+}
