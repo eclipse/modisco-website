@@ -24,9 +24,6 @@ div.block {
 }
 
 #headlines ul li {
-	margin: 0 0;
-	list-style-type: none;
-	list-style-image: none;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 }
