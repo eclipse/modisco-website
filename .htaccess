@@ -4,5 +4,5 @@ Redirect /MoDisco/relatedProjects.php http://wiki.eclipse.org/MoDisco/Related_Pr
 Redirect /MoDisco/interestedParties.php http://wiki.eclipse.org/MoDisco/Interested_Parties
 Redirect /MoDisco/installation/ http://wiki.eclipse.org/MoDisco/Installation
 Redirect /MoDisco/updates/ http://wiki.eclipse.org/MoDisco/Updates
-Redirect /MoDisco/doc/ http://wiki.eclipse.org/MoDisco#Documentation
+Redirect /MoDisco/doc/index.php http://wiki.eclipse.org/MoDisco#Documentation
 Redirect /MoDisco/style.css http://www.eclipse.org/MoDisco/modisco.css
