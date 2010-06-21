@@ -75,19 +75,21 @@ function getBuildsFromDirs() // massage the builds into more useful structures
 	{
 		foreach ($dirList as $dir)
 		{
-			$ty = substr($dir, 0, 1); //first char
-
-			if ($sortBy != "date")
-			{
-				$builds_temp[$br][$ty][] = $dir;
-			}
-			else
-			{
-				$dttm = substr($dir, 1); // last 12 digits
-				$a = $dttm . $ty;
-				$b = $br . $ty;
-
-				$builds_temp[$a] = $b;
+			if($dir != 'R201006150543') { /* XXX hide release until release day */
+				$ty = substr($dir, 0, 1); //first char
+	
+				if ($sortBy != "date")
+				{
+					$builds_temp[$br][$ty][] = $dir;
+				}
+				else
+				{
+					$dttm = substr($dir, 1); // last 12 digits
+					$a = $dttm . $ty;
+					$b = $br . $ty;
+	
+					$builds_temp[$a] = $b;
+				}
 			}
 		}
 	}
