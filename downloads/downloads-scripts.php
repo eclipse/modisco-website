@@ -154,10 +154,12 @@ function createFileLinks($dls, $PWD, $branch, $ID, $pre2, $filePreProj, $ziplabe
 		$flip = array_flip($projects);
 		$dls[$proj] = array($flip[$projct] => array(
 			"<acronym title=\"Archived Update Site\"><img alt=\"Click to download archived All-In-One p2 Repo Update Site\" src=\"/modeling/images/dl-icon-update-zip.gif\"/> <b style=\"color:green\">All-In-One Update Site</b></acronym>" => "Update",
+			/*
 			"SDK (Runtime, Source)" => "SDK",
 			"Runtime" => "runtime",
 			"Examples" => "examples",
 			"Automated Tests" => "automated-tests"
+			*/
 		));
 	}
 
@@ -939,6 +941,7 @@ function getBuildArtifacts($dir, $branchID)
 
 		$link = ($isBuildServer ? "" : "http://download.eclipse.org");
 
+		/*
 		$ret .= "<li>\n";
 		$ret .= "<img src=\"/modeling/images/dl-deps.gif\" alt=\"Upstream dependencies used to build this driver\"/> Build Dependencies\n";
 		$ret .= "<ul>\n";
@@ -997,6 +1000,7 @@ function getBuildArtifacts($dir, $branchID)
 		}
 		$ret .= "</ul>\n";
 		$ret .= "</li>\n";
+		*/
 
 		$ret .= "<li>\n";
 		$ret .= "<img src=\"/modeling/images/dl-more.gif\" alt=\"More info about this build\"/> Build Details\n";
