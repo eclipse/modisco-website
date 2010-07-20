@@ -154,12 +154,10 @@ function createFileLinks($dls, $PWD, $branch, $ID, $pre2, $filePreProj, $ziplabe
 		$flip = array_flip($projects);
 		$dls[$proj] = array($flip[$projct] => array(
 			"<acronym title=\"Archived Update Site\"><img alt=\"Click to download archived All-In-One p2 Repo Update Site\" src=\"/modeling/images/dl-icon-update-zip.gif\"/> <b style=\"color:green\">All-In-One Update Site</b></acronym>" => "Update",
-			/*
-			"SDK (Runtime, Source)" => "SDK",
-			"Runtime" => "runtime",
-			"Examples" => "examples",
-			"Automated Tests" => "automated-tests"
-			*/
+			//"SDK (Runtime, Source)" => "SDK",
+			//"Runtime" => "runtime",
+			//"Examples" => "examples",
+			//"Automated Tests" => "automated-tests"
 		));
 	}
 
@@ -1083,11 +1081,11 @@ function getTestResultsJUnitXML($file)
         
        		// <testsuite errors="0" failures="0" ...>
 			$matches = null;
-			if (preg_match("/<testsuite errors=\"(\d+)\" failures=\"(\d+).+\"/", $line, $matches))
+			if (preg_match("/errors=\"(\d+)\" failures=\"(\d+)\"/", $line, $matches))
 			{
 				$result = array($matches[1], $matches[2], 0);
 			}
-			else if (preg_match("/<testsuite.+failures=\"(\d+)\" errors=\"(\d+)\".+/", $line, $matches))
+			else if (preg_match("/failures=\"(\d+)\" errors=\"(\d+)\"/", $line, $matches))
 			{
 				$result = array($matches[2], $matches[1], 0);
 			}
