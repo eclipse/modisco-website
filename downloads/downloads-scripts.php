@@ -464,14 +464,15 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 				($isBuildServer ? "" : "http://download.eclipse.org/") . $mid.$path."buildlog.txt");
 	}
 
-	if (!$link2) // link to console log in progress if it exists
+	/*if (!$link2) // link to console log in progress if it exists
 	{
 		$ID = substr($path, -14);
 		$conlog = "${path}testing/${ID}testing/linux.gtk_consolelog.txt";
 		$testlog = ($isBuildServer ? "" : "http://www.eclipse.org") . "/$PR2/downloads/testResults.php?hl=1&amp;project=$projct&amp;ID=" . substr($path, 0, strlen($path) - 1);
 		$link2 = (is_file("$PWD$conlog") ? "$mid$conlog" : (is_file("$PWD$testlog") ? "$testlog" : $link));
 		$result = (is_file("$PWD$conlog") ? "Testing..." : $result);
-	}
+	}*/
+	$link2 = "http://download.eclipse.org/modeling/mdt/modisco/downloads/drops/" . substr($path, 0, strlen($path) - 1) . "/testresults/html/0_AllTests.html";
 
 	if ($styled)
 	{
