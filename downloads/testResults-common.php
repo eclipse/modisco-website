@@ -223,13 +223,13 @@ function getTestResults($file)
 	foreach ($data as $line)
 	{
 		// <testsuite errors="0" failures="0" ...>
-		preg_match("/<testsuite errors=\"(\d+)\" failures=\"(\d+).+\"/", $line, $matches);
+		preg_match("/errors=\"(\d+)\" failures=\"(\d+)\"/", $line, $matches);
 		if (isset ($matches) && is_array($matches) && sizeof($matches) >= 3)
 		{
 			$results = $matches[1] === "0" && $matches[2] === "0" ? "" : $matches[1] . "E, " . $matches[2] . "F";
 			return $results;
 		}
-		preg_match("/<testsuite.+failures=\"(\d+)\" errors=\"(\d+)\".+/", $line, $matches);
+		preg_match("/failures=\"(\d+)\" errors=\"(\d+)\"/", $line, $matches);
 		if (isset ($matches) && is_array($matches) && sizeof($matches) >= 3)
 		{
 			$results = $matches[2] === "0" && $matches[1] === "0" ? "" : $matches[2] . "E, " . $matches[1] . "F";
