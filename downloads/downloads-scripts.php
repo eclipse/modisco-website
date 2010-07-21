@@ -475,7 +475,7 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 	
 	
 	$htmlTestResultsDir="/modeling/mdt/modisco/downloads/drops/" . substr($path, 0, strlen($path) - 1) . "/testresults/html";
-	if(is_file("/home/data/httpd/download.eclipse.org/".$htmlTestResultsDir."/0_AllTests.html") {
+	if(is_file("/home/data/httpd/download.eclipse.org/".$htmlTestResultsDir."/0_AllTests.html")) {
 		$link2 = "http://download.eclipse.org".$htmlTestResultsDir."/0_AllTests.html";
 	} else {
 		$link2 = "http://download.eclipse.org".$htmlTestResultsDir;
