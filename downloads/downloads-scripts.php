@@ -472,7 +472,14 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 		$link2 = (is_file("$PWD$conlog") ? "$mid$conlog" : (is_file("$PWD$testlog") ? "$testlog" : $link));
 		$result = (is_file("$PWD$conlog") ? "Testing..." : $result);
 	}*/
-	$link2 = "http://download.eclipse.org/modeling/mdt/modisco/downloads/drops/" . substr($path, 0, strlen($path) - 1) . "/testresults/html/0_AllTests.html";
+	
+	
+	$htmlTestResultsDir="/modeling/mdt/modisco/downloads/drops/" . substr($path, 0, strlen($path) - 1) . "/testresults/html";
+	if(is_file("/home/data/httpd/download.eclipse.org/".$htmlTestResultsDir."/0_AllTests.html") {
+		$link2 = "http://download.eclipse.org".$htmlTestResultsDir."/0_AllTests.html";
+	} else {
+		$link2 = "http://download.eclipse.org".$htmlTestResultsDir;
+	}
 
 	if ($styled)
 	{
