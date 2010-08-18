@@ -64,10 +64,8 @@ function getBuildsFromDirs() // massage the builds into more useful structures
 
 	foreach ($branchDirs as $branch)
 	{
-		if ($branch != "OLD" && ($branch != "0.9.0" || isset($_GET['all'])) /* XXX hide branch 0.9.0 for now */)
-		{
-			$buildDirs[$branch] = loadDirSimple("$PWD/$branch", "[IMNRS]\d{12}", "d");
-		}
+		//if ($branch != "OLD" && ($branch != "0.9.0" || isset($_GET['all'])) /* XXX hide branch 0.9.0 for now */)
+		$buildDirs[$branch] = loadDirSimple("$PWD/$branch", "[IMNRS]\d{12}", "d");
 	}
 
 	$builds_temp = array();
