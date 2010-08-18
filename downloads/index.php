@@ -1,5 +1,5 @@
 <?php
-$buildServerCommonFiles = array( 
+$buildServerCommonFiles = array ( 
 	"/opt/public/cbi/modeling/includes/buildServer-common.php",
 	$_SERVER['DOCUMENT_ROOT'] . "/modeling/includes/buildServer-common.php",
 );
