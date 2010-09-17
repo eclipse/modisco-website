@@ -62,7 +62,7 @@
 		<h4 STYLE="font-size: 10pt; padding: 0; border-bottom: 2px solid #49457C; background-position: top left; background-repeat; repeat-x;"><a name="overview">Overview</a></h4>
 		
 		<p align="justify">
-	    	This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering bugs information expressed in HTML format and building a Bugzilla model from these data (<b>Model Discovery</b>). Then, this generated model is computed in order to produce a Metrics model and to finally build different visualizations from these calculated metrics (<b>Model Understanding</b>). Note that in order to perform this last step, the <a href="../../infrastructure/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool (from the MoDisco infrastructure) is used.  
+	    	This complete use case covers both the <i>Model Discovery</i> and <i>Model Understanding</i> phases. It is about discovering bugs information expressed in HTML format and building a Bugzilla model from these data (<b>Model Discovery</b>). Then, this generated model is computed in order to produce a Metrics model and to finally build different visualizations from these calculated metrics (<b>Model Understanding</b>). Note that in order to perform this last step, the <a href="http://wiki.eclipse.org/MoDisco/Components/MetricsVisualizationBuilder">Metrics Visualization Builder</a> tool (from the MoDisco infrastructure) is used.  
 	    	<br /><br />
 	    	This use case is provided by <b>INRIA AtlanMod</b> and its development has been supported by the <a href="http://www.modelplex.org">IST European MODELPLEX project</a> (MODELing solution for comPLEX software systems, FP6-IP 34081). 
 	    	<br /><br />
