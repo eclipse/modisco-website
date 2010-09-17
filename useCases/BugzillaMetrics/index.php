@@ -78,7 +78,7 @@
 	  		<br/><br/>
 	  		The <b>Model Understanding</b> phase is also implemented by using <a href="http://www.eclipse.org/m2m/atl/">ATL model-to-model transformations</a>. A <i>Metrics</i> model, containing the data concerning the computed metrics, is first generated from the <i>Bugzilla</i> model. This <i>Metrics</i> model is then transformed into a <i>Table</i> model that provides a simple tabular representation of the data. After that, different visualization's formats specific models (i.e. <i>HTML</i>, <i>Excel</i> and <i>SVG</i> models) are built from the <i>Table</i> model. These generated models are finally extracted into software readable files.
 	  		<br/>
-	  		This visualization's generation process is performed thanks to the <a href="../../infrastructure/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool (from the MoDisco infrastructure). 
+	  		This visualization's generation process is performed thanks to the <a href="http://wiki.eclipse.org/MoDisco/Components/MetricsVisualizationBuilder">Metrics Visualization Builder</a> tool (from the MoDisco infrastructure). 
 	  		<br/><br/>
 			All the metamodels mentioned in the previous schema (and so used within this use case) are available at the <a href="#download">Download section</a>.
 	  	<br/><br/>
@@ -187,7 +187,7 @@
 		</a>
 		</td>
 		<td>
-			First complete version of the <b>Bugzilla Metrics</b> use case (you must also get the <a href="../../infrastructure/MetricsVisualizationBuilder/">Metrics Visualization Builder</a> tool from the MoDisco infrastructure).
+			First complete version of the <b>Bugzilla Metrics</b> use case (you must also get the <a href="http://wiki.eclipse.org/MoDisco/Components/MetricsVisualizationBuilder">Metrics Visualization Builder</a> tool from the MoDisco infrastructure).
 			Note that all the sources contained in the archive are also available from the <a href="http://dev.eclipse.org/viewsvn/index.cgi/examples/trunk/org.eclipse.gmt.modisco.usecase.bugzillametrics/?root=Modeling_MODISCO">MoDisco SVN</a>
 		</td>		
 		</tr>
