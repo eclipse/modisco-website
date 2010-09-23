@@ -88,7 +88,7 @@ function getBuildsFromDirs() // massage the builds into more useful structures
 	
 					$builds_temp[$a] = $b;
 				}
-			//}
+			}
 		}
 	}
 
