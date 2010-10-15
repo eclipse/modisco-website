@@ -11,11 +11,10 @@
    </introduction>
    <release_deliverables>
      <html:div>
-     	The release deliverables have the same form as is found in most Eclipse projects, namely:
+     	The release deliverables have the same form as is found in most Eclipse projects:
      	<html:ul>
-     		<html:li>MDT MoDisco SDK (includes runtime, sources, examples, and documentation) (All-In-One p2 Repo update site).</html:li>
-     		<html:li>MDT MoDisco binary distribution (includes components from the three MoDisco layers: Infrastructure, Technologies and Use Cases) (All-In-One p2 Repo update site).</html:li>
-     		<html:li>MDT MoDisco Examples (All-In-One p2 Repo update site).</html:li>
+     		<html:li>An update site providing access to all the plug-ins, sources and documentation.</html:li>
+     		<html:li>A downloadable archive of this update site</html:li>
      	</html:ul>
      </html:div>
    </release_deliverables>
@@ -48,7 +47,7 @@
      <html:div>
      	In order to remain current, each Eclipse release targets reasonably current versions of the underlying operating environments. 
      	The Eclipse MDT MoDisco project depends upon on the Platform and other projects, which are mostly "pure" Java. 
-     	The 3.7 release of the Eclipse Platform Project is written and compiled against versions 1.5 and 1.6 of the Java Platform APIs, and targeted to run on version 1.5 of the Java Runtime Environment, Standard Edition. 
+     	The 3.7 release of the Eclipse Platform Project is written and compiled against versions 1.5 of the Java Platform APIs, and targeted to run on version 1.5 of the Java Runtime Environment, Standard Edition. 
      	MDT MoDisco will target the same Java version as EMF, which currently also requires Java 5. 
      	Eclipse Platform SDK 3.7 will be tested and validated on a number of reference platforms. 
      	MDT MoDisco will be tested and validated against a subset of those listed for the platform.
@@ -69,8 +68,10 @@
        		<html:ul>
      			<html:li>Eclipse Platform SDK version 3.7</html:li>
      			<html:li>Eclipse Modeling Framework (EMF) version 2.7</html:li>
-     			<html:li>Model Development Tools (MDT) UML2 version 3.2</html:li>
-     			<html:li>OTHER PROJECTS TO BE ADDED HERE?</html:li>
+     			<html:li>Eclipse EMF Connected Data Objects (CDO)</html:li>
+     			<html:li>Eclipse EMF EMF Compare</html:li>
+     			<html:li>Eclipse Model Development Tools (MDT) UML2 version 3.2</html:li>
+     			<html:li>Eclipse EMF Technologies (EMFT) EMF Facet</html:li>
      		</html:ul>	
        	</html:div>
    </compatibility_with_previous_releases>
@@ -99,7 +100,7 @@
         <description>
         	<html:div>
         		The MDT MoDisco project will provide a set of Java Platform Enterprise Edition (JEE) technology-specific components.
-        		Metamodels, corresponding model discoverers and related queries & facets will be developed and made available for JSP, web.xml files, ejb-jar.xml and possibly other frameworks.  
+        		Metamodels, corresponding model discoverers and related queries &amp; facets will be developed and made available for JSP, web.xml files, ejb-jar.xml and possibly other frameworks.  
 			</html:div>
         </description>
         <!-- 
