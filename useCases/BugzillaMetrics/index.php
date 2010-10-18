@@ -131,7 +131,7 @@
 		<td ALIGN=center><h4>Choose a document</h4></td>
 
 		<td align="center">
-		<a href="downloads/BugzillaMetrics_UseCaseDescription.pdf">
+		<a href="http://wiki.eclipse.org/MoDisco/BugzillaMetrics">
 			<img src="../../resources/buttons/Description_button.jpg"/>
 		</a>
 		</td>
