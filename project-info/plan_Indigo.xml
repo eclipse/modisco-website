@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
-<!--<?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?>-->
-<plan plan-format="0.9.0" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml"
+<!--<?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>-->
+<?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?>
+<plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml"
       name="MoDisco (Model Discovery)">
    <release projectid="modeling.mdt.modisco" version="0.9.0"/>
    <introduction>
