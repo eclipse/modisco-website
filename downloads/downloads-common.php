@@ -136,6 +136,7 @@ $deps = array(
 print "<div id=\"midcolumn\">\n";
 print '<img style="float:right" src="../resources/logoMoDiscoSmall.jpg" alt="MoDisco Logo"/>';
 print "<h1 style='min-height:60px'><font color='#280882'>Mo</font><font color='#C88C19'>Disco</font> Downloads</h1>";
+print "<p>Please visit the <a href='http://wiki.eclipse.org/MoDisco/Installation'>installation documentation</a> to learn how to install MoDisco.</p>";
 print "<table width='50%'>";
 print "<style>";
 print "th{border-bottom-width:thin; border-style:solid}";
