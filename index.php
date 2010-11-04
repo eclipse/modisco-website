@@ -36,7 +36,7 @@
 		$xsl->importStyleSheet($xsldoc);
 		
 		$xmldoc = new DomDocument();
-		$xmldoc->load("http://search.twitter.com/search.atom?q=%23modisco");
+		$xmldoc->load("http://search.twitter.com/search.atom?q=modisco");
 		return $xsl->transformToXML($xmldoc); 
 	}
 	$html = file_get_contents('_index.html');
