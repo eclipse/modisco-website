@@ -19,7 +19,7 @@
 	$pageAuthor		= "Grégoire Dupé";
 	$pageTitle 		= "MoDisco";
 	
-	function getMoDiscoNews(){
+	function getModiscoNews(){
 		$xsl = new Xsltprocessor();
 		$xsldoc = new DomDocument();
 		$xsldoc->load("news/news.xsl");
@@ -29,9 +29,20 @@
 		$xmldoc->load("news/modiscoNewsArchive.rss");
 		return $xsl->transformToXML($xmldoc); 
 	}
+	function getTwitter(){
+		$xsl = new Xsltprocessor();
+		$xsldoc = new DomDocument();
+		$xsldoc->load("news/twitter.xsl");
+		$xsl->importStyleSheet($xsldoc);
+		
+		$xmldoc = new DomDocument();
+		$xmldoc->load("http://search.twitter.com/search.atom?q=%23modisco");
+		return $xsl->transformToXML($xmldoc); 
+	}
 	$html = file_get_contents('_index.html');
-	$news = getMoDiscoNews();
-	$html = str_replace("%%HEADLINES%%", $news, $html);
+	$news = getModiscoNews();
+	$twitter = getTwitter();
+	$html = str_replace("%%HEADLINES%%", $news.$twitter, $html);
 	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/default/style.css"/>' . "\n\t");
 	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="modisco.css"/>' . "\n\t");
 	$App->AddExtraHtmlHeader("<link rel='alternate' type='application/rss+xml' title='MoDisco News' href='news/modiscoNewsArchive.rss'>");
