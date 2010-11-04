@@ -41,8 +41,8 @@
 	}
 	$html = file_get_contents('_index.html');
 	$news = getModiscoNews();
-	$twitter = getTwitter();
-	$html = str_replace("%%HEADLINES%%", $news.$twitter, $html);
+	# TODO $twitter = getTwitter();
+	$html = str_replace("%%HEADLINES%%", $news, $html);
 	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/default/style.css"/>' . "\n\t");
 	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="modisco.css"/>' . "\n\t");
 	$App->AddExtraHtmlHeader("<link rel='alternate' type='application/rss+xml' title='MoDisco News' href='news/modiscoNewsArchive.rss'>");
