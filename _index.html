@@ -111,9 +111,42 @@ Noteworthy</a></div>
 </div>
 
 <div id="headlines">
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#modisco',
+  interval: 6000,
+  title: 'MoDisco on Twitter',
+  subject: '',
+  width: 'auto',
+  height: 150,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: true,
+    hashtags: false,
+    timestamp: false,
+    avatars: false,
+    toptweets: false,
+    behavior: 'all'
+  }
+}).render().start();
+</script>
+
 <h3>News</h3>
 %%HEADLINES%%</div>
-
-
 
 </div>
