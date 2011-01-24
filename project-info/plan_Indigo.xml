@@ -102,9 +102,9 @@
         		This Discoverer Framework is currently refactored to satisfy new requirements, including some simplification for adopters, and additional parameterizing for the end-user.  
 			</html:div>
         </description> 
-        <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?short_desc=[Discovery];classification=Modeling;query_format=advanced;bug_status=RESOLVED;bug_status=CLOSED;version=0.9.0;short_desc_type=allwordssubstr;component=Infrastructure;product=MDT.MoDisco"/>
-      	<proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;query_format=advanced;short_desc=[Discovery];bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=VERIFIED;short_desc_type=allwordssubstr;version=0.9.0;component=Infrastructure;product=MDT.MoDisco;classification=Modeling"/>
-      	<deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P3;priority=P4;priority=P5;query_format=advanced;short_desc=[Discovery];bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=VERIFIED;short_desc_type=allwordssubstr;version=0.9.0;component=Infrastructure;classification=Modeling;product=MDT.MoDisco"/>
+        <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?short_desc=[Discovery]&amp;classification=Modeling&amp;query_format=advanced&amp;bug_status=RESOLVED&amp;bug_status=CLOSED&amp;version=0.9.0&amp;short_desc_type=allwordssubstr&amp;component=Infrastructure&amp;product=MDT.MoDisco"/>
+      	<proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1&amp;priority=P2&amp;query_format=advanced&amp;short_desc=[Discovery]&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;bug_status=VERIFIED&amp;short_desc_type=allwordssubstr&amp;version=0.9.0&amp;component=Infrastructure&amp;product=MDT.MoDisco&amp;classification=Modeling"/>
+      	<deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P3&amp;priority=P4&amp;priority=P5&amp;query_format=advanced&amp;short_desc=[Discovery]&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;bug_status=VERIFIED&amp;short_desc_type=allwordssubstr&amp;version=0.9.0&amp;component=Infrastructure&amp;classification=Modeling&amp;product=MDT.MoDisco"/>
      </theme>
      <theme name="Service, Support and Maintenance (Technologies and Use Cases layers)">
         <description>
