@@ -128,6 +128,13 @@
       	<proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1&amp;priority=P2&amp;field0-3-0=short_desc&amp;negate0=1&amp;type0-1-0=notsubstring&amp;type0-5-0=notsubstring&amp;value0-5-0=struts&amp;value0-4-0=hibernate&amp;field0-1-0=short_desc&amp;field0-0-0=short_desc&amp;type0-4-0=notsubstring&amp;classification=Modeling&amp;value0-3-0=deployment%20decriptor&amp;query_format=advanced&amp;value0-2-0=ejbjar&amp;value0-1-0=jsp&amp;type0-3-0=notsubstring&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;bug_status=VERIFIED&amp;field0-2-0=short_desc&amp;field0-5-0=short_desc&amp;field0-4-0=short_desc&amp;type0-0-0=notsubstring&amp;value0-0-0=jee&amp;type0-2-0=notsubstring&amp;component=Contribution&amp;component=Infrastructure&amp;component=Main&amp;component=Technologies&amp;component=UseCases&amp;product=MDT.MoDisco"/>
       	<deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P3&amp;priority=P4&amp;priority=P5&amp;field0-3-0=short_desc&amp;negate0=1&amp;type0-1-0=notsubstring&amp;type0-5-0=notsubstring&amp;value0-5-0=struts&amp;value0-4-0=hibernate&amp;field0-1-0=short_desc&amp;field0-0-0=short_desc&amp;type0-4-0=notsubstring&amp;classification=Modeling&amp;value0-3-0=deployment%20decriptor&amp;query_format=advanced&amp;value0-2-0=ejbjar&amp;value0-1-0=jsp&amp;type0-3-0=notsubstring&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;bug_status=VERIFIED&amp;field0-2-0=short_desc&amp;field0-5-0=short_desc&amp;field0-4-0=short_desc&amp;type0-0-0=notsubstring&amp;value0-0-0=jee&amp;type0-2-0=notsubstring&amp;component=Contribution&amp;component=Infrastructure&amp;component=Main&amp;component=Technologies&amp;component=UseCases&amp;product=MDT.MoDisco"/>
      </theme>
+     <theme name="Eclipse 4.1">
+     	<description>
+     		<html:div>
+				MoDisco will provide no support and no testing on 4.1.
+			</html:div>
+		</description>
+	 </theme>
      <!--
      <postamble>
      	<html:div>
