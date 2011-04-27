@@ -6,7 +6,29 @@
     <description>MoDisco News</description>
 
 	<item>
-		<title>How to Deal With Your IT Legacy ? Talk on MoDisco at EclipseCon 2010</title>
+		<title>Spy On Your Models - Talk on the MoDisco Model Browser at EclipseCon 2011</title>
+		<link>http://www.eclipsecon.org/2011/sessions/?page=sessions&id=2093</link>
+		<description>
+			<p>
+			Description and slides from the MoDisco talk "Spy On Your Models" at EclipseCon 2011 are now available.
+			</p>
+		</description>
+		<pubDate>Wednesday, 27 Apr 2011 10:00:00 CET</pubDate>
+	</item>
+	
+	<item>
+		<title>MoDisco Helios Release (v0.8.0) is now available</title>
+		<link>http://www.eclipse.org/projects/releases/releases.php?release=helios</link>
+		<description>
+			<p>
+			Complete information and downloads can be found from here.
+			</p>
+		</description>
+		<pubDate>Wednesday, 16 June 2010 12:35:00 CET</pubDate>
+	</item>
+	
+	<item>
+		<title>How to Deal With Your IT Legacy? - Talk on MoDisco at EclipseCon 2010</title>
 		<link>http://www.eclipse.org/downloads/download.php?file=/modeling/mdt/modisco/files/eclipsecon2010talk-modisco.pdf</link>
 		<description>
 			<p>
