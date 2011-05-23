@@ -940,7 +940,8 @@ function getBuildArtifacts($dir, $branchID)
 		$details = array(
 			"Config File" => "build.cfg",
 			"Map File" => "directory.txt",
-			"Build Log" => "buildlog.txt"
+			"Build Log" => "buildlog.txt",
+			"API report" => "api_report/html/index.html"
 		);
 
 		$link = ($isBuildServer ? "" : "http://download.eclipse.org");
