@@ -73,9 +73,9 @@ function getBuildsFromDirs() // massage the builds into more useful structures
 	{
 		foreach ($dirList as $dir)
 		{
-			//if($dir != 'R201009160321') { /* XXX hide release until release day */
+			if($dir != 'R201106080421') { /* XXX hide release until release day */
 				$ty = substr($dir, 0, 1); //first char
-	
+
 				if ($sortBy != "date")
 				{
 					$builds_temp[$br][$ty][] = $dir;
@@ -85,10 +85,10 @@ function getBuildsFromDirs() // massage the builds into more useful structures
 					$dttm = substr($dir, 1); // last 12 digits
 					$a = $dttm . $ty;
 					$b = $br . $ty;
-	
+
 					$builds_temp[$a] = $b;
 				}
-			//}
+			}
 		}
 	}
 
@@ -160,7 +160,7 @@ function createFileLinks($dls, $PWD, $branch, $ID, $pre2, $filePreProj, $ziplabe
 	}
 
 	$echo_out_all = "";
-	
+
 	if (!$showBuildResults)
 	{
 		foreach (array_keys($dls[$proj]) as $z)
@@ -181,14 +181,14 @@ function createFileLinks($dls, $PWD, $branch, $ID, $pre2, $filePreProj, $ziplabe
 				{
 					$u = $u ? array("-$u") : array("");
 				}
-	
+
 				// support EMF page with three different valid prefixes which can
 				// overlap when searched using dynamic check below
 				if ($filePreStatic && is_array($filePreStatic) && array_key_exists($proj,$filePreStatic))
 				{
 					$filePreProj = array($filePreStatic[$proj][$cnt]); // just one value to check
 				}
-	
+
 				$tries = array();
 				foreach ($u as $ux)
 				{
@@ -256,7 +256,7 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 	$buildlog = "$PWD${path}buildlog.txt";
 	$buildlog_cache = null;
 	clearstatcache();
-	
+
 	$warnings = 0;
 	$errors = 0;
 	$failures = 0;
@@ -282,7 +282,7 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 		$link2 = (is_file("$PWD$conlog") ? "$mid$conlog" : (is_file("$PWD$testlog") ? "$testlog" : $link));
 		$result = (is_file("$PWD$conlog") ? "Testing..." : $result);
 	}
-	
+
 	if (!$icon && $isBuildServer && is_file($buildlog)) // if the log's too big, don't open it!
 	{
 		$buildlog_cache = (isset($buildlog_cache) && $buildlog_cache) ? $buildlog_cache : loadFile($buildlog);
@@ -297,7 +297,7 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 	{
 		$indexHTML = is_file("$PWD${path}index.html") ? file_get_contents("$PWD${path}index.html") : "";
 		$zips = loadDirSimple($PWD . $path, "(\.zip|\.tar\.gz)", "f"); // get files count
-		$md5s = is_dir($PWD . $path . "/checksum") ? loadDirSimple($PWD . $path . "/checksum", "(\.zip\.md5|\.tar\.gz\.md5)", "f") : 
+		$md5s = is_dir($PWD . $path . "/checksum") ? loadDirSimple($PWD . $path . "/checksum", "(\.zip\.md5|\.tar\.gz\.md5)", "f") :
 			loadDirSimple($PWD . $path, "(\.zip\.md5|\.tar\.gz\.md5)", "f"); // get files count
 
 		if ((sizeof($zips) >= $numzips && sizeof($md5s) >= $numzips))
@@ -332,7 +332,7 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 				$testFilePath = "/home/data/httpd/download.eclipse.org/modeling/mdt/modisco/downloads/drops/${path}testresults/xml/" . $file;
 				//echo "testFilePath=$testFilePath ";
 				//echo "PWD=$PWD ";
-				
+
 				$results = getTestResultsJUnitXML("$PWD${path}testresults/xml/" . $file);
 				if ($results && is_array($results))
 				{
@@ -366,7 +366,7 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 				$icon = "not";
 				$result = "ERROR";
 			}
-			else*/ 
+			else*/
 			if ($didnotruns)
 			{
 				$icon = "not";
@@ -383,7 +383,7 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 			{
 				if (preg_match("/<font size=\"-1\" color=\"#FF0000\">skipped<\/font>/", $indexHTML))
 				{
-					// XXX no tests for now, that's normal 
+					// XXX no tests for now, that's normal
 					$icon = "check";
 					$result = "";
 					//$icon = "check-maybe";
@@ -470,8 +470,8 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 		$link2 = (is_file("$PWD$conlog") ? "$mid$conlog" : (is_file("$PWD$testlog") ? "$testlog" : $link));
 		$result = (is_file("$PWD$conlog") ? "Testing..." : $result);
 	}*/
-	
-	
+
+
 	$htmlTestResultsDir = substr($path, 0, strlen($path) - 1) . "/testresults/html";
 	if(is_file($PWD.$htmlTestResultsDir."/0_AllTests.html")) {
 		$link2 = "http://download.eclipse.org/modeling/mdt/modisco/downloads/drops/".$htmlTestResultsDir."/0_AllTests.html";
@@ -536,7 +536,7 @@ function showBuildResults($PWD, $path, $styled=1) // given path to /../downloads
 		);
 }
 
-function fileFound($PWD, $url, $label, $md5AlignRight = true, $icon = null) 
+function fileFound($PWD, $url, $label, $md5AlignRight = true, $icon = null)
 {
 	global $isBuildServer, $downloadScript, $downloadPre, $PR, $proj, $isTools, $isTech;
 
@@ -551,7 +551,7 @@ function fileFound($PWD, $url, $label, $md5AlignRight = true, $icon = null)
 "$mid$md5file\">md5</a>)" . ($md5AlignRight ? "</div>" : ""); break;
 		}
 	}
-	return $md5AlignRight ? $out . "<a href=\"$downloadScript$mid$url\">$label</a>" : 
+	return $md5AlignRight ? $out . "<a href=\"$downloadScript$mid$url\">$label</a>" :
 		"<a href=\"$downloadScript$mid$url\">$icon</a>&nbsp;<a href=\"$downloadScript$mid$url\">$label</a>" . $out;
 }
 
@@ -603,7 +603,7 @@ function doNLSLinksList($packs, $cols, $subcols, $packSuf, $folder, $isArchive =
 function grep($pattern, $file, $file_cache = null)
 {
 	$filec = $file_cache ? $file_cache : loadFile($file);
-	
+
 	foreach ($filec as $z)
 	{
 		if (preg_match($pattern, $z))
@@ -780,7 +780,7 @@ function toPlainTextSummaries($summary)
 function outputBuild($branch, $ID, $c)
 {
 	global $PWD, $isBuildServer, $dls, $filePre, $proj, $showBuildResults, $sortBy, $projct, $jdk14testsPWD, $jdk50testsPWD, $jdk60testsPWD, $testsPWD, $deps, $PR, $hiddenBuilds;
-	
+
 	# suppress hidden builds for public server
 	if (!$isBuildServer)
 	{
@@ -818,7 +818,7 @@ function outputBuild($branch, $ID, $c)
 		"<img alt=\"Link to this build\" src=\"/modeling/images/link.png\"/>" .
 		"</a>" .
 		((isset($opts["noclean"]) && $opts["noclean"]) || is_dir("$PWD/$branch/$ID/eclipse/$ID") ? doNoclean("$PWD/$branch/$ID") : "");
-		
+
 	//$ret .= "<ul id=\"r$ID\"" . (($c == 0 && !isset($_GET["hlbuild"])) || isset($_GET["hlbuild"]) && $ID == $_GET["hlbuild"] ? "" : " style=\"display: none\"") . ">\n";
 	$ret .= "<ul id=\"r$ID\"" . (isset($_GET["hlbuild"]) && $ID == $_GET["hlbuild"] ? "" : " style=\"display: none\"") . ">\n";
 
@@ -849,7 +849,7 @@ function doNoclean($dir)
 	$sizeondisk = pretty_size(dirsize($dir));
 	$versionAndBuildID = explode("/",$dir); $versionAndBuildID = $versionAndBuildID[sizeof($versionAndBuildID) - 2] . "/" . $versionAndBuildID[sizeof($versionAndBuildID) - 1];
 	return " <a href=\"/$PR/$projct/build/clean.php?versionAndBuildID=$versionAndBuildID\"><span class=\"noclean\"><acronym title=\"Failed builds do not purge temp files automatically -- click here to do so!\">Size on disk: $sizeondisk</acronym></span>" .
-		   " <img alt=\"Purge releng materials before promoting this build!\" src=\"/modeling/images/bug.png\"/></a>";		
+		   " <img alt=\"Purge releng materials before promoting this build!\" src=\"/modeling/images/bug.png\"/></a>";
 }
 
 function loadBuildConfig($file, $deps)
@@ -889,7 +889,7 @@ function loadBuildConfig($file, $deps)
 function getBuildArtifacts($dir, $branchID)
 {
 	//echo "getBuildArtifacts dir=$dir branchID=$branchID";
-	
+
 	global $isBuildServer, $downloadPre, $PR, $PR_www, $deps, $proj, $projct, $isTools, $isTech;
 
 	$PR2 = ($isTools ? "tools/$proj" : ($isTech ? "technology/$proj" : "$PR" . ($proj != "/" ? $proj : ""))); # to allow for www.eclipse.org/gef/ and download.eclipse.org/tools/gef, but also modeling/emf
@@ -897,7 +897,7 @@ function getBuildArtifacts($dir, $branchID)
 	$file = "$dir/$branchID/build.cfg";
 	$havedeps = array();
 	$opts = loadBuildConfig($file, $deps);
-	
+
 	// Modeling build style
 	foreach (array_keys($deps) as $z)
 	{
@@ -912,7 +912,7 @@ function getBuildArtifacts($dir, $branchID)
 		    $havedeps[$z] = $z;
 		}
 	}
-	
+
 	// Athena build style
 	$eclipseDownloadURL=$opts["eclipse.download.url"];
 	foreach (array_keys($opts) as $y)
@@ -932,7 +932,7 @@ function getBuildArtifacts($dir, $branchID)
 			}
 		}
 	}
-	
+
 	$ret = "";
 
 	if (is_array($havedeps))
@@ -952,8 +952,8 @@ function getBuildArtifacts($dir, $branchID)
 		$ret .= "<ul>\n";
 		if (sizeof($opts) > 0)
 		{
-			$ret .= (isset($opts["javaHome"]) && $opts["javaHome"] ? "<li>" . ucwords(str_replace("-", " ", $opts["javaHome"])) . "</li>" : 
-						(isset($opts["JAVA_HOME"]) && $opts["JAVA_HOME"] ? "<li>" . ucwords(str_replace("-", " ", $opts["JAVA_HOME"])) . "</li>" : 
+			$ret .= (isset($opts["javaHome"]) && $opts["javaHome"] ? "<li>" . ucwords(str_replace("-", " ", $opts["javaHome"])) . "</li>" :
+						(isset($opts["JAVA_HOME"]) && $opts["JAVA_HOME"] ? "<li>" . ucwords(str_replace("-", " ", $opts["JAVA_HOME"])) . "</li>" :
 							(isset($opts["java.home"]) && $opts["java.home"] ? "<li>" . ucwords(str_replace("-", " ", $opts["java.home"])) . "</li>" : "")
 						)
 					);
@@ -982,7 +982,7 @@ function getBuildArtifacts($dir, $branchID)
 				# tokenize and reassemble, avoiding dupes
 				$vanityBits = explode(" ",trim($vanity));
 				$vanity=""; foreach ($vanityBits as $vb){ if ($vb && false===strstr($vanity,$vb)){ $vanity.=" $vb"; } }
-				
+
 				$bf = array();
 				if (preg_match("#(.+)/orbitBundles-(.+).map$#", $buildfile[$z], $bfbits))
 				{
@@ -994,8 +994,8 @@ function getBuildArtifacts($dir, $branchID)
 					$bf[] = $buildfile[$z]; // zip
 					$bf[] = $bfbits[1] . "/orbitBundles-" . $bfbits[2] . ".map";
 				}
-				$ret .= "<li>".($builddir[$z]?"<div><a href=\"$builddir[$z]\">Build Page</a></div>":""). ($deps[$z]?$deps[$z]:ucwords(str_replace("."," ",$z))) . " " . 
-					($z == "orbit" ? "<a href=\"{$bf[0]}\">$vanity</a> (<a href=\"{$bf[1]}\">map</a>)" : "<a href=\"{$buildfile[$z]}\">$vanity</a>") . 
+				$ret .= "<li>".($builddir[$z]?"<div><a href=\"$builddir[$z]\">Build Page</a></div>":""). ($deps[$z]?$deps[$z]:ucwords(str_replace("."," ",$z))) . " " .
+					($z == "orbit" ? "<a href=\"{$bf[0]}\">$vanity</a> (<a href=\"{$bf[1]}\">map</a>)" : "<a href=\"{$buildfile[$z]}\">$vanity</a>") .
 				"</li>\n";
 			}
 		}
@@ -1077,15 +1077,15 @@ function showArchived($oldrels)
 function getTestResultsJUnitXML($file)
 {
 	$result = array(0, 0, 0); # Errors, Failures, DNRs
-	
+
 	//$data = file($file);
 	//exec("head -3 $file | grep \"<testsuite\"", $data); // possibly faster than file($file), but might break on some servers (eg., exec() is disabled on www.eclipse.org, so warnings are thrown)
-	
+
 	$handle = @fopen($file, "r");
 	if ($handle) {
 	    while (!feof($handle)) {
 	        $line = fgets($handle, 4096);
-        
+
        		// <testsuite errors="0" failures="0" ...>
 			$matches = null;
 			if (preg_match("/errors=\"(\d+)\" failures=\"(\d+)\"/", $line, $matches))
@@ -1105,7 +1105,7 @@ function getTestResultsJUnitXML($file)
 	} else {
 		echo "ERROR opening \"$file\"";
 	}
-	
+
 	return $result;
 }
 ?>
