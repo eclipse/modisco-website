@@ -6,6 +6,29 @@
     <description>MoDisco News</description>
 	
 	<item>
+		<title>Presentation of MoDisco v0.9.0 at the Eclipse DemoCamp Indigo 2011 in Nantes</title>
+		<link>http://wiki.eclipse.org/Eclipse_DemoCamps_Indigo_2011/Nantes</link>
+		<description>
+			<p>
+			MoDisco v0.9.0 has been presented on Thursday the 30th of June 2011 during the "Modeling" session of the Eclipse DemoCamp Indigo 2011 in Nantes.
+			The slides, as well as the detailed program of the hosting event, can be found from here.
+			</p>
+		</description>
+		<pubDate>Tuesday, 5 July 2011 11:25:00 CET</pubDate>
+	</item>
+	
+	<item>
+		<title>MoDisco Indigo Release (v0.9.0) is now available</title>
+		<link>http://www.eclipse.org/indigo/projects.php</link>
+		<description>
+			<p>
+			Complete information and downloads can be found from here.
+			</p>
+		</description>
+		<pubDate>Wednesday, 22 June 2011 19:41:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>Spy On Your Models - Talk on the MoDisco Model Browser at EclipseCon 2011</title>
 		<link>http://www.eclipsecon.org/2011/sessions?id=2093</link>
 		<description>
