@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
+<!--<?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?>-->
+<plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml"
+      name="MoDisco (Model Discovery)">
+   <release projectid="modeling.mdt.modisco" version="1.0.0"/>
+   <introduction>
+     <html:div>
+     	This document lays out the feature and API set for the next release of the Eclipse MDT MoDisco Project, version 1.0.0. 
+     	This project plan inherits from the Modeling Project Plan, which should be referenced when consulting this individual project plan.
+     </html:div>
+   </introduction>
+   <release_deliverables>
+     <html:div>
+     	The release deliverables have the same form as is found in most Eclipse projects:
+     	<html:ul>
+     		<html:li>An update site providing access to all the plug-ins, sources and documentation.</html:li>
+     		<html:li>A downloadable archive of this update site</html:li>
+     	</html:ul>
+     </html:div>
+   </release_deliverables>
+   <release_milestones>
+      <preamble>
+         <html:div>
+         	Release milestones occur at roughly 6 week intervals and follow the Platform milestone releases by approximately 1 week; that is, until the final 3.7 release of the Platform, upon which MDT MoDisco and other projects will release simultaneously. 
+         	As MDT MoDisco depends on other projects, it will deliver its milestones at the +3 schedule in accordance with the schedule below. 
+         </html:div>
+      </preamble>
+      <milestone date="08/19/2011" milestone="M1"></milestone>
+      <milestone date="09/30/2011" milestone="M2"></milestone>
+      <milestone date="11/11/2011" milestone="M3"></milestone>
+      <milestone date="12/16/2011" milestone="M4"></milestone>
+      <milestone date="03/02/2012" milestone="M5"></milestone>
+      <milestone date="03/16/2012" milestone="M6"><html:b>(API Freeze)</html:b></milestone>
+      <milestone date="05/11/2012" milestone="M7"><html:b>(Feature Freeze)</html:b></milestone>
+      <milestone date="05/25/2012" milestone="RC1"></milestone>
+      <milestone date="06/01/2012" milestone="RC2"></milestone>
+      <milestone date="06/08/2012" milestone="RC3"></milestone>
+      <milestone date="06/15/2012" milestone="RC4"></milestone>
+      <milestone date="06/27/2012" milestone="Juno"></milestone>
+      <postamble>
+      	<html:div>
+			MDT MoDisco may produce interim maintenance releases in addition to these in order to satisfy clients requests.
+		</html:div>
+	  </postamble>
+   </release_milestones>
+   <target_environments>
+     <html:div>
+     	In order to remain current, each Eclipse release targets reasonably current versions of the underlying operating environments. 
+     	The Eclipse MDT MoDisco project depends upon on the Platform and other projects, which are mostly "pure" Java. 
+     	The 3.8 release of the Eclipse Platform Project is written and compiled against versions 1.5 of the Java Platform APIs, and targeted to run on version 1.5 of the Java Runtime Environment, Standard Edition. 
+     	MDT MoDisco will target the same Java version as EMF, which currently also requires Java 5. 
+     	Eclipse Platform SDK 3.8 will be tested and validated on a number of reference platforms. 
+     	MDT MoDisco will be tested and validated against a subset of those listed for the platform.
+     </html:div>
+     <internationalization>
+          <html:div>
+         	 The Eclipse Platform is designed as the basis for internationalized products. 
+         	 The user interface elements provided by the Eclipse SDK components, including dialogs and error messages, are externalized. 
+         	 The English strings are provided as the default resource bundles. 
+         	 As a result, the MDT MoDisco project will provide English strings in its default bundles and be localized to a subset of those locales offered by the Platform.
+          </html:div>
+     </internationalization>
+   </target_environments>
+   <compatibility_with_previous_releases>
+   		<html:div>
+       		The MDT MoDisco project will be developed in parallel, and released simultaneously, with the following projects. 
+       		As stated above, each milestone release of the MDT MoDisco project will be compatible with the corresponding milestones for each of these projects, and delivered the appropriate offset.
+       		<html:ul>
+     			<html:li>Eclipse Platform SDK version 3.8</html:li>
+     			<html:li>Eclipse Modeling Framework (EMF) version 2.8</html:li>
+     			<html:li>Eclipse EMF Connected Data Objects (CDO)</html:li>
+     			<html:li>Eclipse EMF EMF Compare</html:li>
+     			<html:li>Eclipse Model Development Tools (MDT) UML2 version 3.2</html:li>
+     			<html:li>Eclipse EMF Technologies (EMFT) EMF Facet version 0.2</html:li>
+     		</html:ul>	
+       	</html:div>
+   </compatibility_with_previous_releases>
+   <themes_and_priorities>
+     <preamble>
+         <html:div>
+         	A list of project requirements and agreed upon implementation time frames is found in this document. 
+         	For the milestones listed in this document, a set of overall themes is used to indicate what major set of functionalities is to be concentrated on for each. 
+         	These themes are presented below, while the requirements document and associated Bugzilla entries are left to those wanting more detailed information on each. 
+         </html:div>
+     </preamble>
+	 To be done...
+     <!--
+     <postamble>
+     	<html:div>
+        </html:div>	
+     </postamble>
+     -->
+   </themes_and_priorities>
+   <appendix name="Legal Notices">
+   	 <html:div>
+     	<html:ul>
+     		<html:li>Java is a trademark or a registered trademark of Sun Microsystems, Inc.</html:li>
+     		<html:li>UML is trademark or registered trademark of the Object Management Group, Inc.</html:li>
+     		<html:li>JEE is trademark or registered trademark of Oracle and Sun, Inc.</html:li>
+     		<html:li>All other products or company names are mentioned for identification purposes only, and may be trademarks or service marks of their respective owners.</html:li>
+     	</html:ul>	
+     </html:div>  
+   </appendix>	
+ </plan>
