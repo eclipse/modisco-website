@@ -143,6 +143,7 @@ print "th{border-bottom-width:thin; border-style:solid}";
 print "td{border-bottom-width:thin; border-style:solid; border-color:gray}";
 print "</style>";
 print "<tr><th>MoDisco</th><th>Eclipse</th><th>Java</th></tr>";
+print "<tr><td>0.10</td><td>3.8/4.2 (Juno)</td><td>5.0</td></tr>";
 print "<tr><td>0.9</td><td>3.7 (Indigo)</td><td>5.0</td></tr>";
 print "<tr><td>0.8</td><td>3.6 (Helios)</td><td>5.0</td></tr>";
 print "<tr><td>0.7</td><td>3.5 (Galileo)</td><td>5.0</td></tr>";
