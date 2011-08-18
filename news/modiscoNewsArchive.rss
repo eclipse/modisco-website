@@ -6,6 +6,19 @@
     <description>MoDisco News</description>
 	
 	<item>
+		<title>Article about MoDisco published in the JavaTech Journal #10 focusing on Eclipse Indigo</title>
+		<link>http://jaxenter.com/java-tech-journal/JTJ-2011-06</link>
+		<description>
+			<p>
+			MoDisco v0.9.0 is detailed in a complete article, as part of the Eclipse Indigo Simultaneous Release dedicated issue of the JavaTech Journal.
+			You can freely get a copy of the full issue (JavaTech Journal #10) from <a href="http://jaxenter.com/java-tech-journal/JTJ-2011-06">there</a>.
+			Enjoy the reading! 
+			</p>
+		</description>
+		<pubDate>Thursday, 18 August 2011 17:45:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>Presentation of MoDisco v0.9.0 at the Eclipse DemoCamp Indigo 2011 in Nantes</title>
 		<link>http://wiki.eclipse.org/Eclipse_DemoCamps_Indigo_2011/Nantes</link>
 		<description>
