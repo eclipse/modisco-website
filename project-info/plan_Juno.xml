@@ -3,26 +3,33 @@
 <!--<?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?>-->
 <plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml"
       name="MoDisco (Model Discovery)">
-   <release projectid="modeling.mdt.modisco" version="1.0.0"/>
+   <release projectid="modeling.mdt.modisco" version="0.10.0"/>
    <introduction>
      <html:div>
-     	This document lays out the feature and API set for the next release of the Eclipse MDT MoDisco Project, version 1.0.0. 
+     	This document lays out the feature and API set for the next release of the Eclipse MoDisco framework (MDT MoDisco Project), version 0.10.0.
      	This project plan inherits from the Modeling Project Plan, which should be referenced when consulting this individual project plan.
      </html:div>
    </introduction>
    <release_deliverables>
      <html:div>
-     	The release deliverables have the same form as is found in most Eclipse projects:
+     	The release deliverables have the same form as is found in most Eclipse projects, namely:
      	<html:ul>
+     		<html:li>MDT MoDisco SDK (includes runtime, sources, examples, tests and documentation) (downloadable and update site).</html:li>
+     		<html:li>MDT MoDisco runtime binary distribution (downloadable and update site).</html:li>
+     		<html:li>MDT MoDisco tests (downloadable).</html:li>
+     		<html:li>MDT MoDisco examples (downloadable).</html:li>
+     		<!--
      		<html:li>An update site providing access to all the plug-ins, sources and documentation.</html:li>
      		<html:li>A downloadable archive of this update site</html:li>
+     		-->
      	</html:ul>
+     	Note that Eclipse MDT MoDisco 0.10.0 will primarily target Eclipse 4.2 rather than Eclipse 3.8.
      </html:div>
    </release_deliverables>
    <release_milestones>
       <preamble>
          <html:div>
-         	Release milestones occur at roughly 6 week intervals and follow the Platform milestone releases by approximately 1 week; that is, until the final 3.7 release of the Platform, upon which MDT MoDisco and other projects will release simultaneously. 
+         	Release milestones occur at roughly 6 week intervals and follow the Platform milestone releases by approximately 1 week; that is, until the final 4.2 release of the Platform, upon which MDT MoDisco and other projects will release simultaneously. 
          	As MDT MoDisco depends on other projects, it will deliver its milestones at the +3 schedule in accordance with the schedule below. 
          </html:div>
       </preamble>
@@ -40,7 +47,12 @@
       <milestone date="06/27/2012" milestone="Juno"></milestone>
       <postamble>
       	<html:div>
+			MDT MoDisco will produce maintenance releases to align with the Indigo SR releases, that includes the Eclipse Platform 3.7.1 and 3.7.2 releases.
 			MDT MoDisco may produce interim maintenance releases in addition to these in order to satisfy clients requests.
+			<html:ul>
+     			<html:li>Friday, September 23, 2012 - MDT MoDisco 0.9.1 maintenance release (Indigo Service Release 1)</html:li>
+     			<html:li>Friday, February 24, 2012 - MDT MoDisco 0.9.2 maintenance release (Indigo Service Release 2)</html:li>
+     		</html:ul>
 		</html:div>
 	  </postamble>
    </release_milestones>
@@ -48,9 +60,9 @@
      <html:div>
      	In order to remain current, each Eclipse release targets reasonably current versions of the underlying operating environments. 
      	The Eclipse MDT MoDisco project depends upon on the Platform and other projects, which are mostly "pure" Java. 
-     	The 3.8 release of the Eclipse Platform Project is written and compiled against versions 1.5 of the Java Platform APIs, and targeted to run on version 1.5 of the Java Runtime Environment, Standard Edition. 
+     	The 4.2 release of the Eclipse Platform Project is written and compiled against version 5.0 of the Java Platform APIs, and targeted to run on version 5.0 of the Java Runtime Environment, Standard Edition. 
      	MDT MoDisco will target the same Java version as EMF, which currently also requires Java 5. 
-     	Eclipse Platform SDK 3.8 will be tested and validated on a number of reference platforms. 
+     	Eclipse Platform SDK 4.2 will be tested and validated on a number of reference platforms. 
      	MDT MoDisco will be tested and validated against a subset of those listed for the platform.
      </html:div>
      <internationalization>
@@ -59,19 +71,23 @@
          	 The user interface elements provided by the Eclipse SDK components, including dialogs and error messages, are externalized. 
          	 The English strings are provided as the default resource bundles. 
          	 As a result, the MDT MoDisco project will provide English strings in its default bundles and be localized to a subset of those locales offered by the Platform.
+         	 <!--
+         	 This plan will be updated to indicate which locales will be provided and the time frame for availability.
+         	 French to be supported here?
+         	 -->
           </html:div>
      </internationalization>
    </target_environments>
    <compatibility_with_previous_releases>
    		<html:div>
-       		The MDT MoDisco project will be developed in parallel, and released simultaneously, with the following projects. 
+       		Compatibility of Release 0.10.0: The MDT MoDisco project will be developed in parallel, and released simultaneously, with the following projects. 
        		As stated above, each milestone release of the MDT MoDisco project will be compatible with the corresponding milestones for each of these projects, and delivered the appropriate offset.
        		<html:ul>
-     			<html:li>Eclipse Platform SDK version 3.8</html:li>
+     			<html:li>Eclipse Platform SDK version 4.2</html:li>
      			<html:li>Eclipse Modeling Framework (EMF) version 2.8</html:li>
-     			<html:li>Eclipse EMF Connected Data Objects (CDO)</html:li>
-     			<html:li>Eclipse EMF EMF Compare</html:li>
-     			<html:li>Eclipse Model Development Tools (MDT) UML2 version 3.2</html:li>
+     			<html:li>Eclipse EMF Connected Data Objects (CDO) version X.X</html:li>
+     			<html:li>Eclipse EMF EMF Compare version X.X</html:li>
+     			<html:li>Eclipse Model Development Tools (MDT) UML2 version 4.0</html:li>
      			<html:li>Eclipse EMF Technologies (EMFT) EMF Facet version 0.2</html:li>
      		</html:ul>	
        	</html:div>
@@ -84,7 +100,50 @@
          	These themes are presented below, while the requirements document and associated Bugzilla entries are left to those wanting more detailed information on each. 
          </html:div>
      </preamble>
-	 To be done...
+	 <theme name="Service, Support and Maintenance (general project and Infrastructure layer)">
+        <description>
+        	<html:div>
+        		The MDT MoDisco project has a proven track record of quality and reliability. 
+        		Service and support will take priority over new development work; commitments and schedules are subject to arbitrary change, slippage, or even deferral.
+			</html:div>
+        </description> 
+        <committed bugzilla=""/>
+      	<proposed bugzilla=""/>
+      	<deferred bugzilla=""/>
+     </theme>
+     <theme name="Service, Support and Maintenance (Technologies and Use Cases layers)">
+        <description>
+        	<html:div>
+        		The MDT MoDisco project has a proven track record of quality and reliability. 
+        		Service and support will take priority over new development work; commitments and schedules are subject to arbitrary change, slippage, or even deferral.   
+			</html:div>
+        </description> 
+        <committed bugzilla=""/>
+      	<proposed bugzilla=""/>
+      	<deferred bugzilla=""/>
+     </theme>
+     <theme name="Restructuring">
+        <description>
+        	<html:div>
+        		The MDT MoDisco project will be subject to some internal restructuring (already in progress) for several of its components to be finally migrated to the EMFT EMF Facet project.
+        		This migration will notably concern the Query Manager and Facet Manager components, parts of the Infrastructure layer.
+			</html:div>
+        </description> 
+        <committed bugzilla=""/>
+      	<proposed bugzilla=""/>
+      	<deferred bugzilla=""/>
+     </theme>
+	 <theme name="Scalability">
+        <description>
+        	<html:div>
+        		The MDT MoDisco project will be subject to several upgrades directely related to the improvment of scalability for its different components.
+        		This will include the increase of global performances (in terms of CPU time, memory footprint, etc), but also the more advanced support for (very) big EMF models.     
+			</html:div>
+        </description> 
+        <committed bugzilla=""/>
+      	<proposed bugzilla=""/>
+      	<deferred bugzilla=""/>
+     </theme>
      <!--
      <postamble>
      	<html:div>
