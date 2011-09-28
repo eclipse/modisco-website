@@ -106,10 +106,13 @@
         		The MDT MoDisco project has a proven track record of quality and reliability. 
         		Service and support will take priority over new development work; commitments and schedules are subject to arbitrary change, slippage, or even deferral.
 			</html:div>
-        </description> 
+        </description>
+        <!-- 
         <committed bugzilla=""/>
       	<proposed bugzilla=""/>
       	<deferred bugzilla=""/>
+      	-->
+      	-->
      </theme>
      <theme name="Service, Support and Maintenance (Technologies and Use Cases layers)">
         <description>
@@ -118,9 +121,11 @@
         		Service and support will take priority over new development work; commitments and schedules are subject to arbitrary change, slippage, or even deferral.   
 			</html:div>
         </description> 
+        <!--
         <committed bugzilla=""/>
       	<proposed bugzilla=""/>
       	<deferred bugzilla=""/>
+      	-->
      </theme>
      <theme name="Restructuring">
         <description>
@@ -129,9 +134,11 @@
         		This migration will notably concern the Query Manager and Facet Manager components, parts of the Infrastructure layer.
 			</html:div>
         </description> 
+        <!--
         <committed bugzilla=""/>
       	<proposed bugzilla=""/>
       	<deferred bugzilla=""/>
+      	-->
      </theme>
 	 <theme name="Scalability">
         <description>
@@ -140,9 +147,11 @@
         		This will include the increase of global performances (in terms of CPU time, memory footprint, etc), but also the more advanced support for (very) big EMF models.     
 			</html:div>
         </description> 
+        <!--
         <committed bugzilla=""/>
       	<proposed bugzilla=""/>
       	<deferred bugzilla=""/>
+      	-->
      </theme>
      <!--
      <postamble>
