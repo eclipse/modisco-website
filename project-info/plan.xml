@@ -8,7 +8,8 @@
      <html:div>
      	This document lays out the feature and API set for the next release of the Eclipse MoDisco framework (MDT MoDisco Project), version 0.10.0.
      	This project plan inherits from the Modeling Project Plan, which should be referenced when consulting this individual project plan.
-     	<br/><br/>
+     </html:div>
+     <html:div>
      	Note that this project plan will still be upgraded in the coming weeks.
      </html:div>
    </introduction>
