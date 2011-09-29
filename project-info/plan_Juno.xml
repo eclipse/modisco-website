@@ -59,9 +59,9 @@
      <html:div>
      	In order to remain current, each Eclipse release targets reasonably current versions of the underlying operating environments. 
      	The Eclipse MDT MoDisco project depends upon on the Platform and other projects, which are mostly "pure" Java. 
-     	The 3.8 & 4.2 releases of the Eclipse Platform Project is written and compiled against version 5.0 of the Java Platform APIs, and targeted to run on version 5.0 of the Java Runtime Environment, Standard Edition. 
+     	The 3.8 and 4.2 releases of the Eclipse Platform Project is written and compiled against version 5.0 of the Java Platform APIs, and targeted to run on version 5.0 of the Java Runtime Environment, Standard Edition. 
      	MDT MoDisco will target the same Java version as EMF, which currently also requires Java 5. 
-     	Eclipse Platform SDK 3.8 & 4.2 will be tested and validated on a number of reference platforms. 
+     	Eclipse Platform SDK 3.8 and 4.2 will be tested and validated on a number of reference platforms. 
      	MDT MoDisco will be tested and validated against a subset of those listed for the platform.
      </html:div>
      <internationalization>
