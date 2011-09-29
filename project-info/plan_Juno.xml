@@ -9,6 +9,9 @@
      	This document lays out the feature and API set for the next release of the Eclipse MoDisco framework (MDT MoDisco Project), version 0.10.0.
      	This project plan inherits from the Modeling Project Plan, which should be referenced when consulting this individual project plan.
      </html:div>
+     <html:div>
+     	Note that this project plan will still be upgraded in the coming weeks.
+     </html:div>
    </introduction>
    <release_deliverables>
      <html:div>
@@ -16,14 +19,10 @@
      	<html:ul>
      		<html:li>MDT MoDisco SDK (includes runtime, sources, examples, tests and documentation) (downloadable and update site).</html:li>
      		<html:li>MDT MoDisco runtime binary distribution (downloadable and update site).</html:li>
-     		<html:li>MDT MoDisco tests (downloadable).</html:li>
+     		<html:li>MDT MoDisco documentation (downloadable and update site).</html:li>
      		<html:li>MDT MoDisco examples (downloadable).</html:li>
-     		<!--
-     		<html:li>An update site providing access to all the plug-ins, sources and documentation.</html:li>
-     		<html:li>A downloadable archive of this update site</html:li>
-     		-->
      	</html:ul>
-     	Note that Eclipse MDT MoDisco 0.10.0 will primarily target Eclipse 4.2 rather than Eclipse 3.8.
+     	Note that Eclipse MDT MoDisco 0.10.0 will primarily target Eclipse 3.8 and is tested against Eclipse 4.2.
      </html:div>
    </release_deliverables>
    <release_milestones>
@@ -48,7 +47,7 @@
       <postamble>
       	<html:div>
 			MDT MoDisco will produce maintenance releases to align with the Indigo SR releases, that includes the Eclipse Platform 3.7.1 and 3.7.2 releases.
-			MDT MoDisco may produce interim maintenance releases in addition to these in order to satisfy clients requests.
+			MDT MoDisco may produce interim maintenance releases in addition to these in order to satisfy client requests.
 			<html:ul>
      			<html:li>Friday, September 23, 2012 - MDT MoDisco 0.9.1 maintenance release (Indigo Service Release 1)</html:li>
      			<html:li>Friday, February 24, 2012 - MDT MoDisco 0.9.2 maintenance release (Indigo Service Release 2)</html:li>
@@ -60,9 +59,9 @@
      <html:div>
      	In order to remain current, each Eclipse release targets reasonably current versions of the underlying operating environments. 
      	The Eclipse MDT MoDisco project depends upon on the Platform and other projects, which are mostly "pure" Java. 
-     	The 4.2 release of the Eclipse Platform Project is written and compiled against version 5.0 of the Java Platform APIs, and targeted to run on version 5.0 of the Java Runtime Environment, Standard Edition. 
+     	The 3.8 & 4.2 releases of the Eclipse Platform Project is written and compiled against version 5.0 of the Java Platform APIs, and targeted to run on version 5.0 of the Java Runtime Environment, Standard Edition. 
      	MDT MoDisco will target the same Java version as EMF, which currently also requires Java 5. 
-     	Eclipse Platform SDK 4.2 will be tested and validated on a number of reference platforms. 
+     	Eclipse Platform SDK 3.8 & 4.2 will be tested and validated on a number of reference platforms. 
      	MDT MoDisco will be tested and validated against a subset of those listed for the platform.
      </html:div>
      <internationalization>
@@ -71,10 +70,6 @@
          	 The user interface elements provided by the Eclipse SDK components, including dialogs and error messages, are externalized. 
          	 The English strings are provided as the default resource bundles. 
          	 As a result, the MDT MoDisco project will provide English strings in its default bundles and be localized to a subset of those locales offered by the Platform.
-         	 <!--
-         	 This plan will be updated to indicate which locales will be provided and the time frame for availability.
-         	 French to be supported here?
-         	 -->
           </html:div>
      </internationalization>
    </target_environments>
@@ -89,6 +84,7 @@
      			<html:li>Eclipse EMF EMF Compare version X.X</html:li>
      			<html:li>Eclipse Model Development Tools (MDT) UML2 version 4.0</html:li>
      			<html:li>Eclipse EMF Technologies (EMFT) EMF Facet version 0.2</html:li>
+     			<html:li>Eclipse Business Intelligence and Reporting Tools (BIRT) version 3.8</html:li>
      		</html:ul>	
        	</html:div>
    </compatibility_with_previous_releases>
@@ -100,38 +96,19 @@
          	These themes are presented below, while the requirements document and associated Bugzilla entries are left to those wanting more detailed information on each. 
          </html:div>
      </preamble>
-	 <theme name="Service, Support and Maintenance (general project and Infrastructure layer)">
-        <description>
-        	<html:div>
-        		The MDT MoDisco project has a proven track record of quality and reliability. 
-        		Service and support will take priority over new development work; commitments and schedules are subject to arbitrary change, slippage, or even deferral.
-			</html:div>
-        </description> 
-        <committed bugzilla=""/>
-      	<proposed bugzilla=""/>
-      	<deferred bugzilla=""/>
-     </theme>
-     <theme name="Service, Support and Maintenance (Technologies and Use Cases layers)">
-        <description>
-        	<html:div>
-        		The MDT MoDisco project has a proven track record of quality and reliability. 
-        		Service and support will take priority over new development work; commitments and schedules are subject to arbitrary change, slippage, or even deferral.   
-			</html:div>
-        </description> 
-        <committed bugzilla=""/>
-      	<proposed bugzilla=""/>
-      	<deferred bugzilla=""/>
-     </theme>
-     <theme name="Restructuring">
+	 <theme name="Restructuring">
         <description>
         	<html:div>
         		The MDT MoDisco project will be subject to some internal restructuring (already in progress) for several of its components to be finally migrated to the EMFT EMF Facet project.
         		This migration will notably concern the Query Manager and Facet Manager components, parts of the Infrastructure layer.
+				This theme is a priority to provide a MoDisco stable and usable release. That is why non critical bugs (e.g., bugs concerning the other themes) will be fixed afterwards.
 			</html:div>
-        </description> 
-        <committed bugzilla=""/>
-      	<proposed bugzilla=""/>
-      	<deferred bugzilla=""/>
+        </description>
+        <!-- 
+        <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;priority=P3;priority=P4;priority=P5;query_format=advanced;short_desc=%5BMove%20to%20EMF%20Facet%5D;field0-0-0=flagtypes.name;bug_severity=enhancement;bug_status=RESOLVED;bug_status=CLOSED;short_desc_type=allwordssubstr;type0-0-0=substring;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent;value0-0-0=juno%2B;product=MDT.MoDisco"/>
+      	<proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;priority=P4;query_format=advanced;short_desc=%5BMove%20to%20EMF%20Facet%5D;field0-0-0=flagtypes.name;bug_severity=enhancement;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;short_desc_type=allwordssubstr;type0-0-0=substring;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent;value0-0-0=juno%2B;product=MDT.MoDisco"/>
+      	<deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P5;query_format=advanced;short_desc=%5BMove%20to%20EMF%20Facet%5D;field0-0-0=flagtypes.name;bug_severity=enhancement;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;short_desc_type=allwordssubstr;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent;product=MDT.MoDisco"/>
+     	-->
      </theme>
 	 <theme name="Scalability">
         <description>
@@ -139,10 +116,39 @@
         		The MDT MoDisco project will be subject to several upgrades directely related to the improvment of scalability for its different components.
         		This will include the increase of global performances (in terms of CPU time, memory footprint, etc), but also the more advanced support for (very) big EMF models.     
 			</html:div>
-        </description> 
+        </description>
+        <!-- 
+        <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;priority=P3;priority=P4;priority=P5;query_format=advanced;short_desc=%5BScalability%5D;field0-0-0=flagtypes.name;bug_severity=blocker;bug_severity=critical;bug_severity=major;bug_severity=normal;bug_severity=minor;bug_severity=trivial;bug_severity=enhancement;bug_status=RESOLVED;bug_status=CLOSED;short_desc_type=allwordssubstr;type0-0-0=substring;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent;value0-0-0=juno%2B;product=MDT.MoDisco"/>
+      	<proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;priority=P4;query_format=advanced;short_desc=%5BScalability%5D;field0-0-0=flagtypes.name;bug_severity=blocker;bug_severity=critical;bug_severity=major;bug_severity=normal;bug_severity=minor;bug_severity=trivial;bug_severity=enhancement;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;short_desc_type=allwordssubstr;type0-0-0=substring;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent;value0-0-0=juno%2B;product=MDT.MoDisco"/>
+      	<deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P5;short_desc=%5BScalability%5D;field0-0-0=flagtypes.name;bug_severity=blocker;bug_severity=critical;bug_severity=major;bug_severity=normal;bug_severity=minor;bug_severity=trivial;bug_severity=enhancement;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent;query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;short_desc_type=allwordssubstr;product=MDT.MoDisco"/>
+     	-->
+     </theme>
+	 <theme name="Service, Support and Maintenance (general project and Infrastructure layer)">
+        <description>
+        	<html:div>
+        		The MDT MoDisco project has a proven track record of quality and reliability. 
+        		After restructuring, service and support will take priority over new development work; commitments and schedules are subject to arbitrary change, slippage, or even deferral.
+			</html:div>
+        </description>
+        <!-- 
         <committed bugzilla=""/>
       	<proposed bugzilla=""/>
       	<deferred bugzilla=""/>
+      	-->
+      	-->
+     </theme>
+     <theme name="Service, Support and Maintenance (Technologies and Use Cases layers)">
+        <description>
+        	<html:div>
+        		The MDT MoDisco project has a proven track record of quality and reliability. 
+        		After restructuring, service and support will take priority over new development work; commitments and schedules are subject to arbitrary change, slippage, or even deferral.   
+			</html:div>
+        </description> 
+        <!--
+        <committed bugzilla=""/>
+      	<proposed bugzilla=""/>
+      	<deferred bugzilla=""/>
+      	-->
      </theme>
      <!--
      <postamble>
