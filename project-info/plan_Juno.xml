@@ -105,9 +105,9 @@
 			</html:div>
         </description>
         <!-- 
-        <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;priority=P3;priority=P4;priority=P5;query_format=advanced;short_desc=%5BMove%20to%20EMF%20Facet%5D;field0-0-0=flagtypes.name;bug_severity=enhancement;bug_status=RESOLVED;bug_status=CLOSED;short_desc_type=allwordssubstr;type0-0-0=substring;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent;value0-0-0=juno%2B;product=MDT.MoDisco"/>
-      	<proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;priority=P4;query_format=advanced;short_desc=%5BMove%20to%20EMF%20Facet%5D;field0-0-0=flagtypes.name;bug_severity=enhancement;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;short_desc_type=allwordssubstr;type0-0-0=substring;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent;value0-0-0=juno%2B;product=MDT.MoDisco"/>
-      	<deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P5;query_format=advanced;short_desc=%5BMove%20to%20EMF%20Facet%5D;field0-0-0=flagtypes.name;bug_severity=enhancement;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;short_desc_type=allwordssubstr;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent;product=MDT.MoDisco"/>
+        <committed bugzilla=""/>
+      	<proposed bugzilla=""/>
+      	<deferred bugzilla=""/>
      	-->
      </theme>
 	 <theme name="Scalability">
@@ -118,9 +118,9 @@
 			</html:div>
         </description>
         <!-- 
-        <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;priority=P3;priority=P4;priority=P5;query_format=advanced;short_desc=%5BScalability%5D;field0-0-0=flagtypes.name;bug_severity=blocker;bug_severity=critical;bug_severity=major;bug_severity=normal;bug_severity=minor;bug_severity=trivial;bug_severity=enhancement;bug_status=RESOLVED;bug_status=CLOSED;short_desc_type=allwordssubstr;type0-0-0=substring;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent;value0-0-0=juno%2B;product=MDT.MoDisco"/>
-      	<proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;priority=P4;query_format=advanced;short_desc=%5BScalability%5D;field0-0-0=flagtypes.name;bug_severity=blocker;bug_severity=critical;bug_severity=major;bug_severity=normal;bug_severity=minor;bug_severity=trivial;bug_severity=enhancement;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;short_desc_type=allwordssubstr;type0-0-0=substring;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent;value0-0-0=juno%2B;product=MDT.MoDisco"/>
-      	<deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P5;short_desc=%5BScalability%5D;field0-0-0=flagtypes.name;bug_severity=blocker;bug_severity=critical;bug_severity=major;bug_severity=normal;bug_severity=minor;bug_severity=trivial;bug_severity=enhancement;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent;query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;short_desc_type=allwordssubstr;product=MDT.MoDisco"/>
+        <committed bugzilla=""/>
+      	<proposed bugzilla=""/>
+      	<deferred bugzilla=""/>
      	-->
      </theme>
 	 <theme name="Service, Support and Maintenance (general project and Infrastructure layer)">
