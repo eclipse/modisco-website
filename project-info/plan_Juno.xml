@@ -22,7 +22,7 @@
      		<html:li>MDT MoDisco documentation (downloadable and update site).</html:li>
      		<html:li>MDT MoDisco examples (downloadable).</html:li>
      	</html:ul>
-     	Note that Eclipse MDT MoDisco 0.10.0 will primarily target Eclipse 3.8 and is tested against Eclipse 4.2.
+     	Note that Eclipse MDT MoDisco 0.10.0 will primarily target Eclipse 3.8 and be tested against Eclipse 4.2.
      </html:div>
    </release_deliverables>
    <release_milestones>
