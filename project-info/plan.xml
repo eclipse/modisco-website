@@ -32,17 +32,17 @@
          	As MDT MoDisco depends on other projects, it will deliver its milestones at the +3 schedule in accordance with the schedule below. 
          </html:div>
       </preamble>
-      <milestone date="08/19/2011" milestone="M1"></milestone>
-      <milestone date="09/30/2011" milestone="M2"></milestone>
-      <milestone date="11/11/2011" milestone="M3"></milestone>
-      <milestone date="12/16/2011" milestone="M4"></milestone>
-      <milestone date="03/02/2012" milestone="M5"></milestone>
-      <milestone date="03/16/2012" milestone="M6"><html:b>(API Freeze)</html:b></milestone>
-      <milestone date="05/11/2012" milestone="M7"><html:b>(Feature Freeze)</html:b></milestone>
-      <milestone date="05/25/2012" milestone="RC1"></milestone>
-      <milestone date="06/01/2012" milestone="RC2"></milestone>
-      <milestone date="06/08/2012" milestone="RC3"></milestone>
-      <milestone date="06/15/2012" milestone="RC4"></milestone>
+      <milestone date="08/17/2011" milestone="M1"></milestone>
+      <milestone date="09/28/2011" milestone="M2"></milestone>
+      <milestone date="11/09/2011" milestone="M3"></milestone>
+      <milestone date="12/14/2011" milestone="M4"></milestone>
+      <milestone date="02/01/2012" milestone="M5"></milestone>
+      <milestone date="03/21/2012" milestone="M6"><html:b>(API Freeze)</html:b></milestone>
+      <milestone date="05/09/2012" milestone="M7"><html:b>(Feature Freeze)</html:b></milestone>
+      <milestone date="05/23/2012" milestone="RC1"></milestone>
+      <milestone date="05/30/2012" milestone="RC2"></milestone>
+      <milestone date="06/06/2012" milestone="RC3"></milestone>
+      <milestone date="06/13/2012" milestone="RC4"></milestone>
       <milestone date="06/27/2012" milestone="Juno"></milestone>
       <postamble>
       	<html:div>
@@ -75,17 +75,23 @@
    </target_environments>
    <compatibility_with_previous_releases>
    		<html:div>
-       		Compatibility of Release 0.10.0: The MDT MoDisco project will be developed in parallel, and released simultaneously, with the following projects. 
+       		Compatibility of Release 0.10.0: The MDT MoDisco project will be developed in parallel, and released simultaneously, with the following Eclipse projects. 
        		As stated above, each milestone release of the MDT MoDisco project will be compatible with the corresponding milestones for each of these projects, and delivered the appropriate offset.
        		<html:ul>
-     			<html:li>Eclipse Platform SDK version 4.2</html:li>
-     			<html:li>Eclipse Modeling Framework (EMF) version 2.8</html:li>
-     			<html:li>Eclipse EMF Connected Data Objects (CDO) version X.X</html:li>
-     			<html:li>Eclipse EMF EMF Compare version X.X</html:li>
-     			<html:li>Eclipse Model Development Tools (MDT) UML2 version 4.0</html:li>
-     			<html:li>Eclipse EMF Technologies (EMFT) EMF Facet version 0.2</html:li>
-     			<html:li>Eclipse Business Intelligence and Reporting Tools (BIRT) version 3.8</html:li>
-     		</html:ul>	
+     			<html:li>Platform SDK version 3.8 (or 4.2)</html:li>
+     			<html:li>Eclipse Modeling Framework (EMF) version 2.7.0</html:li>
+     			<html:li>EMF Connected Data Objects (CDO) version 4.1.0</html:li>
+     			<html:li>EMF Compare version 1.2.1</html:li>
+     			<html:li>EMF Query version 1.2.1</html:li>
+     			<html:li>EMF Validation version 1.4.0</html:li>
+     			<html:li>EMFT EMF Facet version 0.2.0</html:li>
+     			<html:li>MDT UML2 version 4.0.0</html:li>
+     			<html:li>MDT OCL version 3.2.0</html:li>
+     			<html:li>M2M ATL version 3.2.1</html:li>
+     			<html:li>M2T Acceleo version 3.1.1</html:li>
+     			<html:li>Technology SWTBot version 2.0.4</html:li>
+     			<html:li>Eclipse Business Intelligence and Reporting Tools (BIRT) version 3.7.1</html:li>
+     		</html:ul>
        	</html:div>
    </compatibility_with_previous_releases>
    <themes_and_priorities>
@@ -113,7 +119,7 @@
 	 <theme name="Scalability">
         <description>
         	<html:div>
-        		The MDT MoDisco project will be subject to several upgrades directely related to the improvment of scalability for its different components.
+        		The MDT MoDisco project will be subject to several upgrades directly related to the improvement of scalability for its different components.
         		This will include the increase of global performances (in terms of CPU time, memory footprint, etc), but also the more advanced support for (very) big EMF models.     
 			</html:div>
         </description>
@@ -159,7 +165,7 @@
    <appendix name="Legal Notices">
    	 <html:div>
      	<html:ul>
-     		<html:li>Java is a trademark or a registered trademark of Sun Microsystems, Inc.</html:li>
+     		<html:li>Java is a trademark or a registered trademark of Oracle and Sun, Inc.</html:li>
      		<html:li>UML is trademark or registered trademark of the Object Management Group, Inc.</html:li>
      		<html:li>JEE is trademark or registered trademark of Oracle and Sun, Inc.</html:li>
      		<html:li>All other products or company names are mentioned for identification purposes only, and may be trademarks or service marks of their respective owners.</html:li>
