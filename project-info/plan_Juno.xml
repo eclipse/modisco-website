@@ -9,9 +9,6 @@
      	This document lays out the feature and API set for the next release of the Eclipse MoDisco framework (MDT MoDisco Project), version 0.10.0.
      	This project plan inherits from the Modeling Project Plan, which should be referenced when consulting this individual project plan.
      </html:div>
-     <html:div>
-     	Note that this project plan will still be upgraded in the coming weeks.
-     </html:div>
    </introduction>
    <release_deliverables>
      <html:div>
@@ -107,7 +104,7 @@
         	<html:div>
         		The MDT MoDisco project will be subject to some internal restructuring (already in progress) for several of its components to be finally migrated to the EMFT EMF Facet project.
         		This migration will notably concern the Query Manager and Facet Manager components, parts of the Infrastructure layer.
-				This theme is a priority to provide a MoDisco stable and usable release. That is why non critical bugs (e.g., bugs concerning the other themes) will be fixed afterwards.
+				This theme is a priority to provide a stable release to all MoDisco users. That is why non critical bugs (e.g., bugs concerning the other themes) will be fixed afterwards.
 			</html:div>
         </description>
         <!-- 
