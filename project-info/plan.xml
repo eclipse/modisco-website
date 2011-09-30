@@ -25,7 +25,7 @@
    <release_milestones>
       <preamble>
          <html:div>
-         	Release milestones occur at roughly 6 week intervals and follow the Platform milestone releases by approximately 1 week; that is, until the final 4.2 release of the Platform, upon which MDT MoDisco and other projects will release simultaneously. 
+         	Release milestones occur at roughly 6 week intervals and follow the Platform milestone releases by approximately 1 week; that is, until the final 3.8 and 4.2 releases of the Platform, upon which MDT MoDisco and other projects will release simultaneously. 
          	As MDT MoDisco depends on other projects, it will deliver its milestones at the +3 schedule in accordance with the schedule below. 
          </html:div>
       </preamble>
