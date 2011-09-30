@@ -107,11 +107,9 @@
 				This theme is a priority to provide a stable release to all MoDisco users. That is why non critical bugs (e.g., bugs concerning the other themes) will be fixed afterwards.
 			</html:div>
         </description>
-        <!-- 
-        <committed bugzilla=""/>
-      	<proposed bugzilla=""/>
-      	<deferred bugzilla=""/>
-     	-->
+        <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P1;priority=P2;priority=P4;query_format=advanced;short_desc=%5BMove%20to%20EMF%20Facet%5D;field0-0-0=flagtypes.name;bug_severity=blocker;bug_severity=critical;bug_severity=major;bug_severity=normal;bug_severity=minor;bug_severity=trivial;bug_severity=enhancement;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=RESOLVED;bug_status=VERIFIED;bug_status=CLOSED;short_desc_type=allwordssubstr;type0-0-0=substring;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent;value0-0-0=juno%2B;product=MDT.MoDisco"/>
+      	<proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P5;query_format=advanced;short_desc=%5BMove%20to%20EMF%20Facet%5D;field0-0-0=flagtypes.name;bug_severity=blocker;bug_severity=critical;bug_severity=major;bug_severity=normal;bug_severity=minor;bug_severity=trivial;bug_severity=enhancement;short_desc_type=allwordssubstr;type0-0-0=substring;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent;value0-0-0=juno%2B;product=MDT.MoDisco"/>
+      	<deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?priority=P5;query_format=advanced;short_desc=%5BMove%20to%20EMF%20Facet%5D;field0-0-0=flagtypes.name;bug_severity=blocker;bug_severity=critical;bug_severity=major;bug_severity=normal;bug_severity=minor;bug_severity=trivial;bug_severity=enhancement;short_desc_type=allwordssubstr;type0-0-0=notsubstring;columnlist=bug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Ccomponent%2Cflagtypes.name;value0-0-0=juno%2B;product=MDT.MoDisco"/>
      </theme>
 	 <theme name="Scalability">
         <description>
