@@ -6,6 +6,18 @@
     <description>MoDisco News</description>
 	
 	<item>
+		<title>MoDisco at EclipseCon Europe 2011</title>
+		<link>http://www.eclipsecon.org/europe2011/sessions/virtual-emf-%E2%80%93-transparent-composition-weaving-and-linking-models</link>
+		<description>
+			<p>
+			This year again, MoDisco has been represented at EclipseCon Europe (former Eclipse Summit Europe).
+			The project has provided the use case scenario demonstrated during the presentation of the brand new Virtual EMF prototype: description and slides are now available. 
+			</p>
+		</description>
+		<pubDate>Wednesday, 9 November 2011 14:00:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>Article about MoDisco published in the JavaTech Journal #10 focusing on Eclipse Indigo</title>
 		<link>http://jaxenter.com/java-tech-journal/JTJ-2011-06</link>
 		<description>
