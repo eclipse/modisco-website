@@ -6,6 +6,19 @@
     <description>MoDisco News</description>
 	
 	<item>
+		<title>Article about MoDisco published in ERCIM News 88 - Special Theme: Evolving Software</title>
+		<link>http://ercim-news.ercim.eu/en88</link>
+		<description>
+			<p>
+			The current status of MoDisco is presented in a short article, as part of ERCIM News 88 focusing on Evolving Software.
+			You can freely get a copy of the full issue from <a href="http://ercim-news.ercim.eu/en88">there</a>.
+			Enjoy the reading! 
+			</p>
+		</description>
+		<pubDate>Tuesday, 3 January 2012 18:15:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>MoDisco at EclipseCon Europe 2011</title>
 		<link>http://www.eclipsecon.org/europe2011/sessions/virtual-emf-%E2%80%93-transparent-composition-weaving-and-linking-models</link>
 		<description>
@@ -23,7 +36,7 @@
 		<description>
 			<p>
 			MoDisco v0.9.0 is detailed in a complete article, as part of the Eclipse Indigo Simultaneous Release dedicated issue of the JavaTech Journal.
-			You can freely get a copy of the full issue (JavaTech Journal #10) from <a href="http://jaxenter.com/java-tech-journal/JTJ-2011-06">there</a>.
+			You can freely get a copy of the full issue from <a href="http://jaxenter.com/java-tech-journal/JTJ-2011-06">there</a>.
 			Enjoy the reading! 
 			</p>
 		</description>
