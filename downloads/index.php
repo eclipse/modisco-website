@@ -56,7 +56,7 @@ $dls = array(
 /* list of valid file prefixes for projects who have been renamed; keys have leading / to match $proj */
 /* only required if using something other than the default; otherwise will be generated */
 $filePre = array( # use "/" because MODISCO has no parent or child projects/components
-	"/" => array("MODISCO", "modisco") // MODISCO-sdk-*.zip
+	"/" => array("MODISCO", "modisco", "MoDisco") // MODISCO-sdk-*.zip
 );
 
 /* define showNotes(), $oldrels, doLanguagePacks() in extras-$proj.php (or just extras.php for flat projects) if necessary, downloads-common.php will include them */
