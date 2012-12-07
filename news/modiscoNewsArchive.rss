@@ -6,6 +6,17 @@
     <description>MoDisco News</description>
 	
 	<item>
+		<title>MoDisco Juno Release (v0.10.0) is now available!</title>
+		<link>http://www.eclipse.org/juno/projects.php</link>
+		<description>
+			<p>
+			Complete information and integrated downloads can be found from the Juno Release homepage!
+			</p>
+		</description>
+		<pubDate>Thursday, 28 June 2012 10:36:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>Article about MoDisco published in ERCIM News 88 - Special Theme: Evolving Software</title>
 		<link>http://ercim-news.ercim.eu/en88</link>
 		<description>
