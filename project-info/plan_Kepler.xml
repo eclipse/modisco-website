@@ -56,19 +56,16 @@
 		<milestone date="06/27/2013" milestone="Kepler"></milestone>
 		<postamble>
 			<html:div>
-				MDT MoDisco will produce maintenance releases to align with the
-				Indigo SR releases, that includes the Eclipse Platform 3.7.1 and
-				3.7.2 releases.
-				MDT MoDisco may produce interim maintenance releases
-				in addition to
-				these in order to satisfy client requests.
+				MDT MoDisco will produce maintenance releases to align with the Juno
+				service releases (SR), that includes the Eclipse Platform 4.2.1 and
+				4.3.2 releases. MDT MoDisco may produce interim maintenance releases
+				in addition to these in order to satisfy client requests.
 				<html:ul>
 					<html:li>Friday, September 29, 2012 - MDT MoDisco 0.10.1
-						maintenance
-						release (Indigo Service Release 1)
+						maintenance release (Juno Service Release 1)
 					</html:li>
 					<html:li>Friday, February 23, 2013 - MDT MoDisco 0.10.2 maintenance
-						release (Indigo Service Release 2)
+						release (Juno Service Release 2)
 					</html:li>
 				</html:ul>
 			</html:div>
@@ -76,25 +73,20 @@
 	</release_milestones>
 	<target_environments>
 		<html:div>
-			In order to remain current, each Eclipse release targets
-			reasonably current versions of the underlying operating environments.
-			The Eclipse MDT MoDisco project depends upon on the Platform and
-			other projects, which are mostly "pure" Java. The 4.3
-			releases of the
-			Eclipse Platform Project are written and compiled
-			against version 5.0
-			of the Java Platform APIs, and targeted to run on
-			version 5.0 of the
-			Java Runtime Environment, Standard Edition. MDT
-			MoDisco will target
-			the same Java version as EMF, which currently
-			also requires Java 5.
-			Eclipse Platform SDK 4.3 will be tested
-			and validated on a number of
-			reference platforms. MDT MoDisco will be
-			tested and validated against
-			a subset of those listed for the
-			platform.
+			In order to remain current, each Eclipse release targets reasonably
+			current versions of the underlying operating environments. The
+			Eclipse MDT MoDisco project depends upon on the Platform and other
+			projects, which are mostly "pure" Java. The 4.3 releases of the
+			Eclipse Platform Project are written and compiled against version 5.0
+			of the Java Platform APIs, and targeted to run on version 5.0 of the
+			Java Runtime Environment, Standard Edition. MDT MoDisco will target
+			the same Java version as EMF, which currently also requires Java 5.
+			Eclipse Platform SDK 4.3 will be tested and validated on a number of
+			reference platforms. MDT MoDisco will be tested and validated against
+			a subset of those listed for the platform.
+			<html:br />
+			This year we will try to make MoDisco compatible with Helios, because
+			some potential users use old version of Eclipse.
 		</html:div>
 		<internationalization>
 			<html:div>
@@ -110,7 +102,7 @@
 	</target_environments>
 	<compatibility_with_previous_releases>
 		<html:div>
-			Compatibility of Release 0.10.0: The MDT MoDisco project will be
+			Compatibility of Release 0.11: The MDT MoDisco project will be
 			developed in parallel, and released simultaneously, with the
 			following Eclipse projects.
 			As stated above, each milestone release of
@@ -120,20 +112,20 @@
 			projects, and delivered the appropriate
 			offset.
 			<html:ul>
-				<html:li>Platform SDK version 3.8 (or 4.2)</html:li>
-				<html:li>Eclipse Modeling Framework (EMF) version 2.7.0</html:li>
-				<html:li>EMF Connected Data Objects (CDO) version 4.1.0</html:li>
-				<html:li>EMF Compare version 1.2.1</html:li>
-				<html:li>EMF Query version 1.2.1</html:li>
-				<html:li>EMF Validation version 1.4.0</html:li>
-				<html:li>EMFT EMF Facet version 0.2.0</html:li>
-				<html:li>MDT UML2 version 4.0.0</html:li>
-				<html:li>MDT OCL version 3.2.0</html:li>
-				<html:li>M2M ATL version 3.2.1</html:li>
-				<html:li>M2T Acceleo version 3.1.1</html:li>
+				<html:li>Platform SDK version 4.3</html:li>
+				<html:li>Eclipse Modeling Framework (EMF) version 2.9.0</html:li>
+				<html:li>EMF Connected Data Objects (CDO) version 4.2.0</html:li>
+				<html:li>EMF Compare version</html:li>
+				<html:li>EMF Query version 1.7.0</html:li>
+				<html:li>EMF Validation version</html:li>
+				<html:li>EMFT EMF Facet version 0.3.0</html:li>
+				<html:li>MDT UML2 version</html:li>
+				<html:li>MDT OCL version 4.1.0</html:li>
+				<html:li>M2M ATL version</html:li>
+				<html:li>M2T Acceleo version</html:li>
 				<html:li>Technology SWTBot version 2.0.4</html:li>
 				<html:li>Eclipse Business Intelligence and Reporting Tools (BIRT)
-					version 3.7.1
+					version 4.3.0
 				</html:li>
 			</html:ul>
 		</html:div>
