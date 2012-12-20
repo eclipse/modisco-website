@@ -142,19 +142,12 @@
 		<preamble>
 			<html:div>
 				A list of project requirements and agreed upon
-				implementation time
-				frames is found in this document.
-				For the
-				milestones listed in this document, a set of overall themes is
-				used
-				to indicate what major set of functionalities is to be
-				concentrated
-				on for each.
-				These themes are presented below, while the requirements
-				document and
-				associated Bugzilla entries are left to those wanting
-				more detailed
-				information on each.
+				implementation time frames is found in this document. For the
+				milestones listed in this document, a set of overall themes is used
+				to indicate what major set of functionalities is to be concentrated
+				on for each. These themes are presented below, while the
+				requirements document and associated Bugzilla entries are left to
+				those wanting more detailed information on each.
 			</html:div>
 		</preamble>
 		<theme name="Restructuring">
@@ -162,15 +155,11 @@
 				<html:div>
 					The MDT MoDisco project will be subject to some internal
 					restructuring (already in progress) for several of its components
-					to be finally migrated to the EMFT EMF Facet project.
-					This migration
-					will notably concern the Query Manager and Facet Manager
-					components, parts of the Infrastructure layer.
-					This theme is a
-					priority to provide a stable release to all MoDisco
-					users. That is
-					why non critical bugs (e.g., some bugs concerning
-					the other themes)
+					to be finally migrated to the EMFT EMF Facet project. This
+					migration will notably concern the Query Manager and Facet Manager
+					components, parts of the Infrastructure layer. This theme is a
+					priority to provide a stable release to all MoDisco users. That is
+					why non critical bugs (e.g., some bugs concerning the other themes)
 					will be fixed afterwards.
 					<br />
 					Note also that the "deferred" bugs listed here will be then treated
@@ -190,15 +179,10 @@
 			<description>
 				<html:div>
 					The MDT MoDisco project will be subject to several
-					upgrades directly
-					related to the improvement of scalability for its
-					different
-					components.
-					This will include the increase of global
-					performances (in terms of CPU
-					time, memory footprint, etc), but also
-					the more advanced support
-					for (very) big EMF models.
+					upgrades directly related to the improvement of scalability for its
+					different components. This will include the increase of global
+					performances (in terms of CPU time, memory footprint, etc), but
+					also the more advanced support for (very) big EMF models.
 				</html:div>
 			</description>
 			<committed
@@ -213,12 +197,9 @@
 			<description>
 				<html:div>
 					The MDT MoDisco project has a proven track record of quality and
-					reliability.
-					After restructuring, service and support will take
-					priority over new
-					development work; commitments and schedules are
-					subject to
-					arbitrary change, slippage, or even deferral.
+					reliability. After restructuring, service and support will take
+					priority over new development work; commitments and schedules are
+					subject to arbitrary change, slippage, or even deferral.
 					<br />
 					Note also that the bugs tagged [Move to EMF Facet] will be then
 					treated within the context of the EMFT EMF Facet project, once the
@@ -238,13 +219,9 @@
 			<description>
 				<html:div>
 					The MDT MoDisco project has a proven track record of
-					quality and
-					reliability.
-					After restructuring, service and support
-					will take priority over new
-					development work; commitments and
-					schedules are subject to
-					arbitrary change, slippage, or even
+					quality and reliability. After restructuring, service and support
+					will take priority over new development work; commitments and
+					schedules are subject to arbitrary change, slippage, or even
 					deferral.
 				</html:div>
 			</description>
