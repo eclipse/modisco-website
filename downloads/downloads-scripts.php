@@ -73,7 +73,7 @@ function getBuildsFromDirs() // massage the builds into more useful structures
 	{
 		foreach ($dirList as $dir)
 		{
-//			if($dir != 'R201305281228') { /* XXX hide release until release day */
+			if($dir != 'R201309110624') { /* XXX hide release until release day */
 				$ty = substr($dir, 0, 1); //first char
 
 				if ($sortBy != "date")
@@ -88,7 +88,7 @@ function getBuildsFromDirs() // massage the builds into more useful structures
 
 					$builds_temp[$a] = $b;
 				}
-//			}
+			}
 		}
 	}
 
