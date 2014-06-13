@@ -15,7 +15,7 @@
 	$localVersion = false;
 	
 	# Define these here, or in _projectCommon.php for site-wide values
-	$pageKeywords	= "eclipse, emf, facet";
+	$pageKeywords	= "eclipse, emf, modisco";
 	$pageAuthor		= "Grégoire Dupé";
 	$pageTitle 		= "MoDisco";
 	
@@ -46,6 +46,6 @@
 	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/default/style.css"/>' . "\n\t");
 	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="modisco.css"/>' . "\n\t");
 	$App->AddExtraHtmlHeader("<link rel='alternate' type='application/rss+xml' title='MoDisco News' href='news/modiscoNewsArchive.rss'>");
-	$pageKeywords="MDA, MDE, MoDisco, Model Discovery, Quality Assurance, Documentation, Improvement,Migration, EMF, Eclipse";
+	$pageKeywords="MDA, MDE, MoDisco, Model Discovery, Quality Assurance, Documentation, Improvement, Migration, EMF, Eclipse";
 	$App->generatePage($theme, $Menu, null, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
