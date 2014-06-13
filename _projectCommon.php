@@ -25,7 +25,7 @@
 	
 	include_once $_SERVER["DOCUMENT_ROOT"] . "/modeling/includes/scripts.php";
 
-	# set default theme Lazarus -> Nova -> solstice
+	# set default theme Lazarus -> Nova -> solstice 
 	$_theme = "solstice";
 	$theme = "";
 	if(isset($_POST['theme'])) {
