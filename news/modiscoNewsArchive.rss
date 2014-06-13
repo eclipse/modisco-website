@@ -6,6 +6,29 @@
     <description>MoDisco News</description>
 	
 	<item>
+		<title>Full MoDisco paper published in Information and Software Technology (Elsevier)</title>
+		<link>http://hal.inria.fr/hal-00972632</link>
+		<description>
+			<p>
+			It is very complete and notably includes a full description of the MoDisco approach and framework + examples of practical use in the context of real industrial scenarios.
+			Get it from <a href="http://hal.inria.fr/hal-00972632">there</a> and enjoy the reading! 
+			</p>
+		</description>
+		<pubDate>Friday, 25 April 2014 14:00:00 CET</pubDate>
+	</item>
+	
+	<item>
+		<title>MoDisco Kepler Release (v0.11.0) is now available!</title>
+		<link>http://www.eclipse.org/kepler/projects.php</link>
+		<description>
+			<p>
+			Complete information and integrated downloads can be found from the Kepler Release homepage!
+			</p>
+		</description>
+		<pubDate>Friday, 28 June 2013 12:00:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>MoDisco Juno Release (v0.10.0) is now available!</title>
 		<link>http://www.eclipse.org/juno/projects.php</link>
 		<description>
