@@ -2,6 +2,7 @@
 
 #novaContent {
 	background: url("images/backgroundMain.png") no-repeat white;
+	padding-top: 170px;
 }
 
 #bigbuttons {
@@ -10,6 +11,36 @@
 }
 
 /* Begin new content */
+
+#bigbuttons {
+	position: relative;
+	left: 420px;
+	top: -170px;
+}
+#bigbuttons h3{
+	visibility: hidden;
+}
+
+#bigbuttons ul li {
+   display:block;
+   list-style-type:none;
+   background-color: red;
+   padding: 0;
+   margin: 0;
+}
+
+#bigbuttons a:hover {
+	text-decoration: none;
+}
+
+#bigbuttons a {
+   display: block;
+   height:77px; width:250px;
+   padding: 0;
+   margin: 20px;
+   text-indent: -9000px;
+   position: absolute;
+}
 
 #buttonDownload {
    background:transparent url("images/buttonDownload.png") no-repeat 0 0;
@@ -50,6 +81,10 @@
 
 #buttonInvolved:hover {
    background:transparent url("images/buttonInvolved_sel.png") no-repeat 0 0;
+}
+
+#bigbuttons a * {
+	visibility: hidden;
 }
 
 /* End new content */
