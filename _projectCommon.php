@@ -10,12 +10,12 @@
 	# Define your project-wide Nav bars here.
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	# these are optional
-	$Nav->setLinkList(array());
-	$Nav->addNavSeparator("MoDisco", "/modisco/");
-	$Nav->addCustomNav("Download", "http://wiki.eclipse.org/MoDisco/Installation", "_self", 3);
-	$Nav->addCustomNav("Documentation", "http://wiki.eclipse.org/MoDisco#Documentation", "_self", 3);
-	$Nav->addCustomNav("Support", "http://wiki.eclipse.org/MoDisco#Support", "_self", 3);
-	$Nav->addCustomNav("Involvement", "http://wiki.eclipse.org/MoDisco#Getting_involved", "_self", 3);
+	# $Nav->setLinkList(array());
+	# $Nav->addNavSeparator("MoDisco", "/modisco/");
+	# $Nav->addCustomNav("Download", "http://wiki.eclipse.org/MoDisco/Installation", "_self", 3);
+	# $Nav->addCustomNav("Documentation", "http://wiki.eclipse.org/MoDisco#Documentation", "_self", 3);
+	# $Nav->addCustomNav("Support", "http://wiki.eclipse.org/MoDisco#Support", "_self", 3);
+	# $Nav->addCustomNav("Involvement", "http://wiki.eclipse.org/MoDisco#Getting_involved", "_self", 3);
 	
 	$Menu->setMenuItemList(array());
 	$Menu->addMenuItem("Home", "/modisco/", "_self");
