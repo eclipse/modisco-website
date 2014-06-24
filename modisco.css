@@ -7,10 +7,10 @@
 
 #bigbuttons {
 	background: url("images/MoDiscoLogo.png") no-repeat;
-	background-position: 20px 10px; 
+	background-position: left center; 
 }
 
-/* Begin new content */
+/* Begin new content  20px 10px;  */
 
 #bigbuttons {
 	position: relative;
