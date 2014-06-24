@@ -1,59 +1,16 @@
 <?php
 
-	// project root
-	$PR = "modeling/mdt/modisco";
-	$PR_www = "MoDisco";
-	$projectName = "MoDisco";
-	$projects = array("MoDisco" => "modisco");
-	//$projects = array();
-	//$defaultProj = "modisco";
-
-	$extraprojects = array(); //components with only downloads, no info yet, "prettyname" => "directory"
-	$nodownloads = array(); //components with only information, no downloads, or no builds available yet, "projectkey"
-	$nonewsgroup = array(); //components without newsgroup
-	$nomailinglist = array(); //components without mailinglist
-	$incubating = true; // components which are incubating
-	$nomenclature = "Project"; //are we dealing with "components" or "projects"?
+	# Set the theme for your project's web pages.
+	# See the Committer Tools "How Do I" for list of themes
+	# https://dev.eclipse.org/committers/
+	# Optional: defaults to system theme 
+	$theme = "solstice";
 	
-	$buildtypes = array(
-		"R" => "Release",
-		"S" => "Stable",
-		"I" => "Integration",
-		"M" => "Maintenance",
-		"N" => "Nightly"
-	);
-	
-	include_once $_SERVER["DOCUMENT_ROOT"] . "/modeling/includes/scripts.php";
-
-	# set default theme Lazarus -> Nova -> solstice 
-	$_theme = "solstice";
-	$theme = "";
-	if(isset($_POST['theme'])) {
-		$_theme = $_POST['theme'];
-	}
-	if($_theme != "" && $App->isValidTheme($_theme)) {
-		setcookie("theme", $_theme);
-		$theme = $_theme;
-	}
-	else {
-		# Get theme from browser, or none default
-		$theme = $App->getUserPreferedTheme();
-	}
-
-	$Nav->setLinkList(array());
-	$branding = <<<EOBRANDING
-	<STYLE TYPE="text/css">
-	  .sideitem { border-width: 1px 1px; }
-	  body { font-size: small; }
-	  #midcolumn { margin-top: 5px; }
-	</STYLE>
-
-EOBRANDING;
-	$Menu->setProjectBranding($branding);
 
 	# Define your project-wide Nav bars here.
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	# these are optional
+	$Nav->setLinkList(array());
 	$Nav->addCustomNav("About This Project", "http://www.eclipse.org/projects/project_summary.php?projectid=modeling.mdt.modisco", "", 1);
 	$Nav->addNavSeparator("MDT", "http://www.eclipse.org/mdt/");
 	$Nav->addCustomNav("Download", "http://www.eclipse.org/modeling/mdt/downloads/", "_self", 1);
@@ -79,5 +36,9 @@ EOBRANDING;
 	$Nav->addCustomNav("Contributors", "http://www.eclipse.org/MoDisco/project-info/team.php", "_self", 3);
 	$Nav->addCustomNav("Interested Parties", "/MoDisco/interestedParties.php", "_self", 2);
 	$Nav->addCustomNav("Related Projects", "/MoDisco/relatedProjects.php", "_self", 2);
+	
+	$pageKeywords	= "eclipse, modeling, emf, modisco, reverse engineering, mde";
+	$pageAuthor		= "Gregoire Dupe, Hugo Bruneliere";
+	$pageTitle 		= "MoDisco";
 	
 ?>
