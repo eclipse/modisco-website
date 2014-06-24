@@ -37,8 +37,4 @@
 	$Nav->addCustomNav("Interested Parties", "/MoDisco/interestedParties.php", "_self", 2);
 	$Nav->addCustomNav("Related Projects", "/MoDisco/relatedProjects.php", "_self", 2);
 	
-	$pageKeywords	= "eclipse, modeling, emf, modisco, reverse engineering, mde";
-	$pageAuthor		= "Gregoire Dupe, Hugo Bruneliere";
-	$pageTitle 		= "MoDisco";
-	
 ?>

@@ -15,8 +15,8 @@
 	$localVersion = false;
 	
 	# Define these here, or in _projectCommon.php for site-wide values
-	$pageKeywords	= "eclipse, emf, modisco";
-	$pageAuthor		= "Grégoire Dupé";
+	$pageKeywords	= "eclipse, modeling, emf, modisco, reverse engineering, mde";
+	$pageAuthor		= "Gregoire Dupe, Hugo Bruneliere";
 	$pageTitle 		= "MoDisco";
 	
 	function getModiscoNews(){
