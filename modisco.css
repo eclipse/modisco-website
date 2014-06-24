@@ -1,13 +1,58 @@
 /* Improvements to default CSS have been removed since they have been integrated by the default CSS (http://www.eclipse.org/default/style.css). */
 
 #novaContent {
-	background: url("/default/images/backgroundMainEmpty.png") no-repeat white;
+	background: url("images/backgroundMain.png") no-repeat white;
 }
 
 #bigbuttons {
 	background: url("images/MoDiscoLogo.png") no-repeat;
 	background-position: 20px 10px; 
 }
+
+/* Begin new content */
+
+#buttonDownload {
+   background:transparent url("images/buttonDownload.png") no-repeat 0 0;
+   top: 0px;
+   left: 0px;
+}
+
+#buttonDownload:hover {
+   background:transparent url("images/buttonDownload_sel.png") no-repeat 0 0;
+}
+
+   
+#buttonDocumentation {
+   background:transparent url("images/buttonDocumentation.png") no-repeat 0 0;
+   top: 87px;
+   left: 0px;
+}
+
+#buttonDocumentation:hover {
+   background:transparent url("images/buttonDocumentation_sel.png") no-repeat 0 0;
+}
+
+#buttonSupport {
+   background:transparent url("images/buttonSupport.png") no-repeat 0 0;
+   top: 0px;
+   left: 280px;
+}
+
+#buttonSupport:hover {
+   background:transparent url("images/buttonSupport_sel.png") no-repeat 0 0;
+}
+
+#buttonInvolved {
+   background:transparent url("images/buttonInvolved.png") no-repeat 0 0;
+   top: 87px;
+   left: 280px;
+}
+
+#buttonInvolved:hover {
+   background:transparent url("images/buttonInvolved_sel.png") no-repeat 0 0;
+}
+
+/* End new content */
 
 #midcolumn img {
 	margin-bottom: 15px;
