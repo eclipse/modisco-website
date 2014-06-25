@@ -6,6 +6,17 @@
     <description>MoDisco News</description>
 	
 	<item>
+		<title>MoDisco Luna Release (v0.12.0) is now available!</title>
+		<link>http://www.eclipse.org/luna/</link>
+		<description>
+			<p>
+			Complete information and integrated downloads can be found from the Luna Release homepage!
+			</p>
+		</description>
+		<pubDate>Wednesday, 25 June 2014 17:20:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>Full MoDisco paper published in Information and Software Technology (Elsevier)</title>
 		<link>http://hal.inria.fr/hal-00972632</link>
 		<description>
