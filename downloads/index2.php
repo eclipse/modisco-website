@@ -32,12 +32,13 @@ $rootdir="/home/data/httpd/";
 $html.=$rootdir;
 $http_prefix="http://www.eclipse.org/downloads/download.php?file=/";
 $version_dirs = scandir($rootdir);
+print_r($version_dirs);
 $html.="<ul>";
 for ($i = 2 ; $i < count($version_dirs) ; $i++){
     $version = $version_dirs[$i];
 $html.="<li>$version</li>";
     $qualifiers_dirs = scandir("$rootdir/$version");
-    #print_r($qualifiers_dirs );
+    print_r($qualifiers_dirs );
 $html.="<ul>";
         for ($j = 2 ; $j < count($qualifiers_dirs) ; $j++){
             $qualifier = $qualifiers_dirs[$j];
