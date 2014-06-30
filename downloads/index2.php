@@ -34,8 +34,6 @@ $http_prefix="http://www.eclipse.org/downloads/download.php?file=/";
 function browse($rootdir){
 $version_dirs = scandir($rootdir);
 $arr=array();
-$arr_sn=array();
-$arr_version=array();
 for ($i = 2 ; $i < count($version_dirs) ; $i++){
     $version = $version_dirs[$i];
     $qualifiers_dirs = scandir("$rootdir/$version");
@@ -45,41 +43,33 @@ for ($i = 2 ; $i < count($version_dirs) ; $i++){
       for ($k = 2 ; $k < count($files) ; $k++){
           $xxx = $files[$k];
           if (substr($xxx, -strlen(".zip")) === ".zip"){
-              $arr[]="$version/$qualifier/$xxx";
-              $arr_sn[]=$xxx;
-              $arr_qualifier[]=$qualifier;
+              $arr[]=array(
+                 "path" => "$version/$qualifier/$xxx",
+                 "shortname" => $xxx,
+                 "qualifier" => $qualifier
+              );
           }
       }
     }
 }
-return array(
-    "path" => $arr,
-    "shortname" => $arr_sn,
-    "qualifier" => $arr_qualifier
-);
+return $arr;
 }
 
 function print_li($http_prefix,$drops,$result,$i){
     $html ="";
-    $href="$http_prefix/$drops/".$result["path"][$i];
-    $txt=$result["shortname"][$i];
+    $href="$http_prefix/$drops/".$result[$i]["path"];
+    $txt=$result[$i]["shortname"];
     $html.="<li><a href='$href'>$txt</a></li>";
     return $html;
 }
 
 $download_result = browse($download_rootdir);
 $archive_result = browse($archive_rootdir);
-$result= array(
-    "path" => array_merge($archive_result["path"], $download_result["path"]),
-    "shortname" => array_merge($archive_result["shortname"], $download_result["shortname"]),
-    "qualifier" => array_merge($archive_result["qualifier"], $download_result["qualifier"]),
-);
-
-
+$result= array_merge($download_result, $archive_result);
 $html="<h1>Releases</h1>";
 $html.="<ul>";
-for ($i = count($result["shortname"])-1 ; $i >= 0 ; $i--){
-    $qualifier = $result["qualifier"][$i];
+for ($i = count($result)-1 ; $i >= 0   ; $i--){
+    $qualifier = $result[$i]["qualifier"];
     if (strpos($qualifier, "R") === 0){
         $html.=print_li($http_prefix,$drops,$result,$i);
     }
@@ -87,8 +77,8 @@ for ($i = count($result["shortname"])-1 ; $i >= 0 ; $i--){
 $html.="</ul>";
 $html.="<h1>Stable builds</h1>";
 $html.="<ul>";
-for ($i = count($result["shortname"])-1 ; $i >= 0 ; $i--){
-    $qualifier = $result["qualifier"][$i];
+for ($i = count($result)-1 ; $i >= 0   ; $i--){
+    $qualifier = $result[$i]["qualifier"];
     if (strpos($qualifier, "S") === 0){
         $html.=print_li($http_prefix,$drops,$result,$i);
     }
