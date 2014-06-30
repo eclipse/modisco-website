@@ -27,7 +27,8 @@
 $html="";
 
 $drops="facet/downloads/drops";
-$rootdir="/home/data/httpd/download.eclipse.org/$drops/";
+#$rootdir="/home/data/httpd/download.eclipse.org/$drops/";
+$rootdir="/home/data/httpd/";
 $html.=$rootdir;
 $http_prefix="http://www.eclipse.org/downloads/download.php?file=/";
 $version_dirs = scandir($rootdir);
