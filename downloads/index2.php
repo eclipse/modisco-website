@@ -66,10 +66,14 @@ function print_li($http_prefix,$drops,$result,$i){
 function cmp($a, $b){
   $arr_a = explode("-", $a["shortname"]);
   $arr_b = explode("-", $b["shortname"]);
-  if ($arr_a[1] == $arr_b[1]){
+  $last_a=count($arr_a); 
+  $last_b=count($arr_b);
+  $a_version=$arr_a[$last_a-1];
+  $b_version=$arr_b[$last_b-1];
+  if ( $a_version== $b_version){
     return 0;
   }
-  return ($arr_a[1] > $arr_b[1]) ? -1 : 1 ;
+  return ($a_version > $b_version) ? -1 : 1 ;
 }
 
 
