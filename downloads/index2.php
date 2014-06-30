@@ -28,7 +28,7 @@ $html="";
 
 $drops="modeling/mdt/modisco/downloads/drops";
 $download_rootdir="/home/data2/httpd/download.eclipse.org/$drops/";
-$archive_rootdir="/home/data2/httpd/download.eclipse.org/$drops/";
+$archive_rootdir="/home/data2/httpd/archive.eclipse.org/$drops/";
 $http_prefix="http://www.eclipse.org/downloads/download.php?file=/";
 
 function browse($rootdir){
@@ -46,7 +46,6 @@ for ($i = 2 ; $i < count($version_dirs) ; $i++){
           $xxx = $files[$k];
           if (substr($xxx, -strlen(".zip")) === ".zip"){
               $arr[]="$version/$qualifier/$xxx";
-              echo "$version/$qualifier/$xxx";
               $arr_sn[]=$xxx;
               $arr_qualifier[]=$qualifier;
           }
@@ -79,7 +78,7 @@ $result= array(
 
 $html="<h1>Releases</h1>";
 $html.="<ul>";
-for ($i = 0 ; $i < count($result["shortname"]) ; $i++){
+for ($i = count($result["shortname"])-1 ; $i >= 0 ; $i--){
     $qualifier = $result["qualifier"][$i];
     if (strpos($qualifier, "R") === 0){
         $html.=print_li($http_prefix,$drops,$result,$i);
@@ -88,7 +87,7 @@ for ($i = 0 ; $i < count($result["shortname"]) ; $i++){
 $html.="</ul>";
 $html.="<h1>Milestones</h1>";
 $html.="<ul>";
-for ($i = 0 ; $i < count($result["shortname"]) ; $i++){
+for ($i = count($result["shortname"])-1 ; $i >= 0 ; $i--){
     $qualifier = $result["qualifier"][$i];
     if (strpos($qualifier, "S") === 0){
         $html.=print_li($http_prefix,$drops,$result,$i);
