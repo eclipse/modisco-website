@@ -70,9 +70,9 @@ function print_li($http_prefix,$drops,$result,$i){
 $download_result = browse($download_rootdir);
 $archive_result = browse($archive_rootdir);
 $result= array(
-    "path" => array_merge($download_result["path"], $archive_result["path"]),
-    "shortname" => array_merge($download_result["shortname"], $archive_result["shortname"]),
-    "qualifier" => array_merge($download_result["qualifier"], $archive_result["qualifier"]),
+    "path" => array_merge($archive_result["path"], $download_result["path"]),
+    "shortname" => array_merge($archive_result["shortname"], $download_result["shortname"]),
+    "qualifier" => array_merge($archive_result["qualifier"], $download_result["qualifier"]),
 );
 
 
@@ -85,7 +85,7 @@ for ($i = count($result["shortname"])-1 ; $i >= 0 ; $i--){
     }
 }
 $html.="</ul>";
-$html.="<h1>Milestones</h1>";
+$html.="<h1>Stable builds</h1>";
 $html.="<ul>";
 for ($i = count($result["shortname"])-1 ; $i >= 0 ; $i--){
     $qualifier = $result["qualifier"][$i];
