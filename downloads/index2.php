@@ -24,10 +24,7 @@
 	$pageAuthor		= "Gregoire Dupe, Hugo Bruneliere";
 	$pageTitle 		= "MoDisco";
 	
-$html="<html>
-<head>
-</head>
-<body>";
+$html="";
 
 $drops="facet/downloads/drops";
 $rootdir="/home/data/httpd/download.eclipse.org/$drops/";
@@ -55,8 +52,7 @@ $html.="</ul>";
  }
 $html.="</ul>";
 
-$html.="</body>
-</html>";
+$html.="";
 	
 	$App->generatePage($theme, $Menu, null, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
