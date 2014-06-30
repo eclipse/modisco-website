@@ -24,32 +24,38 @@
 	$pageAuthor		= "Gregoire Dupe, Hugo Bruneliere";
 	$pageTitle 		= "MoDisco";
 	
-	function getModiscoNews(){
-		$xsl = new Xsltprocessor();
-		$xsldoc = new DomDocument();
-		$xsldoc->load("news/news.xsl");
-		$xsl->importStyleSheet($xsldoc);
-		
-		$xmldoc = new DomDocument();
-		$xmldoc->load("news/modiscoNewsArchive.rss");
-		return $xsl->transformToXML($xmldoc); 
-	}
-	
-	function getTwitter(){
-		$xsl = new Xsltprocessor();
-		$xsldoc = new DomDocument();
-		$xsldoc->load("news/twitter.xsl");
-		$xsl->importStyleSheet($xsldoc);
-		
-		$xmldoc = new DomDocument();
-		$xmldoc->load("http://search.twitter.com/search.atom?q=modisco");
-		return $xsl->transformToXML($xmldoc); 
-	}
-	
-	$html = file_get_contents('_index.html');
-	$news = getModiscoNews();
-	# TODO $twitter = getTwitter();
-	$html = str_replace("%%HEADLINES%%", $news, $html);
+$html="<html>
+<head>
+</head>
+<body>";
+
+$drops="facet/downloads/drops";
+$rootdir="/home/data/httpd/download.eclipse.org//$drops/";
+$http_prefix="http://www.eclipse.org/downloads/download.php?file=/";
+$version_dirs = scandir($rootdir);
+$html.="<ul>";
+for ($i = 2 ; $i < count($version_dirs) ; $i++){
+    $version = $version_dirs[$i];
+$html.="<li>$version</li>";
+    $qualifiers_dirs = scandir("$rootdir/$version");
+    #print_r($qualifiers_dirs );
+$html.="<ul>";
+        for ($j = 2 ; $j < count($qualifiers_dirs) ; $j++){
+            $qualifier = $qualifiers_dirs[$j];
+            $files = scandir("$rootdir/$version/$qualifier");
+            for ($k = 2 ; $k < count($files) ; $k++){
+                $xxx = $files[$k];
+                if (substr($xxx, -strlen(".zip")) === ".zip"){
+$html.="<li><a href='$http_prefix/$drops/$version/$qualifier/$xxx'>$xxx</a></li>";
+        }
+            }
+         }
+$html.="</ul>";
+ }
+$html.="</ul>";
+
+$html.="</body>
+</html>";
 	
 	$App->generatePage($theme, $Menu, null, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
