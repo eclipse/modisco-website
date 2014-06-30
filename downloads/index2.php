@@ -26,37 +26,69 @@
 	
 $html="";
 
-$drops="facet/downloads/drops";
-$rootdir="/home/data2/httpd/download.eclipse.org/$drops/";
-#$rootdir="/home/data/httpd/";
-$html.="3\n";
-$html.=getcwd()."\n";
-$html.=$rootdir;
+$drops="modeling/mdt/modisco/downloads/drops";
+$download_rootdir="/home/data2/httpd/download.eclipse.org/$drops/";
+$archive_rootdir="/home/data2/httpd/download.eclipse.org/$drops/";
 $http_prefix="http://www.eclipse.org/downloads/download.php?file=/";
+
+function browse($rootdir){
 $version_dirs = scandir($rootdir);
-print_r($version_dirs);
-$html.="<ul>";
+$arr=array();
+$arr_sn=array();
+$arr_version=array();
 for ($i = 2 ; $i < count($version_dirs) ; $i++){
     $version = $version_dirs[$i];
-$html.="<li>$version</li>";
     $qualifiers_dirs = scandir("$rootdir/$version");
-    print_r($qualifiers_dirs );
+    for ($j = 2 ; $j < count($qualifiers_dirs) ; $j++){
+      $qualifier = $qualifiers_dirs[$j];
+      $files = scandir("$rootdir/$version/$qualifier");
+      for ($k = 2 ; $k < count($files) ; $k++){
+          $xxx = $files[$k];
+          if (substr($xxx, -strlen(".zip")) === ".zip"){
+              $arr[]="$version/$qualifier/$xxx";
+              echo "$version/$qualifier/$xxx";
+              $arr_sn[]=$xxx;
+              $arr_qualifier[]=$qualifier;
+          }
+      }
+    }
+}
+return array(
+    "path" => $arr,
+    "shortname" => $arr_sn,
+    "qualifier" => $arr_qualifier
+);
+}
+
+function print_li($http_prefix,$drops,$result,$i){
+    $html ="";
+    $href="$http_prefix/$drops/".$result["path"][$i];
+    $txt=$result["shortname"][$i];
+    $html.="<li><a href='$href'>$txt</a></li>";
+    return $html;
+}
+
+$result = browse($download_rootdir);
+$html="<h1>Releases</h1>";
 $html.="<ul>";
-        for ($j = 2 ; $j < count($qualifiers_dirs) ; $j++){
-            $qualifier = $qualifiers_dirs[$j];
-            $files = scandir("$rootdir/$version/$qualifier");
-            for ($k = 2 ; $k < count($files) ; $k++){
-                $xxx = $files[$k];
-                if (substr($xxx, -strlen(".zip")) === ".zip"){
-$html.="<li><a href='$http_prefix/$drops/$version/$qualifier/$xxx'>$xxx</a></li>";
-        }
-            }
-         }
+for ($i = 0 ; $i < count($result["shortname"]) ; $i++){
+    $qualifier = $result["qualifier"][$i];
+    if (strpos($qualifier, "R") === 0){
+        $html.=print_li($http_prefix,$drops,$result,$i);
+    }
+}
 $html.="</ul>";
- }
+$html.="<h1>Milestones</h1>";
+$html.="<ul>";
+for ($i = 0 ; $i < count($result["shortname"]) ; $i++){
+    $qualifier = $result["qualifier"][$i];
+    if (strpos($qualifier, "S") === 0){
+        $html.=print_li($http_prefix,$drops,$result,$i);
+    }
+}
 $html.="</ul>";
 
-$html.="";
-	
-	$App->generatePage($theme, $Menu, null, $pageAuthor, $pageKeywords, $pageTitle, $html);
+
+
+$App->generatePage($theme, $Menu, null, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
