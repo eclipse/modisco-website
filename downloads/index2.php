@@ -68,7 +68,15 @@ function print_li($http_prefix,$drops,$result,$i){
     return $html;
 }
 
-$result = browse($download_rootdir);
+$download_result = browse($download_rootdir);
+$archive_result = browse($archive_rootdir);
+$result= array(
+    "path" => array_merge($download_result["path"], $archive_result["path"]),
+    "shortname" => array_merge($download_result["shortname"], $archive_result["shortname"]),
+    "qualifier" => array_merge($download_result["qualifier"], $archive_result["qualifier"]),
+);
+
+
 $html="<h1>Releases</h1>";
 $html.="<ul>";
 for ($i = 0 ; $i < count($result["shortname"]) ; $i++){
