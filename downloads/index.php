@@ -1,85 +1,106 @@
 <?php
-$buildServerCommonFiles = array ( 
-	"/opt/public/cbi/modeling/includes/buildServer-common.php",
-	$_SERVER['DOCUMENT_ROOT'] . "/modeling/includes/buildServer-common.php",
-);
-$foundBuildServerCommonFile = false;
-foreach ($buildServerCommonFiles as $bs)
-{
-	if (is_file($bs))
-	{
-		require_once($bs); $foundBuildServerCommonFile = true; break;
-	}
+/*******************************************************************************
+ * Copyright (c) 2009, 2014 Eclipse Foundation and others.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *
+ * Contributors:
+ *    Grégoire Dupé (Mia-Software)
+ *	  Hugo Bruneliere (Inria)
+ *******************************************************************************/
+
+	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	
+	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php");
+	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	
+	$App 	= new App();
+	$Nav	= new Nav();
+	$Menu 	= new Menu();
+	include($App->getProjectCommon());
+
+	# Define these here, or in _projectCommon.php for site-wide values
+	$pageKeywords	= "eclipse, modeling, emf, modisco, reverse engineering, modernization, mde";
+	$pageAuthor		= "Gregoire Dupe, Hugo Bruneliere";
+	$pageTitle 		= "MoDisco";
+	
+$html="";
+
+$drops="modeling/mdt/modisco/downloads/drops";
+$download_rootdir="/home/data2/httpd/download.eclipse.org/$drops/";
+$archive_rootdir="/home/data2/httpd/archive.eclipse.org/$drops/";
+$http_prefix="http://www.eclipse.org/downloads/download.php?file=/";
+
+function browse($rootdir){
+$version_dirs = scandir($rootdir);
+$arr=array();
+for ($i = 2 ; $i < count($version_dirs) ; $i++){
+    $version = $version_dirs[$i];
+    $qualifiers_dirs = scandir("$rootdir/$version");
+    for ($j = 2 ; $j < count($qualifiers_dirs) ; $j++){
+      $qualifier = $qualifiers_dirs[$j];
+      $files = scandir("$rootdir/$version/$qualifier");
+      for ($k = 2 ; $k < count($files) ; $k++){
+          $xxx = $files[$k];
+          if (substr($xxx, -strlen(".zip")) === ".zip"){
+              $arr[]=array(
+                 "path" => "$version/$qualifier/$xxx",
+                 "shortname" => $xxx,
+                 "qualifier" => $qualifier
+              );
+          }
+      }
+    }
 }
-if (!$foundBuildServerCommonFile)
-{
-	print "Warning: could not find modeling/includes/buildServer-common.php in _common.php";
-}
-else
-{
-	unset($foundBuildServerCommonFile);
+return $arr;
 }
 
-$defaultProj = "";
-unset($_GET["project"]); // modisco has no subprojects, so this should be blank
-require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php"); 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php");  
-require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 
-$App = new App(); $Nav = new Nav(); $Menu = new Menu(); include($App->getProjectCommon());
+function print_li($http_prefix,$drops,$result,$i){
+    $html ="";
+    $href="$http_prefix/$drops/".$result[$i]["path"];
+    $txt=$result[$i]["shortname"];
+    $html.="<li><a href='$href'>$txt</a></li>";
+    return $html;
+}
 
-ob_start();
+function cmp($a, $b){
+  $arr_a = explode("-", $a["shortname"]);
+  $arr_b = explode("-", $b["shortname"]);
+  $last_a=count($arr_a); 
+  $last_b=count($arr_b);
+  $a_version=$arr_a[$last_a-1];
+  $b_version=$arr_b[$last_b-1];
+  if ( $a_version== $b_version){
+    return 0;
+  }
+  return ($a_version > $b_version) ? -1 : 1 ;
+}
 
-/* config */
 
-/* zips that are allowed to be absent from the downloads page (eg., new ones added mid-stream) */
-#$extraZips = array("pdt-SDK", "pdt-examples", "pdt-all-in-one-win32", "pdt-all-in-one-linux-gtk", "pdt-all-in-one-macosx-carbon","pdt-mylyn");
-$extraZips = array();
+$download_result = browse($download_rootdir);
+$archive_result = browse($archive_rootdir);
+$result= array_merge($download_result, $archive_result);
+usort($result, "cmp");
+$html="<h1>Releases</h1>";
+$html.="<ul>";
+for ($i = 0; $i < count($result) ; $i++){
+    $qualifier = $result[$i]["qualifier"];
+    if (strpos($qualifier, "R") === 0){
+        $html.=print_li($http_prefix,$drops,$result,$i);
+    }
+}
+$html.="</ul>";
+$html.="<h1>Stable builds</h1>";
+$html.="<ul>";
+for ($i = 0; $i < count($result) ; $i++){
+    $qualifier = $result[$i]["qualifier"];
+    if (strpos($qualifier, "S") === 0){
+        $html.=print_li($http_prefix,$drops,$result,$i);
+    }
+}
+$html.="</ul>";
 
-/* $project => sections/Project Name => (prettyname => filename) */
-/* only required if using something other than the default 4; otherwise will be generated */
-$dls = array(
-	"/" => array( # use "/" because PDT has no parent or child projects/components
-		"MODISCO" => array(
-			#"<img alt=\"All-In-One Bundle including Eclipse and required dependencies\" src=\"/modeling/images/dl-icon-aio-bundle.gif\"/> <b style=\"color:green\">All-In-One</b> Windows 32-bit" => "all-in-one-win32",
-			#"<img alt=\"All-In-One Bundle including Eclipse and required dependencies\" src=\"/modeling/images/dl-icon-aio-bundle.gif\"/> <b style=\"color:green\">All-In-One</b> Linux x86/GTK 2" => "all-in-one-linux-gtk",
-			#"<img alt=\"All-In-One Bundle including Eclipse and required dependencies\" src=\"/modeling/images/dl-icon-aio-bundle.gif\"/> <b style=\"color:green\">All-In-One</b> Mac OS X Carbon" => "all-in-one-macosx-carbon",
-		 	"<acronym title=\"Click to download archived All-In-One p2 Repo Update Site\"><img alt=\"Click to download archived All-In-One p2 Repo Update Site\" src=\"/modeling/images/dl-icon-update-zip.gif\"/> <b style=\"color:green\">All-In-One Update Site</b></acronym>" => "Update",
-			#"SDK (Runtime, Source)" => "SDK",
-			#"Runtime" => "runtime",
-			#"Mylyn Bridge" => "mylyn",
-			#"Examples" => "examples",
-			#"Automated Tests" => "Automated-Tests",
-		),
-	),
-);
 
-/* list of valid file prefixes for projects who have been renamed; keys have leading / to match $proj */
-/* only required if using something other than the default; otherwise will be generated */
-$filePre = array( # use "/" because MODISCO has no parent or child projects/components
-	"/" => array("MODISCO", "modisco", "MoDisco") // MODISCO-sdk-*.zip
-);
 
-/* define showNotes(), $oldrels, doLanguagePacks() in extras-$proj.php (or just extras.php for flat projects) if necessary, downloads-common.php will include them */
-/* end config */
-
-//if ($isBuildServer) { include_once $_SERVER["DOCUMENT_ROOT"] . "/pdt/build/sideitems-common.php"; }
-//require_once($_SERVER["DOCUMENT_ROOT"] . "/modeling/includes/downloads-common.php");
-require_once("downloads-common.php");
-
-$html = ob_get_contents();
-ob_end_clean();
-
-/* Note: Google Analytics moved to _projectCommon.php so it's on EVERY page */
-
-$trans = array_flip($projects);
-$pageTitle = "MoDisco - Downloads";
-$pageKeywords = "MoDisco, Model Discovery, Model-Driven Reverse Engineering, MDE, download";
-$pageAuthor = "Nicolas Bros"; // (copied from PDT)
-
-# Generate the web page
-$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/modeling/includes/downloads.css"/>' . "\n");
-$App->AddExtraHtmlHeader('<script src="/modeling/includes/downloads.js" type="text/javascript"></script>' . "\n"); //ie doesn't understand self closing script tags, and won't even try to render the page if you use one
-$App->AddExtraHtmlHeader('<link type="application/rss+xml" rel="alternate" title="PDT Build Feed" href="http://www.eclipse.org/downloads/download.php?file=/'.$PR.'/feeds/builds-'.$projct.'.xml"/>' . "\n");
-$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
-
+$App->generatePage($theme, $Menu, null, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
