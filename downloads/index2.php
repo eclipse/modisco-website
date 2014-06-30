@@ -27,8 +27,8 @@
 $html="";
 
 $drops="facet/downloads/drops";
-#$rootdir="/home/data/httpd/download.eclipse.org/$drops/";
-$rootdir="/home/data/httpd/";
+$rootdir="/home/data2/httpd/download.eclipse.org/$drops/";
+#$rootdir="/home/data/httpd/";
 $html.="3\n";
 $html.=getcwd()."\n";
 $html.=$rootdir;
