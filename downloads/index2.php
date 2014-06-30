@@ -63,12 +63,23 @@ function print_li($http_prefix,$drops,$result,$i){
     return $html;
 }
 
+function cmp($a, $b){
+  $arr_a = explode("-", $a["shortname"]);
+  $arr_b = explode("-", $b["shortname"]);
+  if ($arr_a[1] == $arr_b[1]){
+    return 0;
+  }
+  return ($arr_a[1] > $arr_b[1]) ? -1 : 1 ;
+}
+
+
 $download_result = browse($download_rootdir);
 $archive_result = browse($archive_rootdir);
 $result= array_merge($download_result, $archive_result);
+usort($result, "cmp");
 $html="<h1>Releases</h1>";
 $html.="<ul>";
-for ($i = count($result)-1 ; $i >= 0   ; $i--){
+for ($i = 0; $i < count($result) ; $i++){
     $qualifier = $result[$i]["qualifier"];
     if (strpos($qualifier, "R") === 0){
         $html.=print_li($http_prefix,$drops,$result,$i);
@@ -77,7 +88,7 @@ for ($i = count($result)-1 ; $i >= 0   ; $i--){
 $html.="</ul>";
 $html.="<h1>Stable builds</h1>";
 $html.="<ul>";
-for ($i = count($result)-1 ; $i >= 0   ; $i--){
+for ($i = 0; $i < count($result) ; $i++){
     $qualifier = $result[$i]["qualifier"];
     if (strpos($qualifier, "S") === 0){
         $html.=print_li($http_prefix,$drops,$result,$i);
