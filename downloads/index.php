@@ -22,7 +22,7 @@
 	# Define these here, or in _projectCommon.php for site-wide values
 	$pageKeywords	= "eclipse, modeling, emf, modisco, reverse engineering, modernization, mde";
 	$pageAuthor		= "Gregoire Dupe, Hugo Bruneliere";
-	$pageTitle 		= "MoDisco";
+	$pageTitle 		= "Download";
 	
 $html="";
 
