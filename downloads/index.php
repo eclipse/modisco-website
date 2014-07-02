@@ -93,8 +93,15 @@ function cmp($a, $b){
 
 $download_result = browse($download_rootdir);
 $archive_result = browse($archive_rootdir);
-$result= array_merge($download_result, $archive_result);
+$merged= array_merge($download_result, $archive_result);
+$result = array();
+foreach ($merged as $current) {
+    if (!in_array($current, $result)) {
+        $result[] = $current;
+    }
+}
 usort($result, "cmp");
+
 $html="<h1>Releases</h1>";
 $html.="<ul>";
 for ($i = 0; $i < count($result) ; $i++){
