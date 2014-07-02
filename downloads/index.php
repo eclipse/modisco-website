@@ -66,7 +66,7 @@ function print_li($http_prefix,$drops,$result,$i){
 function cmp($a, $b){
   $result = 0;
   
-  $regex = "/.*(\d+\.\d+\.\d+).*?(\d+|)\.zip/";
+  $regex = "/.*?(\d+\.\d+\.\d+).*?(\d+|)\.zip/";
   
   preg_match($regex, $a["shortname"], $matches);
   $version_a = $matches[1];
