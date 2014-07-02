@@ -64,18 +64,32 @@ function print_li($http_prefix,$drops,$result,$i){
 }
 
 function cmp($a, $b){
-  $arr_a = explode("-", $a["shortname"]);
-  $arr_b = explode("-", $b["shortname"]);
-  $last_a=count($arr_a); 
-  $last_b=count($arr_b);
-  $a_version=$arr_a[$last_a-1];
-  $b_version=$arr_b[$last_b-1];
-  if ( $a_version== $b_version){
-    return 0;
-  }
-  return ($a_version > $b_version) ? -1 : 1 ;
-}
+  $result = 0;
+  
+  $regex = "/.*(\d+\.\d+\.\d+).*?(\d+|)\.zip/";
+  
+  preg_match($regex, $a["shortname"], $matches);
+  $version_a = $matches[1];
+  $qualifier_a = intval($matches[2]);
 
+  preg_match($regex, $b["shortname"], $matches);
+  $version_b = $matches[1];
+  $qualifier_b = intval($matches[2]);
+
+  $version_compare = version_compare($version_a, $version_b);
+  if ($version_compare === 0) {
+    if ($qualifier_a == $qualifier_b) {
+      $result = 0;
+    } elseif ($qualifier_a > $qualifier_b) {
+      $result = -1;
+    } else {
+      $result = 1;
+    }
+  } else {
+    $result = $version_compare;
+  }
+  return -$result;
+}
 
 $download_result = browse($download_rootdir);
 $archive_result = browse($archive_rootdir);
