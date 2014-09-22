@@ -32,27 +32,31 @@ $archive_rootdir="/home/data2/httpd/archive.eclipse.org/$drops/";
 $http_prefix="http://www.eclipse.org/downloads/download.php?file=/";
 
 function browse($rootdir){
-$version_dirs = scandir($rootdir);
-$arr=array();
-for ($i = 2 ; $i < count($version_dirs) ; $i++){
-    $version = $version_dirs[$i];
-    $qualifiers_dirs = scandir("$rootdir/$version");
-    for ($j = 2 ; $j < count($qualifiers_dirs) ; $j++){
-      $qualifier = $qualifiers_dirs[$j];
-      $files = scandir("$rootdir/$version/$qualifier");
-      for ($k = 2 ; $k < count($files) ; $k++){
-          $xxx = $files[$k];
-          if (substr($xxx, -strlen(".zip")) === ".zip"){
-              $arr[]=array(
-                 "path" => "$version/$qualifier/$xxx",
-                 "shortname" => $xxx,
-                 "qualifier" => $qualifier
-              );
-          }
-      }
-    }
-}
-return $arr;
+	$version_dirs = scandir($rootdir);
+	$arr=array();
+	for ($i = 2 ; $i < count($version_dirs) ; $i++){
+	    $version = $version_dirs[$i];
+	    $qualifiers_dirs = scandir("$rootdir/$version");
+	    for ($j = 2 ; $j < count($qualifiers_dirs) ; $j++){
+	      $qualifier = $qualifiers_dirs[$j];
+	      $files = scandir("$rootdir/$version/$qualifier");
+	      for ($k = 2 ; $k < count($files) ; $k++){
+	          $xxx = $files[$k];
+	          $filepath = "$rootdir/$version/$qualifier/$xxx";
+	          if (substr($xxx, -strlen(".zip")) === ".zip"){
+		          if (!file_exists($filepath.".hidden")){
+		              $arr[]=array(
+		                 "path" => "$version/$qualifier/$xxx",
+		                 "shortname" => $xxx,
+		                 "qualifier" => $qualifier,
+		                 "filepath" => $filepath
+		              );
+		          }
+	          }
+	      }
+	    }
+	}
+	return $arr;
 }
 
 function print_li($http_prefix,$drops,$result,$i){
