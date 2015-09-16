@@ -6,6 +6,29 @@
     <description>MoDisco News</description>
 	
 	<item>
+		<title>MoDisco in IEEE Computer article (ARTIST EU project)</title>
+		<link>https://hal.inria.fr/hal-01186371</link>
+		<description>
+			<p>
+			It discusses important factors to consider when migrating software to the cloud and offer recommendations to maximize the chance of success.
+			Get it from <a href="https://hal.inria.fr/hal-01186371">there</a>! 
+			</p>
+		</description>
+		<pubDate>Wednesday, 12 August 2015 14:00:00 CET</pubDate>
+	</item>
+	
+	<item>
+		<title>MoDisco Mars Release (v0.13.0) is now available!</title>
+		<link>http://www.eclipse.org/mars/</link>
+		<description>
+			<p>
+			Complete information and integrated downloads can be found from the Mars Release homepage!
+			</p>
+		</description>
+		<pubDate>Wednesday, 24 June 2015 18:30:00 CET</pubDate>
+	</item>
+	
+	<item>
 		<title>MoDisco Luna Release (v0.12.0) is now available!</title>
 		<link>http://www.eclipse.org/luna/</link>
 		<description>
